@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from './common/Header';
+import RuneList from './features/RuneList';
+import RunewordList from './features/RunewordList';
+import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
+import { toRunes, toRunewords } from './common/config/routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <HashRouter>
+      <Header />
+
+      <Routes>
+        <Route path={toRunes()} element={<RuneList />} />
+
+        <Route path={toRunewords()} element={<RunewordList />} />
+
+        <Route path="/" element={<Navigate to={toRunes()} />} />
+      </Routes>
+    </HashRouter>
+  )
+};
 
 export default App;
