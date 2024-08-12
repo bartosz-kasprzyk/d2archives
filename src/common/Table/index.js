@@ -1,34 +1,46 @@
-import { Container, StyledTable, TableCell, ColumnHeader, RowHeader, TableRow } from "./styled";
+import React from 'react';
+import { Container, StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, StyledRune } from "./styled";
+import content from '../translations/pl.json';
+import runeImages from "../config/runeImages"
 
-export const Table = () => (
-    <Container>
-        <StyledTable>
-            <TableRow index={0}>
-                <ColumnHeader colSpan="2">x</ColumnHeader>
-                <ColumnHeader>y</ColumnHeader>
-                <ColumnHeader>z</ColumnHeader>
-            </TableRow>
+export const Table = () => {
+    const rows = Object.keys(content.content.runesTable)
+        .filter(key => key.startsWith('row'))
+        .map(key => content.content.runesTable[key]);
 
-            <TableRow index={1}>
-                <RowHeader>x</RowHeader>
-                <TableCell>a</TableCell>
-                <TableCell>b</TableCell>
-                <TableCell>c</TableCell>
-            </TableRow>
+    const formatText = (text) => {
+        return text.split('\n').map((part, index) => (
+            <React.Fragment key={index}>
+                {part}
+                <br />
+            </React.Fragment>
+        ));
+    };
 
-            <TableRow index={2}>
-                <RowHeader>y</RowHeader>
-                <TableCell>d</TableCell>
-                <TableCell>e</TableCell>
-                <TableCell>f</TableCell>
-            </TableRow>
-
-            <TableRow index={3}>
-                <RowHeader>z</RowHeader>
-                <TableCell>g</TableCell>
-                <TableCell>h</TableCell>
-                <TableCell>i</TableCell>
-            </TableRow>
-        </StyledTable>
-    </Container>
-);
+    return (
+        <Container>
+            <StyledTable>
+                <thead>
+                    <TableRow index={0}>
+                        <ColumnHeader colSpan="2">{content.content.runesTable.header1}</ColumnHeader>
+                        <ColumnHeader>{content.content.runesTable.header2}</ColumnHeader>
+                        <ColumnHeader>{content.content.runesTable.header3}</ColumnHeader>
+                    </TableRow>
+                </thead>
+                <tbody>
+                    {rows.map((row, index) => (
+                        <TableRow key={index} index={index + 1}>
+                            <RowHeader>#{index + 1}</RowHeader>
+                            <TableCell>
+                                {formatText(row[0])}
+                                <StyledRune src={runeImages[row[0]]} alt={`${row[0]} Rune`} />
+                            </TableCell>
+                            <TableCell>{formatText(row[1])}</TableCell>
+                            <TableCell>{formatText(row[2])}</TableCell>
+                        </TableRow>
+                    ))}
+                </tbody>
+            </StyledTable>
+        </Container>
+    );
+};
