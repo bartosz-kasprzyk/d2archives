@@ -1,5 +1,4 @@
-import { StyledText, StyledRune } from "./styled";
-import ElRune from "../../images/RuneEl.webp"
+import { StyledText } from "./styled";
 import { Table } from "../../common/Table";
 
 const RuneList = () => {
@@ -7,7 +6,6 @@ const RuneList = () => {
     return (
         <>
             <StyledText>Rune List</StyledText>
-            <StyledRune src={ElRune} alt="El Rune" />
             <Table />
         </>
     )
