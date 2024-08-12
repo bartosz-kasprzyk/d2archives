@@ -1,0 +1,240 @@
+{
+    "content": {
+        "buttonGradientOn": "Enable gradient",
+        "buttonLangToggle": "PL ENG",
+        "headerLogoAlt": "Diablo 2 logo",
+        "headerTitle": "Runes & Runewords",
+        "navTitle": "Contents:",
+        "navRunes": "Runes",
+        "navRunewords": "Runewords",
+        "navRunewordsList": {
+            "spiritSword": "Spirit (Sword)",
+            "spiritShield": "Spirit (Shield)",
+            "enigma": "Enigma",
+            "infinity": "Infinity",
+            "insight": "Insight",
+            "stealth": "Stealth",
+            "callToArms": "Call to Arms",
+            "lore": "Lore"
+        },
+        "runesTitle": "Runes",
+        "runesDescription": "Runes are stones that enhance items with socketed slots. They add various properties depending on the item type. When inserted in the correct order, they form runewords that give items new properties.",
+        "runesTable": {
+            "header1": "Rune",
+            "header2": "Ingredients",
+            "header3": "Properties",
+            "row1": [
+                "El",
+                "-",
+                "Weapon: +1 to Light Radius, +50 to Attack Rating, Helmet/Armor: +1 to Light Radius, +15 to Defense, Shield: +1 to Light Radius, +15 to Defense, Required Character Level: 11"
+            ],
+            "row2": [
+                "Eld",
+                "3x El",
+                "Weapon: +75% Damage to Undead, +50 to Attack Rating vs Undead, Helmet/Armor: Reduces stamina drain by 15%, Shield: +50 to Defense vs Undead, Required Character Level: 13"
+            ],
+            "row3": [
+                "Tir",
+                "2x El",
+                "Weapon: +1 to Mana per Kill, Helmet/Armor: +2 to Energy, Shield: +2 to Energy, Required Character Level: 13"
+            ],
+            "row4": [
+                "Nef",
+                "2x El",
+                "Weapon: +10% Enhanced Damage, Helmet/Armor: +10% Enhanced Defense, Shield: +10% Enhanced Defense, Required Character Level: 15"
+            ],
+            "row5": [
+                "Eth",
+                "1x El, 1x Tir",
+                "Weapon: +1 to Strength, Helmet/Armor: -15% Requirements, Shield: -15% Requirements, Required Character Level: 17"
+            ],
+            "row6": [
+                "Ith",
+                "1x El, 1x Eth",
+                "Weapon: +10% to Maximum Damage, Helmet/Armor: +15 to Strength, Shield: +15 to Strength, Required Character Level: 19"
+            ],
+            "row7": [
+                "Tal",
+                "2x El, 1x Ral",
+                "Weapon: +3 to Energy, Helmet/Armor: +5 to Mana, Shield: +5 to Mana, Required Character Level: 21"
+            ],
+            "row8": [
+                "Ral",
+                "2x El, 1x Tal",
+                "Weapon: +5 to Energy, Helmet/Armor: +5 to Energy, Shield: +5 to Energy, Required Character Level: 23"
+            ],
+            "row9": [
+                "Ort",
+                "2x El, 1x Ral",
+                "Weapon: +10 to Energy, Helmet/Armor: +10 to Mana, Shield: +10 to Mana, Required Character Level: 25"
+            ],
+            "row10": [
+                "Thul",
+                "2x El, 1x Ort",
+                "Weapon: +15 to Energy, Helmet/Armor: +10 to Defense, Shield: +10 to Defense, Required Character Level: 27"
+            ],
+            "row11": [
+                "Amn",
+                "2x El, 1x Thul",
+                "Weapon: +10% Life Steal, Helmet/Armor: +20% to Life Steal, Shield: +20% to Life Steal, Required Character Level: 29"
+            ],
+            "row12": [
+                "Sol",
+                "2x El, 1x Amn",
+                "Weapon: +10 to Strength, Helmet/Armor: +10 to Strength, Shield: +10 to Strength, Required Character Level: 31"
+            ],
+            "row13": [
+                "Shael",
+                "2x El, 1x Sol",
+                "Weapon: +10 to Dexterity, Helmet/Armor: +10 to Dexterity, Shield: +10 to Dexterity, Required Character Level: 33"
+            ],
+            "row14": [
+                "Dol",
+                "2x El, 1x Shael",
+                "Weapon: +10 to Vitality, Helmet/Armor: +10 to Vitality, Shield: +10 to Vitality, Required Character Level: 35"
+            ],
+            "row15": [
+                "Hel",
+                "1x El, 1x Dol",
+                "Weapon: -10 to Minimum Damage, Helmet/Armor: +5% Damage Reduction, Shield: +5% Damage Reduction, Required Character Level: 37"
+            ],
+            "row16": [
+                "Io",
+                "1x El, 1x Hel",
+                "Weapon: +5% Life Steal, Helmet/Armor: +5% Life Steal, Shield: +5% Life Steal, Required Character Level: 39"
+            ],
+            "row17": [
+                "Lum",
+                "1x El, 1x Io",
+                "Weapon: +1 to all Skills, Helmet/Armor: +1 to all Skills, Shield: +1 to all Skills, Required Character Level: 41"
+            ],
+            "row18": [
+                "Ko",
+                "2x El, 1x Lum",
+                "Weapon: +5% Mana Steal, Helmet/Armor: +5% Mana Steal, Shield: +5% Mana Steal, Required Character Level: 43"
+            ],
+            "row19": [
+                "Fal",
+                "2x El, 1x Ko",
+                "Weapon: +15% Enhanced Damage, Helmet/Armor: +15% Enhanced Damage, Shield: +15% Enhanced Damage, Required Character Level: 45"
+            ],
+            "row20": [
+                "Lem",
+                "2x El, 1x Fal",
+                "Weapon: +25% Enhanced Damage, Helmet/Armor: +25% Enhanced Damage, Shield: +25% Enhanced Damage, Required Character Level: 47"
+            ],
+            "row21": [
+                "Pul",
+                "2x El, 1x Lem",
+                "Weapon: +5% to Maximum Damage, Helmet/Armor: +5% to Maximum Damage, Shield: +5% to Maximum Damage, Required Character Level: 49"
+            ],
+            "row22": [
+                "Um",
+                "2x Pul, 1x Nadkruszony Diament",
+                "Weapon: +15% to all Resistances, Helmet/Armor: +15% to all Resistances, Shield: +15% to all Resistances, Required Character Level: 51"
+            ],
+            "row23": [
+                "Mal",
+                "2x Um, 1x Nadkruszony Diament",
+                "Weapon: 9% chance to find magical items, Helmet/Armor: -15% to requirements, Shield: -15% to requirements, Required Character Level: 53"
+            ],
+            "row24": [
+                "Ist",
+                "2x Mal, 1x Nadkruszony Ametyst",
+                "Weapon: +5-15% to skills, Helmet/Armor: +5-15% to skills, Shield: +5-15% to skills, Required Character Level: 55"
+            ],
+            "row25": [
+                "Gul",
+                "2x Ist, 1x Nadkruszony Szafir",
+                "Weapon: 10% chance for additional damage, Helmet/Armor: -20% to mana costs, Shield: -20% to mana costs, Required Character Level: 57"
+            ],
+            "row26": [
+                "Vex",
+                "2x Gul, 1x Nadkruszony Rubin",
+                "Weapon: +10% to Life, Helmet/Armor: +10% to Life, Shield: +10% to Life, Required Character Level: 59"
+            ],
+            "row27": [
+                "Ohm",
+                "2x Vex, 1x Nadkruszony Szmaragd",
+                "Weapon: 50% chance to destroy target, Helmet/Armor: +50% to Vitality, Shield: +50% to Vitality, Required Character Level: 61"
+            ],
+            "row28": [
+                "Lo",
+                "2x Ohm, 1x Nadkruszony Diament",
+                "Weapon: 100% to additional damage, Helmet/Armor: +75% to damage, Shield: +75% to damage, Required Character Level: 63"
+            ],
+            "row29": [
+                "Sur",
+                "2x Lo, 1x Nadkruszony Ametyst",
+                "Weapon: +200% to damage, Helmet/Armor: +200% to damage, Shield: +200% to damage, Required Character Level: 65"
+            ],
+            "row30": [
+                "Ber",
+                "2x Sur, 1x Nadkruszony Szafir",
+                "Weapon: +100% to maximum damage, Helmet/Armor: +100% to maximum damage, Shield: +100% to maximum damage, Required Character Level: 67"
+            ],
+            "row31": [
+                "Jah",
+                "2x Ber, 1x Nadkruszony Rubin",
+                "Weapon: +150% to damage, Helmet/Armor: +150% to damage, Shield: +150% to damage, Required Character Level: 69"
+            ],
+            "row32": [
+                "Cham",
+                "2x Jah, 1x Nadkruszony Szmaragd",
+                "Weapon: +200% to damage, Helmet/Armor: +200% to damage, Shield: +200% to damage, Required Character Level: 71"
+            ],
+            "row33": [
+                "Zod",
+                "2x Sur, 1x Cham",
+                "Weapon: +200% to Maximum Damage, Helmet/Armor: +200% to Maximum Damage, Shield: +200% to Maximum Damage, Required Character Level: 73"
+            ]
+        },
+        "runewordsTitle": "Runewords",
+        "runewordsDescription": "Runewords are special combinations of runes that you can insert into socketed items. By choosing the right runes and placing them in a specific order, you can give your items new properties.",
+        "runewordsTable": {
+            "header1": "Runeword",
+            "header2": "Ingredients",
+            "header3": "Properties",
+            "spiritSword": [
+                "Spirit (Sword)",
+                "4x El + 1x Vex",
+                "Weapon: +2 to All Skills, Weapon: +2 to Maneuvers, Weapon: +2 to Magic Resistance, Weapon: -55% Strength Requirement, Weapon: +35% Damage, Required Character Level: 35"
+            ],
+            "spiritShield": [
+                "Spirit (Shield)",
+                "4x El + 1x Vex",
+                "Shield: +2 to All Skills, Shield: +2 to Maneuvers, Shield: +2 to Magic Resistance, Shield: -55% Strength Requirement, Shield: +35% Defense, Required Character Level: 35"
+            ],
+            "enigma": [
+                "Enigma",
+                "3x Ber + 1x Jah + 1x Ith",
+                "Armor: +45 to All Resistances, Armor: +14 Mana, Armor: +14% Faster Run/Walk, Armor: Teleports you to Level 2, Required Character Level: 55"
+            ],
+            "infinity": [
+                "Infinity",
+                "4x Ber + 1x Jah + 1x Lo",
+                "Weapon: -55% Target Defense, Weapon: -45% Target Defense, Weapon: +40% Damage, Weapon: +10 to All Skills, Required Character Level: 57"
+            ],
+            "insight": [
+                "Insight",
+                "5x El + 1x Vex",
+                "Weapon: +30 Damage, Weapon: +60 Defense, Weapon: +15% Faster Hit Recovery, Weapon: +30% Lightning Resistance, Required Character Level: 35"
+            ],
+            "stealth": [
+                "Stealth",
+                "2x El + 1x Tir",
+                "Helmet/Armor: +6 Dexterity, Helmet/Armor: +6 Vitality, Helmet/Armor: -15% Requirements, Helmet/Armor: +10% Faster Run/Walk, Required Character Level: 25"
+            ],
+            "callToArms": [
+                "Call to Arms",
+                "3x Ber + 1x Jah + 1x Lo",
+                "Weapon: +6 Skills, Weapon: +2 All Skills, Weapon: +1 All Skills, Weapon: +30% Defense, Required Character Level: 65"
+            ],
+            "lore": [
+                "Lore",
+                "5x Ber + 1x Jah + 1x Vex",
+                "Weapon: +40% to All Skills, Weapon: +40% Damage, Weapon: +30% Faster Attack Speed, Weapon: +30% Fire Resistance, Required Character Level: 70"
+            ]
+        }
+    }
+}
