@@ -58,7 +58,7 @@ export const Table = () => {
                 <tbody>
                     {rows.map((row, index) => (
                         <TableRow key={index} $index={index + 1}>
-                            <RowHeader>{index + 1}</RowHeader>
+                            <RowHeader>#{index + 1}</RowHeader>
                             <TableCell>
                                 {formatText(row[0])}
                                 <StyledRune src={runeImages[row[0]]} alt={`${row[0]} Rune`} />
