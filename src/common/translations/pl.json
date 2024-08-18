@@ -26,167 +26,200 @@
             "row1": [
                 "El",
                 "-",
-                "Broń: +1 do promienia światła, +50 do skuteczności ataku\nHełm/Zbroja: +1 do promienia światła, +15 do obrony\nTarcza: +1 do promienia światła, +15 do obrony\nWymagany lvl postaci: 11"
+                "Broń: +1 do promienia światła, +50 do skuteczności ataku\nHełm/Zbroja: +1 do promienia światła, +15 do obrony\nTarcza: +1 do promienia światła, +15 do obrony",
+                "Wymagany lvl postaci: 11"
             ],
             "row2": [
                 "Eld",
                 "3x El",
-                "Broń: +75% obrażeń przeciwko nieumarłym,\n+50 do skuteczności ataku przeciwko nieumarłym\nHełm/Zbroja: zmniejsza utratę wytrzymałości o 15%\nTarcza: +7% do bloku\nWymagany lvl postaci: 11"
+                "Broń: +75% obrażeń przeciwko nieumarłym,\n+50 do skuteczności ataku przeciwko nieumarłym\nHełm/Zbroja: zmniejsza utratę wytrzymałości o 15%\nTarcza: +7% do bloku",
+                "Wymagany lvl postaci: 11"
             ],
             "row3": [
                 "Tir",
                 "3x Eld",
-                "Broń: +2 do Many za każdego zabitego przeciwnika\nHełm/Zbroja: +2 do Many za każdego zabitego przeciwnika\nTarcza: +2 do Many za każdego zabitego przeciwnika\nWymagany lvl postaci: 13"
+                "Broń: +2 do Many za każdego zabitego przeciwnika\nHełm/Zbroja: +2 do Many za każdego zabitego przeciwnika\nTarcza: +2 do Many za każdego zabitego przeciwnika",
+                "Wymagany lvl postaci: 13"
             ],
             "row4": [
                 "Nef",
                 "3x Tir",
-                "Broń: Odrzucenie\nHełm/Zbroja: +30 do obrony przeciwko pociskom\nTarcza: +30 do obrony przeciwko pociskom\nWymagany lvl postaci: 13"
+                "Broń: Odrzucenie\nHełm/Zbroja: +30 do obrony przeciwko pociskom\nTarcza: +30 do obrony przeciwko pociskom",
+                "Wymagany lvl postaci: 13"
             ],
             "row5": [
                 "Eth",
                 "3x Nef",
-                "Broń: -25% do obrony celu\nHełm/Zbroja: Regeneracja many +15%\nTarcza: Regeneracja many +15%\nWymagany lvl postaci: 15"
+                "Broń: -25% do obrony celu\nHełm/Zbroja: Regeneracja many +15%\nTarcza: Regeneracja many +15%",
+                "Wymagany lvl postaci: 15"
             ],
             "row6": [
                 "Ith",
                 "3x Eth",
-                "Broń: +9 do maksymalnych obrażeń\nHełm/Zbroja: 15% obrażeń zamienia się w manę\nTarcza: 15% obrażeń zamienia się w manę\nWymagany lvl postaci: 15"
+                "Broń: +9 do maksymalnych obrażeń\nHełm/Zbroja: 15% obrażeń zamienia się w manę\nTarcza: 15% obrażeń zamienia się w manę",
+                "Wymagany lvl postaci: 15"
             ],
             "row7": [
                 "Tal",
                 "3x Ith",
-                "Broń: 75 pkt obrażeń od trucizny przez 5 sekund\nHełm/Zbroja: +35% odporności na trucizny\nTarcza: +35% odporności na trucizny\nWymagany lvl postaci: 17"
+                "Broń: 75 pkt obrażeń od trucizny przez 5 sekund\nHełm/Zbroja: +35% odporności na trucizny\nTarcza: +35% odporności na trucizny",
+                "Wymagany lvl postaci: 17"
             ],
             "row8": [
                 "Ral",
                 "3x Tal",
-                "Broń: +5-30 obrażeń od ognia\nHełm/Zbroja: +35% odporności na ogień\nTarcza: +35% odporności na ogień\nWymagany lvl postaci: 19"
+                "Broń: +5-30 obrażeń od ognia\nHełm/Zbroja: +35% odporności na ogień\nTarcza: +35% odporności na ogień",
+                "Wymagany lvl postaci: 19"
             ],
             "row9": [
                 "Ort",
                 "3x Ral",
-                "Broń: +1-50 obrażeń od błyskawic\nHełm/Zbroja: +35% odporności na błyskawice\nTarcza: +35% odporności na błyskawice\nWymagany lvl postaci: 21"
+                "Broń: +1-50 obrażeń od błyskawic\nHełm/Zbroja: +35% odporności na błyskawice\nTarcza: +35% odporności na błyskawice",
+                "Wymagany lvl postaci: 21"
             ],
             "row10": [
                 "Thul",
                 "3x Ort",
-                "Broń: +3-14 obrażeń od zimna\nHełm/Zbroja: +35% odporności na zimno\nTarcza: +35% odporności na zimno\nWymagany lvl postaci: 23"
+                "Broń: +3-14 obrażeń od zimna\nHełm/Zbroja: +35% odporności na zimno\nTarcza: +35% odporności na zimno",
+                "Wymagany lvl postaci: 23"
             ],
             "row11": [
                 "Amn",
                 "3x Thul, 1x Nadkruszony Topaz",
-                "Broń: 7% kradzieży życia przy trafieniu\nHełm/Zbroja: Atakujący otrzymuje 14 pkt obrażeń\nTarcza: Atakujący otrzymuje 14 pkt obrażeń\nWymagany lvl postaci: 25"
+                "Broń: 7% kradzieży życia przy trafieniu\nHełm/Zbroja: Atakujący otrzymuje 14 pkt obrażeń\nTarcza: Atakujący otrzymuje 14 pkt obrażeń",
+                "Wymagany lvl postaci: 25"
             ],
             "row12": [
                 "Sol",
                 "3x Amn, 1x Nadkruszony Ametyst",
-                "Broń: +9 do minimalnych obrażeń\nHełm/Zbroja: -7 pkt otrzymanych obrażeń\nTarcza: -7 pkt otrzymanych obrażeń\nWymagany lvl postaci: 27"
+                "Broń: +9 do minimalnych obrażeń\nHełm/Zbroja: -7 pkt otrzymanych obrażeń\nTarcza: -7 pkt otrzymanych obrażeń",
+                "Wymagany lvl postaci: 27"
             ],
             "row13": [
                 "Shael",
                 "3x Sol, 1x Nadkruszony Szafir",
-                "Broń: Zwiększa szybkość ataku (+20)\nHełm/Zbroja: Szybsze odzyskiwanie równowagi (+20)\nTarcza: Szybszy blok (+20)\nWymagany lvl postaci: 29"
+                "Broń: Zwiększa szybkość ataku (+20)\nHełm/Zbroja: Szybsze odzyskiwanie równowagi (+20)\nTarcza: Szybszy blok (+20)",
+                "Wymagany lvl postaci: 29"
             ],
             "row14": [
                 "Dol",
                 "3x Shael, 1x Nadkruszony Rubin",
-                "Broń: 25% szans na ucieczkę potwora przy trafieniu\nHełm/Zbroja: +7 do uzupełnienia życia\nTarcza: +7 do uzupełnienia życia\nWymagany lvl postaci: 31"
+                "Broń: 25% szans na ucieczkę potwora przy trafieniu\nHełm/Zbroja: +7 do uzupełnienia życia\nTarcza: +7 do uzupełnienia życia",
+                "Wymagany lvl postaci: 31"
             ],
             "row15": [
                 "Hel",
                 "3x Dol, 1x Nadkruszony Szmaragd",
-                "Broń: -20% do wymagań\nHełm/Zbroja: -15% do wymagań\nTarcza: -15% do wymagań\nWymagany lvl postaci: brak"
+                "Broń: -20% do wymagań\nHełm/Zbroja: -15% do wymagań\nTarcza: -15% do wymagań",
+                "Wymagany lvl postaci: brak"
             ],
             "row16": [
                 "Io",
                 "3x Hel, 1x Nadkruszony Diament",
-                "Broń: +10 Witalności\nHełm/Zbroja: +10 Witalności\nTarcza: +10 Witalności\nWymagany lvl postaci: 35"
+                "Broń: +10 Witalności\nHełm/Zbroja: +10 Witalności\nTarcza: +10 Witalności",
+                "Wymagany lvl postaci: 35"
             ],
             "row17": [
                 "Lum",
                 "3x Io, 1x Topaz ze skazą",
-                "Broń: +10 Energii\nHełm/Zbroja: +10 Energii\nTarcza: +10 Energii\nWymagany lvl postaci: 37"
+                "Broń: +10 Energii\nHełm/Zbroja: +10 Energii\nTarcza: +10 Energii",
+                "Wymagany lvl postaci: 37"
             ],
             "row18": [
                 "Ko",
                 "3x Lum, 1x Ametyst ze skazą",
-                "Broń: +10 Zręczności\nHełm/Zbroja: +10 Zręczności\nTarcza: +10 Zręczności\nWymagany lvl postaci: 39"
+                "Broń: +10 Zręczności\nHełm/Zbroja: +10 Zręczności\nTarcza: +10 Zręczności",
+                "Wymagany lvl postaci: 39"
             ],
             "row19": [
                 "Fal",
                 "3x Ko, 1x Szafir ze skazą",
-                "Broń: +10 Siły\nHełm/Zbroja: +10 Siły\nTarcza: +10 Siły\nWymagany lvl postaci: 41"
+                "Broń: +10 Siły\nHełm/Zbroja: +10 Siły\nTarcza: +10 Siły",
+                "Wymagany lvl postaci: 41"
             ],
             "row20": [
                 "Lem",
                 "3x Fal, 1x Rubin ze skazą",
-                "Broń: +75% dodatkowego złota z potworów\nHełm/Zbroja: +50% dodatkowego złota z potworów\nTarcza: +50% dodatkowego złota z potworów\nWymagany lvl postaci: 43"
+                "Broń: +75% dodatkowego złota z potworów\nHełm/Zbroja: +50% dodatkowego złota z potworów\nTarcza: +50% dodatkowego złota z potworów",
+                "Wymagany lvl postaci: 43"
             ],
             "row21": [
                 "Pul",
                 "3x Lem, 1x Szmaragd ze skazą",
-                "Broń: +75% obrażeń przeciwko demonom,\n+100 do skuteczności ataku przeciwko demonom\nHełm/Zbroja: +30% Obrony\nTarcza: +30% Obrony\nWymagany lvl postaci: 45"
+                "Broń: +75% obrażeń przeciwko demonom,\n+100 do skuteczności ataku przeciwko demonom\nHełm/Zbroja: +30% Obrony\nTarcza: +30% Obrony",
+                "Wymagany lvl postaci: 45"
             ],
             "row22": [
                 "Um",
                 "2x Pul, 1x Diament ze skazą",
-                "Broń: 25% szansy na otwarcie rany\nHełm/Zbroja: +15% do wszystkich odporności\nTarcza: +15% do wszystkich odporności\nWymagany lvl postaci: 47"
+                "Broń: 25% szansy na otwarcie rany\nHełm/Zbroja: +15% do wszystkich odporności\nTarcza: +15% do wszystkich odporności",
+                "Wymagany lvl postaci: 47"
             ],
             "row23": [
                 "Mal",
                 "2x Um, 1x Nadkruszony Diament",
-                "Broń: 9% szansy na znalezienie magicznego przedmiotu\nHełm/Zbroja: -15% do wymagań\nTarcza: -15% do wymagań\nWymagany lvl postaci: 49"
+                "Broń: 9% szansy na znalezienie magicznego przedmiotu\nHełm/Zbroja: -15% do wymagań\nTarcza: -15% do wymagań",
+                "Wymagany lvl postaci: 49"
             ],
             "row24": [
                 "Ist",
                 "2x Mal, 1x Nadkruszony Ametyst",
-                "Broń: +5-15% do umiejętności\nHełm/Zbroja: +5-15% do umiejętności\nTarcza: +5-15% do umiejętności\nWymagany lvl postaci: 51"
+                "Broń: +5-15% do umiejętności\nHełm/Zbroja: +5-15% do umiejętności\nTarcza: +5-15% do umiejętności",
+                "Wymagany lvl postaci: 51"
             ],
             "row25": [
                 "Gul",
                 "2x Ist, 1x Nadkruszony Szafir",
-                "Broń: 10% szansy na dodatkowe obrażenia\nHełm/Zbroja: -20% do kosztów many\nTarcza: -20% do kosztów many\nWymagany lvl postaci: 53"
+                "Broń: 10% szansy na dodatkowe obrażenia\nHełm/Zbroja: -20% do kosztów many\nTarcza: -20% do kosztów many",
+                "Wymagany lvl postaci: 53"
             ],
             "row26": [
                 "Vex",
                 "2x Gul, 1x Nadkruszony Rubin",
-                "Broń: +10% do życia\nHełm/Zbroja: +10% do życia\nTarcza: +10% do życia\nWymagany lvl postaci: 55"
+                "Broń: +10% do życia\nHełm/Zbroja: +10% do życia\nTarcza: +10% do życia",
+                "Wymagany lvl postaci: 55"
             ],
             "row27": [
                 "Ohm",
                 "2x Vex, 1x Nadkruszony Szmaragd",
-                "Broń: 50% szansy na zniszczenie przeciwnika\nHełm/Zbroja: +50% do wytrzymałości\nTarcza: +50% do wytrzymałości\nWymagany lvl postaci: 57"
+                "Broń: 50% szansy na zniszczenie przeciwnika\nHełm/Zbroja: +50% do wytrzymałości\nTarcza: +50% do wytrzymałości",
+                "Wymagany lvl postaci: 57"
             ],
             "row28": [
                 "Lo",
                 "2x Ohm, 1x Nadkruszony Diament",
-                "Broń: 100% do dodatkowego obrażenia\nHełm/Zbroja: +75% do obrażeń\nTarcza: +75% do obrażeń\nWymagany lvl postaci: 59"
+                "Broń: 100% do dodatkowego obrażenia\nHełm/Zbroja: +75% do obrażeń\nTarcza: +75% do obrażeń",
+                "Wymagany lvl postaci: 59"
             ],
             "row29": [
                 "Sur",
                 "2x Lo, 1x Nadkruszony Ametyst",
-                "Broń: +200% do obrażeń\nHełm/Zbroja: +200% do obrażeń\nTarcza: +200% do obrażeń\nWymagany lvl postaci: 61"
+                "Broń: +200% do obrażeń\nHełm/Zbroja: +200% do obrażeń\nTarcza: +200% do obrażeń",
+                "Wymagany lvl postaci: 61"
             ],
             "row30": [
                 "Ber",
                 "2x Sur, 1x Nadkruszony Szafir",
-                "Broń: +100% do maksymalnych obrażeń\nHełm/Zbroja: +100% do maksymalnych obrażeń\nTarcza: +100% do maksymalnych obrażeń\nWymagany lvl postaci: 63"
+                "Broń: +100% do maksymalnych obrażeń\nHełm/Zbroja: +100% do maksymalnych obrażeń\nTarcza: +100% do maksymalnych obrażeń",
+                "Wymagany lvl postaci: 63"
             ],
             "row31": [
                 "Jah",
                 "2x Ber, 1x Nadkruszony Rubin",
-                "Broń: +150% do obrażeń\nHełm/Zbroja: +150% do obrażeń\nTarcza: +150% do obrażeń\nWymagany lvl postaci: 65"
+                "Broń: +150% do obrażeń\nHełm/Zbroja: +150% do obrażeń\nTarcza: +150% do obrażeń",
+                "Wymagany lvl postaci: 65"
             ],
             "row32": [
                 "Cham",
                 "2x Jah, 1x Nadkruszony Szmaragd",
-                "Broń: +200% do obrażeń\nHełm/Zbroja: +200% do obrażeń\nTarcza: +200% do obrażeń\nWymagany lvl postaci: 67"
+                "Broń: +200% do obrażeń\nHełm/Zbroja: +200% do obrażeń\nTarcza: +200% do obrażeń",
+                "Wymagany lvl postaci: 67"
             ],
             "row33": [
                 "Zod",
                 "2x Sur, 1x Cham",
-                "Broń: +200% do Maksymalnych Obrażeń\nHełm/Zbroja: +200% do Maksymalnych Obrażeń\nTarcza: +200% do Maksymalnych Obrażeń\nWymagany Poziom Postaci: 73"
+                "Broń: +200% do Maksymalnych Obrażeń\nHełm/Zbroja: +200% do Maksymalnych Obrażeń\nTarcza: +200% do Maksymalnych Obrażeń",
+                "Wymagany lvl Postaci: 69"
             ]
         },
         "runewordsTitle": "Słowa runiczne",
