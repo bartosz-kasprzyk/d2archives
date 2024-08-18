@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+    display: flex;
     overflow-x: auto;
+    justify-content: center;
 `;
 
 export const StyledTable = styled.table`
@@ -32,7 +34,7 @@ export const RowHeader = styled.th`
 `;
 
 export const TableRow = styled.tr`
-    background-color: ${({ index }) => (index % 2 === 0 ? '#141313' : '#201f1f')};
+    background-color: ${({ $index }) => ($index % 2 === 0 ? '#141313' : '#201f1f')};
     
     &:hover {
         background-color: #3b2d1c;
