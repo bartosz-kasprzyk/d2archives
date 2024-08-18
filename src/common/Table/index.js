@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Container, StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, StyledRune } from "./styled";
+import { Container, StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, StyledRune, MutedText, BottomLine } from "./styled";
 import runeImages from "../config/runeImages"
 
 export const Table = () => {
@@ -64,7 +64,12 @@ export const Table = () => {
                                 <StyledRune src={runeImages[row[0]]} alt={`${row[0]} Rune`} />
                             </TableCell>
                             <TableCell>{formatText(row[1])}</TableCell>
-                            <TableCell>{formatText(row[2])}</TableCell>
+                            <TableCell>
+                                {formatText(row[2])}
+                                <BottomLine>
+                                    {row[3]}
+                                </BottomLine>
+                            </TableCell>
                         </TableRow>
                     ))}
                 </tbody>

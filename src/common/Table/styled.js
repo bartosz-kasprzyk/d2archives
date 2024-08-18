@@ -44,3 +44,11 @@ export const TableRow = styled.tr`
 export const StyledRune = styled.img`
     width: 30px;
 `;
+
+export const BottomLine = styled.div`
+    color: #979797;
+    border-top: 1px solid #97979770;
+    margin: 0;
+    margin-top: 2px;
+    padding-top: 5px;
+`;
