@@ -226,47 +226,56 @@
         "runewordsDescription": "Runewords are special combinations of runes that you can insert into socketed items. By choosing the right runes and placing them in a specific order, you can give your items new properties.",
         "runewordsTable": {
             "header1": "Runeword",
-            "header2": "Ingredients",
-            "header3": "Properties",
-            "spiritSword": [
-                "Spirit (Sword)",
-                "4x El + 1x Vex",
-                "Weapon: +2 to All Skills, Weapon: +2 to Maneuvers, Weapon: +2 to Magic Resistance, Weapon: -55% Strength Requirement, Weapon: +35% Damage, Required Character Level: 35"
+            "header2": "Base",
+            "header3": "Runes",
+            "header4": "Effect",
+            "runeword1": [
+                "Spirit (Sword Version)",
+                "Sword\n(4 sockets)",
+                "Tal + Thul + Ort + Amn",
+                "+2 to All Skills\n25-35% Faster Cast Rate\n55% Faster Hit Recovery\n1-50 Lightning Damage\n3-14 Cold Damage\n75 Poison Damage over 5 Seconds\n7% Life Stolen Per Hit\n+250 Defense vs. Missiles\n+22 to Vitality\n89-112 Mana\n3-8% Magic Absorb"
             ],
-            "spiritShield": [
-                "Spirit (Shield)",
-                "4x El + 1x Vex",
-                "Shield: +2 to All Skills, Shield: +2 to Maneuvers, Shield: +2 to Magic Resistance, Shield: -55% Strength Requirement, Shield: +35% Defense, Required Character Level: 35"
+            "runeword2": [
+                "Spirit (Shield Version)",
+                "Shield\n(4 sockets)",
+                "Tal + Thul + Ort + Amn",
+                "+2 to All Skills\n25-35% Faster Cast Rate\n55% Faster Hit Recovery\n+250 Defense vs. Missiles\n+22 to Vitality\n89-112 Mana\n3-8% Magic Absorb\n+35% Cold Resistance\n+35% Lightning Resistance\n+35% Poison Resistance\nAttacker Takes Damage of 14"
             ],
-            "enigma": [
+            "runeword3": [
                 "Enigma",
-                "3x Ber + 1x Jah + 1x Ith",
-                "Armor: +45 to All Resistances, Armor: +14 Mana, Armor: +14% Faster Run/Walk, Armor: Teleports you to Level 2, Required Character Level: 55"
+                "Armor\n(3 sockets)",
+                "Jah + Ith + Ber",
+                "+2 to All Skills\n45% Faster Run/Walk\n+1 to Teleport\n+750-775 Defense\n+0-74 Strength (based on character level)\nIncrease Maximum Life 5%\nDamage Reduced by 8%\n14 Life After Each Kill\n15% Damage Taken Goes to Mana\n1-99% Better Chance of Getting Magic Items (based on character level)"
             ],
-            "infinity": [
+            "runeword4": [
                 "Infinity",
-                "4x Ber + 1x Jah + 1x Lo",
-                "Weapon: -55% Target Defense, Weapon: -45% Target Defense, Weapon: +40% Damage, Weapon: +10 to All Skills, Required Character Level: 57"
+                "Polearm\n(4 sockets)",
+                "Ber + Mal + Ber + Ist",
+                "50% Chance to Cast Level 20 Chain Lightning When You Kill an Enemy\nLevel 12 Conviction Aura When Equipped\n35% Faster Run/Walk\n255-325% Enhanced Damage\n-55% to Enemy Lightning Resistance\n40% Chance of Crushing Blow\nPrevent Monster Heal\n0.5-49.5 Vitality (based on character level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)"
             ],
-            "insight": [
+            "runeword5": [
                 "Insight",
-                "5x El + 1x Vex",
-                "Weapon: +30 Damage, Weapon: +60 Defense, Weapon: +15% Faster Hit Recovery, Weapon: +30% Lightning Resistance, Required Character Level: 35"
+                "Polearm / Staff / Bow\n(4 sockets)",
+                "Ral + Tir + Tal + Sol",
+                "Level 12-17 Meditation Aura When Equipped\n35% Faster Cast Rate\n200-260% Enhanced Damage\n+9 to Minimum Damage\n180-250% Bonus to Attack Rating\n5-30 Fire Damage\n75 Poison Damage over 5 Seconds\n+1-6 to Critical Strike\n+5 to All Attributes\n+2 to Mana After Each Kill\n23% Better Chance of Getting Magic Items"
             ],
-            "stealth": [
+            "runeword6": [
                 "Stealth",
-                "2x El + 1x Tir",
-                "Helmet/Armor: +6 Dexterity, Helmet/Armor: +6 Vitality, Helmet/Armor: -15% Requirements, Helmet/Armor: +10% Faster Run/Walk, Required Character Level: 25"
+                "Armor\n(2 sockets)",
+                "Tal + Eth",
+                "25% Faster Run/Walk\n25% Faster Cast Rate\n25% Faster Hit Recovery\n+6 to Dexterity\nRegenerate Mana 15%\n+15 to Maximum Stamina\nPoison Resist +30%\nMagic Damage Reduced by 3"
             ],
-            "callToArms": [
+            "runeword7": [
                 "Call to Arms",
-                "3x Ber + 1x Jah + 1x Lo",
-                "Weapon: +6 Skills, Weapon: +2 All Skills, Weapon: +1 All Skills, Weapon: +30% Defense, Required Character Level: 65"
+                "Weapon\n(5 sockets)",
+                "Amn + Ral + Mal + Ist + Ohm",
+                "+1 to All Skills\n40% Increased Attack Speed\n250-290% Enhanced Damage\nAdds 5-30 Fire Damage\n7% Life Stolen Per Hit\n+2-6 to Battle Command\n+1-6 to Battle Orders\n+1-4 to Battle Cry\nPrevent Monster Heal\nReplenish Life +12\n30% Better Chance of Getting Magic Items"
             ],
-            "lore": [
+            "runeword8": [
                 "Lore",
-                "5x Ber + 1x Jah + 1x Vex",
-                "Weapon: +40% to All Skills, Weapon: +40% Damage, Weapon: +30% Faster Attack Speed, Weapon: +30% Fire Resistance, Required Character Level: 70"
+                "Helm\n(2 sockets)",
+                "Ort + Sol",
+                "+1 to All Skills\n+10 to Energy\n+2 to Mana After Each Kill\n+30% Lightning Resist\nDamage Reduced by 7\n+2 to Light Radius"
             ]
         }
     }

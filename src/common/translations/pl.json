@@ -226,47 +226,56 @@
         "runewordsDescription": "Słowa runiczne to specjalne kombinacje run, które można włożyć do przedmiotów z gniazdami. Wybierając odpowiednie runy i układając je w określony sposób, możemy uzyskać dodatkowe właściwości dla naszych przedmiotów.",
         "runewordsTable": {
             "header1": "Słowo runiczne",
-            "header2": "Składniki",
-            "header3": "Właściwości",
-            "spiritSword": [
-                "Duch (miecze)",
-                "4x El + 1x Vex",
-                "Broń: +2 do wszystkich umiejętności, Broń: +2 do manewrów, Broń: +2 do odporności na magię, Broń: -55% wymaganej siły, Broń: +35% obrażeń, Wymagany lvl postaci: 35"
+            "header2": "Baza",
+            "header3": "Runy",
+            "header4": "Efekt",
+            "runeword1": [
+                "Duch (wersja w mieczu)",
+                "Miecz\n(4 gniazda)",
+                "Tal + Thul + Ort + Amn",
+                "+2 do wszystkich umiejętności\n25-35% szybsze rzucanie czarów\n55% szybsze odzyskiwanie równowagi\n1-50 obrażeń od błyskawic\n3-14 obrażenia od zimna\n75 obrażeń od trucizny przez 5 sekund\n7% punkty zdrowia wykradzione za każde trafienie\n+250 obrona przeciwko pociskom\n+22 do żywotności\n89-122 punktów many\n3-8% absorpcja magii"
             ],
-            "spiritShield": [
-                "Duch (tarcze)",
-                "4x El + 1x Vex",
-                "Tarcza: +2 do wszystkich umiejętności, Tarcza: +2 do manewrów, Tarcza: +2 do odporności na magię, Tarcza: -55% wymaganej siły, Tarcza: +35% obrony, Wymagany lvl postaci: 35"
+            "runeword2": [
+                "Duch (wersja w tarczy)",
+                "Tarcza\n(4 gniazda)",
+                "Tal + Thul + Ort + Amn",
+                "+2 do wszystkich umiejętności\n25-35% szybsze rzucanie czarów\n55% szybsze odzyskiwanie równowagi\n+250 obrona przeciwko pociskom\n+22 do żywotności\n89-122 punktów many\n3-8% absorpcja magii\n+35% odporności na zimno\n+35% odporności na błyskawice\n+35% odporności na truciznę\natakujący otrzymuje 14 obrażeń"
             ],
-            "enigma": [
+            "runeword3": [
                 "Enigma",
-                "3x Ber + 1x Jah + 1x Ith",
-                "Zbroja: +45 do all resistance, Zbroja: +14 do mana, Zbroja: +14% do szybkości poruszania się, Zbroja: Przenosi umiejętności na poziom 2, Wymagany lvl postaci: 55"
+                "Zbroja\n(3 gniazda)",
+                "Jah + Ith + Ber",
+                "+2 do wszystkich umiejętności\n45% szybsze bieganie/chodzenie\n+1 do umiejętności Teleport\n+750-775 obrony\n+0-74 siły (zależne od poziomu postaci)\n5% zwiększone zdrowie postaci\nobrażenia zmniejszone o 8%\n14 punktów zdrowia za zabicie wroga\n15% otrzymanych obrażeń przechodzi na manę\n1-99% znajdowanie magicznych przedmiotów (zależne od poziomu postaci)"
             ],
-            "infinity": [
+            "runeword4": [
                 "Nieskończoność",
-                "4x Ber + 1x Jah + 1x Lo",
-                "Broń: -55% do obrony celu, Broń: -45% do obrony celu, Broń: +40% do obrażeń, Broń: +10 do wszystkich umiejętności, Wymagany lvl postaci: 57"
+                "Broń drzewcowa\n(4 gniazda)",
+                "Ber + Mal + Ber + Ist",
+                "50% szansa na rzucenie 20-poziomowego zaklęcia Seryjne błyskawice po zabiciu wroga\n12 poziom aury Przekonanie podczas noszenia\n35% szybsze chodzenie/bieganie\n255-325% zwiększone obrażenia\n-55% do odporności na błyskawice wroga\n40% szansa na druzgocące uderzenie\nuniemożliwia leczenie się potworów\n0,5-49,5 żywotności (zależne od poziomu postaci)\n30% szansa zdobycia magicznych przedmiotów\n21 poziom Zbroi cyklonu (30 ładunków)"
             ],
-            "insight": [
+            "runeword5": [
                 "Olśnienie",
-                "5x El + 1x Vex",
-                "Broń: +30 do obrażeń, Broń: +60 do obrony, Broń: +15% do szybkiego ładowania, Broń: +30% do odporności na błyskawice, Wymagany lvl postaci: 35"
+                "Broń drzewcowa / laska / broń dystansowa\n(4 gniazda)",
+                "Ral + Tir + Tal + Sol",
+                "12-17 poziom aury Medytacja podczas noszenia\n35% szybsze rzucanie czarów\n200-260% zwiększone obrażenia\n+9 do minimalnych obrażeń\n180-250% premia do skuteczności ataku\n5-30 obrażeń od ognia\n75 obrażeń od trucizny przez 5 sekund\n1-6 do Krytycznego uderzenia\n+5 do wszystkich atrybutów\n2 punkty many za każdego zabitego wroga\n23% szansa zdobycia magicznych przedmiotów"
             ],
-            "stealth": [
+            "runeword6": [
                 "Skradanie się",
-                "2x El + 1x Tir",
-                "Hełm/Zbroja: +6 do zręczności, Hełm/Zbroja: +6 do witalności, Hełm/Zbroja: -15% do wymagań, Hełm/Zbroja: +10% do szybkości poruszania się, Wymagany lvl postaci: 25"
+                "Zbroja\n(2 gniazda)",
+                "Tal + Eth",
+                "25% szybsze bieganie/chodzenie\n25% szybsze rzucanie czarów\n25% szybsze odzyskiwanie równowagi\n+6 do zręczności\nRegeneruje manę 15%\n+15 do maksymalnej wytrzymałości\nOdporność na trucizny +30%\nObrażenia od magii zmniejszone o 3"
             ],
-            "callToArms": [
+            "runeword7": [
                 "Wezwanie do broni",
-                "3x Ber + 1x Jah + 1x Lo",
-                "Broń: +6 do umiejętności, Broń: +2 do umiejętności wszystkich, Broń: +1 do wszystkich umiejętności, Broń: +30% do obrony, Wymagany lvl postaci: 65"
+                "Broń\n(5 gniazd)",
+                "Amn + Ral + Mal + Ist + Ohm",
+                "+1 do wszystkich umiejętności\n40% zwiększona szybkość ataku\n250-290% zwiększone obrażenia\n5-30 obrażeń od ognia\n7% punktów zdrowia wykradzionych za trafienie\n+2-6 do umiejętności Dowodzenie\n+1-6 do umiejętności Rozkazy\n+1-4 do umiejętności Okrzyk bojowy\nuniemożliwia leczenie się potworów\n+12 uzupełniania życia\n30% znajdowanie magicznych przedmiotów"
             ],
-            "lore": [
+            "runeword8": [
                 "Wiedza",
-                "5x Ber + 1x Jah + 1x Vex",
-                "Broń: +40% do wszystkich umiejętności, Broń: +40% do obrażeń, Broń: +30% do szybkości ataku, Broń: +30% do odporności na ogień, Wymagany lvl postaci: 70"
+                "Hełm\n(2 gniazda)",
+                "Ort + Sol",
+                "+1 do poziomu wszystkich umiejętności\n+10 do energii\n+2 do many za każdego zabitego przeciwnika\nOdporność na błyskawice +30%\nObrażenia zmniejszone o 7\n+2 do promienia światła"
             ]
         }
     }
