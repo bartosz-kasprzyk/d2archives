@@ -7,6 +7,7 @@ export const Container = styled.div`
 `;
 
 export const StyledTable = styled.table`
+    max-width: 1200px;
     border-collapse: collapse;
     margin-bottom: 100px;
 `;
