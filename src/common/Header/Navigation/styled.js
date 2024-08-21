@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import flameImage from '../../../images/flame.gif'
 
 export const LogoWrapper = styled(Link)`
     grid-column: 1 / 3;
@@ -26,4 +27,13 @@ export const NavSection = styled.ul`
 export const StyledNavLink = styled(NavLink)`
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;
+
+    &.active {
+        background-image: url(${flameImage});
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 110% 10px;
+        padding-bottom: 5px;
+        display: inline-block;
+    }
 `;

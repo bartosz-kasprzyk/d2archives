@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const StyledTable = styled.table`
     max-width: 1200px;
     border-collapse: collapse;
-    margin-bottom: 100px;
+    margin: 20px 0 100px;
 `;
 
 export const TableCell = styled.th`
