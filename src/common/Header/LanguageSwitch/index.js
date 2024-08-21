@@ -7,7 +7,7 @@ import { ButtonSection, StyledButton } from './styled';
 const LanguageSwitch = () => {
     const location = useLocation();
     const navigate = useNavigate();
-    const [currentLang, setCurrentLang] = useState(new URLSearchParams(location.search).get('lang'));
+    const [currentLang, setCurrentLang] = useState(() => new URLSearchParams(location.search).get('lang') || 'eng');
 
     const setLanguage = (lang) => {
         setCurrentLang(lang);
@@ -15,9 +15,11 @@ const LanguageSwitch = () => {
 
     useEffect(() => {
         const searchParams = new URLSearchParams(location.search);
-        if (currentLang && searchParams.get('lang') !== currentLang) {
+        const lang = searchParams.get('lang');
+
+        if (currentLang !== lang) {
             searchParams.set('lang', currentLang);
-            const newUrl = `${location.pathname}${location.hash}?${searchParams.toString()}`;
+            const newUrl = `${location.pathname}?${searchParams.toString()}`;
             navigate(newUrl, { replace: true });
         }
     }, [currentLang, location, navigate]);
