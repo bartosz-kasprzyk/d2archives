@@ -12,6 +12,7 @@ export const LogoIcon = styled.img`
     width: 200px;
     display: flex;
     align-items: center;
+    margin: -60px 0 20px;
 `;
 
 export const NavSection = styled.ul`
@@ -21,7 +22,7 @@ export const NavSection = styled.ul`
     justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0 0 10px;
 `;
 
 export const StyledNavLink = styled(NavLink)`
@@ -33,7 +34,7 @@ export const StyledNavLink = styled(NavLink)`
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 110% 10px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         display: inline-block;
     }
 `;
