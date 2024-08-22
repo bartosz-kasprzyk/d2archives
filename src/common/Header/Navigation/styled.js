@@ -9,7 +9,7 @@ export const LogoWrapper = styled(Link)`
 `;
 
 export const LogoIcon = styled.img`
-    width: 200px;
+    width: 300px;
     display: flex;
     align-items: center;
     margin: -60px 0 20px;
@@ -33,7 +33,7 @@ export const StyledNavLink = styled(NavLink)`
         background-image: url(${flameImage});
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: 110% 10px;
+        background-size: 110% 12px;
         padding-bottom: 10px;
         display: inline-block;
     }
