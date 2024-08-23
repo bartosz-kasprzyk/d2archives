@@ -1,6 +1,8 @@
 import React from 'react';
-import { Container, StyledTable, TableCell, ColumnHeader, RowHeader, TableRow } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
+import { Container } from '../../common/Container';
+import { StyledText } from './styled';
 
 const RunewordList = () => {
     const content = useLoadContent();
@@ -24,29 +26,43 @@ const RunewordList = () => {
 
     return (
         <Container>
-            <StyledTable>
-                <thead>
-                    <TableRow $index={0}>
-                        <ColumnHeader>{content.content.runewordsTable.header1}</ColumnHeader>
-                        <ColumnHeader>{content.content.runewordsTable.header2}</ColumnHeader>
-                        <ColumnHeader>{content.content.runewordsTable.header3}</ColumnHeader>
-                        <ColumnHeader>{content.content.runewordsTable.header4}</ColumnHeader>
-                    </TableRow>
-                </thead>
-                <tbody>
-                    {runewords.map((runeword, index) => (
-                        <TableRow key={index} $index={index + 1}>
-                            <RowHeader>{runeword[0]}</RowHeader>
-                            <TableCell>{formatText(runeword[1])}</TableCell>
-                            <TableCell>{formatText(runeword[2])}</TableCell>
-                            <TableCell>
-                                {formatText(runeword[3])}
-                            </TableCell>
+            <StyledText>
+                <strong>Słowa runiczne</strong> [ang. <i>Rune Words</i>] są kombinacją kilku różnych run, które mają
+                na celu stworzenie potężnej broni bądź uzbrojenia.
+                Odpowiednia kolejność run w przedmiotach z gniazdami pozwala otrzymać nie tylko podstawowe atrybuty run, ale również bonusowe, które zwiększają moc
+                przedmiotu.
+                Większość najważniejszych broni czy uzbrojenia w grze pochodzi ze słów runicznych.
+                Wiele z nich jest bardzo ciężko zdobyć z powodu bardzo rzadkiego występowania run na wysokich poziomach.
+                Poza runami trzeba również znaleźć odpowiedni przedmiot.
+                Należy wspomnieć, że słowa runiczne zadające wysokie obrażenia najlepiej łączyć z przedmiotami, które mają również wysoki podstawowy współczynnik ataku.
+                Doświadczeni gracze bardzo długo poszukują odpowiednich przedmiotów oraz run aby ostatecznie stworzyć wymarzony przedmiot.
+                Oto kilka najbardziej popularnych słów runicznych:
+            </StyledText>
+            <TableWrapper>
+                <StyledTable>
+                    <thead>
+                        <TableRow $index={0}>
+                            <ColumnHeader>{content.content.runewordsTable.header1}</ColumnHeader>
+                            <ColumnHeader>{content.content.runewordsTable.header2}</ColumnHeader>
+                            <ColumnHeader>{content.content.runewordsTable.header3}</ColumnHeader>
+                            <ColumnHeader>{content.content.runewordsTable.header4}</ColumnHeader>
                         </TableRow>
-                    ))}
-                </tbody>
-            </StyledTable>
-        </Container>
+                    </thead>
+                    <tbody>
+                        {runewords.map((runeword, index) => (
+                            <TableRow key={index} $index={index + 1}>
+                                <RowHeader>{runeword[0]}</RowHeader>
+                                <TableCell>{formatText(runeword[1])}</TableCell>
+                                <TableCell>{formatText(runeword[2])}</TableCell>
+                                <TableCell>
+                                    {formatText(runeword[3])}
+                                </TableCell>
+                            </TableRow>
+                        ))}
+                    </tbody>
+                </StyledTable>
+            </TableWrapper>
+        </Container >
     )
 };
 
