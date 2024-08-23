@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const TableWrapper = styled.div`
     display: flex;
     overflow-x: auto;
     justify-content: center;
 `;
 
 export const StyledTable = styled.table`
-    max-width: 1200px;
     border-collapse: collapse;
     margin: 20px 0 100px;
 `;
@@ -36,6 +35,11 @@ export const RowHeader = styled.th`
 
 export const TableRow = styled.tr`
     background-color: ${({ $index }) => ($index % 2 === 0 ? '#141313' : '#201f1f')};
+    transition: background-color 1s ease;
+
+    ${props => props.highlight && `
+        background-color: #93632A;
+    `}
     
     &:hover {
         background-color: #3b2d1c;
