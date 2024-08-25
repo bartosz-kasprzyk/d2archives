@@ -69,7 +69,7 @@ const RuneList = () => {
                     </thead>
                     <tbody>
                         {rows.map((row, index) => (
-                            <TableRow key={index} id={`rune-${row[0]}`} ref={el => rowRefs.current[row[0]] = el} highlight={highlightedRow === row[0]} $index={index + 1}>
+                            <TableRow key={index} id={`rune-${row[0]}`} ref={el => rowRefs.current[row[0]] = el} $highlight={highlightedRow === row[0]} $index={index + 1}>
                                 <RowHeader>#{index + 1}</RowHeader>
                                 <TableCell>
                                     {formatText(row[0])}

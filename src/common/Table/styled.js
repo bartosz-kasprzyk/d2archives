@@ -37,7 +37,7 @@ export const TableRow = styled.tr`
     background-color: ${({ $index }) => ($index % 2 === 0 ? '#141313' : '#201f1f')};
     transition: background-color 1s ease;
 
-    ${props => props.highlight && `
+    ${props => props.$highlight && `
         background-color: #93632A;
     `}
     
