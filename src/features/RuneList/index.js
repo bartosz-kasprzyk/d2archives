@@ -47,9 +47,7 @@ const RuneList = () => {
     return (
         <Container>
             <StyledText>
-                <strong>Runy</strong> to kamienie, dzięki którym można wzmacniać posiadane przez nas przedmioty zawierające gniazda na klejnoty.
-                Dodają one różne właściwości, w zależności od rodzaju przedmiotu.
-                Włożone w odpowiedniej kolejności tworzą słowo runiczne, które nadaje przedmiotom nowe właściwości.
+                {content.content.runesDescription}
             </StyledText>
             <RuneGridContainer>
                 {Object.keys(runeImages).map((runeName) => (
