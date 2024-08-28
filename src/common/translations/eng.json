@@ -12,7 +12,6 @@
             "callToArms": "Call to Arms",
             "lore": "Lore"
         },
-        "runesTitle": "Runes",
         "runesDescription": "Runes are stones that enhance items with socketed slots. They add various properties depending on the item type. When inserted in the correct order, they form runewords that give items new properties.",
         "runesTable": {
             "header1": "Rune",
@@ -217,7 +216,6 @@
                 "Required Character Level: 69"
             ]
         },
-        "runewordsTitle": "Runewords",
         "runewordsDescription": "Runewords are special combinations of runes that you can insert into socketed items. By choosing the right runes and placing them in a specific order, you can give your items new properties.",
         "runewordsTable": {
             "header1": "Runeword",
