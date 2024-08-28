@@ -17,13 +17,11 @@ const RuneList = () => {
             const targetRow = rowRefs.current[runeName];
             targetRow.scrollIntoView({ behavior: 'smooth' });
 
-            // Highlight the row
             setHighlightedRow(runeName);
 
-            // Remove highlight after 1 second (1000 ms)
             setTimeout(() => {
                 setHighlightedRow(null);
-            }, 1000); // Adjust the duration as needed
+            }, 1000);
         }
     };
 
