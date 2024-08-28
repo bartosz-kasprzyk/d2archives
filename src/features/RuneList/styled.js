@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const StyledText = styled.p`
     color: ${({ theme }) => theme.color.white};
+    font-size: 17px;
 `;
 
 export const RuneGridContainer = styled.div`

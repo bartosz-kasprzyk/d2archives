@@ -5,7 +5,7 @@ import flameImage from '../../../images/flame.gif'
 
 export const LogoWrapper = styled(Link)`
     grid-column: 1 / 3;
-    padding: 20px;
+    margin: 20px;
 `;
 
 export const LogoIcon = styled.img`
@@ -22,12 +22,13 @@ export const NavSection = styled.ul`
     justify-content: center;
     list-style-type: none;
     margin: 0;
-    padding: 0 0 10px;
+    padding: 20px 0 10px;
 `;
 
 export const StyledNavLink = styled(NavLink)`
     color: ${({ theme }) => theme.color.white};
     text-decoration: none;
+    font-size: 17px;
 
     &.active {
         background-image: url(${flameImage});
