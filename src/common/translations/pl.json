@@ -1,12 +1,7 @@
 {
     "content": {
-        "buttonGradientOn": "Włącz gradient",
-        "buttonLangToggle": "ENG PL",
-        "headerLogoAlt": "logo Diablo 2",
-        "headerTitle": "Runy & słowa runiczne",
-        "navTitle": "Spis treści:",
-        "navRunes": "Runy",
-        "navRunewords": "Słowa runiczne",
+        "navRunes": "RUNY",
+        "navRunewords": "SŁOWA RUNICZNE",
         "navRunewordsList": {
             "spiritSword": "Duch (wersja w mieczu)",
             "spiritShield": "Duch (wersja w tarczy)",
@@ -17,7 +12,6 @@
             "callToArms": "Wezwanie do broni",
             "lore": "Wiedza"
         },
-        "runesTitle": "Runy",
         "runesDescription": "Runy to kamienie, dzięki którym można wzmacniać posiadane przez nas przedmioty zawierające gniazda na klejnoty. Dodają one różne właściwości, w zależności od rodzaju przedmiotu. Włożone w odpowiedniej kolejności tworzą słowo runiczne, które nadaje przedmiotom nowe właściwości.",
         "runesTable": {
             "header1": "Runa",

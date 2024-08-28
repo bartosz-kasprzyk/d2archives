@@ -1,12 +1,7 @@
 {
     "content": {
-        "buttonGradientOn": "Enable gradient",
-        "buttonLangToggle": "PL ENG",
-        "headerLogoAlt": "Diablo 2 logo",
-        "headerTitle": "Runes & Runewords",
-        "navTitle": "Contents:",
-        "navRunes": "Runes",
-        "navRunewords": "Runewords",
+        "navRunes": "RUNES",
+        "navRunewords": "RUNEWORDS",
         "navRunewordsList": {
             "spiritSword": "Spirit (Sword)",
             "spiritShield": "Spirit (Shield)",
