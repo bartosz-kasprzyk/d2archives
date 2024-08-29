@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
-import { StyledText } from './styled';
+import { RunewordButton, StyledNavigation, StyledText } from './styled';
 
 const RunewordList = () => {
     const content = useLoadContent();
+    const rowRefs = useRef({});
+
+    const [highlightedRow, setHighlightedRow] = useState(null);
+
+    const scrollToRuneword = (runeword) => {
+        if (rowRefs.current[runeword]) {
+            const targetRow = rowRefs.current[runeword];
+            targetRow.scrollIntoView({ behavior: 'smooth' });
+
+            setHighlightedRow(runeword);
+
+            setTimeout(() => {
+                setHighlightedRow(null);
+            }, 1000);
+        }
+    };
 
     if (!content) {
         return <div>Loading...</div>;
@@ -38,6 +54,17 @@ const RunewordList = () => {
                 Doświadczeni gracze bardzo długo poszukują odpowiednich przedmiotów oraz run aby ostatecznie stworzyć wymarzony przedmiot.
                 Oto kilka najbardziej popularnych słów runicznych:
             </StyledText>
+            <StyledNavigation>
+                {runewords.map((runeword) => (
+                    <ul key={runeword[0]}>
+                        <li>
+                            <RunewordButton onClick={() => scrollToRuneword(runeword[0])}>
+                                {runeword[0]}
+                            </RunewordButton>
+                        </li>
+                    </ul>
+                ))}
+            </StyledNavigation>
             <TableWrapper>
                 <StyledTable>
                     <thead>
@@ -50,7 +77,12 @@ const RunewordList = () => {
                     </thead>
                     <tbody>
                         {runewords.map((runeword, index) => (
-                            <TableRow key={index} $index={index + 1}>
+                            <TableRow
+                                key={index}
+                                $index={index + 1}
+                                ref={el => rowRefs.current[runeword[0]] = el}
+                                $highlight={highlightedRow === runeword[0]}
+                            >
                                 <RowHeader>{runeword[0]}</RowHeader>
                                 <TableCell>{formatText(runeword[1])}</TableCell>
                                 <TableCell>{formatText(runeword[2])}</TableCell>
@@ -62,8 +94,8 @@ const RunewordList = () => {
                     </tbody>
                 </StyledTable>
             </TableWrapper>
-        </Container >
-    )
+        </Container>
+    );
 };
 
 export default RunewordList;
