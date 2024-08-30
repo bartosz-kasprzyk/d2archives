@@ -12,6 +12,7 @@ export const StyledNavigation = styled.div`
     box-shadow: 5px 5px 9px -3px #DF9C0C;
     max-width: 350px;
     padding: 0px 10px;
+    font-family: 'AvQest', sans-serif;
 `
 
 export const RunewordButton = styled.button`
