@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/d2runes-react/static/css/main.e6c13ad2.css",
-    "main.js": "/d2runes-react/static/js/main.1082054f.js",
-    "static/js/366.e35e2c84.chunk.js": "/d2runes-react/static/js/366.e35e2c84.chunk.js",
-    "static/js/874.a8333709.chunk.js": "/d2runes-react/static/js/874.a8333709.chunk.js",
+    "main.css": "/d2runes-react/static/css/main.41b9ea04.css",
+    "main.js": "/d2runes-react/static/js/main.9ce6aaf5.js",
+    "static/js/366.b85d2c5e.chunk.js": "/d2runes-react/static/js/366.b85d2c5e.chunk.js",
+    "static/js/874.44906033.chunk.js": "/d2runes-react/static/js/874.44906033.chunk.js",
     "static/js/453.883885ad.chunk.js": "/d2runes-react/static/js/453.883885ad.chunk.js",
     "static/media/d2r.gif": "/d2runes-react/static/media/d2r.5eb32a5f7afd9b08171f.gif",
+    "static/media/AvQest.svg": "/d2runes-react/static/media/AvQest.01692606c7fcddd9302a.svg",
     "static/media/flame.gif": "/d2runes-react/static/media/flame.985a8f510b8b7ecfb402.gif",
+    "static/media/AvQest.eot": "/d2runes-react/static/media/AvQest.46804f0a8e867ef5d5a0.eot",
+    "static/media/AvQest.ttf": "/d2runes-react/static/media/AvQest.84ca67df0ced0ad04f45.ttf",
+    "static/media/AvQest.woff": "/d2runes-react/static/media/AvQest.666ff4d8f705153b8a13.woff",
+    "static/media/AvQest.woff2": "/d2runes-react/static/media/AvQest.96953f39bf8399da3661.woff2",
     "static/media/eng.svg": "/d2runes-react/static/media/eng.28e709e9735e4fa91d556604fe4d090f.svg",
     "index.html": "/d2runes-react/index.html",
     "static/media/pl.svg": "/d2runes-react/static/media/pl.4da5f094c814970e3a2878f68eb33c40.svg",
-    "main.e6c13ad2.css.map": "/d2runes-react/static/css/main.e6c13ad2.css.map",
-    "main.1082054f.js.map": "/d2runes-react/static/js/main.1082054f.js.map",
+    "main.41b9ea04.css.map": "/d2runes-react/static/css/main.41b9ea04.css.map",
+    "main.9ce6aaf5.js.map": "/d2runes-react/static/js/main.9ce6aaf5.js.map",
     "453.883885ad.chunk.js.map": "/d2runes-react/static/js/453.883885ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.1082054f.js"
+    "static/css/main.41b9ea04.css",
+    "static/js/main.9ce6aaf5.js"
   ]
 }
