@@ -43,16 +43,7 @@ const RunewordList = () => {
     return (
         <Container>
             <StyledText>
-                <strong>Slowa runiczne</strong> [ang. <i>Rune Words</i>] sa kombinacja kilku roznych run, ktore maja
-                na celu stworzenie poteznej broni badz uzbrojenia.
-                Odpowiednia kolejnosc run w przedmiotach z gniazdami pozwala otrzymac nie tylko podstawowe atrybuty run, ale rowniez bonusowe, ktore zwiekszaja moc
-                przedmiotu.
-                Wiekszosc najwazniejszych broni czy uzbrojenia w grze pochodzi ze slow runicznych.
-                Wiele z nich jest bardzo ciezko zdobyc z powodu bardzo rzadkiego wystepowania run na wysokich poziomach.
-                Poza runami trzeba rowniez znalezc odpowiedni przedmiot.
-                Nalezy wspomniec, ze slowa runiczne zadajace wysokie obrazenia najlepiej laczyc z przedmiotami, ktore maja rowniez wysoki podstawowy wspolczynnik ataku.
-                Doswiadczeni gracze bardzo dlugo poszukuja odpowiednich przedmiotow oraz run aby ostatecznie stworzyc wymarzony przedmiot.
-                Oto kilka najbardziej popularnych slow runicznych:
+                {content.content.runewordsDescription}
             </StyledText>
             <StyledNavigation>
                 {runewords.map((runeword) => (
