@@ -43,16 +43,16 @@ const RunewordList = () => {
     return (
         <Container>
             <StyledText>
-                <strong>Słowa runiczne</strong> [ang. <i>Rune Words</i>] są kombinacją kilku różnych run, które mają
-                na celu stworzenie potężnej broni bądź uzbrojenia.
-                Odpowiednia kolejność run w przedmiotach z gniazdami pozwala otrzymać nie tylko podstawowe atrybuty run, ale również bonusowe, które zwiększają moc
+                <strong>Slowa runiczne</strong> [ang. <i>Rune Words</i>] sa kombinacja kilku roznych run, ktore maja
+                na celu stworzenie poteznej broni badz uzbrojenia.
+                Odpowiednia kolejnosc run w przedmiotach z gniazdami pozwala otrzymac nie tylko podstawowe atrybuty run, ale rowniez bonusowe, ktore zwiekszaja moc
                 przedmiotu.
-                Większość najważniejszych broni czy uzbrojenia w grze pochodzi ze słów runicznych.
-                Wiele z nich jest bardzo ciężko zdobyć z powodu bardzo rzadkiego występowania run na wysokich poziomach.
-                Poza runami trzeba również znaleźć odpowiedni przedmiot.
-                Należy wspomnieć, że słowa runiczne zadające wysokie obrażenia najlepiej łączyć z przedmiotami, które mają również wysoki podstawowy współczynnik ataku.
-                Doświadczeni gracze bardzo długo poszukują odpowiednich przedmiotów oraz run aby ostatecznie stworzyć wymarzony przedmiot.
-                Oto kilka najbardziej popularnych słów runicznych:
+                Wiekszosc najwazniejszych broni czy uzbrojenia w grze pochodzi ze slow runicznych.
+                Wiele z nich jest bardzo ciezko zdobyc z powodu bardzo rzadkiego wystepowania run na wysokich poziomach.
+                Poza runami trzeba rowniez znalezc odpowiedni przedmiot.
+                Nalezy wspomniec, ze slowa runiczne zadajace wysokie obrazenia najlepiej laczyc z przedmiotami, ktore maja rowniez wysoki podstawowy wspolczynnik ataku.
+                Doswiadczeni gracze bardzo dlugo poszukuja odpowiednich przedmiotow oraz run aby ostatecznie stworzyc wymarzony przedmiot.
+                Oto kilka najbardziej popularnych slow runicznych:
             </StyledText>
             <StyledNavigation>
                 {runewords.map((runeword) => (
