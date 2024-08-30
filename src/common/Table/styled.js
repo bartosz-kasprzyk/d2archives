@@ -9,6 +9,7 @@ export const TableWrapper = styled.div`
 export const StyledTable = styled.table`
     border-collapse: collapse;
     margin: 20px 0 100px;
+    width: 100%;
 `;
 
 export const TableCell = styled.th`
@@ -37,6 +38,7 @@ export const TableRow = styled.tr`
     background-color: ${({ $index }) => ($index % 2 === 0 ? '#141313' : '#201f1f')};
     transition: background-color 1s ease;
     font-family: 'AvQest', sans-serif;
+    font-size: 17px;
 
     ${props => props.$highlight && `
         background-color: #93632A;
