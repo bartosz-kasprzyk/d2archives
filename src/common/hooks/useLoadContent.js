@@ -7,7 +7,7 @@ const useLoadContent = () => {
 
     useEffect(() => {
         const searchParams = new URLSearchParams(location.search);
-        const lang = searchParams.get('lang') || 'eng';
+        const lang = searchParams.get('lang') || 'en';
 
         const loadContent = async () => {
             try {
@@ -15,7 +15,7 @@ const useLoadContent = () => {
                 if (lang === 'pl') {
                     contentModule = await import('../translations/pl.json');
                 } else {
-                    contentModule = await import('../translations/eng.json');
+                    contentModule = await import('../translations/en.json');
                 }
                 setContent(contentModule);
             } catch (error) {

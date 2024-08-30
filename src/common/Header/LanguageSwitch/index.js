@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import plFlag from '../../../images/pl.svg';
-import engFlag from '../../../images/eng.svg';
+import enFlag from '../../../images/en.svg';
 import { ButtonSection, StyledButton } from './styled';
 
 const LanguageSwitch = () => {
     const location = useLocation();
     const navigate = useNavigate();
-    const [currentLang, setCurrentLang] = useState(() => new URLSearchParams(location.search).get('lang') || 'eng');
+    const [currentLang, setCurrentLang] = useState(() => new URLSearchParams(location.search).get('lang') || 'en');
 
     const setLanguage = (lang) => {
         setCurrentLang(lang);
@@ -24,10 +24,14 @@ const LanguageSwitch = () => {
         }
     }, [currentLang, location, navigate]);
 
+    useEffect(() => {
+        document.documentElement.lang = currentLang;
+    }, [currentLang]);
+
     return (
         <ButtonSection>
             <StyledButton onClick={() => setLanguage('pl')} $flag={plFlag} />
-            <StyledButton onClick={() => setLanguage('eng')} $flag={engFlag} />
+            <StyledButton onClick={() => setLanguage('en')} $flag={enFlag} />
         </ButtonSection>
     );
 };
