@@ -15,7 +15,10 @@ const RuneList = () => {
     const scrollToRune = (runeName) => {
         if (rowRefs.current[runeName]) {
             const targetRow = rowRefs.current[runeName];
-            targetRow.scrollIntoView({ behavior: 'smooth' });
+            targetRow.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
 
             setHighlightedRow(runeName);
 

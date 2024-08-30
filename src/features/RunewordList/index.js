@@ -13,7 +13,10 @@ const RunewordList = () => {
     const scrollToRuneword = (runeword) => {
         if (rowRefs.current[runeword]) {
             const targetRow = rowRefs.current[runeword];
-            targetRow.scrollIntoView({ behavior: 'smooth' });
+            targetRow.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center'
+            });
 
             setHighlightedRow(runeword);
 
