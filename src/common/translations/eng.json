@@ -223,13 +223,13 @@
             "header3": "Runes",
             "header4": "Effect",
             "runeword1": [
-                "Spirit (Sword Version)",
+                "Spirit\n(Sword Version)",
                 "Sword\n(4 sockets)",
                 "Tal + Thul + Ort + Amn",
                 "+2 to All Skills\n25-35% Faster Cast Rate\n55% Faster Hit Recovery\n1-50 Lightning Damage\n3-14 Cold Damage\n75 Poison Damage over 5 Seconds\n7% Life Stolen Per Hit\n+250 Defense vs. Missiles\n+22 to Vitality\n89-112 Mana\n3-8% Magic Absorb"
             ],
             "runeword2": [
-                "Spirit (Shield Version)",
+                "Spirit\n(Shield Version)",
                 "Shield\n(4 sockets)",
                 "Tal + Thul + Ort + Amn",
                 "+2 to All Skills\n25-35% Faster Cast Rate\n55% Faster Hit Recovery\n+250 Defense vs. Missiles\n+22 to Vitality\n89-112 Mana\n3-8% Magic Absorb\n+35% Cold Resistance\n+35% Lightning Resistance\n+35% Poison Resistance\nAttacker Takes Damage of 14"

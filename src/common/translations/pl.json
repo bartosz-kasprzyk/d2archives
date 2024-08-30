@@ -223,13 +223,13 @@
             "header3": "Runy",
             "header4": "Efekt",
             "runeword1": [
-                "Duch (wersja w mieczu)",
+                "Duch\n(wersja w mieczu)",
                 "Miecz\n(4 gniazda)",
                 "Tal + Thul + Ort + Amn",
                 "+2 do wszystkich umiejętności\n25-35% szybsze rzucanie czarów\n55% szybsze odzyskiwanie równowagi\n1-50 obrażeń od błyskawic\n3-14 obrażenia od zimna\n75 obrażeń od trucizny przez 5 sekund\n7% punkty zdrowia wykradzione za każde trafienie\n+250 obrona przeciwko pociskom\n+22 do żywotności\n89-122 punktów many\n3-8% absorpcja magii"
             ],
             "runeword2": [
-                "Duch (wersja w tarczy)",
+                "Duch\n(wersja w tarczy)",
                 "Tarcza\n(4 gniazda)",
                 "Tal + Thul + Ort + Amn",
                 "+2 do wszystkich umiejętności\n25-35% szybsze rzucanie czarów\n55% szybsze odzyskiwanie równowagi\n+250 obrona przeciwko pociskom\n+22 do żywotności\n89-122 punktów many\n3-8% absorpcja magii\n+35% odporności na zimno\n+35% odporności na błyskawice\n+35% odporności na truciznę\natakujący otrzymuje 14 obrażeń"

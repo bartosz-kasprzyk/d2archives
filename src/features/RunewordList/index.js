@@ -83,7 +83,7 @@ const RunewordList = () => {
                                 ref={el => rowRefs.current[runeword[0]] = el}
                                 $highlight={highlightedRow === runeword[0]}
                             >
-                                <RowHeader>{runeword[0]}</RowHeader>
+                                <RowHeader>{formatText(runeword[0])}</RowHeader>
                                 <TableCell>{formatText(runeword[1])}</TableCell>
                                 <TableCell>{formatText(runeword[2])}</TableCell>
                                 <TableCell>
