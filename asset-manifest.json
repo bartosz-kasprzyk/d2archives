@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/d2runes-react/static/css/main.41b9ea04.css",
-    "main.js": "/d2runes-react/static/js/main.9ce6aaf5.js",
-    "static/js/366.b85d2c5e.chunk.js": "/d2runes-react/static/js/366.b85d2c5e.chunk.js",
-    "static/js/874.44906033.chunk.js": "/d2runes-react/static/js/874.44906033.chunk.js",
+    "main.js": "/d2runes-react/static/js/main.869d1f57.js",
+    "static/js/366.79ee609b.chunk.js": "/d2runes-react/static/js/366.79ee609b.chunk.js",
+    "static/js/874.7cc02991.chunk.js": "/d2runes-react/static/js/874.7cc02991.chunk.js",
     "static/js/453.883885ad.chunk.js": "/d2runes-react/static/js/453.883885ad.chunk.js",
     "static/media/d2r.gif": "/d2runes-react/static/media/d2r.5eb32a5f7afd9b08171f.gif",
     "static/media/AvQest.svg": "/d2runes-react/static/media/AvQest.01692606c7fcddd9302a.svg",
@@ -16,11 +16,11 @@
     "index.html": "/d2runes-react/index.html",
     "static/media/pl.svg": "/d2runes-react/static/media/pl.4da5f094c814970e3a2878f68eb33c40.svg",
     "main.41b9ea04.css.map": "/d2runes-react/static/css/main.41b9ea04.css.map",
-    "main.9ce6aaf5.js.map": "/d2runes-react/static/js/main.9ce6aaf5.js.map",
+    "main.869d1f57.js.map": "/d2runes-react/static/js/main.869d1f57.js.map",
     "453.883885ad.chunk.js.map": "/d2runes-react/static/js/453.883885ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41b9ea04.css",
-    "static/js/main.9ce6aaf5.js"
+    "static/js/main.869d1f57.js"
   ]
 }
