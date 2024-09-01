@@ -19,24 +19,20 @@ export const NavSection = styled.ul`
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 16px;
-    justify-content: center;
+    justify-items: center;
     list-style-type: none;
     margin: 0;
     padding: 20px 0 10px;
 `;
 
 export const StyledNavLink = styled(NavLink)`
-    color: ${({ theme }) => theme.color.white};
-    text-decoration: none;
-    font-size: 20px;
-    font-family: 'AvQest', sans-serif;
 
     &.active {
         background-image: url(${flameImage});
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: 110% 12px;
-        padding-bottom: 10px;
+        background-size: 110% 20px;
+        padding-bottom: 15px;
         display: inline-block;
     }
 `;
