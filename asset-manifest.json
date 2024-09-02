@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/d2runes-react/static/css/main.41b9ea04.css",
-    "main.js": "/d2runes-react/static/js/main.8c34d560.js",
-    "static/js/366.59f549ea.chunk.js": "/d2runes-react/static/js/366.59f549ea.chunk.js",
-    "static/js/817.67af2679.chunk.js": "/d2runes-react/static/js/817.67af2679.chunk.js",
+    "main.js": "/d2runes-react/static/js/main.3d7a7572.js",
+    "static/js/366.3501f083.chunk.js": "/d2runes-react/static/js/366.3501f083.chunk.js",
+    "static/js/817.0ed6675c.chunk.js": "/d2runes-react/static/js/817.0ed6675c.chunk.js",
     "static/js/453.883885ad.chunk.js": "/d2runes-react/static/js/453.883885ad.chunk.js",
     "static/media/d2r.gif": "/d2runes-react/static/media/d2r.5eb32a5f7afd9b08171f.gif",
     "static/media/AvQest.svg": "/d2runes-react/static/media/AvQest.01692606c7fcddd9302a.svg",
@@ -12,15 +12,24 @@
     "static/media/AvQest.ttf": "/d2runes-react/static/media/AvQest.84ca67df0ced0ad04f45.ttf",
     "static/media/AvQest.woff": "/d2runes-react/static/media/AvQest.666ff4d8f705153b8a13.woff",
     "static/media/AvQest.woff2": "/d2runes-react/static/media/AvQest.96953f39bf8399da3661.woff2",
+    "static/media/bgtile_b.webp": "/d2runes-react/static/media/bgtile_b.3c5aa480a3ef63fc5bc1.webp",
     "static/media/en.svg": "/d2runes-react/static/media/en.28e709e9735e4fa91d556604fe4d090f.svg",
     "index.html": "/d2runes-react/index.html",
+    "static/media/tt_bl_tiny_i_m_bb.webp": "/d2runes-react/static/media/tt_bl_tiny_i_m_bb.f3b784dc5e220d4d45b9.webp",
+    "static/media/tt_br_tiny_i_m_bb.webp": "/d2runes-react/static/media/tt_br_tiny_i_m_bb.30df33f706e3cceb5d4d.webp",
+    "static/media/tt_tr_tiny_i_m_bb.webp": "/d2runes-react/static/media/tt_tr_tiny_i_m_bb.548ff05320d163be9566.webp",
+    "static/media/tt_tl_tiny_i_m_bb.webp": "/d2runes-react/static/media/tt_tl_tiny_i_m_bb.2d8b7fbb8564b77f6ebb.webp",
     "static/media/pl.svg": "/d2runes-react/static/media/pl.4da5f094c814970e3a2878f68eb33c40.svg",
+    "static/media/tt_border_l_tiny_i.webp": "/d2runes-react/static/media/tt_border_l_tiny_i.87966edf7bad9b960430.webp",
+    "static/media/tt_border_r_tiny_i.webp": "/d2runes-react/static/media/tt_border_r_tiny_i.87966edf7bad9b960430.webp",
+    "static/media/tt_border_b_tiny_i.webp": "/d2runes-react/static/media/tt_border_b_tiny_i.15bc793b5736cf6b3df6.webp",
+    "static/media/tt_border_t_tiny_i.webp": "/d2runes-react/static/media/tt_border_t_tiny_i.b98ce4df90bfb72eab63.webp",
     "main.41b9ea04.css.map": "/d2runes-react/static/css/main.41b9ea04.css.map",
-    "main.8c34d560.js.map": "/d2runes-react/static/js/main.8c34d560.js.map",
+    "main.3d7a7572.js.map": "/d2runes-react/static/js/main.3d7a7572.js.map",
     "453.883885ad.chunk.js.map": "/d2runes-react/static/js/453.883885ad.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41b9ea04.css",
-    "static/js/main.8c34d560.js"
+    "static/js/main.3d7a7572.js"
   ]
 }
