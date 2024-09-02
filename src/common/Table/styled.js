@@ -19,6 +19,10 @@ export const TableCell = styled.th`
     color: #dddddd;
 `;
 
+export const TableCellBlue = styled(TableCell)`
+    color: #4f53c5;
+`;
+
 export const ColumnHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
@@ -39,9 +43,18 @@ export const TableRow = styled.tr`
     transition: background-color 1s ease;
     font-family: 'AvQest', sans-serif;
     font-size: 17px;
+    position: relative;
+    z-index: 0;
 
     ${props => props.$highlight && `
         background-color: #93632A;
+    `}
+
+    ${props => props.$new && `
+        border: 2px solid green;
+        box-shadow: 0 0 10px green;
+        overflow: hidden;
+        z-index: 1;
     `}
     
     &:hover {

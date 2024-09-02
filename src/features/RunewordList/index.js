@@ -1,8 +1,8 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledNavigation, StyledText } from './styled';
+import { RunewordButton, StyledNavigation, StyledText, ValueBox } from './styled';
 
 const RunewordList = () => {
     const content = useLoadContent();
@@ -34,13 +34,49 @@ const RunewordList = () => {
         .filter(key => key.startsWith('runeword'))
         .map(key => content.content.runewordsTable[key]);
 
+    const runewordsNEW = Object.keys(content.content.runewordsTable)
+        .filter(key => key.startsWith('runewordNEW'))
+        .map(key => content.content.runewordsTable[key]);
+
+    console.log("New Runewords:", runewordsNEW.map(rw => rw[0]));
+
     const formatText = (text) => {
-        return text.split('\n').map((part, index) => (
-            <React.Fragment key={index}>
-                {part}
-                <br />
-            </React.Fragment>
-        ));
+        const regex = /\(\d+-\d+\)/g;
+        const lines = text.split('\n');
+
+        return lines.map((line, lineIndex) => {
+            const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|\(\d+-\d+\))/g);
+
+            return (
+                <React.Fragment key={lineIndex}>
+                    {parts.map((part, partIndex) => {
+                        if (part === "*ew*") {
+                            return (
+                                <span key={partIndex} style={{ color: 'green', fontWeight: 'bold', margin: '0 0.5em' }}>
+                                    {part}
+                                </span>
+                            );
+                        } else if (part === "(Weapon Version)" || part === "(Shield Version)" || part === "(Armor Version)" || part === "(Sword Version)") {
+                            return (
+                                <span key={partIndex} style={{ color: 'grey', fontStyle: 'italic', margin: '0 0.5em' }}>
+                                    {part}
+                                </span>
+                            );
+                        } else if (regex.test(part)) {
+                            return (
+                                <ValueBox key={partIndex}>
+                                    {part}
+                                </ValueBox>
+                            );
+                        } else {
+                            return part;
+                        }
+                    })
+                    }
+                    <br />
+                </React.Fragment >
+            );
+        });
     };
 
     return (
@@ -53,12 +89,15 @@ const RunewordList = () => {
                     <ul key={runeword[0]}>
                         <li>
                             <RunewordButton onClick={() => scrollToRuneword(runeword[0])}>
-                                {runeword[0]}
+                                {formatText(runeword[0])}
                             </RunewordButton>
                         </li>
                     </ul>
                 ))}
             </StyledNavigation>
+            <StyledText>
+                {formatText(content.content.runewordsPSA)}
+            </StyledText>
             <TableWrapper>
                 <StyledTable>
                     <thead>
@@ -76,13 +115,14 @@ const RunewordList = () => {
                                 $index={index + 1}
                                 ref={el => rowRefs.current[runeword[0]] = el}
                                 $highlight={highlightedRow === runeword[0]}
+                                $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
                                 <RowHeader>{formatText(runeword[0])}</RowHeader>
                                 <TableCell>{formatText(runeword[1])}</TableCell>
                                 <TableCell>{formatText(runeword[2])}</TableCell>
-                                <TableCell>
+                                <TableCellBlue>
                                     {formatText(runeword[3])}
-                                </TableCell>
+                                </TableCellBlue>
                             </TableRow>
                         ))}
                     </tbody>
