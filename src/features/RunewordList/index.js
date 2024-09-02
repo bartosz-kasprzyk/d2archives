@@ -41,16 +41,16 @@ const RunewordList = () => {
     console.log("New Runewords:", runewordsNEW.map(rw => rw[0]));
 
     const formatText = (text) => {
-        const regex = /\(\d+-\d+\)/g;
+        const regex = /(?<!Adds\s)\b\d+-\d+\b/g;
         const lines = text.split('\n');
 
         return lines.map((line, lineIndex) => {
-            const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|\(\d+-\d+\))/g);
+            const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b)/g);
 
             return (
                 <React.Fragment key={lineIndex}>
                     {parts.map((part, partIndex) => {
-                        if (part === "*ew*") {
+                        if (part === "*New*") {
                             return (
                                 <span key={partIndex} style={{ color: 'green', fontWeight: 'bold', margin: '0 0.5em' }}>
                                     {part}
