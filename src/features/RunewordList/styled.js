@@ -42,7 +42,8 @@ export const RunewordButton = styled.button`
 `
 
 export const ValueBox = styled.span`
-    padding: 2px;
+    color: green;
+    padding: 3px 8px 1px;
     background: 
         url(${TopLeft}) top left no-repeat,
         url(${TopRight}) top right no-repeat,
