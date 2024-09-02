@@ -380,7 +380,7 @@
                 "Flickering Flame\n*New*",
                 "Axes & Hammers\n(3 sockets)",
                 "Nef + Pul + Vex",
-                "Level 4-8 Resist Fire Aura When Equipped\n+3 To Fire Skills\n-(10-15)% To Enemy Fire Resistance\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 To Mana\nHalf Freeze Duration\n+5% To Maximum Fire Resist\nPoison Length Reduced by 50%"
+                "Level 4-8 Resist Fire Aura When Equipped\n+3 To Fire Skills\n-10-15% To Enemy Fire Resistance\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 To Mana\nHalf Freeze Duration\n+5% To Maximum Fire Resist\nPoison Length Reduced by 50%"
             ],
             "runeword29": [
                 "Fortitude",
@@ -464,7 +464,7 @@
                 "Infinity",
                 "Polearms\n(4 sockets)",
                 "Ber  + Mal  + Ber  + Ist",
-                "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+255-325% Enhanced Damage (varies)\n-(45-55)% To Enemy Lightning Resistance (varies)\n40% Chance of Crushing Blow\nPrevent Monster Heal\n+(0.5*Clvl) To Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)"
+                "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+255-325% Enhanced Damage (varies)\n-45-55% To Enemy Lightning Resistance (varies)\n40% Chance of Crushing Blow\nPrevent Monster Heal\n+(0.5*Clvl) To Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)"
             ],
             "runeword43": [
                 "Insight",
