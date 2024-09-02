@@ -14,13 +14,13 @@ export const StyledText = styled.p`
 `
 
 export const StyledNavigation = styled.div`
-    border: 2px solid #000000;
-    border-radius: 10%;
-    max-width: 350px;
-    padding: 0px 10px;
-    box-shadow: 5px 5px 9px -3px #DF9C0C;
-    max-width: 350px;
-    padding: 0px 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(19, 20px);
+    grid-auto-flow: column;
+    grid-column-gap: 50px;
+    padding: 0;
+    margin-bottom: 40px;
     font-family: 'AvQest', sans-serif;
 `
 
