@@ -3,16 +3,6 @@
         "lang": "pl",
         "navRunes": "RUNY",
         "navRunewords": "SLOWA RUNICZNE",
-        "navRunewordsList": {
-            "spiritSword": "Duch (wersja w mieczu)",
-            "spiritShield": "Duch (wersja w tarczy)",
-            "enigma": "Enigma",
-            "infinity": "Nieskonczonosc",
-            "insight": "Olsnienie",
-            "stealth": "Skradanie sie",
-            "callToArms": "Wezwanie do broni",
-            "lore": "Wiedza"
-        },
         "runesDescription": "Runy to kamienie, dzięki którym można wzmacniać posiadane przez nas przedmioty zawierające gniazda na klejnoty. Dodają one różne właściwości, w zależności od rodzaju przedmiotu. Włożone w odpowiedniej kolejności tworzą słowo runiczne, które nadaje przedmiotom nowe właściwości.",
         "runesTable": {
             "header1": "Runa",
