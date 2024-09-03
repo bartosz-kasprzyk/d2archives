@@ -23,19 +23,23 @@ export const TableCellBlue = styled(TableCell)`
     color: #4f53c5;
 `;
 
+export const TableCellGold = styled(TableCell)`
+    color: #ca8120;
+`;
+
 export const ColumnHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #df9c0c;
-    background: #0c0c0c;
+    color: #885C02;
+    background: #0F0F0F;
 `;
 
 export const RowHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #df9c0c;
+    color: #86735a;
 `;
 
 export const TableRow = styled.tr`

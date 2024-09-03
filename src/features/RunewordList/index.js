@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue, TableCellGold } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
 import { RunewordButton, StyledNavigation, StyledText, ValueBox } from './styled';
@@ -119,7 +119,7 @@ const RunewordList = () => {
                             >
                                 <RowHeader>{formatText(runeword[0])}</RowHeader>
                                 <TableCell>{formatText(runeword[1])}</TableCell>
-                                <TableCell>{formatText(runeword[2])}</TableCell>
+                                <TableCellGold>{formatText(runeword[2])}</TableCellGold>
                                 <TableCellBlue>
                                     {formatText(runeword[3])}
                                 </TableCellBlue>

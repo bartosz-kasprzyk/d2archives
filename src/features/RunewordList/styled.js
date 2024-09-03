@@ -25,7 +25,7 @@ export const StyledNavigation = styled.div`
 `
 
 export const RunewordButton = styled.button`
-    color: #df9c0c;
+    color: #86735a;
     background: none;
     border: none;
     padding: 0;
@@ -42,7 +42,7 @@ export const RunewordButton = styled.button`
 `
 
 export const ValueBox = styled.span`
-    color: green;
+    color: #8470ff;
     padding: 3px 8px 1px;
     background: 
         url(${TopLeft}) top left no-repeat,
