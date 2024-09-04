@@ -24,6 +24,24 @@ export const StyledNavigation = styled.div`
     font-family: 'AvQest', sans-serif;
 `
 
+export const StyledList = styled.ul`
+    list-style-type: none;
+    padding-left: 20px;
+
+    li {
+        position: relative;
+
+    &::before {
+        content: '◈';
+        color: #5D4A32;
+        font-size: 0.75em;
+        position: absolute;
+        left: -15px;
+        top: 1.1px;
+    }
+  }
+`
+
 export const RunewordButton = styled.button`
     color: #86735a;
     background: none;

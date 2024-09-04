@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue, TableCellGold } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledNavigation, StyledText, ValueBox } from './styled';
+import { RunewordButton, StyledList, StyledNavigation, StyledText, ValueBox } from './styled';
 
 const RunewordList = () => {
     const content = useLoadContent();
@@ -86,18 +86,15 @@ const RunewordList = () => {
             </StyledText>
             <StyledNavigation>
                 {runewords.map((runeword) => (
-                    <ul key={runeword[0]}>
+                    <StyledList key={runeword[0]}>
                         <li>
                             <RunewordButton onClick={() => scrollToRuneword(runeword[0])}>
                                 {formatText(runeword[0])}
                             </RunewordButton>
                         </li>
-                    </ul>
+                    </StyledList>
                 ))}
             </StyledNavigation>
-            <StyledText>
-                {formatText(content.content.runewordsPSA)}
-            </StyledText>
             <TableWrapper>
                 <StyledTable>
                     <thead>
