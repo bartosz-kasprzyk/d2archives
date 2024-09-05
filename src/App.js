@@ -3,6 +3,7 @@ import RuneList from './features/RuneList';
 import RunewordList from './features/RunewordList';
 import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
 import { toRunes, toRunewords } from './common/config/routes';
+import { ScrollToTopButton } from './common/ScrollToTopButton';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
 
         <Route path="/" element={<Navigate to={toRunes()} />} />
       </Routes>
+
+      <ScrollToTopButton />
     </HashRouter>
   )
 };
