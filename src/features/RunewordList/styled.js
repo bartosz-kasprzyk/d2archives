@@ -1,13 +1,13 @@
 import styled from "styled-components"
-import TopLeft from "../../images/ui/tt_tl_tiny_i_m_bb.webp"
-import TopRight from "../../images/ui/tt_tr_tiny_i_m_bb.webp"
-import BottomLeft from "../../images/ui/tt_bl_tiny_i_m_bb.webp"
-import BottomRight from "../../images/ui/tt_br_tiny_i_m_bb.webp"
-import TopLine from "../../images/ui/tt_border_t_tiny_i.webp"
-import BottomLine from "../../images/ui/tt_border_b_tiny_i.webp"
-import LeftLine from "../../images/ui/tt_border_l_tiny_i.webp"
-import RightLine from "../../images/ui/tt_border_r_tiny_i.webp"
-import Backdrop from "../../images/ui/bgtile_b.webp"
+import TopLeft from "../../images/ValueBox/box_top_left.webp"
+import TopRight from "../../images/ValueBox/box_top_right.webp"
+import BottomLeft from "../../images/ValueBox/box_bottom_left.webp"
+import BottomRight from "../../images/ValueBox/box_bottom_right.webp"
+import TopLine from "../../images/ValueBox/box_top.webp"
+import BottomLine from "../../images/ValueBox/box_bottom.webp"
+import LeftLine from "../../images/ValueBox/box_left.webp"
+import RightLine from "../../images/ValueBox/box_right.webp"
+import Backdrop from "../../images/ValueBox/box_background.webp"
 
 export const StyledText = styled.p`
     color: ${({ theme }) => theme.color.white};
