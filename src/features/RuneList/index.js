@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, StyledRune, BottomLine, TableWrapper } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
