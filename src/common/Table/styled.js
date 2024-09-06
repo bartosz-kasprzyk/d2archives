@@ -1,4 +1,13 @@
 import styled from "styled-components";
+import TopLeft from "../../images/ValueBox/box_top_left.webp"
+import TopRight from "../../images/ValueBox/box_top_right.webp"
+import BottomLeft from "../../images/ValueBox/box_bottom_left.webp"
+import BottomRight from "../../images/ValueBox/box_bottom_right.webp"
+import Top from "../../images/ValueBox/box_top.webp"
+import Bottom from "../../images/ValueBox/box_bottom.webp"
+import Left from "../../images/ValueBox/box_left.webp"
+import Right from "../../images/ValueBox/box_right.webp"
+import Backdrop from "../../images/ValueBox/box_background.webp"
 
 export const TableWrapper = styled.div`
     display: flex;
@@ -23,16 +32,13 @@ export const TableCellBlue = styled(TableCell)`
     color: #4f53c5;
 `;
 
-export const TableCellGold = styled(TableCell)`
-    color: #ca8120;
-`;
-
 export const ColumnHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
     color: #885C02;
     background: #0F0F0F;
+    font-size: 20px;
 `;
 
 export const RowHeader = styled.th`
@@ -76,4 +82,34 @@ export const BottomLine = styled.div`
     margin: 0;
     margin-top: 2px;
     padding-top: 5px;
+`;
+
+export const ValueBox = styled.span`
+    color: #8470ff;
+    padding: 3px 8px 1px;
+    background: 
+        url(${TopLeft}) top left no-repeat,
+        url(${TopRight}) top right no-repeat,
+        url(${BottomLeft}) bottom left no-repeat,
+        url(${BottomRight}) bottom right no-repeat,
+        url(${Top}) top repeat-x,
+        url(${Bottom}) bottom repeat-x,
+        url(${Left}) left repeat-y,
+        url(${Right}) right repeat-y,
+        url(${Backdrop}) center center repeat;
+`;
+
+export const InfoText = styled.span`
+    color: grey;
+    font-style: italic;
+`;
+
+export const NewItem = styled.span`
+    color: green;
+    font-weight: bold;
+    margin: 0 5px;
+`;
+
+export const RuneText = styled.span`
+    color: #ca8120;
 `;
