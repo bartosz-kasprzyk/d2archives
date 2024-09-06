@@ -3,11 +3,13 @@ import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
 import { RunewordButton, StyledList, StyledNavigation, StyledText, ValueBox } from './styled';
+import { Loading } from '../../common/Loading';
 
 const RunewordList = () => {
-    const content = useLoadContent();
-    const rowRefs = useRef({});
+    const state = useLoadContent();
+    const content = state.content;
 
+    const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
 
     const scrollToRuneword = (runeword) => {
@@ -27,7 +29,7 @@ const RunewordList = () => {
     };
 
     if (!content) {
-        return <div>Loading...</div>;
+        return <Loading />;
     }
 
     const runewords = Object.keys(content.content.runewordsTable)

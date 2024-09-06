@@ -4,11 +4,13 @@ import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneGridContainer, StyledText } from './styled';
 import { Container } from '../../common/Container';
+import { Loading } from '../../common/Loading';
 
 const RuneList = () => {
-    const content = useLoadContent();
-    const rowRefs = useRef({});
+    const state = useLoadContent();
+    const content = state.content;
 
+    const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
 
     const scrollToRune = (runeName) => {
@@ -28,7 +30,7 @@ const RuneList = () => {
     };
 
     if (!content) {
-        return <div>Loading...</div>;
+        return <Loading />;
     }
 
     const rows = Object.keys(content.content.runesTable)

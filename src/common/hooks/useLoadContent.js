@@ -3,7 +3,10 @@ import { useLocation } from 'react-router-dom';
 
 const useLoadContent = () => {
     const location = useLocation();
-    const [content, setContent] = useState(null);
+    const [state, setState] = useState({
+        status: 'loading',
+        content: null
+    });
 
     useEffect(() => {
         const searchParams = new URLSearchParams(location.search);
@@ -12,21 +15,33 @@ const useLoadContent = () => {
         const loadContent = async () => {
             try {
                 let contentModule;
+
                 if (lang === 'pl') {
                     contentModule = await import('../translations/pl.json');
                 } else {
                     contentModule = await import('../translations/en.json');
                 }
-                setContent(contentModule);
+
+                setTimeout(() => {
+                    setState({
+                        status: 'success',
+                        content: contentModule
+                    });
+                }, 800);
+
             } catch (error) {
                 console.error('Error loading language file:', error);
+                setState({
+                    status: 'error',
+                    content: null
+                });
             }
         };
 
         loadContent();
     }, [location.search]);
 
-    return content;
+    return state;
 };
 
 export default useLoadContent;
