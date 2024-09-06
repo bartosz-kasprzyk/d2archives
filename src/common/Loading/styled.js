@@ -7,5 +7,6 @@ export const LoadingWrapper = styled.div`
 
 export const StyledLoading = styled.img`
     width: 500px;
+    height: 400px;
     margin: 100px auto;
 `;
