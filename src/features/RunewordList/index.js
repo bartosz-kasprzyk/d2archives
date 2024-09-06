@@ -1,9 +1,10 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue, TableCellGold } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledList, StyledNavigation, StyledText, ValueBox } from './styled';
+import { RunewordButton, StyledList, StyledNavigation, StyledText } from './styled';
 import { Loading } from '../../common/Loading';
+import { formatText } from '../../common/config/formatText';
 
 const RunewordList = () => {
     const state = useLoadContent();
@@ -39,47 +40,6 @@ const RunewordList = () => {
     const runewordsNEW = Object.keys(content.content.runewordsTable)
         .filter(key => key.startsWith('runewordNEW'))
         .map(key => content.content.runewordsTable[key]);
-
-    console.log("New Runewords:", runewordsNEW.map(rw => rw[0]));
-
-    const formatText = (text) => {
-        const regex = /(?<!Adds\s)\b\d+-\d+\b/g;
-        const lines = text.split('\n');
-
-        return lines.map((line, lineIndex) => {
-            const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b)/g);
-
-            return (
-                <React.Fragment key={lineIndex}>
-                    {parts.map((part, partIndex) => {
-                        if (part === "*New*") {
-                            return (
-                                <span key={partIndex} style={{ color: 'green', fontWeight: 'bold', margin: '0 0.5em' }}>
-                                    {part}
-                                </span>
-                            );
-                        } else if (part === "(Weapon Version)" || part === "(Shield Version)" || part === "(Armor Version)" || part === "(Sword Version)") {
-                            return (
-                                <span key={partIndex} style={{ color: 'grey', fontStyle: 'italic', margin: '0 0.5em' }}>
-                                    {part}
-                                </span>
-                            );
-                        } else if (regex.test(part)) {
-                            return (
-                                <ValueBox key={partIndex}>
-                                    {part}
-                                </ValueBox>
-                            );
-                        } else {
-                            return part;
-                        }
-                    })
-                    }
-                    <br />
-                </React.Fragment >
-            );
-        });
-    };
 
     return (
         <Container>
@@ -118,7 +78,7 @@ const RunewordList = () => {
                             >
                                 <RowHeader>{formatText(runeword[0])}</RowHeader>
                                 <TableCell>{formatText(runeword[1])}</TableCell>
-                                <TableCellGold>{formatText(runeword[2])}</TableCellGold>
+                                <TableCell>{formatText(runeword[2])}</TableCell>
                                 <TableCellBlue>
                                     {formatText(runeword[3])}
                                 </TableCellBlue>

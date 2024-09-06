@@ -5,6 +5,7 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneGridContainer, StyledText } from './styled';
 import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
+import { formatText } from '../../common/config/formatText';
 
 const RuneList = () => {
     const state = useLoadContent();
@@ -37,15 +38,6 @@ const RuneList = () => {
         .filter(key => key.startsWith('row'))
         .map(key => content.content.runesTable[key]);
 
-    const formatText = (text) => {
-        return text.split('\n').map((part, index) => (
-            <React.Fragment key={index}>
-                {part}
-                <br />
-            </React.Fragment>
-        ));
-    };
-
     return (
         <Container>
             <StyledText>
@@ -75,7 +67,17 @@ const RuneList = () => {
                                     {formatText(row[0])}
                                     <StyledRune src={runeImages[row[0]]} alt={`${row[0]} Rune`} />
                                 </TableCell>
-                                <TableCell>{formatText(row[1])}</TableCell>
+                                <TableCell>
+                                    {row[0] === 'El' ? (
+                                        '-'
+                                    ) : (
+                                        <>
+                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
+                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
+                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
+                                        </>
+                                    )}
+                                </TableCell>
                                 <TableCell>
                                     {formatText(row[2])}
                                     <BottomLine>
