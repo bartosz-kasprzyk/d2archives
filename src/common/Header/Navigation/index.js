@@ -8,10 +8,11 @@ import RunewordsPagePl from "../../../images/SLOWA RUNICZNE.png"
 import useLoadContent from "../../hooks/useLoadContent";
 
 export const Navigation = () => {
-    const content = useLoadContent();
+    const state = useLoadContent();
+    const content = state.content;
 
     if (!content) {
-        return <div>Loading...</div>;
+        return;
     }
 
     return (
