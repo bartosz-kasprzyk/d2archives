@@ -72,7 +72,7 @@ export const TableRow = styled.tr`
     }
 `;
 
-export const StyledRune = styled.img`
+export const StyledImage = styled.img`
     width: 30px;
 `;
 

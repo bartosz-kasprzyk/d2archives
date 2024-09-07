@@ -1,11 +1,12 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, StyledRune, BottomLine, TableWrapper } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledImage } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneGridContainer, StyledText } from './styled';
 import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
+import gemImages from '../../common/config/gemImages';
 
 const RuneList = () => {
     const state = useLoadContent();
@@ -61,20 +62,52 @@ const RuneList = () => {
                     </thead>
                     <tbody>
                         {rows.map((row, index) => (
-                            <TableRow key={index} id={`rune-${row[0]}`} ref={el => rowRefs.current[row[0]] = el} $highlight={highlightedRow === row[0]} $index={index + 1}>
+                            <TableRow
+                                key={index}
+                                id={`rune-${row[0]}`}
+                                ref={el => rowRefs.current[row[0]] = el}
+                                $highlight={highlightedRow === row[0]}
+                                $index={index + 1}>
                                 <RowHeader>#{index + 1}</RowHeader>
                                 <TableCell>
                                     {formatText(row[0])}
-                                    <StyledRune src={runeImages[row[0]]} alt={`${row[0]} Rune`} />
+                                    <StyledImage
+                                        src={runeImages[row[0]]}
+                                        alt={`${row[0]} Rune`}
+                                        title={`${row[0]} Rune`}
+                                    />
                                 </TableCell>
                                 <TableCell>
                                     {row[0] === 'El' ? (
                                         '-'
                                     ) : (
                                         <>
-                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
-                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
-                                            <StyledRune src={runeImages[row[1]]} alt={`${row[1]} Rune`} />
+                                            <StyledImage
+                                                src={runeImages[row[1]]}
+                                                alt={`${row[1]} Rune`}
+                                                title={`${row[1]} Rune`}
+                                            />
+                                            <StyledImage
+                                                src={runeImages[row[1]]}
+                                                alt={`${row[1]} Rune`}
+                                                title={`${row[1]} Rune`}
+                                            />
+                                            {index < 21 && (
+                                                <StyledImage
+                                                    src={runeImages[row[1]]}
+                                                    alt={`${row[1]} Rune`}
+                                                    title={`${row[1]} Rune`}
+                                                />
+                                            )}
+                                            {index >= 10 && (
+                                                <>
+                                                    <StyledImage
+                                                        src={gemImages[index - 10].image}
+                                                        alt={gemImages[index - 10].name}
+                                                        title={gemImages[index - 10].name}
+                                                    />
+                                                </>
+                                            )}
                                         </>
                                     )}
                                 </TableCell>
