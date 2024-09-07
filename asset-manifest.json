@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/d2runes-react/static/css/main.41b9ea04.css",
-    "main.js": "/d2runes-react/static/js/main.5f20e40e.js",
+    "main.js": "/d2runes-react/static/js/main.e580e31e.js",
     "static/js/366.a5d5c037.chunk.js": "/d2runes-react/static/js/366.a5d5c037.chunk.js",
     "static/js/817.519cc7cb.chunk.js": "/d2runes-react/static/js/817.519cc7cb.chunk.js",
     "static/js/453.94dc50a4.chunk.js": "/d2runes-react/static/js/453.94dc50a4.chunk.js",
@@ -50,9 +50,20 @@
     "static/media/ko_rune.png": "/d2runes-react/static/media/ko_rune.e1ebbf296212452b1a96.png",
     "static/media/lo_rune.png": "/d2runes-react/static/media/lo_rune.c218a676acd0036f1b86.png",
     "static/media/fal_rune.png": "/d2runes-react/static/media/fal_rune.ff276bc2d45b239e6d34.png",
+    "static/media/flawless_emerald.png": "/d2runes-react/static/media/flawless_emerald.b60bdfaadb8cb7504591.png",
     "static/media/box_background.webp": "/d2runes-react/static/media/box_background.3c5aa480a3ef63fc5bc1.webp",
     "static/media/button_right.webp": "/d2runes-react/static/media/button_right.d9e7d43086808075ab94.webp",
+    "static/media/flawless_amethyst.png": "/d2runes-react/static/media/flawless_amethyst.3ec792e7a8e787384633.png",
+    "static/media/flawless_ruby.png": "/d2runes-react/static/media/flawless_ruby.6b61956d7c39df0aaa0f.png",
+    "static/media/flawless_topaz.png": "/d2runes-react/static/media/flawless_topaz.4bdd0b658aa10e113e70.png",
     "static/media/button_left.webp": "/d2runes-react/static/media/button_left.ba6eae1e51009952aa02.webp",
+    "static/media/flawless_sapphire.png": "/d2runes-react/static/media/flawless_sapphire.8446b80de4ade65e3fde.png",
+    "static/media/diamond.png": "/d2runes-react/static/media/diamond.40bd89d485f8536cbb18.png",
+    "static/media/flawed_amethyst.png": "/d2runes-react/static/media/flawed_amethyst.289ee71956c6a837c2d9.png",
+    "static/media/flawed_diamond.png": "/d2runes-react/static/media/flawed_diamond.fe9bd46abfeb86ba1910.png",
+    "static/media/chipped_diamond.png": "/d2runes-react/static/media/chipped_diamond.d601763bb8e856c41037.png",
+    "static/media/flawed_topaz.png": "/d2runes-react/static/media/flawed_topaz.9307bfb4036cd2455239.png",
+    "static/media/chipped_emerald.png": "/d2runes-react/static/media/chipped_emerald.e014d72f94c282d93488.png",
     "static/media/en.svg": "/d2runes-react/static/media/en.28e709e9735e4fa91d556604fe4d090f.svg",
     "index.html": "/d2runes-react/index.html",
     "static/media/box_bottom_left.webp": "/d2runes-react/static/media/box_bottom_left.f3b784dc5e220d4d45b9.webp",
@@ -65,11 +76,11 @@
     "static/media/box_bottom.webp": "/d2runes-react/static/media/box_bottom.15bc793b5736cf6b3df6.webp",
     "static/media/box_top.webp": "/d2runes-react/static/media/box_top.b98ce4df90bfb72eab63.webp",
     "main.41b9ea04.css.map": "/d2runes-react/static/css/main.41b9ea04.css.map",
-    "main.5f20e40e.js.map": "/d2runes-react/static/js/main.5f20e40e.js.map",
+    "main.e580e31e.js.map": "/d2runes-react/static/js/main.e580e31e.js.map",
     "453.94dc50a4.chunk.js.map": "/d2runes-react/static/js/453.94dc50a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41b9ea04.css",
-    "static/js/main.5f20e40e.js"
+    "static/js/main.e580e31e.js"
   ]
 }
