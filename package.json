@@ -2,7 +2,7 @@
   "name": "d2runes-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://bartosz-kasprzyk.github.io/d2runes-react/",
+  "homepage": "https://bartosz-kasprzyk.github.io/d2archives/",
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
     "@testing-library/jest-dom": "^5.17.0",
