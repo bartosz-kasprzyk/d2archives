@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import plFlag from '../../../images/pl.svg';
-import enFlag from '../../../images/en.svg';
+import plFlag from '../../../images/Languages/pl.svg';
+import enFlag from '../../../images/Languages/en.svg';
 import { ButtonSection, StyledButton } from './styled';
 
 const LanguageSwitch = () => {
