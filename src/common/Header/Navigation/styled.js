@@ -4,15 +4,28 @@ import { NavLink } from "react-router-dom";
 import flameImage from '../../../images/flame.gif'
 
 export const LogoWrapper = styled(Link)`
+    display: flex;
+    flex-direction: column; // Align items in a column
+    justify-content: center; // Center items vertically within the container
+    align-items: center;    // Center items horizontally within the container
+    gap: 20px;              // Space between logos
     grid-column: 1 / 3;
     margin: 20px;
 `;
 
-export const LogoIcon = styled.img`
+export const LogoIcon1 = styled.img`
     width: 300px;
-    display: flex;
-    align-items: center;
-    margin: -60px 0 20px;
+`;
+
+export const LogoIcon2 = styled.img`
+    width: 250px;
+    padding: 20px;
+  margin-top: -40px;
+    background-image: url(${flameImage});
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 50% 20px;
+        display: inline-block;
 `;
 
 export const NavSection = styled.ul`
