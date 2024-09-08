@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/d2runes-react/static/css/main.41b9ea04.css",
-    "main.js": "/d2runes-react/static/js/main.e580e31e.js",
+    "main.css": "/d2runes-react/static/css/main.3089ccd5.css",
+    "main.js": "/d2runes-react/static/js/main.c958f71c.js",
     "static/js/366.a5d5c037.chunk.js": "/d2runes-react/static/js/366.a5d5c037.chunk.js",
-    "static/js/817.519cc7cb.chunk.js": "/d2runes-react/static/js/817.519cc7cb.chunk.js",
+    "static/js/817.c103fe6d.chunk.js": "/d2runes-react/static/js/817.c103fe6d.chunk.js",
     "static/js/453.94dc50a4.chunk.js": "/d2runes-react/static/js/453.94dc50a4.chunk.js",
-    "static/media/d2r.gif": "/d2runes-react/static/media/d2r.5eb32a5f7afd9b08171f.gif",
+    "static/media/d2r.gif": "/d2runes-react/static/media/d2r.83a59ad0f92e7c0e02f4.gif",
     "static/media/AvQest.svg": "/d2runes-react/static/media/AvQest.01692606c7fcddd9302a.svg",
     "static/media/flame.gif": "/d2runes-react/static/media/flame.985a8f510b8b7ecfb402.gif",
     "static/media/AvQest.eot": "/d2runes-react/static/media/AvQest.46804f0a8e867ef5d5a0.eot",
@@ -75,12 +75,12 @@
     "static/media/box_right.webp": "/d2runes-react/static/media/box_right.87966edf7bad9b960430.webp",
     "static/media/box_bottom.webp": "/d2runes-react/static/media/box_bottom.15bc793b5736cf6b3df6.webp",
     "static/media/box_top.webp": "/d2runes-react/static/media/box_top.b98ce4df90bfb72eab63.webp",
-    "main.41b9ea04.css.map": "/d2runes-react/static/css/main.41b9ea04.css.map",
-    "main.e580e31e.js.map": "/d2runes-react/static/js/main.e580e31e.js.map",
+    "main.3089ccd5.css.map": "/d2runes-react/static/css/main.3089ccd5.css.map",
+    "main.c958f71c.js.map": "/d2runes-react/static/js/main.c958f71c.js.map",
     "453.94dc50a4.chunk.js.map": "/d2runes-react/static/js/453.94dc50a4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b9ea04.css",
-    "static/js/main.e580e31e.js"
+    "static/css/main.3089ccd5.css",
+    "static/js/main.c958f71c.js"
   ]
 }
