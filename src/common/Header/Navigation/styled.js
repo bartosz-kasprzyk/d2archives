@@ -5,10 +5,9 @@ import flameImage from '../../../images/flame.gif'
 
 export const LogoWrapper = styled(Link)`
     display: flex;
-    flex-direction: column; // Align items in a column
-    justify-content: center; // Center items vertically within the container
-    align-items: center;    // Center items horizontally within the container
-    gap: 20px;              // Space between logos
+    flex-direction: column;
+    align-items: center;   
+    gap: 20px;         
     grid-column: 1 / 3;
     margin: 20px;
 `;
