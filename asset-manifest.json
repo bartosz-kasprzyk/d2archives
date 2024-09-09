@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/d2archives/static/css/main.843f300e.css",
-    "main.js": "/d2archives/static/js/main.2a193c99.js",
+    "main.js": "/d2archives/static/js/main.f4a9679d.js",
     "static/js/366.a5d5c037.chunk.js": "/d2archives/static/js/366.a5d5c037.chunk.js",
     "static/js/817.c103fe6d.chunk.js": "/d2archives/static/js/817.c103fe6d.chunk.js",
     "static/js/453.94dc50a4.chunk.js": "/d2archives/static/js/453.94dc50a4.chunk.js",
     "static/media/d2r.gif": "/d2archives/static/media/d2r.83a59ad0f92e7c0e02f4.gif",
     "static/media/AvQest.svg": "/d2archives/static/media/AvQest.01692606c7fcddd9302a.svg",
+    "static/media/d2error.gif": "/d2archives/static/media/d2error.e8dd6e82f193a0f22356.gif",
     "static/media/flame.gif": "/d2archives/static/media/flame.985a8f510b8b7ecfb402.gif",
     "static/media/AvQest.eot": "/d2archives/static/media/AvQest.46804f0a8e867ef5d5a0.eot",
     "static/media/AvQest.ttf": "/d2archives/static/media/AvQest.84ca67df0ced0ad04f45.ttf",
@@ -76,11 +77,11 @@
     "static/media/box_bottom.webp": "/d2archives/static/media/box_bottom.15bc793b5736cf6b3df6.webp",
     "static/media/box_top.webp": "/d2archives/static/media/box_top.b98ce4df90bfb72eab63.webp",
     "main.843f300e.css.map": "/d2archives/static/css/main.843f300e.css.map",
-    "main.2a193c99.js.map": "/d2archives/static/js/main.2a193c99.js.map",
+    "main.f4a9679d.js.map": "/d2archives/static/js/main.f4a9679d.js.map",
     "453.94dc50a4.chunk.js.map": "/d2archives/static/js/453.94dc50a4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.843f300e.css",
-    "static/js/main.2a193c99.js"
+    "static/js/main.f4a9679d.js"
   ]
 }
