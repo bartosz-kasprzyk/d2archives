@@ -1,11 +1,13 @@
+import { useEffect } from 'react';
 import { Header } from './common/Header';
 import RuneList from './features/RuneList';
 import RunewordList from './features/RunewordList';
-import { HashRouter, Route, Navigate, Routes, useLocation } from 'react-router-dom';
-import { toRunes, toRunewords } from './common/config/routes';
+import UniqueItemsList from './features/UniqueItemsList';
+import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
+import { toRunes, toRunewords, toUniques } from './common/config/routes';
 import { ScrollToTopButton } from './common/ScrollToTopButton';
 import useLoadContent from './common/hooks/useLoadContent';
-import { useEffect } from 'react';
+
 
 function ScrollToTop() {
   const state = useLoadContent();
@@ -30,6 +32,8 @@ function App() {
         <Route path={toRunes()} element={<RuneList />} />
 
         <Route path={toRunewords()} element={<RunewordList />} />
+
+        <Route path={toUniques()} element={<UniqueItemsList />} />
 
         <Route path="/" element={<Navigate to={toRunes()} />} />
       </Routes>
