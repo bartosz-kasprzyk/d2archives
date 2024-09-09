@@ -25,8 +25,7 @@ export const RuneButton = styled.button`
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    overflow: hidden;
-    transition: transform ease 300ms;
+    transition: transform 300ms ease, filter 300ms ease;
     
     &:focus {
         outline: none;
@@ -34,6 +33,7 @@ export const RuneButton = styled.button`
 
     &:hover {
         transform: scale(1.20);
+        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
     }
 `;
 
