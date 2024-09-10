@@ -57,6 +57,15 @@ export const RunewordButton = styled.button`
     &:focus {
         outline: none;
     }
+
+    &:hover {
+        color: #A49989;
+    }
+
+    &:active {
+        color: #50422F;
+        transform: scale(0.98);
+    }
 `
 
 export const ValueBox = styled.span`
