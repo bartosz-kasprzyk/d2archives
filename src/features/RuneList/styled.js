@@ -35,6 +35,11 @@ export const RuneButton = styled.button`
         transform: scale(1.20);
         filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
     }
+
+    &:active {
+        transform: scale(0.80);
+        filter: brightness(1.2);
+    }
 `;
 
 export const RuneButtonImage = styled.img`
