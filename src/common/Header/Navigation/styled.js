@@ -39,13 +39,18 @@ export const NavSection = styled.ul`
 `;
 
 export const StyledNavLink = styled(NavLink)`
+    display: inline-block;
+    padding-bottom: 15px;
+    transition: transform 300ms ease;
+
+    &:hover {
+        transform: scale(1.02);
+    }
 
     &.active {
         background-image: url(${flameImage});
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: 110% 20px;
-        padding-bottom: 15px;
-        display: inline-block;
     }
 `;
