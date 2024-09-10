@@ -25,10 +25,18 @@ export const StyledButton = styled.button`
     z-index: 1000;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.3s ease, visibility 0.3s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease, filter 0.3s ease, transform 0.3s ease;
 
     ${({ $isVisible }) => $isVisible && `
         opacity: 1;
         visibility: visible;
     `}
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+
+    &:active {
+        transform: translateY(5px);
+    }
 `;
