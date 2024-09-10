@@ -10,7 +10,7 @@ export const LogoWrapper = styled(Link)`
     gap: 20px;         
     grid-column: 1 / 3;
     margin: 20px;
-    margin-top: -5px;
+    margin-top: -20px;
 `;
 
 export const LogoIcon1 = styled.img`
