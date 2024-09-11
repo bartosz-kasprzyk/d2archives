@@ -5,6 +5,7 @@ import { Container } from '../../common/Container';
 import { RunewordButton, StyledList, StyledNavigation, StyledText } from './styled';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
+import { useLocation } from 'react-router-dom';
 
 const RunewordList = () => {
     const state = useLoadContent();
@@ -12,6 +13,8 @@ const RunewordList = () => {
 
     const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
+
+    const location = useLocation();
 
     const scrollToRuneword = (runeword) => {
         if (rowRefs.current[runeword]) {
@@ -51,7 +54,7 @@ const RunewordList = () => {
                     <StyledList key={runeword[0]}>
                         <li>
                             <RunewordButton onClick={() => scrollToRuneword(runeword[0])}>
-                                {formatText(runeword[0])}
+                                {formatText(runeword[0], location.pathname)}
                             </RunewordButton>
                         </li>
                     </StyledList>
@@ -76,11 +79,11 @@ const RunewordList = () => {
                                 $highlight={highlightedRow === runeword[0]}
                                 $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
-                                <RowHeader>{formatText(runeword[0])}</RowHeader>
-                                <TableCell>{formatText(runeword[1])}</TableCell>
-                                <TableCell>{formatText(runeword[2])}</TableCell>
+                                <RowHeader>{formatText(runeword[0], location.pathname)}</RowHeader> {/* Pass the path */}
+                                <TableCell>{formatText(runeword[1], location.pathname)}</TableCell> {/* Pass the path */}
+                                <TableCell>{formatText(runeword[2], location.pathname)}</TableCell> {/* Pass the path */}
                                 <TableCellBlue>
-                                    {formatText(runeword[3])}
+                                    {formatText(runeword[3], location.pathname)} {/* Pass the path */}
                                 </TableCellBlue>
                             </TableRow>
                         ))}

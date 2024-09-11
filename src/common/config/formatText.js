@@ -4,7 +4,7 @@ import { InfoText, NewItem, RuneText, ValueBox } from '../Table/styled';
 
 const runes = Object.keys(runeImages);
 
-export const formatText = (text) => {
+export const formatText = (text, currentPath) => {
     const regex = /(?<!Adds\s)\b\d+-\d+\b/g;
     const runeRegex = new RegExp(`\\b(${runes.join('|')})\\b`, 'gi');
 
@@ -28,7 +28,7 @@ export const formatText = (text) => {
                                 {part}
                             </InfoText>
                         );
-                    } else if (regex.test(part)) {
+                    } else if (currentPath === '/runewords' && regex.test(part)) {
                         return (
                             <ValueBox key={partIndex}>
                                 {part}

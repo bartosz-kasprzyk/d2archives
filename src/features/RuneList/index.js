@@ -7,6 +7,7 @@ import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import gemImages from '../../common/config/gemImages';
+import { useLocation } from 'react-router-dom';
 
 const RuneList = () => {
     const state = useLoadContent();
@@ -14,6 +15,8 @@ const RuneList = () => {
 
     const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
+
+    const location = useLocation();
 
     const scrollToRune = (runeName) => {
         if (rowRefs.current[runeName]) {
@@ -70,7 +73,7 @@ const RuneList = () => {
                                 $index={index + 1}>
                                 <RowHeader>#{index + 1}</RowHeader>
                                 <TableCell>
-                                    {formatText(row[0])}
+                                    {formatText(row[0], location.pathname)}
                                     <StyledImage
                                         src={runeImages[row[0]]}
                                         alt={`${row[0]} Rune`}
@@ -112,7 +115,7 @@ const RuneList = () => {
                                     )}
                                 </TableCell>
                                 <TableCell>
-                                    {formatText(row[2])}
+                                    {formatText(row[2], location.pathname)}
                                     <BottomLine>
                                         {row[3]}
                                     </BottomLine>
