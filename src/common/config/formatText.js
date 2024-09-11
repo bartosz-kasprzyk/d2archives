@@ -1,6 +1,6 @@
 import React from 'react';
 import runeImages from './runeImages';
-import { InfoText, NewItem, RuneText, ValueBox } from '../Table/styled';
+import { CategoryText, InfoText, NewItem, RuneText, ValueBox } from '../Table/styled';
 
 const runes = Object.keys(runeImages);
 
@@ -11,7 +11,7 @@ export const formatText = (text, currentPath) => {
     const lines = text.split('\n');
 
     return lines.map((line, lineIndex) => {
-        const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b)/g);
+        const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:)/g);
 
         return (
             <React.Fragment key={lineIndex}>
@@ -27,6 +27,12 @@ export const formatText = (text, currentPath) => {
                             <InfoText key={partIndex}>
                                 {part}
                             </InfoText>
+                        );
+                    } else if (part === "Weapon:" || part === "Helmet/Armor:" || part === "Shield:") {
+                        return (
+                            <CategoryText key={partIndex}>
+                                {part}
+                            </CategoryText>
                         );
                     } else if (currentPath === '/runewords' && regex.test(part)) {
                         return (

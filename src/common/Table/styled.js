@@ -104,6 +104,10 @@ export const InfoText = styled.span`
     font-style: italic;
 `;
 
+export const CategoryText = styled.span`
+    color: #86735a;
+`;
+
 export const NewItem = styled.span`
     color: green;
     font-weight: bold;
