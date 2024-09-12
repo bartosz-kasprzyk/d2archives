@@ -17,7 +17,7 @@ const UniqueItemsList = () => {
             </StyledText>
             <StyledError src={d2error} alt="error" />
             <StyledText>
-                If you know of an API or JSON file containing this information or have any leads, please <StyledLink href="mailto:bartosz.kasprzyk58@gmail.com">contact me</StyledLink>!
+                If you know of an API or JSON file containing this information or have any leads, please <StyledLink href="mailto:bartosz.kasprzyk58@gmail.com" title="bartosz.kasprzyk58@gmail.com">contact me</StyledLink>!
             </StyledText>
             <StyledList>
                 {items
