@@ -20,7 +20,7 @@ export const LogoIcon1 = styled.img`
 export const LogoIcon2 = styled.img`
     width: 250px;
     padding: 20px;
-  margin-top: -40px;
+    margin-top: -40px;
     background-image: url(${flameImage});
         background-repeat: no-repeat;
         background-position: bottom;
@@ -41,16 +41,14 @@ export const NavSection = styled.ul`
 export const StyledNavLink = styled(NavLink)`
     display: inline-block;
     padding-bottom: 15px;
-    transition: transform 300ms ease;
+    transition: transform 300ms ease, filter 300ms ease;
 
     &:hover {
         transform: scale(1.02);
+        filter: brightness(1.3);
     }
 
     &.active {
-        background-image: url(${flameImage});
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: 110% 20px;
+        filter: brightness(2.5);
     }
 `;
