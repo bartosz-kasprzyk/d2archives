@@ -1,5 +1,5 @@
 import { toRunes, toRunewords, toUniques } from "../../config/routes";
-import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledNavLink } from "./styled";
+import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledNavLink, StyledUnderline } from "./styled";
 import d2r from "../../../images/Logo/d2r.gif"
 import archives from "../../../images/Logo/archives.png"
 import RunesPageEn from "../../../images/Navigation/RUNES.png"
@@ -8,6 +8,7 @@ import RunewordsPageEn from "../../../images/Navigation/RUNEWORDS.png"
 import RunewordsPagePl from "../../../images/Navigation/SLOWA RUNICZNE.png"
 import UniquesPageEn from "../../../images/Navigation/UNIQUES.png"
 import UniquesPagePl from "../../../images/Navigation/UNIKATY.png"
+import underline from '../../../images/underline.png'
 import useLoadContent from "../../hooks/useLoadContent";
 
 export const Navigation = () => {
@@ -29,6 +30,7 @@ export const Navigation = () => {
                 <li><StyledNavLink to={toRunewords()}><img src={content.content.lang === "en" ? RunewordsPageEn : RunewordsPagePl} alt="Runewords"></img></StyledNavLink></li>
                 <li><StyledNavLink to={toUniques()}><img src={content.content.lang === "en" ? UniquesPageEn : UniquesPagePl} alt="Uniques"></img></StyledNavLink></li>
             </NavSection >
+            <StyledUnderline src={underline} />
         </>
     )
 };

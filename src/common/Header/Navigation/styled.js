@@ -52,3 +52,9 @@ export const StyledNavLink = styled(NavLink)`
         filter: brightness(2.5);
     }
 `;
+
+export const StyledUnderline = styled.img`
+    width: 700px;
+    margin: -340px auto;
+    z-index: -1;
+`;
