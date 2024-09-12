@@ -66,10 +66,6 @@ export const TableRow = styled.tr`
         overflow: hidden;
         z-index: 1;
     `}
-    
-    &:hover {
-        background-color: #3b2d1c;
-    }
 `;
 
 export const StyledImage = styled.img`
