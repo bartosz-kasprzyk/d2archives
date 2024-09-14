@@ -7,7 +7,9 @@ import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
 import { toRunes, toRunewords, toUniques } from './common/config/routes';
 import { ScrollToTopButton } from './common/ScrollToTopButton';
 import useLoadContent from './common/hooks/useLoadContent';
-
+import github_icon from '../src/images/Icons/github_icon.png'
+import coffee_icon from '../src/images/Icons/coffee_icon.png'
+import { SlideOutLink } from './common/SlideOutLink';
 
 function ScrollToTop() {
   const state = useLoadContent();
@@ -38,6 +40,22 @@ function App() {
         <Route path="/" element={<Navigate to={toRunes()} />} />
       </Routes>
 
+      <SlideOutLink
+        icon={github_icon}
+        text="Follow Me"
+        href="https://github.com/bartosz-kasprzyk"
+        bottom="280px"
+        color="#21262D"
+        translateX="-110px"
+      />
+      <SlideOutLink
+        icon={coffee_icon}
+        text="Buy Me A Coffee"
+        href="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png"
+        bottom="200px"
+        color="#9D590C"
+        translateX="-160px"
+      />
       <ScrollToTopButton />
     </HashRouter>
   )
