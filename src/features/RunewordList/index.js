@@ -2,10 +2,11 @@ import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledList, StyledNavigation, StyledText } from './styled';
+import { RunewordButton, StyledLink, StyledList, StyledNavigation, StyledText } from './styled';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
+import { toRunes } from '../../common/config/routes';
 
 const RunewordList = () => {
     const state = useLoadContent();
@@ -47,7 +48,14 @@ const RunewordList = () => {
     return (
         <Container>
             <StyledText>
-                {content.content.runewordsDescription}
+                <b>Runewords</b> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
+                The correct arrangement of runes in socketed items not only provides basic attributes but also bonus effects that enhance the item's power.
+                Most of the most important weapons and armor in the game come from runewords.
+                Many of these are very difficult to obtain due to the rare appearance of runes at higher levels.
+                Besides the runes, you also need to find the appropriate item.
+                It is worth mentioning that runewords that deal high damage are best combined with items that also have a high base attack rating.
+                Experienced players spend a lot of time searching for the right items and runes to ultimately create their desired equipment.
+                Here is a list of all runewords:
             </StyledText>
             <StyledNavigation>
                 {runewords.map((runeword) => (
@@ -79,11 +87,11 @@ const RunewordList = () => {
                                 $highlight={highlightedRow === runeword[0]}
                                 $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
-                                <RowHeader>{formatText(runeword[0], location.pathname)}</RowHeader> {/* Pass the path */}
-                                <TableCell>{formatText(runeword[1], location.pathname)}</TableCell> {/* Pass the path */}
-                                <TableCell>{formatText(runeword[2], location.pathname)}</TableCell> {/* Pass the path */}
+                                <RowHeader>{formatText(runeword[0], location.pathname)}</RowHeader>
+                                <TableCell>{formatText(runeword[1], location.pathname)}</TableCell>
+                                <TableCell>{formatText(runeword[2], location.pathname)}</TableCell>
                                 <TableCellBlue>
-                                    {formatText(runeword[3], location.pathname)} {/* Pass the path */}
+                                    {formatText(runeword[3], location.pathname)}
                                 </TableCellBlue>
                             </TableRow>
                         ))}

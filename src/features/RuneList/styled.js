@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components"
 
 export const StyledText = styled.p`
@@ -47,4 +48,8 @@ export const RuneButtonImage = styled.img`
     height: 100%;
     object-fit: cover;
     display: block;
+`;
+
+export const StyledLink = styled(Link)`
+    color: #ca8120;
 `;
