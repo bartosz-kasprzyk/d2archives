@@ -49,15 +49,20 @@ export const RowHeader = styled.th`
 `;
 
 export const TableRow = styled.tr`
-    background-color: ${({ $index }) => ($index % 2 === 0 ? '#141313' : '#201f1f')};
-    transition: background-color 1s ease;
     font-family: 'AvQest', sans-serif;
     font-size: 17px;
     position: relative;
     z-index: 0;
+    background: ${({ $index }) => ($index % 2 === 0 ? '#1413138A' : '#201F1F5A')};
+    background-image: url(${Backdrop});
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    transition: background-color 1s ease;
 
     ${props => props.$highlight && `
-        background-color: #93632A;
+        background-color: #D1AD665A;
     `}
 
     ${props => props.$new && `
