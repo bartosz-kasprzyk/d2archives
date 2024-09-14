@@ -12,8 +12,6 @@ export const Loading = () => {
     const [currentImage, setCurrentImage] = useState(images[0]);
     const state = useLoadContent();
 
-    console.log(`Parent status: ${state.status}`);
-
     useEffect(() => {
         if (state.status !== 'loading') {
             return;
@@ -22,7 +20,6 @@ export const Loading = () => {
         let index = 0;
         const interval = setInterval(() => {
             setCurrentImage(images[index]);
-            console.log(`Current image index: ${index}`);
             index++;
         }, 200);
 
