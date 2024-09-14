@@ -1,11 +1,12 @@
 import { toRunes, toRunewords, toUniques } from "../config/routes";
-import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledCorner, StyledHeader, StyledNavLink, StyledUnderline } from "./styled";
+import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledCorner, StyledHeader, StyledNavLink, StyledSigil, StyledUnderline } from "./styled";
 import d2r from "../../images/Logo/d2r.gif"
 import archives from "../../images/Logo/archives.png"
 import runes from "../../images/Navigation/RUNES.png"
 import runewords from "../../images/Navigation/RUNEWORDS.png"
 import uniques from "../../images/Navigation/UNIQUES.png"
 import underline from '../../images/underline.png'
+import sigil from '../../images/sigil.png'
 
 export const Header = () => {
     return (
@@ -34,6 +35,7 @@ export const Header = () => {
                 </li>
             </NavSection >
             <StyledUnderline src={underline} />
+            <StyledSigil src={sigil} />
         </StyledHeader>
     )
 };

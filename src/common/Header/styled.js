@@ -67,6 +67,13 @@ export const StyledUnderline = styled.img`
     z-index: -1;
 `;
 
+export const StyledSigil = styled.img`
+    width: 40px;
+    margin-top: -30px;
+    z-index: 0;
+    filter: brightness(0.3);
+`;
+
 export const StyledCorner = styled.div`
     position: absolute;
     top: 20px;
