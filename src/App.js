@@ -51,7 +51,7 @@ function App() {
       <SlideOutLink
         icon={coffee_icon}
         text="Buy Me A Coffee"
-        href="https://cdn.buymeacoffee.com/buttons/v2/default-orange.png"
+        href="https://buymeacoffee.com/bartoszkas5"
         bottom="200px"
         color="#9D590C"
         translateX="-160px"
