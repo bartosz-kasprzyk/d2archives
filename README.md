@@ -1,6 +1,27 @@
-# Getting Started with Create React App
+# <img width="30px" src="/public/icon192.png" /> Diablo II Archives
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo 🎬
+
+https://bartosz-kasprzyk.github.io/d2archives/
+
+## Description
+
+"Stay awhile and listen!" 🧙‍♂️💬
+
+This page contains the most important informations about runes, their properties and all possible runewords that can be made out of them. I'm planning on adding a list of all uniques, a Holy Grail tracker and other cool stuff.
+
+## Technologies 🛠️
+
+Project was created with technologies such as:
+* CSS
+* HTML
+* JavaScript (ES6+) features
+* BEM
+* Flexbox
+* Grid
+* Custom hooks
+* Styled components
+* Create React App
 
 ## Available Scripts
 
@@ -13,11 +34,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +55,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Author 👥
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="center">
+  <a href="https://bartosz-kasprzyk.github.io/homepage/">
+    <img width="300px" src="public/drawingsignature.png" />
+  </a>
+</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project was created by [Bartosz Kasprzyk](https://github.com/bartosz-kasprzyk). Please feel free to contact me if you need any further information.
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for visiting my website! ✨
