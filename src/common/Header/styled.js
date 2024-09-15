@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import flameImage from '../../images/flame.gif'
+import flameImage from '../../images/Logo/flame.gif'
 import cornerImage from '../../images/corner.png'
 
 export const StyledHeader = styled.header`
