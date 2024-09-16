@@ -1,5 +1,7 @@
 # <img width="30px" src="/public/icon192.png" /> Diablo II Archives
 
+![logo strony](/public/share_cropped.gif)
+
 ## Demo 🎬
 
 https://bartosz-kasprzyk.github.io/d2archives/
