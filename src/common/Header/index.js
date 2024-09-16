@@ -5,8 +5,8 @@ import archives from "../../images/Logo/archives.png"
 import runes from "../../images/Navigation/RUNES.png"
 import runewords from "../../images/Navigation/RUNEWORDS.png"
 import uniques from "../../images/Navigation/UNIQUES.png"
-import underline from '../../images/underline.png'
-import sigil from '../../images/sigil.png'
+import underline from '../../images/Ornaments/underline.png'
+import sigil from '../../images/Ornaments/sigil.png'
 
 export const Header = () => {
     return (

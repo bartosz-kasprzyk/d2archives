@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import flameImage from '../../images/Logo/flame.gif'
-import cornerImage from '../../images/corner.png'
+import cornerImage from '../../images/Ornaments/corner.png'
 
 export const StyledHeader = styled.header`
     width: 100%;
