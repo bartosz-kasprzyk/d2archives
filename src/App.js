@@ -54,7 +54,7 @@ function App() {
         href="https://buymeacoffee.com/bartoszkas5"
         bottom="200px"
         color="#9D590C"
-        translateX="-160px"
+        translateX="-170px"
       />
       <ScrollToTopButton />
     </HashRouter>
