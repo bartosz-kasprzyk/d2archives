@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useLoadContent = () => {
+const useLoadRuneAndRuneword = () => {
     const [state, setState] = useState({
         status: 'loading',
         content: null
@@ -9,7 +9,7 @@ const useLoadContent = () => {
     useEffect(() => {
         const loadContent = async () => {
             try {
-                const contentModule = await import('../config/data.json');
+                const contentModule = await import('../config/runeAndRunewordData.json');
 
                 setTimeout(() => {
                     setState({
@@ -33,4 +33,4 @@ const useLoadContent = () => {
     return state;
 };
 
-export default useLoadContent;
+export default useLoadRuneAndRuneword;
