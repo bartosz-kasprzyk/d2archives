@@ -13,7 +13,7 @@
             "row2": [
                 "Eld",
                 "El",
-                "Weapon: +75% Damage, +50 Attack Rating vs Undead\nHelmet/Armor: 15% Slower Stamina Drain\nShield: 7% Increased Chance of Blocking",
+                "Weapon: +75% Damage, +50 Attack Rating against Undead\nHelmet/Armor: 15% Slower Stamina Drain\nShield: 7% Increased Chance of Blocking",
                 "Required Character Level: 11"
             ],
             "row3": [
@@ -25,7 +25,7 @@
             "row4": [
                 "Nef",
                 "Tir",
-                "Weapon: Knockback\nHelmet/Armor: +30 Defense vs Missile\nShield: +30 Defense vs Missile",
+                "Weapon: Knockback\nHelmet/Armor: +30 Defense vs. Missile\nShield: +30 Defense vs. Missile",
                 "Required Character Level: 13"
             ],
             "row5": [
@@ -43,7 +43,7 @@
             "row7": [
                 "Tal",
                 "Ith",
-                "Weapon: 75 Poison Damage Over 5 Seconds\nHelmet/Armor: Poison Resist +30%\nShield: Poison Resist +35%",
+                "Weapon: +75 Poison Damage over 5 Seconds\nHelmet/Armor: Poison Resist +30%\nShield: Poison Resist +35%",
                 "Required Character Level: 17"
             ],
             "row8": [
@@ -79,7 +79,7 @@
             "row13": [
                 "Shael",
                 "Sol",
-                "Weapon: 20% Increased Attack Speed\nHelmet/Armor: 20% Faster Hit Recovery\nShield: 20% Faster Block Rate",
+                "Weapon: +20% Increased Attack Speed\nHelmet/Armor: +20% Faster Hit Recovery\nShield: 20% Faster Block Rate",
                 "Required Character Level: 29"
             ],
             "row14": [
@@ -127,7 +127,7 @@
             "row21": [
                 "Pul",
                 "Lem",
-                "Weapon: +75% Damage, +100 Attack Rating vs Demons\nHelmet/Armor: 30% Enhanced Defense\nShield: 30% Enhanced Defense",
+                "Weapon: +75% Damage, +100 Attack Rating against Demons\nHelmet/Armor: 30% Enhanced Defense\nShield: 30% Enhanced Defense",
                 "Required Character Level: 45"
             ],
             "row22": [
@@ -230,7 +230,7 @@
                 "Bone",
                 "Armor\n(3 sockets)",
                 "Sol  + Um  + Um",
-                "15% Chance To Cast level 10 Bone Armor When Struck\n15% Chance To Cast level 10 Bone Spear On Striking\n+2 To Necromancer Skill Levels\n+100-150 To Mana (varies) \nAll Resistances +30\nDamage Reduced By 7"
+                "15% Chance To Cast level 10 Bone Armor When Struck\n15% Chance To Cast level 10 Bone Spear On Striking\n+2 To Necromancer Skills\n+100-150 To Mana (varies) \nAll Resistances +30\nDamage Reduced By 7"
             ],
             "runeword5": [
                 "Bramble",
@@ -248,7 +248,7 @@
                 "Breath of the Dying",
                 "All Weapons\n(6 sockets)",
                 "Vex  + Hel  + El  + Eld  + Zod  + Eth",
-                "50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy\nIndestructible\n+60% Increased Attack Speed\n+350-400% Enhanced Damage (varies)\n-25% Target Defense\n+50 To Attack Rating\n+200% Damage To Undead\n+50 To Attack Rating Against Undead\n7% Mana Stolen Per Hit\n12-15% Life Stolen Per Hit (varies)\nPrevent Monster Heal\n+30 To All Attributes\n+1 To Light Radius\nRequirements -20%"
+                "50% Chance To Cast Level 20 Poison Nova when you Kill an Enemy\nIndestructible\n+60% Increased Attack Speed\n+350-400% Enhanced Damage (varies)\n-25% Target Defense\n+50 To Attack Rating\n+200% Damage To Undead\n+50 To Attack Rating Against Undead\n7% Mana Stolen Per Hit\n12-15% Life Stolen Per Hit (varies)\nPrevent Monster Heal\n+30 To All Attributes\n+1 To Light Radius\nRequirements -20%"
             ],
             "runewordNEW8": [
                 "Bulwark\n*New*",
@@ -320,31 +320,31 @@
                 "Dragon",
                 "Armor, Shields\n(3 sockets)",
                 "Sur  + Lo  + Sol",
-                "20% Chance to Cast Level 18 Venom When Struck\n12% Chance To Cast Level 15 Hydra On Striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense Vs. Missile\n+3-5 To All Attributes (varies)\n+(0.375*Clvl) To Strength (Based on Character Level)\n+5% To Maximum Lightning Resist\nDamage Reduced by 7\nIncrease Maximum Mana 5% (Armor Only)\n+50 To Mana (Shields Only)"
+                "20% Chance to Cast Level 18 Venom When Struck\n12% Chance To Cast Level 15 Hydra On Striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 To All Attributes (varies)\n+(0.375*Clvl) To Strength (Based on Character Level)\n+5% To Maximum Lightning Resist\nDamage Reduced by 7\nIncrease Maximum Mana 5% (Armor Only)\n+50 To Mana (Shields Only)"
             ],
             "runeword20": [
                 "Dream",
                 "Headgear, Shields\n(3 sockets)",
                 "Io  + Jah  + Pul",
-                "10% Chance To Cast Level 15 Confuse When Struck\nLevel 15 Holy Shock Aura When Equipped\n+20-30% Faster Hit Recovery (varies)\n+30% Enhanced Defense\n+150-220 Defense (varies)\n+10 To Vitality\n+(0.625*Clvl) To Mana (Based On Character Level)\nAll Resistances +5-20 (varies)\n12-25% Better Chance of Getting Magic Items (varies)\nIncrease Maximum Life 5% (Headgear Only)\n+50 To Life (Shields Only)"
+                "10% Chance To Cast Level 15 Confuse When Struck\nLevel 15 Holy Shock Aura When Equipped\n+20-+30% Faster Hit Recovery (varies)\n+30% Enhanced Defense\n+150-220 Defense (varies)\n+10 To Vitality\n+(0.625*Clvl) To Mana (Based On Character Level)\nAll Resistances +5-20 (varies)\n12-25% Better Chance of Getting Magic Items (varies)\nIncrease Maximum Life 5% (Headgear Only)\n+50 To Life (Shields Only)"
             ],
             "runeword21": [
                 "Duress",
                 "Armor\n(3 sockets)",
                 "Shael  + Um  + Thul",
-                "40% faster hit Recovery\n+10-20% Enhanced Damage (varies)\nAdds 37-133 Cold Damage\n15% Crushing Blow\n33% Open Wounds\n+150-200% Enhanced Defense (varies)\n-20% Slower Stamina Drain\nCold Resist +45%\nLightning Resist +15%\nFire Resist +15%\nPoison Resist +15%"
+                "+40% faster hit Recovery\n+10-20% Enhanced Damage (varies)\nAdds 37-133 Cold Damage\n15% Crushing Blow\n33% Open Wounds\n+150-200% Enhanced Defense (varies)\n-20% Slower Stamina Drain\nCold Resist +45%\nLightning Resist +15%\nFire Resist +15%\nPoison Resist +15%"
             ],
             "runeword22": [
                 "Edge",
                 "Missile Weapons\n(3 sockets)",
                 "Tir  + Tal  + Amn",
-                "Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+320-380% Damage To Demons (varies)\n+280% Damage To Undead\n+75 Poison Damage Over 5 Seconds\n7% Life Stolen Per Hit\nPrevent Monster Heal\n+5-10 To All Attributes (varies)\n+2 To Mana After Each Kill\nReduces All Vendor Prices 15%"
+                "Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+320-380% Damage To Demons (varies)\n+280% Damage To Undead\n+75 Poison Damage over 5 Seconds\n7% Life Stolen Per Hit\nPrevent Monster Heal\n+5-10 To All Attributes (varies)\n+2 To Mana After Each Kill\nReduces All Vendor Prices 15%"
             ],
             "runeword23": [
                 "Enlightenment",
                 "Armor\n(3 sockets)",
                 "Pul  + Ral  + Sol",
-                "5% Chance To Cast Level 15 Blaze When Struck\n5% Chance To Cast level 15 Fire Ball On Striking\n+2 To Sorceress Skill Levels\n+1 To Warmth\n+30% Enhanced Defense\nFire Resist +30%\nDamage Reduced By 7"
+                "5% Chance To Cast Level 15 Blaze When Struck\n5% Chance To Cast level 15 Fire Ball On Striking\n+2 To Sorceress Skills\n+1 To Warmth\n+30% Enhanced Defense\nFire Resist +30%\nDamage Reduced By 7"
             ],
             "runeword24": [
                 "Eternity",
@@ -386,7 +386,7 @@
                 "Fury",
                 "All Melee Weapons\n(3 sockets)",
                 "Jah  + Gul  + Eth",
-                "40% Increased Attack Speed\n+209% Enhanced Damage\nIgnores Target Defense\n-25% Target Defense\n20% Bonus to Attack Rating\n6% Life Stolen Per Hit\n33% Chance Of Deadly Strike\n66% Chance Of Open Wounds\n+5 To Frenzy (Barbarian Only)\nPrevent Monster Heal"
+                "+40% Increased Attack Speed\n+209% Enhanced Damage\nIgnores Target Defense\n-25% Target Defense\n20% Bonus to Attack Rating\n6% Life Stolen Per Hit\n33% Chance Of Deadly Strike\n66% Chance Of Open Wounds\n+5 To Frenzy (Barbarian Only)\nPrevent Monster Heal"
             ],
             "runeword31": [
                 "Gloom",
@@ -398,7 +398,7 @@
                 "Grief",
                 "Swords & Axes\n(5 sockets)",
                 "Eth  + Tir  + Lo  + Mal  + Ral",
-                "35% Chance To Cast Level 15 Venom On Striking\n+30-40% Increased Attack Speed (varies)\nDamage +340-400 (varies)\nIgnore Target's Defense\n-25% Target Defense\n+(1.875*Clvl)% Damage To Demons (Based on Character Level)\nAdds 5-30 Fire Damage\n-20-25% To Enemy Poison Resistance (varies)\n20% Deadly Strike\nPrevent Monster Heal\n+2 To Mana After Each Kill\n+10-15 Life After Each Kill (varies)"
+                "35% Chance To Cast Level 15 Venom On Striking\n+30-+40% Increased Attack Speed (varies)\nDamage +340-400 (varies)\nIgnore Target's Defense\n-25% Target Defense\n+(1.875*Clvl)% Damage To Demons (Based on Character Level)\nAdds 5-30 Fire Damage\n-20-25% To Enemy Poison Resistance (varies)\n20% Deadly Strike\nPrevent Monster Heal\n+2 To Mana After Each Kill\n+10-15 Life After Each Kill (varies)"
             ],
             "runewordNEW33": [
                 "Ground\n*New*",
@@ -440,7 +440,7 @@
                 "Honor",
                 "All Melee Weapons\n(5 sockets)",
                 "Amn  + El  + Ith  + Tir  + Sol",
-                "+1 to all skills\n+160% Enhanced Damage\n+9 to Minimum Damage\n+9 to Maximum Damage\n+250 Attack Rating\n7% Life Stolen per Hit\n25% Deadly Strike\n+10 to Strength\nReplenish life +10\n+2 to Mana after each Kill\n+1 to Light Radius"
+                "+1 to All Skills\n+160% Enhanced Damage\n+9 to Minimum Damage\n+9 to Maximum Damage\n+250 Attack Rating\n7% Life Stolen per Hit\n25% Deadly Strike\n+10 to Strength\nReplenish life +10\n+2 to Mana after each Kill\n+1 to Light Radius"
             ],
             "runewordNEW40": [
                 "Hustle\n*New*",
@@ -458,13 +458,13 @@
                 "Infinity",
                 "Polearms\n(4 sockets)",
                 "Ber  + Mal  + Ber  + Ist",
-                "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+255-325% Enhanced Damage (varies)\n-45-55% To Enemy Lightning Resistance (varies)\n40% Chance of Crushing Blow\nPrevent Monster Heal\n+(0.5*Clvl) To Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)"
+                "50% Chance To Cast Level 20 Chain Lightning when you Kill an Enemy\nLevel 12 Conviction Aura When Equipped\n+35% Faster Run/Walk\n+255-325% Enhanced Damage (varies)\n-45-55% To Enemy Lightning Resistance (varies)\n40% Chance of Crushing Blow\nPrevent Monster Heal\n+(0.5*Clvl) To Vitality (Based on Character Level)\n30% Better Chance of Getting Magic Items\nLevel 21 Cyclone Armor (30 Charges)"
             ],
             "runeword43": [
                 "Insight",
                 "Polearms & Staves\n(4 sockets)",
                 "Ral  + Tir  + Tal  + Sol",
-                "Level 12-17 Meditation Aura When Equipped (varies)\n+35% Faster Cast Rate\n+200-260% Enhanced Damage (varies)\n+9 To Minimum Damage\n180-250% Bonus to Attack Rating (varies)\nAdds 5-30 Fire Damage\n+75 Poison Damage Over 5 Seconds\n+1-6 To Critical Strike (varies)\n+5 To All Attributes\n+2 To Mana After Each Kill\n23% Better Chance of Getting Magic Items"
+                "Level 12-17 Meditation Aura When Equipped (varies)\n+35% Faster Cast Rate\n+200-260% Enhanced Damage (varies)\n+9 To Minimum Damage\n180-250% Bonus to Attack Rating (varies)\nAdds 5-30 Fire Damage\n+75 Poison Damage over 5 Seconds\n+1-6 To Critical Strike (varies)\n+5 To All Attributes\n+2 To Mana After Each Kill\n23% Better Chance of Getting Magic Items"
             ],
             "runeword44": [
                 "King's Grace",
@@ -488,7 +488,7 @@
                 "Lawbringer",
                 "Hammers, Scepters & Swords\n(3 sockets)",
                 "Amn  + Lem  + Ko",
-                "20% Chance To Cast Level 15 Decrepify On Striking\nLevel 16-18 Sanctuary Aura When Equipped (varies)\n-50% Target Defense\nAdds 150-210 Fire Damage\nAdds 130-180 Cold Damage\n7% Life Stolen Per Hit\nSlain Monsters Rest In Peace\n+200-250 Defense Vs. Missile (varies)\n+10 To Dexterity\n75% Extra Gold From Monsters"
+                "20% Chance To Cast Level 15 Decrepify On Striking\nLevel 16-18 Sanctuary Aura When Equipped (varies)\n-50% Target Defense\nAdds 150-210 Fire Damage\nAdds 130-180 Cold Damage\n7% Life Stolen Per Hit\nSlain Monsters Rest In Peace\n+200-250 Defense vs. Missile (varies)\n+10 To Dexterity\n75% Extra Gold From Monsters"
             ],
             "runeword48": [
                 "Leaf",
@@ -524,13 +524,13 @@
                 "Memory",
                 "Staves\n(4 sockets)",
                 "Lum  + Io  + Sol  + Eth",
-                "+3 To Sorceress Skill Levels\n+33% Faster Cast Rate\n+9 To Minimum Damage\n-25% Target Defence\n+3 To Energy Shield (Sorceress Only)\n+2 To Static Field (Sorceress Only)\n+50% Enhanced Defense\n+10 Vitality\n+10 Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced By 7"
+                "+3 To Sorceress Skills\n+33% Faster Cast Rate\n+9 To Minimum Damage\n-25% Target Defence\n+3 To Energy Shield (Sorceress Only)\n+2 To Static Field (Sorceress Only)\n+50% Enhanced Defense\n+10 Vitality\n+10 Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced By 7"
             ],
             "runewordNEW54": [
                 "Metamorphosis\n*New*",
                 "Headgear\n(3 sockets)",
                 "Io + Cham + Fal",
-                "Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf:\n+30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear:\n+25% Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot be Frozen"
+                "Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf:\n+30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear:\n+25% Increased Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot be Frozen"
             ],
             "runewordNEW55": [
                 "Mist\n*New*",
@@ -548,7 +548,7 @@
                 "Myth",
                 "Armor\n(3 sockets)",
                 "Hel  + Amn  + Nef",
-                "3% Chance To Cast Level 1 Howl When Struck\n10% Chance To Cast Level 1 Taunt On Striking\n+2 To Barbarian Skill Levels\n+30 Defense Vs. Missile\nReplenish Life +10\nAttacker Takes Damage of 14\nRequirements -15%"
+                "3% Chance To Cast Level 1 Howl When Struck\n10% Chance To Cast Level 1 Taunt On Striking\n+2 To Barbarian Skills\n+30 Defense vs. Missile\nReplenish Life +10\nAttacker Takes Damage of 14\nRequirements -15%"
             ],
             "runeword58": [
                 "Nadir",
@@ -572,7 +572,7 @@
                 "Obedience",
                 "Polearms\n(5 sockets)",
                 "Hel  + Ko  + Thul  + Eth  + Fal",
-                "30% Chance To Cast Level 21 Enchant When You Kill An Enemy\n+40% Faster Hit Recovery\n+370% Enhanced Damage\n-25% Target Defense\nAdds 3-14 Cold Damage (3 Seconds Duration,Normal)\n-25% To Enemy Fire Resistance\n40% Chance of Crushing Blow\n+200-300 Defense (varies)\n+10 To Strength\n+10 To Dexterity\nAll Resistances +20-30 (varies)\nRequirements -20%"
+                "30% Chance To Cast Level 21 Enchant when you Kill an Enemy\n+40% Faster Hit Recovery\n+370% Enhanced Damage\n-25% Target Defense\nAdds 3-14 Cold Damage (3 Seconds Duration,Normal)\n-25% To Enemy Fire Resistance\n40% Chance of Crushing Blow\n+200-300 Defense (varies)\n+10 To Strength\n+10 To Dexterity\nAll Resistances +20-30 (varies)\nRequirements -20%"
             ],
             "runeword62": [
                 "Passion",
@@ -584,19 +584,19 @@
                 "Pattern\n*New*",
                 "Katars\n(3 sockets)",
                 "Tal + Ort + Thul",
-                "+30% Faster Block\n+40-80% Enhanced Damage\n10% Bonus to Attack Rating\nAdds 17-62 Fire Damage\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage\n+75 Poison Damage Over 5 Seconds\n+6 Strength\n+6 Dexterity\nAll Resistances +15"
+                "+30% Faster Block\n+40-80% Enhanced Damage\n10% Bonus to Attack Rating\nAdds 17-62 Fire Damage\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage\n+75 Poison Damage over 5 Seconds\n+6 Strength\n+6 Dexterity\nAll Resistances +15"
             ],
             "runeword64": [
                 "Peace",
                 "Armor\n(3 sockets)",
                 "Shael  + Thul  + Amn",
-                "4% Chance To Cast Level 5 Slow Missiles When Struck\n2% Chance To Cast level 15 Valkyrie On Striking\n+2 To Amazon Skill Levels\n+20% Faster Hit Recovery\n+2 To Critical Strike\nCold Resist +30%\nAttacker Takes Damage of 14"
+                "4% Chance To Cast Level 5 Slow Missiles When Struck\n2% Chance To Cast level 15 Valkyrie On Striking\n+2 To Amazon Skills\n+20% Faster Hit Recovery\n+2 To Critical Strike\nCold Resist +30%\nAttacker Takes Damage of 14"
             ],
             "runeword65": [
                 "Phoenix",
                 "Weapons & Shields\n(4 sockets)",
                 "Vex  + Vex  + Lo  + Jah",
-                "(Weapon Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400% Enhanced Damage\nIgnores Target's Defense\n14% Mana Stolen Per Hit\n-28% To Enemy Fire Resistance\n20% Deadly Strike\n+350-400 Defense Vs. Missile\n+15-21 Fire Absorb\n\n(Shield Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400 Defense Vs. Missile\n+350-400% Enhanced Damage\n-28% To Enemy Fire Resistance\n+50 To Life\n+5% To Maximum Lightning Resist\n+10% To Maximum Fire Resist\n+15-21 Fire Absorb"
+                "(Weapon Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400% Enhanced Damage\nIgnores Target's Defense\n14% Mana Stolen Per Hit\n-28% To Enemy Fire Resistance\n20% Deadly Strike\n+350-400 Defense vs. Missile\n+15-21 Fire Absorb\n\n(Shield Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400 Defense vs. Missile\n+350-400% Enhanced Damage\n-28% To Enemy Fire Resistance\n+50 To Life\n+5% To Maximum Lightning Resist\n+10% To Maximum Fire Resist\n+15-21 Fire Absorb"
             ],
             "runewordNEW66": [
                 "Plague\n*New*",
@@ -614,7 +614,7 @@
                 "Principle",
                 "Armor\n(3 sockets)",
                 "Ral  + Gul  + Eld",
-                "100% Chance To Cast Level 5 Holy Bolt On Striking\n+2 To Paladin Skill Levels\n+50% Damage to Undead\n+100-150 to Life (varies)\n15% Slower Stamina Drain\n+5% To Maximum Poison Resist\nFire Resist +30%"
+                "100% Chance To Cast Level 5 Holy Bolt On Striking\n+2 To Paladin Skills\n+50% Damage to Undead\n+100-150 to Life (varies)\n15% Slower Stamina Drain\n+5% To Maximum Poison Resist\nFire Resist +30%"
             ],
             "runeword69": [
                 "Prudence",
@@ -626,7 +626,7 @@
                 "Radiance",
                 "Headgear\n(3 sockets)",
                 "Nef  + Sol  + Ith",
-                "+75% Enhanced Defense\n+30 Defense vs. Missiles\n+10 to Vitality\n+10 to Energy\n+33 to Mana\nDamage Reduced by 7\nMagic Damage Reduced by 3\n15% Damage Taken Goes to Mana\n+5 to Light Radius"
+                "+75% Enhanced Defense\n+30 Defense vs. Missile\n+10 to Vitality\n+10 to Energy\n+33 to Mana\nDamage Reduced by 7\nMagic Damage Reduced by 3\n15% Damage Taken Goes to Mana\n+5 to Light Radius"
             ],
             "runeword71": [
                 "Rain",
@@ -662,13 +662,13 @@
                 "Smoke",
                 "Armor\n(2 sockets)",
                 "Nef  + Lum",
-                "+20% Faster Hit Recovery\n+75% Enhanced Defense\n+280 Defense vs. Missiles\n+10 to Energy\nAll Resistances +50\n-1 to Light Radius\nLevel 6 Weaken (18 charges)"
+                "+20% Faster Hit Recovery\n+75% Enhanced Defense\n+280 Defense vs. Missile\n+10 to Energy\nAll Resistances +50\n-1 to Light Radius\nLevel 6 Weaken (18 charges)"
             ],
             "runeword77": [
                 "Spirit",
                 "Swords & Shields\n(4 sockets)",
                 "Tal  + Thul  + Ort  + Amn",
-                "(Sword Version)\n+2 To All Skills\n+25-35% Faster Cast Rate\n+55% Faster Hit Recovery\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage 3 Second Duration\n+75 Poison Damage Over 5 Seconds\n7% Life Stolen Per Hit\n+250 Defense Vs. Missile\n+22 To Vitality\n+89-112 To Mana\n+3-8 Magic Absorb\n\n(Shield Version)\n+2 To All Skills\n+25-35% Faster Cast Rate\n+55% Faster Hit Recovery\n+250 Defense Vs. Missile\n+22 To Vitality\n+89-112 To Mana\nCold Resist +35%\nLightning Resist +35%\nPoison Resist +35%\n+3-8 Magic Absorb\nAttacker Takes Damage of 14"
+                "(Sword Version)\n+2 To All Skills\n+25-+35% Faster Cast Rate\n+55% Faster Hit Recovery\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage 3 Second Duration\n+75 Poison Damage over 5 Seconds\n7% Life Stolen Per Hit\n+250 Defense vs. Missile\n+22 To Vitality\n+89-112 To Mana\n+3-8 Magic Absorb\n\n(Shield Version)\n+2 To All Skills\n+25-+35% Faster Cast Rate\n+55% Faster Hit Recovery\n+250 Defense vs. Missile\n+22 To Vitality\n+89-112 To Mana\nCold Resist +35%\nLightning Resist +35%\nPoison Resist +35%\n+3-8 Magic Absorb\nAttacker Takes Damage of 14"
             ],
             "runeword78": [
                 "Splendor",
@@ -692,7 +692,7 @@
                 "Stone",
                 "Armor\n(4 sockets)",
                 "Shael  + Um  + Pul  + Lum",
-                "+60% Faster Hit Recovery\n+250-290% Enhanced Defense (varies)\n+300 Defense Vs. Missile\n+16 To Strength\n+16 To Vitality\n+10 To Energy\nAll Resistances +15\nLevel 16 Molten Boulder (80 Charges)\nLevel 16 Clay Golem (16 Charges)"
+                "+60% Faster Hit Recovery\n+250-290% Enhanced Defense (varies)\n+300 Defense vs. Missile\n+16 To Strength\n+16 To Vitality\n+10 To Energy\nAll Resistances +15\nLevel 16 Molten Boulder (80 Charges)\nLevel 16 Clay Golem (16 Charges)"
             ],
             "runeword82": [
                 "Strength",
@@ -716,13 +716,13 @@
                 "Unbending Will\n*New*",
                 "Swords\n(6 sockets)",
                 "Fal + Io + Ith + Eld + El + Hel",
-                "18% Chance to Cast Level 18 Taunt On Striking\n+3 to Combat Skills (Barbarian Only)\n+20-30% Increased Attack Speed\n+300-350% Enhanced Damage\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage To Undead\n+50 Attack Rating Against Undead\n8-10% Life Stolen Per Hit\nPrevent Monster Heal\n+10 To Strength\n+10 To Vitality\nDamage Reduced by 8\n+1 To Light Radius\nRequirements -20%"
+                "18% Chance to Cast Level 18 Taunt On Striking\n+3 to Combat Skills (Barbarian Only)\n+20-+30% Increased Attack Speed\n+300-350% Enhanced Damage\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage To Undead\n+50 Attack Rating Against Undead\n8-10% Life Stolen Per Hit\nPrevent Monster Heal\n+10 To Strength\n+10 To Vitality\nDamage Reduced by 8\n+1 To Light Radius\nRequirements -20%"
             ],
             "runeword86": [
                 "Venom",
                 "All Weapons\n(3 sockets)",
                 "Tal  + Dol  + Mal",
-                "Ignore Target's Defense\n+273 Poison Damage Over 6 Seconds\n7% Mana Stolen Per Hit\nPrevent Monster Heal\nHit Causes Monster To Flee 25%\nLevel 13 Poison Nova (11 Charges)\nLevel 15 Poison Explosion (27 Charges)"
+                "Ignore Target's Defense\n+273 Poison Damage over 6 Seconds\n7% Mana Stolen Per Hit\nPrevent Monster Heal\nHit Causes Monster To Flee 25%\nLevel 13 Poison Nova (11 Charges)\nLevel 15 Poison Explosion (27 Charges)"
             ],
             "runeword87": [
                 "Voice of Reason",
