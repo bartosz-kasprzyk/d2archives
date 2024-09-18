@@ -44,17 +44,17 @@ function App() {
         icon={github_icon}
         text="Follow Me"
         href="https://github.com/bartosz-kasprzyk"
-        bottom="280px"
-        color="#21262D"
-        translateX="-110px"
+        $bottom="280px"
+        $color="#21262D"
+        $translateX="-110px"
       />
       <SlideOutLink
         icon={coffee_icon}
         text="Buy Me A Coffee"
         href="https://buymeacoffee.com/bartoszkas5"
-        bottom="200px"
-        color="#9D590C"
-        translateX="-170px"
+        $bottom="200px"
+        $color="#9D590C"
+        $translateX="-170px"
       />
       <ScrollToTopButton />
     </HashRouter>
