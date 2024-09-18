@@ -2,13 +2,13 @@ import React from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
 import { ColumnHeader, RowHeader, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
-import useLoadUniqueAndSet from '../../common/hooks/useLoadUniqueAndSet';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
+import useLoadContent from '../../common/hooks/useLoadContent';
 
 const UniqueItemsList = () => {
-    const state = useLoadUniqueAndSet();
+    const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
     const location = useLocation();

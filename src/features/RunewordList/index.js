@@ -1,15 +1,15 @@
 import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
-import useLoadContent from '../../common/hooks/useLoadContent'
 import { Container } from '../../common/Container';
 import { RunewordButton, StyledLink, StyledList, StyledNavigation, StyledText } from './styled';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import { toRunes } from '../../common/config/routes';
+import useLoadContent from '../../common/hooks/useLoadContent';
 
 const RunewordList = () => {
-    const state = useLoadContent();
+    const state = useLoadContent('runeAndRuneword');
     const content = state.content;
 
     const rowRefs = useRef({});

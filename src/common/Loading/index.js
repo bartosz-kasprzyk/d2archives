@@ -8,9 +8,9 @@ import useLoadContent from '../hooks/useLoadContent';
 
 const images = [d2Loading1, d2Loading2, d2Loading3, d2Loading4];
 
-export const Loading = () => {
+export const Loading = ({ dataType }) => {
     const [currentImage, setCurrentImage] = useState(images[0]);
-    const state = useLoadContent();
+    const state = useLoadContent(dataType);
 
     useEffect(() => {
         if (state.status !== 'loading') {

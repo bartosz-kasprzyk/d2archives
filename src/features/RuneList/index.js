@@ -11,7 +11,7 @@ import { useLocation } from 'react-router-dom';
 import { toRunewords } from '../../common/config/routes';
 
 const RuneList = () => {
-    const state = useLoadContent();
+    const state = useLoadContent('runeAndRuneword');
     const content = state.content;
 
     const rowRefs = useRef({});
