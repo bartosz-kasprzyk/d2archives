@@ -88,6 +88,7 @@ export const BottomLine = styled.div`
 export const ValueBox = styled.span`
     color: #8470ff;
     padding: 3px 8px 1px;
+    filter: opacity(0.8);
     background: 
         url(${TopLeft}) top left no-repeat,
         url(${TopRight}) top right no-repeat,
