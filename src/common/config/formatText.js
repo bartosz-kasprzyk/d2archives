@@ -5,13 +5,14 @@ import { CategoryText, InfoText, NewItem, RuneText, ValueBox } from '../Table/st
 const runes = Object.keys(runeImages);
 
 export const formatText = (text, currentPath) => {
-    const regex = /(?<!Adds\s)\b\d+-\d+\b/g;
+    const regex = /(?<!Damage:\s|\bDefense:\s|\bAdds\s)\b\d+-\d+\b/g;
+
     const runeRegex = new RegExp(`\\b(${runes.join('|')})\\b`, 'gi');
 
     const lines = text.split('\n');
 
     return lines.map((line, lineIndex) => {
-        const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:)/g);
+        const parts = line.split(/(\*New\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
 
         return (
             <React.Fragment key={lineIndex}>
@@ -34,7 +35,7 @@ export const formatText = (text, currentPath) => {
                                 {part}
                             </CategoryText>
                         );
-                    } else if (currentPath === '/runewords' && regex.test(part)) {
+                    } else if ((currentPath === '/runewords' || currentPath === '/uniques') && regex.test(part)) {
                         return (
                             <ValueBox key={partIndex}>
                                 {part}
@@ -54,9 +55,10 @@ export const formatText = (text, currentPath) => {
                     } else {
                         return part;
                     }
-                })}
-                <br />
-            </React.Fragment>
+                })
+                }
+                < br />
+            </React.Fragment >
         );
     });
 };
