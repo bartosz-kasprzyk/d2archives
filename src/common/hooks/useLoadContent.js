@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-const useLoadRuneAndRuneword = () => {
+const useLoadContent = (dataType) => {
     const [state, setState] = useState({
         status: 'loading',
         content: null
@@ -8,8 +8,20 @@ const useLoadRuneAndRuneword = () => {
 
     useEffect(() => {
         const loadContent = async () => {
+            if (!dataType) {
+                return;
+            }
+
             try {
-                const contentModule = await import('../config/runeAndRunewordData.json');
+                let contentModule;
+
+                if (dataType === 'runeAndRuneword') {
+                    contentModule = await import('../config/runeAndRunewordData.json');
+                } else if (dataType === 'uniqueAndSet') {
+                    contentModule = await import('../config/uniqueAndSetData.json');
+                } else {
+                    throw new Error('Invalid data type');
+                }
 
                 setTimeout(() => {
                     setState({
@@ -28,9 +40,9 @@ const useLoadRuneAndRuneword = () => {
         };
 
         loadContent();
-    }, []);
+    }, [dataType]);
 
     return state;
 };
 
-export default useLoadRuneAndRuneword;
+export default useLoadContent;
