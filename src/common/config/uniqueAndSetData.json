@@ -1,7 +1,6 @@
 {
     "metadata": {
-        "credits": "Uniques & Set Item Infos taken from: http://www.d2tomb.com/",
-        "compiledBy": "Nasicus from https://github.com/Nasicus/d2-holy-grail/"
+        "credits": "Original Uniques & Set Item data sourced from https://github.com/Nasicus/d2-holy-grail/, with modifications and rearrangement to improve accuracy and fit my vision. Original data from http://www.d2tomb.com/."
     },
     "content": {
         "uniqueItems": {
