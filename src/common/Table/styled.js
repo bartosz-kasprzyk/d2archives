@@ -80,7 +80,7 @@ export const TableRow = styled.tr`
     `}
 `;
 
-export const StyledImage = styled.img`
+export const StyledSmallImage = styled.img`
     width: 30px;
 `;
 
@@ -145,3 +145,17 @@ export const NewItem = styled.span`
 export const RuneText = styled.span`
     color: #ca8120;
 `;
+
+export const BonusListTitle = styled.h2`
+    color: #DDDDDD;
+`
+
+export const BonusList = styled.ul`
+    list-style-type: none;
+    padding: 0;
+    padding-bottom: 60px;
+`
+
+export const BonusListItem = styled.li`
+    color: #86735A;
+`
