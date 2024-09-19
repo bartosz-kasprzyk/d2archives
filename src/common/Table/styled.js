@@ -37,8 +37,15 @@ export const ColumnHeader = styled.th`
     padding: 10px;
     text-align: center;
     color: #885C02;
-    background: #0F0F0F;
+    background: #0000003A;
     font-size: 20px;
+`;
+
+export const TableHeader = styled(ColumnHeader)`
+    color: #1B9718;
+    background: #0000009A;
+    font-size: 40px;
+    margin: 20px 5px -10px;
 `;
 
 export const RowHeader = styled.th`
@@ -75,6 +82,25 @@ export const TableRow = styled.tr`
 
 export const StyledImage = styled.img`
     width: 30px;
+`;
+
+export const StyledBigImage = styled.img`
+    transform: scale(0.8);
+    vertical-align: top;
+`;
+
+export const ImageTitle = styled.span`
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+`;
+
+export const ImageSubtitle = styled.span`
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
 `;
 
 export const BottomLine = styled.div`
