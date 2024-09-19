@@ -1,15 +1,16 @@
 import { useEffect } from 'react';
 import { Header } from './common/Header';
+import useLoadContent from './common/hooks/useLoadContent';
 import RuneList from './features/RuneList';
 import RunewordList from './features/RunewordList';
 import UniqueItemsList from './features/UniqueItemsList';
+import SetItemsList from './features/SetItemsList';
 import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
-import { toRunes, toRunewords, toUniques } from './common/config/routes';
+import { toRunes, toRunewords, toSets, toUniques } from './common/config/routes';
 import { ScrollToTopButton } from './common/ScrollToTopButton';
 import github_icon from '../src/images/Icons/github_icon.png'
 import coffee_icon from '../src/images/Icons/coffee_icon.png'
 import { SlideOutLink } from './common/SlideOutLink';
-import useLoadContent from './common/hooks/useLoadContent';
 
 function ScrollToTop({ dataType }) {
   const state = useLoadContent(dataType);
@@ -36,6 +37,8 @@ function App() {
         <Route path={toRunewords()} element={<RunewordList dataType="runeAndRuneword" />} />
 
         <Route path={toUniques()} element={<UniqueItemsList dataType="uniqueAndSet" />} />
+
+        <Route path={toSets()} element={<SetItemsList dataType="uniqueAndSet" />} />
 
         <Route path="/" element={<Navigate to={toRunes()} />} />
       </Routes>

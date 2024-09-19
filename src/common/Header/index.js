@@ -1,10 +1,11 @@
-import { toRunes, toRunewords, toUniques } from "../config/routes";
+import { toRunes, toRunewords, toSets, toUniques } from "../config/routes";
 import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledCorner, StyledHeader, StyledNavLink, StyledSigil, StyledUnderline } from "./styled";
 import d2r from "../../images/Logo/d2r.gif"
 import archives from "../../images/Logo/archives.png"
-import runes from "../../images/Navigation/RUNES.png"
-import runewords from "../../images/Navigation/RUNEWORDS.png"
-import uniques from "../../images/Navigation/UNIQUES.png"
+import runes from "../../images/Navigation/runes.png"
+import runewords from "../../images/Navigation/runewords.png"
+import uniques from "../../images/Navigation/uniques.png"
+import sets from "../../images/Navigation/sets.png"
 import underline from '../../images/Ornaments/underline.png'
 import sigil from '../../images/Ornaments/sigil.png'
 
@@ -31,6 +32,11 @@ export const Header = () => {
                 <li>
                     <StyledNavLink to={toUniques()}>
                         <img src={uniques} alt="Uniques" />
+                    </StyledNavLink>
+                </li>
+                <li>
+                    <StyledNavLink to={toSets()}>
+                        <img src={sets} alt="sets" />
                     </StyledNavLink>
                 </li>
             </NavSection >

@@ -38,8 +38,8 @@ export const LogoIcon2 = styled.img`
 
 export const NavSection = styled.ul`
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 16px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 80px;
     justify-items: center;
     list-style-type: none;
     margin: 0;
