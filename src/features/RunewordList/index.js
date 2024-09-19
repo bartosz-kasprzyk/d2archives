@@ -87,7 +87,7 @@ const RunewordList = () => {
                                 $highlight={highlightedRow === runeword[0]}
                                 $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
-                                <RowHeader>{formatText(runeword[0], location.pathname)}</RowHeader>
+                                <RowHeader $color={"#86735A"}>{formatText(runeword[0], location.pathname)}</RowHeader>
                                 <TableCell>{formatText(runeword[1], location.pathname)}</TableCell>
                                 <TableCell>{formatText(runeword[2], location.pathname)}</TableCell>
                                 <TableCellBlue>

@@ -39,7 +39,7 @@ const UniqueItemsList = () => {
                                     key={uniqueItem.name}
                                     $index={index + 1}
                                 >
-                                    <RowHeader>
+                                    <RowHeader $color={"#86735A"}>
                                         {formatText(uniqueItem.name)}
                                         <small>{uniqueItem.type}</small>
                                     </RowHeader>

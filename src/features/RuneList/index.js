@@ -75,7 +75,7 @@ const RuneList = () => {
                                 ref={el => rowRefs.current[row[0]] = el}
                                 $highlight={highlightedRow === row[0]}
                                 $index={index + 1}>
-                                <RowHeader>#{index + 1}</RowHeader>
+                                <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
                                 <TableCell>
                                     {formatText(row[0], location.pathname)}
                                     <StyledImage

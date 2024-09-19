@@ -25,7 +25,7 @@ export const TableCell = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #dddddd;
+    color: #DDDDDD;
 `;
 
 export const TableCellBlue = styled(TableCell)`
@@ -45,7 +45,7 @@ export const RowHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #86735a;
+    color: ${({ $color }) => $color || 'inherit'};
 `;
 
 export const TableRow = styled.tr`
