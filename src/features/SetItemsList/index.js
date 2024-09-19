@@ -1,12 +1,11 @@
 import React from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
-import { ColumnHeader, ImageSubtitle, ImageTitle, RowHeader, StyledBigImage, StyledTable, TableCell, TableHeader, TableRow, TableWrapper } from '../../common/Table/styled';
+import { BonusList, BonusListItem, BonusListTitle, ColumnHeader, ImageSubtitle, ImageTitle, RowHeader, StyledBigImage, StyledTable, TableCell, TableHeader, TableRow, TableWrapper } from '../../common/Table/styled';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
-import { BonusList, BonusListItem, BonusListTitle } from './styled';
 
 const SetItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
