@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components"
 
 export const StyledText = styled.p`
-    color: #ddd;
+    color: #DDDDDD;
     font-size: 17px;
 `;
 

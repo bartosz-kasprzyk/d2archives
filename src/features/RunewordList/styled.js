@@ -11,7 +11,7 @@ import Backdrop from "../../images/ValueBox/box_background.webp"
 import { Link } from "react-router-dom"
 
 export const StyledText = styled.p`
-    color: #ddd;
+    color: #DDDDDD;
 `
 
 export const StyledNavigation = styled.div`
