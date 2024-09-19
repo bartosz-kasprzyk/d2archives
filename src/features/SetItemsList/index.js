@@ -1,12 +1,12 @@
 import React from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
-import { ColumnHeader, RowHeader, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
+import { ColumnHeader, ImageSubtitle, ImageTitle, RowHeader, StyledBigImage, StyledTable, TableCell, TableHeader, TableRow, TableWrapper } from '../../common/Table/styled';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
-import { BonusList, BonusListItem, BonusListTitle, TableTitle } from './styled';
+import { BonusList, BonusListItem, BonusListTitle } from './styled';
 
 const SetItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
@@ -17,7 +17,6 @@ const SetItemsList = () => {
         return <Loading />;
     }
 
-    // Group items by category
     const groupedItems = Object.values(content.content.setItems).reduce((acc, item) => {
         const category = item.category;
         if (!acc[category]) {
@@ -34,13 +33,17 @@ const SetItemsList = () => {
 
                 return (
                     <div key={index}>
-                        <TableTitle>+ {category} +</TableTitle>
+
                         <TableWrapper>
                             <StyledTable>
                                 <thead>
+                                    <TableRow>
+                                        <TableHeader colSpan={3} className="table-title-cell">
+                                            + {category} +
+                                        </TableHeader>
+                                    </TableRow>
                                     <TableRow $index={0}>
-                                        <ColumnHeader>Name</ColumnHeader>
-                                        <ColumnHeader>Image</ColumnHeader>
+                                        <ColumnHeader>Item</ColumnHeader>
                                         <ColumnHeader>Properties</ColumnHeader>
                                         <ColumnHeader>Set Bonuses</ColumnHeader>
                                     </TableRow>
@@ -58,15 +61,13 @@ const SetItemsList = () => {
                                                 $index={itemIndex + 1}
                                             >
                                                 <RowHeader $color={"#1B9718"}>
-                                                    {setItem.name}<br />
-                                                    <small>{setItem.type}</small>
-                                                </RowHeader>
-                                                <TableCell>
-                                                    <img
+                                                    <StyledBigImage
                                                         src={imageSrc}
                                                         alt={setItem.name}
                                                     />
-                                                </TableCell>
+                                                    <ImageTitle>{formatText(setItem.name)}</ImageTitle>
+                                                    <ImageSubtitle>{setItem.type}</ImageSubtitle>
+                                                </RowHeader>
                                                 <TableCell>
                                                     {setItem.props.map((prop, propIndex, propsArray) => {
                                                         const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));

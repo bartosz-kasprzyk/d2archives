@@ -1,7 +1,7 @@
 import React from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
-import { ColumnHeader, RowHeader, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
+import { ColumnHeader, RowHeader, StyledBigImage, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
@@ -21,8 +21,7 @@ const UniqueItemsList = () => {
                 <StyledTable>
                     <thead>
                         <TableRow $index={0}>
-                            <ColumnHeader>Name</ColumnHeader>
-                            <ColumnHeader>Image</ColumnHeader>
+                            <ColumnHeader>Item</ColumnHeader>
                             <ColumnHeader>Category</ColumnHeader>
                             <ColumnHeader>Properties</ColumnHeader>
                         </TableRow>
@@ -40,16 +39,17 @@ const UniqueItemsList = () => {
                                     $index={index + 1}
                                 >
                                     <RowHeader $color={"#86735A"}>
-                                        {formatText(uniqueItem.name)}
-                                        <small>{uniqueItem.type}</small>
-                                    </RowHeader>
-                                    <TableCell>
-                                        <img
+                                        <StyledBigImage
                                             src={imageSrc}
                                             alt={uniqueItem.name}
                                         />
-                                    </TableCell>
-                                    <TableCell>{uniqueItem.category}</TableCell>
+                                        <div>
+                                            <big>{formatText(uniqueItem.name)}</big>
+                                            <small>{uniqueItem.type}</small>
+                                        </div>
+                                    </RowHeader>
+
+                                    <TableCell>{uniqueItem.category.split(' ').slice(0, 2).join(' ')}</TableCell>
                                     <TableCell>
                                         {uniqueItem.props.map((prop, propIndex, propsArray) => {
                                             const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
