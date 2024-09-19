@@ -14,13 +14,18 @@ export const Loading = ({ dataType }) => {
 
     useEffect(() => {
         if (state.status !== 'loading') {
+            setCurrentImage(images[images.length - 1]);
             return;
         }
 
         let index = 0;
         const interval = setInterval(() => {
-            setCurrentImage(images[index]);
-            index++;
+            if (index < images.length) {
+                setCurrentImage(images[index]);
+                index++;
+            } else {
+                clearInterval(interval);
+            }
         }, 200);
 
         return () => clearInterval(interval);
