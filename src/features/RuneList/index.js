@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledImage } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneGridContainer, StyledLink, StyledText } from './styled';
@@ -78,7 +78,7 @@ const RuneList = () => {
                                 <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
                                 <TableCell>
                                     {formatText(row[0], location.pathname)}
-                                    <StyledImage
+                                    <StyledSmallImage
                                         src={runeImages[row[0]]}
                                         alt={`${row[0]} Rune`}
                                         title={`${row[0]} Rune`}
@@ -89,18 +89,18 @@ const RuneList = () => {
                                         '-'
                                     ) : (
                                         <>
-                                            <StyledImage
+                                            <StyledSmallImage
                                                 src={runeImages[row[1]]}
                                                 alt={`${row[1]} Rune`}
                                                 title={`${row[1]} Rune`}
                                             />
-                                            <StyledImage
+                                            <StyledSmallImage
                                                 src={runeImages[row[1]]}
                                                 alt={`${row[1]} Rune`}
                                                 title={`${row[1]} Rune`}
                                             />
                                             {index < 21 && (
-                                                <StyledImage
+                                                <StyledSmallImage
                                                     src={runeImages[row[1]]}
                                                     alt={`${row[1]} Rune`}
                                                     title={`${row[1]} Rune`}
@@ -108,7 +108,7 @@ const RuneList = () => {
                                             )}
                                             {index >= 10 && (
                                                 <>
-                                                    <StyledImage
+                                                    <StyledSmallImage
                                                         src={gemImages[index - 10].image}
                                                         alt={gemImages[index - 10].name}
                                                         title={gemImages[index - 10].name}
