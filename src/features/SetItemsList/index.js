@@ -64,7 +64,7 @@ const SetItemsList = () => {
                                                         src={imageSrc}
                                                         alt={setItem.name}
                                                     />
-                                                    <ImageTitle>{formatText(setItem.name)}</ImageTitle>
+                                                    <ImageTitle>{setItem.name}</ImageTitle>
                                                     <ImageSubtitle>{setItem.type}</ImageSubtitle>
                                                 </RowHeader>
                                                 <TableCell>
