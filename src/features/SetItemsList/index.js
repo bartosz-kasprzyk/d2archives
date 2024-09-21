@@ -6,6 +6,8 @@ import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
+import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { toUniques } from '../../common/config/routes';
 import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSetList } from './styled';
 
 const SetItemsList = () => {
@@ -68,6 +70,15 @@ const SetItemsList = () => {
 
     return (
         <Container>
+            <StyledText>
+                <StyledKeyword $color={"#1B9718"}>Set Items</StyledKeyword> are special items introduced in Diablo II.
+                They are like <StyledLink to={toUniques()}>Unique Items</StyledLink>, in the way that every time you find the same item, it has the same attributes.
+                However, in general, Set Items are a tad weaker than Unique Items, or so called "Uniques".
+                This is because Set Items are each part of specific sets, and moreover, if you equip the entire set, you will gain an extra set of Bonus Affixes, hence the name "Set Items".
+                Set Items are denoted by their name appearing in bright green.
+                Here are all the Sets:
+            </StyledText>
+
             <StyledNavigation>
                 {Object.entries(groupedItems).map(([category, items], index) => (
                     <StyledSetList key={index}>
