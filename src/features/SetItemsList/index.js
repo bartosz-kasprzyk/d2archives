@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
 import { BonusList, BonusListItem, BonusListTitle, ColumnHeader, ImageSubtitle, ImageTitle, RowHeader, StyledBigImage, StyledTable, TableCell, TableHeader, TableRow, TableWrapper } from '../../common/Table/styled';
@@ -6,11 +6,52 @@ import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
+import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSetList } from './styled';
 
 const SetItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
     const location = useLocation();
+
+    const categoryRefs = useRef({});
+    const itemRefs = useRef({});
+    const [highlightedRow, setHighlightedRow] = useState(null);
+    const [highlightedCategory, setHighlightedCategory] = useState(null);
+
+
+    const scrollToSet = (categoryName) => {
+        const targetRow = categoryRefs.current[categoryName];
+
+        if (targetRow) {
+            targetRow.scrollIntoView({
+                behavior: 'smooth',
+            });
+
+            setHighlightedCategory(categoryName);
+
+            setTimeout(() => {
+                setHighlightedCategory(null);
+            }, 1000);
+        }
+    };
+
+
+    const scrollToSetItem = (itemName) => {
+        const targetRow = itemRefs.current[itemName];
+
+        if (targetRow) {
+            targetRow.scrollIntoView({
+                behavior: 'smooth',
+                block: 'center',
+            });
+
+            setHighlightedRow(itemName);
+
+            setTimeout(() => {
+                setHighlightedRow(null);
+            }, 1000);
+        }
+    };
 
     if (!content || !content.content || !content.content.setItems) {
         return <Loading />;
@@ -27,99 +68,126 @@ const SetItemsList = () => {
 
     return (
         <Container>
-            {Object.entries(groupedItems).map(([category, items], index) => {
-                const bonuses = content.content.setBonuses[category] || {};
+            <StyledNavigation>
+                {Object.entries(groupedItems).map(([category, items], index) => (
+                    <StyledSetList key={index}>
+                        <li>
+                            <SetButton onClick={() => scrollToSet(category)}>
+                                {category}
+                            </SetButton>
 
-                return (
-                    <div key={index}>
+                            <StyledSetItemList>
+                                {items.map((item, itemIndex) => (
+                                    <li key={itemIndex}>
+                                        <SetItemButton onClick={() => scrollToSetItem(item.name)}>
+                                            {item.name}
+                                        </SetItemButton>
+                                    </li>
+                                ))}
+                            </StyledSetItemList>
+                        </li>
+                    </StyledSetList>
+                ))}
+            </StyledNavigation>
 
-                        <TableWrapper>
-                            <StyledTable>
-                                <thead>
-                                    <TableRow>
-                                        <TableHeader colSpan={3} className="table-title-cell">
-                                            + {category} +
-                                        </TableHeader>
-                                    </TableRow>
-                                    <TableRow $index={0}>
-                                        <ColumnHeader>Item</ColumnHeader>
-                                        <ColumnHeader>Properties</ColumnHeader>
-                                        <ColumnHeader>Set Bonuses</ColumnHeader>
-                                    </TableRow>
-                                </thead>
-                                <tbody>
-                                    {items.map((setItem, itemIndex) => {
-                                        const imageKey = setItem.image
-                                            .replace(/^\/images\//, '')
-                                            .replace(/\.(png|jpg|gif|jpeg)$/, '');
-                                        const imageSrc = images[imageKey] || '/default_image.png';
+            {
+                Object.entries(groupedItems).map(([category, items], index) => {
+                    const bonuses = content.content.setBonuses[category] || {};
 
-                                        return (
-                                            <TableRow
-                                                key={setItem.name}
-                                                $index={itemIndex + 1}
-                                            >
-                                                <RowHeader $color={"#1B9718"}>
-                                                    <StyledBigImage
-                                                        src={imageSrc}
-                                                        alt={setItem.name}
-                                                    />
-                                                    <ImageTitle>{setItem.name}</ImageTitle>
-                                                    <ImageSubtitle>{setItem.type}</ImageSubtitle>
-                                                </RowHeader>
-                                                <TableCell>
-                                                    {setItem.props.map((prop, propIndex, propsArray) => {
-                                                        const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
-                                                        const isRequires = prop.startsWith('Required');
-                                                        const isSetItems = prop.toLowerCase().includes('set items');
+                    return (
+                        <div key={index}>
+                            <TableWrapper>
+                                <StyledTable>
+                                    <thead>
+                                        <TableRow ref={el => categoryRefs.current[category] = el}>
+                                            <TableHeader colSpan={3} $highlight={highlightedCategory === category}>
+                                                + {category} +
+                                            </TableHeader>
+                                        </TableRow>
+                                        <TableRow $index={0}>
+                                            <ColumnHeader>Item</ColumnHeader>
+                                            <ColumnHeader>Properties</ColumnHeader>
+                                            <ColumnHeader>Set Bonuses</ColumnHeader>
+                                        </TableRow>
+                                    </thead>
+                                    <tbody>
+                                        {items.map((setItem, itemIndex) => {
+                                            const imageKey = setItem.image
+                                                .replace(/^\/images\//, '')
+                                                .replace(/\.(png|jpg|gif|jpeg)$/, '');
+                                            const imageSrc = images[imageKey] || '/default_image.png';
 
-                                                        return (
-                                                            <div
-                                                                key={propIndex}
-                                                                style={{
-                                                                    color: isSetItems ? '#1B9718' : (propIndex <= reqLevelIndex
-                                                                        ? isRequires
-                                                                            ? '#9d4a3c'
-                                                                            : '#DDDDDD'
-                                                                        : '#4f53c5'
-                                                                    )
-                                                                }}
-                                                            >
-                                                                {formatText(prop, location.pathname)}
-                                                            </div>
-                                                        );
-                                                    })}
-                                                </TableCell>
-                                                {itemIndex === 0 ? (
-                                                    <TableCell rowSpan={items.length}>
-                                                        <div>
-                                                            <BonusListTitle>Partial Set Bonus:</BonusListTitle>
-                                                            <BonusList>
-                                                                {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                    <BonusListItem key={i}>{bonus}</BonusListItem>
-                                                                ))}
-                                                            </BonusList>
-                                                        </div>
-                                                        <div>
-                                                            <BonusListTitle>Full Set Bonus:</BonusListTitle>
-                                                            <BonusList>
-                                                                {bonuses["Full Set Bonus"]?.map((bonus, i) => (
-                                                                    <BonusListItem key={i}>{bonus}</BonusListItem>
-                                                                ))}
-                                                            </BonusList>
-                                                        </div>
+                                            return (
+                                                <TableRow
+                                                    key={setItem.name}
+                                                    $index={itemIndex + 1}
+                                                    ref={el => (itemRefs.current[setItem.name] = el)}
+                                                >
+                                                    <RowHeader
+                                                        $color={"#1B9718"}
+                                                        $highlight={highlightedRow === setItem.name}
+                                                    >
+                                                        <StyledBigImage src={imageSrc} alt={setItem.name} />
+                                                        <ImageTitle>{setItem.name}</ImageTitle>
+                                                        <ImageSubtitle>{setItem.type}</ImageSubtitle>
+                                                    </RowHeader>
+                                                    <TableCell
+                                                        $highlight={highlightedRow === setItem.name}
+                                                    >
+                                                        {setItem.props.map((prop, propIndex, propsArray) => {
+                                                            const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
+                                                            const isRequires = prop.startsWith('Required');
+                                                            const isSetItems = prop.toLowerCase().includes('set items');
+
+                                                            return (
+                                                                <div
+                                                                    key={propIndex}
+                                                                    style={{
+                                                                        color: isSetItems
+                                                                            ? '#1B9718'
+                                                                            : propIndex <= reqLevelIndex
+                                                                                ? isRequires
+                                                                                    ? '#9d4a3c'
+                                                                                    : '#DDDDDD'
+                                                                                : '#4f53c5',
+                                                                    }}
+                                                                >
+                                                                    {formatText(prop, location.pathname)}
+                                                                </div>
+                                                            );
+                                                        })}
                                                     </TableCell>
-                                                ) : null}
-                                            </TableRow>
-                                        );
-                                    })}
-                                </tbody>
-                            </StyledTable>
-                        </TableWrapper>
-                    </div>
-                );
-            })}
-        </Container>
+                                                    {itemIndex === 0 ? (
+                                                        <TableCell rowSpan={items.length}>
+                                                            <div>
+                                                                <BonusListTitle>Partial Set Bonus:</BonusListTitle>
+                                                                <BonusList>
+                                                                    {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
+                                                                        <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                    ))}
+                                                                </BonusList>
+                                                            </div>
+                                                            <div>
+                                                                <BonusListTitle>Full Set Bonus:</BonusListTitle>
+                                                                <BonusList>
+                                                                    {bonuses["Full Set Bonus"]?.map((bonus, i) => (
+                                                                        <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                    ))}
+                                                                </BonusList>
+                                                            </div>
+                                                        </TableCell>
+                                                    ) : null}
+                                                </TableRow>
+                                            );
+                                        })}
+                                    </tbody>
+                                </StyledTable>
+                            </TableWrapper>
+                        </div>
+                    );
+                })
+            }
+        </Container >
     );
 };
 

@@ -26,6 +26,11 @@ export const TableCell = styled.th`
     padding: 10px;
     text-align: center;
     color: #DDDDDD;
+    transition: background-color 1s ease;
+
+    ${props => props.$highlight && `
+        background-color: #D1AD665A;
+    `}
 `;
 
 export const TableCellBlue = styled(TableCell)`
@@ -46,6 +51,12 @@ export const TableHeader = styled(ColumnHeader)`
     background: #0000009A;
     font-size: 40px;
     margin: 20px 5px -10px;
+    transition: filter 1s ease, transform 1s ease;
+
+    ${props => props.$highlight && `
+        filter: brightness(3);
+        transform: scale(1.1);
+    `}
 `;
 
 export const RowHeader = styled.th`
@@ -53,6 +64,11 @@ export const RowHeader = styled.th`
     padding: 10px;
     text-align: center;
     color: ${({ $color }) => $color || 'inherit'};
+    transition: background-color 1s ease;
+
+    ${props => props.$highlight && `
+        background-color: #D1AD665A;
+    `}
 `;
 
 export const TableRow = styled.tr`
