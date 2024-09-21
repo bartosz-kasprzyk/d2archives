@@ -10,7 +10,9 @@ https://bartosz-kasprzyk.github.io/d2archives/
 
 "Stay awhile and listen!" 🧙‍♂️💬
 
-This page contains the most important informations about runes, their properties and all possible runewords that can be made out of them. I'm planning on adding a list of all uniques, a Holy Grail tracker and other cool stuff.
+Here you can find lists of all runes, runewords, uniques and sets with all their properties. Currently working on adding item filters. In the future I plan on adding a Holy Grail tracker and other cool stuff.
+
+Enjoy!
 
 ## Technologies 🛠️
 
