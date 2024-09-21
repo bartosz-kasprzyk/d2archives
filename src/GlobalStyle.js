@@ -18,6 +18,6 @@ export const GlobalStyle = createGlobalStyle`
         margin: auto;
         background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(31, 18, 0, 1) 55%, rgba(0, 0, 0, 1) 100%);
         color: #DDDDDD;
-        font-family: "MedievalSharp", cursive, serif;
+        font-family: "Ubuntu", sans-serif;
     }
 `;
