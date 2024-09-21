@@ -7,7 +7,7 @@ import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import { toRunes } from '../../common/config/routes';
 import useLoadContent from '../../common/hooks/useLoadContent';
-import { StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -49,7 +49,7 @@ const RunewordList = () => {
     return (
         <Container>
             <StyledText>
-                <b>Runewords</b> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
+                <StyledKeyword $color={"#86735A"}>Runewords</StyledKeyword> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
                 The correct arrangement of runes in socketed items not only provides basic attributes but also bonus effects that enhance the item's power.
                 Most of the most important weapons and armor in the game come from runewords.
                 Many of these are very difficult to obtain due to the rare appearance of runes at higher levels.

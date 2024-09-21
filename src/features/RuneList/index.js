@@ -9,7 +9,7 @@ import { formatText } from '../../common/config/formatText';
 import gemImages from '../../common/config/gemImages';
 import { useLocation } from 'react-router-dom';
 import { toRunewords } from '../../common/config/routes';
-import { StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 
 const RuneList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -47,7 +47,7 @@ const RuneList = () => {
     return (
         <Container>
             <StyledText>
-                <b>Runes</b> are stones that enhance items with socketed slots.
+                <StyledKeyword $color={"#CA8120"}>Runes</StyledKeyword> are stones that enhance items with socketed slots.
                 They add various properties depending on the item type.
                 When inserted in the correct order, they form <StyledLink to={toRunewords()}>runewords</StyledLink> that give items new properties.
                 Here is a list of all runes:

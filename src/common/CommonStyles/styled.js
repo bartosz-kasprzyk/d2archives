@@ -16,3 +16,8 @@ export const StyledLink = styled(Link)`
         text-decoration: underline;
     }
 `;
+
+export const StyledKeyword = styled.span`
+    color: ${({ $color }) => $color || 'inherit'};
+    font-weight: 700;
+`;
