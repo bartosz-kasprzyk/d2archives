@@ -6,6 +6,8 @@ import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
+import { StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { toSets } from '../../common/config/routes';
 
 const UniqueItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
@@ -17,6 +19,14 @@ const UniqueItemsList = () => {
 
     return (
         <Container>
+            <StyledText>
+                <b>Unique Items</b> are by far the most sought-after, possessing many magical properties that no Magical, Rare, or Crafted Item has.
+                There is usually only one Unique item for every type of weapon and armor in the game.
+                Unique items are denoted by their names being colored gold. <StyledLink to={toSets()}>Set Items</StyledLink> are different from Unique ones,
+                but very similar to them in terms of how they work and rarity.
+                Here is a list of all Unique Items:
+            </StyledText>
+
             <TableWrapper>
                 <StyledTable>
                     <thead>
