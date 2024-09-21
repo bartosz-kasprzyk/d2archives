@@ -2,13 +2,14 @@ import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
-import { RuneButton, RuneButtonImage, RuneGridContainer, StyledLink, StyledText } from './styled';
+import { RuneButton, RuneButtonImage, RuneGridContainer } from './styled';
 import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import gemImages from '../../common/config/gemImages';
 import { useLocation } from 'react-router-dom';
 import { toRunewords } from '../../common/config/routes';
+import { StyledLink, StyledText } from '../../common/CommonStyles/styled';
 
 const RuneList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -51,6 +52,7 @@ const RuneList = () => {
                 When inserted in the correct order, they form <StyledLink to={toRunewords()}>runewords</StyledLink> that give items new properties.
                 Here is a list of all runes:
             </StyledText>
+
             <RuneGridContainer>
                 {Object.keys(runeImages).map((runeName) => (
                     <RuneButton key={runeName} onClick={() => scrollToRune(runeName)}>
@@ -58,6 +60,7 @@ const RuneList = () => {
                     </RuneButton>
                 ))}
             </RuneGridContainer>
+
             <TableWrapper>
                 <StyledTable>
                     <thead>

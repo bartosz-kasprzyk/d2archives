@@ -1,12 +1,13 @@
 import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledLink, StyledList, StyledNavigation, StyledText } from './styled';
+import { RunewordButton, StyledList, StyledNavigation } from './styled';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import { toRunes } from '../../common/config/routes';
 import useLoadContent from '../../common/hooks/useLoadContent';
+import { StyledLink, StyledText } from '../../common/CommonStyles/styled';
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -57,6 +58,7 @@ const RunewordList = () => {
                 Experienced players spend a lot of time searching for the right items and runes to ultimately create their desired equipment.
                 Here is a list of all runewords:
             </StyledText>
+
             <StyledNavigation>
                 {runewords.map((runeword) => (
                     <StyledList key={runeword[0]}>
@@ -68,6 +70,7 @@ const RunewordList = () => {
                     </StyledList>
                 ))}
             </StyledNavigation>
+
             <TableWrapper>
                 <StyledTable>
                     <thead>

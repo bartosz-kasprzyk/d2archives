@@ -8,11 +8,6 @@ import BottomLine from "../../images/ValueBox/box_bottom.webp"
 import LeftLine from "../../images/ValueBox/box_left.webp"
 import RightLine from "../../images/ValueBox/box_right.webp"
 import Backdrop from "../../images/ValueBox/box_background.webp"
-import { Link } from "react-router-dom"
-
-export const StyledText = styled.p`
-    color: #DDDDDD;
-`
 
 export const StyledNavigation = styled.div`
     display: grid;
@@ -82,15 +77,4 @@ export const ValueBox = styled.span`
         url(${LeftLine}) left repeat-y,
         url(${RightLine}) right repeat-y,
         url(${Backdrop}) center center repeat;
-`;
-
-export const StyledLink = styled(Link)`
-    color: #ca8120;
-    text-decoration: none;
-    transition: filter 0.3s ease;
-
-    &:hover {
-        filter: brightness(1.5);
-        text-decoration: underline;
-    }
 `;
