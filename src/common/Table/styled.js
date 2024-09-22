@@ -168,3 +168,10 @@ export const BonusList = styled.ul`
 export const BonusListItem = styled.li`
     color: #86735A;
 `
+
+export const HighlightSearch = styled.span`
+    color: #000;
+    background-color: #F8F412;
+    padding: 0 2px;
+    border-radius: 3px;
+`;
