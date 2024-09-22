@@ -47,7 +47,7 @@ export const formatText = (text, currentPath, searchQuery) => {
                                 {part}
                             </ValueBox>
                         );
-                    } else if (runeRegex.test(part)) {
+                    } else if (currentPath === '/runewords' && runeRegex.test(part)) {
                         return part.split(runeRegex).map((subPart, subPartIndex) => {
                             const isRune = runes.some(rune => rune.toLowerCase() === subPart.toLowerCase());
 
