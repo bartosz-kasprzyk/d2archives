@@ -545,7 +545,7 @@
             "Arkaine's Valor": {
                 "name": "Arkaine's Valor",
                 "type": "Balrog Skin",
-                "image": "/images/items/splintmail.png",
+                "image": "/images/items/balrogskin.png",
                 "props": [
                     "Defense: 1295-1450",
                     "Required Strength: 165",
@@ -1302,7 +1302,7 @@
             "Arachnid Mesh": {
                 "name": "Arachnid Mesh",
                 "type": "Spiderweb Sash",
-                "image": "/images/items/sash.png",
+                "image": "/images/items/arachnidmesh.png",
                 "props": [
                     "Defense: 119-138",
                     "Belt Size: +16 Slots",
@@ -2812,7 +2812,7 @@
             "Harlequin Crest": {
                 "name": "Harlequin Crest",
                 "type": "Shako",
-                "image": "/images/items/cap.png",
+                "image": "/images/items/harlequincrest.png",
                 "props": [
                     "Defense: 98-141",
                     "Required Strength: 50",
@@ -7711,7 +7711,7 @@
                 "type": "Hunter's Guise",
                 "image": "/images/items/aldursstoneygaze.png",
                 "props": [
-                    "Defense:  157-171",
+                    "Defense: 157-171",
                     "Required Strength:  56",
                     "Required Level:  36",
                     "+25% Faster Hit Recovery",
@@ -7731,8 +7731,8 @@
                 "type": "Battle Boots",
                 "image": "/images/items/aldursadvance.png",
                 "props": [
-                    "Defense:  39-47",
-                    "Assassin Kick Damage:  37-64",
+                    "Defense: 39-47",
+                    "Assassin Kick Damage: 37-64",
                     "Required Strength:  95",
                     "Required Level:  45",
                     "Indestructible",
@@ -7753,7 +7753,7 @@
                 "type": "Shadow Plate",
                 "image": "/images/items/aldursdeception.png",
                 "props": [
-                    "Defense:  746-857",
+                    "Defense: 746-857",
                     "Required Strength:  115",
                     "Required Level:  76",
                     "+1 to Elemental Skills (Druid Only)",
@@ -7774,7 +7774,7 @@
                 "type": "Jagged Star",
                 "image": "/images/items/aldursrhythm.png",
                 "props": [
-                    "Damage:  60-93",
+                    "Damage: 60-93",
                     "Required Strength:  74",
                     "Required Level:  42",
                     "+30% Increased Attack Speed",
@@ -7907,7 +7907,7 @@
                 "type": "Dusk Shroud",
                 "image": "/images/items/darkadherent.png",
                 "props": [
-                    "Defense 666-882",
+                    "Defense: 666-882",
                     "Required Strength: 77",
                     "Required Level: 49",
                     "25% chance to cast level 3 Nova when struck",
@@ -7953,7 +7953,7 @@
                 "type": "Ornate Armor",
                 "image": "/images/items/griswoldsheart.png",
                 "props": [
-                    "Defense 917-950",
+                    "Defense: 917-950",
                     "Required Strength:  102",
                     "Required Level:  45",
                     "+2 to Defensive Auras (Paladin only)",
@@ -7969,7 +7969,7 @@
                 "type": "Corona",
                 "image": "/images/items/griswoldsvalor.png",
                 "props": [
-                    "Defense:  249-290",
+                    "Defense: 249-290",
                     "Required Strength:  105",
                     "Required Level:  69",
                     "-40% Requirements",
@@ -7987,7 +7987,7 @@
                 "type": "Caduceus",
                 "image": "/images/items/griswoldsredemption.png",
                 "props": [
-                    "Damage:  114-129",
+                    "Damage: 114-129",
                     "Required Strength:  78",
                     "Required Dexterity:  56",
                     "Required Level:  66",
@@ -8006,7 +8006,7 @@
                 "type": "Vortex Shield",
                 "image": "/images/items/griswoldshonor.png",
                 "props": [
-                    "Defense:  290-333",
+                    "Defense: 290-333",
                     "Required Strength:  148",
                     "Required Level:  68",
                     "69% Chance to Block",
@@ -8154,7 +8154,7 @@
                 "type": "Avenger Guard",
                 "image": "/images/items/immortalwill.png",
                 "props": [
-                    "Defense:  160-175",
+                    "Defense: 160-175",
                     "Required Strength:  65",
                     "Required Level:  47",
                     "+2 to Warcries (Barbarian only)",
@@ -8171,7 +8171,7 @@
                 "type": "Ogre Maul",
                 "image": "/images/items/maul.png",
                 "props": [
-                    "Damage:  231-318",
+                    "Damage: 231-318",
                     "Required Strength:  225",
                     "Required Level:  76",
                     "Indestructible",
@@ -8194,7 +8194,7 @@
                 "type": "Sacred Armor",
                 "image": "/images/items/immortalsoulcage.png",
                 "props": [
-                    "Defense:  487-1301",
+                    "Defense: 487-1301",
                     "Required Strength:  232",
                     "Required Level:  76",
                     "5% chance to cast level 5 Enchant when struck",
@@ -8214,7 +8214,7 @@
                 "type": "War Belt",
                 "image": "/images/items/girdle.png",
                 "props": [
-                    "Defense:  89-247",
+                    "Defense: 89-247",
                     "Required Strength:  110",
                     "Required Level:  29",
                     "+31% Lightning Resist",
@@ -8234,7 +8234,7 @@
                 "type": "War Gauntlets",
                 "image": "/images/items/gauntlets.png",
                 "props": [
-                    "Defense:  108-238",
+                    "Defense: 108-238",
                     "Required Strength:  110",
                     "Required Level:  30",
                     "12% chance to cast level 4 Charged Bolt when struck",
@@ -8254,7 +8254,7 @@
                 "type": "War Boots",
                 "image": "/images/items/plateboots.png",
                 "props": [
-                    "Defense:  118-288",
+                    "Defense: 118-288",
                     "Required Strength:  125",
                     "Required Level:  31",
                     "+40% Faster Run/Walk",
@@ -8273,7 +8273,7 @@
                 "type": "Diadem",
                 "image": "/images/items/mavinastruesight.png",
                 "props": [
-                    "Defense:  200-210",
+                    "Defense: 200-210",
                     "Required Level:  64",
                     "+30% Increased Attack Speed",
                     "+150 Defense",
@@ -8290,7 +8290,7 @@
                 "type": "Grand Matron Bow",
                 "image": "/images/items/mavinascaster.png",
                 "props": [
-                    "Damage 40-207",
+                    "Damage: 40-207",
                     "Required Strength:  108",
                     "Required Dexterity:  152",
                     "Required Level:  70",
@@ -8309,7 +8309,7 @@
                 "type": "Kraken Shell",
                 "image": "/images/items/mavinasembrace.png",
                 "props": [
-                    "Defense:  771-1269",
+                    "Defense: 771-1269",
                     "Required Strength:  122",
                     "Required Level:  70",
                     "10% chance to cast level 3 Glacial Spike when struck",
@@ -8327,7 +8327,7 @@
                 "type": "Battle Gauntlets",
                 "image": "/images/items/mavinasicyclutch.png",
                 "props": [
-                    "Defense:  84-97",
+                    "Defense: 84-97",
                     "Required Strength: 88",
                     "Required Level:  32",
                     "+45-50 Defense",
@@ -8346,7 +8346,7 @@
                 "type": "Sharkskin Belt",
                 "image": "/images/items/mavinastenet.png",
                 "props": [
-                    "Defense:  81-86",
+                    "Defense: 81-86",
                     "Required Strength:  20",
                     "Required Level:  45",
                     "+20% Faster Run/Walk",
@@ -8417,11 +8417,11 @@
                     "Defense: 195-300",
                     "Required Strength: 58",
                     "Required Level: 59",
-                    "Magic Damage reduced by 3",
-                    "All Resistances +10-20",
                     "+135-175 Defense",
+                    "+10-20 to Strength",
                     "+20-30 to Dexterity",
-                    "+10-20 to Strength"
+                    "All Resistances +10-20",
+                    "Magic Damage reduced by 3"
                 ],
                 "category": "Natalya's Odium"
             },
@@ -8656,7 +8656,7 @@
                 "type": "Swirling Crystal",
                 "image": "/images/items/talrashaslidlesseye.png",
                 "props": [
-                    "Damage:  18-42",
+                    "Damage: 18-42",
                     "Required Strength:",
                     "Required Dexterity:",
                     "Required Level:  65",
@@ -8679,7 +8679,7 @@
                 "type": "Death Mask",
                 "image": "/images/items/mask.png",
                 "props": [
-                    "Defense:  99-131",
+                    "Defense: 99-131",
                     "Required Strength:  55",
                     "Required level:  66",
                     "10% Life stolen per hit",
@@ -8696,7 +8696,7 @@
                 "type": "Lacquered Plate",
                 "image": "/images/items/talrashasguardianship.png",
                 "props": [
-                    "Defense:  833-941",
+                    "Defense: 833-941",
                     "Required Strength:  84",
                     "Required Level:  71",
                     "-60% to Requirements",
@@ -8715,7 +8715,7 @@
                 "type": "Mesh Belt",
                 "image": "/images/items/talrashasfine-spuncloth.png",
                 "props": [
-                    "Defense:  35-100",
+                    "Defense: 35-100",
                     "Required Strength:  47",
                     "Required Level:  53",
                     "37% damage taken goes to Mana",
@@ -8748,7 +8748,7 @@
                 "type": "Bone Visage",
                 "image": "/images/items/trang-oulsguise.png",
                 "props": [
-                    "Defense:  180-257",
+                    "Defense: 180-257",
                     "Required Strength:  106",
                     "Required Level:  65",
                     "+25% Faster Hit Recovery",
@@ -8764,7 +8764,7 @@
                 "type": "Chaos Armor",
                 "image": "/images/items/trang-oulsscales.png",
                 "props": [
-                    "Defense:  857",
+                    "Defense: 857",
                     "Required Strength:  84",
                     "Required Level:  49",
                     "+2 to Summoning Skills (Necromancer only)",
@@ -8783,7 +8783,7 @@
                 "type": "Cantor Trophy",
                 "image": "/images/items/trang-oulswing.png",
                 "props": [
-                    "Defense:  175-189",
+                    "Defense: 175-189",
                     "Required Strength:  50",
                     "Required Level:  54",
                     "+2 to Poison and Bone Skills (Necromancer only)",
@@ -8803,7 +8803,7 @@
                 "type": "Troll Belt",
                 "image": "/images/items/trang-oulsgirth.png",
                 "props": [
-                    "Defense:  134-166",
+                    "Defense: 134-166",
                     "Required Strength:  91",
                     "Required Level:  62",
                     "Cannot be Frozen",
@@ -8822,7 +8822,7 @@
                 "type": "Heavy Bracers",
                 "image": "/images/items/trang-oulsclaws.png",
                 "props": [
-                    "Defense:  67-74",
+                    "Defense: 67-74",
                     "Required Strength:  58",
                     "Required Level:  45",
                     "+2 to Curses (Necromancer only)",
