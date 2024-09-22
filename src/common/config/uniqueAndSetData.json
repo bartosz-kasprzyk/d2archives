@@ -2685,7 +2685,7 @@
                     "+20 to Energy",
                     "+6-12 Replenish Life"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Rockstopper": {
                 "name": "Rockstopper",
@@ -2703,7 +2703,7 @@
                     "+20-40% Lightning Resist",
                     "Damage Reduced by 10%"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Stealskull": {
                 "name": "Stealskull",
@@ -2720,7 +2720,7 @@
                     "+200-240% Enhanced Defense",
                     "30-50% Better Chance of Getting Magic Items"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Darksight Helm": {
                 "name": "Darksight Helm",
@@ -2738,7 +2738,7 @@
                     "-4 to Light Radius",
                     "Level 5 Cloak of Shadows (30 charges)"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Valkyrie Wing": {
                 "name": "Valkyrie Wing",
@@ -2754,7 +2754,7 @@
                     "+150-200% Enhanced Defense",
                     "+2-4 to Mana after each kill"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Blackhorn's Face": {
                 "name": "Blackhorn's Face",
@@ -2771,7 +2771,7 @@
                     "+20 Lightning Absorb",
                     "+15% Lightning Resist"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Crown of Thieves": {
                 "name": "Crown of Thieves",
@@ -2789,7 +2789,7 @@
                     "+25 to Dexterity",
                     "80-100% Extra Gold from Monsters"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Vampire Gaze": {
                 "name": "Vampire Gaze",
@@ -2807,7 +2807,7 @@
                     "Damage reduced by 15-20%",
                     "Magic Damage reduced by 10-15"
                 ],
-                "category": "Normal Unique Exceptional Helms"
+                "category": "Exceptional Unique Helms"
             },
             "Harlequin Crest": {
                 "name": "Harlequin Crest",
@@ -2827,7 +2827,7 @@
                     "+2 to Energy",
                     "50% Better Chance of Getting Magic Items"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Steel Shade": {
                 "name": "Steel Shade",
@@ -2842,7 +2842,7 @@
                     "+4-8% Mana Stolen per Hit",
                     "+5-11 Fire Absorb"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Veil of Steel": {
                 "name": "Veil of Steel",
@@ -2859,7 +2859,7 @@
                     "All Resistances +50",
                     "-4 to Light Radius"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Nightwing's Veil": {
                 "name": "Nightwing's Veil",
@@ -2877,7 +2877,7 @@
                     "Half Freeze Duration",
                     "-50% Requirements"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Andariel's Visage": {
                 "name": "Andariel's Visage",
@@ -2898,7 +2898,7 @@
                     "+70% Poison Resist",
                     "Level 3 Venom (20 charges)"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Crown of Ages": {
                 "name": "Crown of Ages",
@@ -2917,7 +2917,7 @@
                     "Damage Reduced by 10-15%",
                     "Socketed (1-2)"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Giant Skull": {
                 "name": "Giant Skull",
@@ -2933,7 +2933,7 @@
                     "+25-35 to Strength",
                     "Socketed (1-2)"
                 ],
-                "category": "Normal Unique Elite Helms"
+                "category": "Elite Unique Helms"
             },
             "Kira's Guardian": {
                 "name": "Kira's Guardian",
@@ -3031,7 +3031,7 @@
                     "+50% Fire Resist",
                     "+3 to Light Radius"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "The Eye of Etlich": {
                 "name": "The Eye of Etlich",
@@ -3045,7 +3045,7 @@
                     "+10-40 Defense vs. Missile",
                     "+1-5 to Light Radius"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "The Mahim-Oak Curio": {
                 "name": "The Mahim-Oak Curio",
@@ -3059,7 +3059,7 @@
                     "+10% bonus to Attack Rating",
                     "All Resistances +10"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Saracen's Chance": {
                 "name": "Saracen's Chance",
@@ -3071,7 +3071,7 @@
                     "All Resistances +15-25",
                     "+12 to All Attributes"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "The Cat's Eye": {
                 "name": "The Cat's Eye",
@@ -3085,7 +3085,7 @@
                     "+100 Defense against missiles",
                     "+25 to Dexterity"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Crescent Moon": {
                 "name": "Crescent Moon",
@@ -3100,7 +3100,7 @@
                     "Magic Damage is reduced by 10",
                     "+45 to Mana"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Atma's Scarab": {
                 "name": "Atma's Scarab",
@@ -3115,7 +3115,7 @@
                     "Attacker takes damage of 5",
                     "+40 Poison Damage over 4 seconds"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "The Rising Sun": {
                 "name": "The Rising Sun",
@@ -3130,7 +3130,7 @@
                     "(0.75*Clvl) Absorbs Fire Damage (Based on Character Level)",
                     "+4 to Light Radius"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Highlord's Wrath": {
                 "name": "Highlord's Wrath",
@@ -3145,7 +3145,7 @@
                     "+(0.375*Clvl) to Deadly Strike (Based on Character Level)",
                     "Attacker takes Lightning damage of 15"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Mara's Kaleidoscope": {
                 "name": "Mara's Kaleidoscope",
@@ -3157,7 +3157,7 @@
                     "+5 to All Attributes",
                     "All Resistances +20-30"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Seraph's Hymn": {
                 "name": "Seraph's Hymn",
@@ -3173,7 +3173,7 @@
                     "+150-250 to Attack Rating against Undead",
                     "+2 to Light Radius"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Metalgrid": {
                 "name": "Metalgrid",
@@ -3187,7 +3187,7 @@
                     "Level 22 Iron Golem (11 charges)",
                     "Level 12 Iron Maiden (20 charges)"
                 ],
-                "category": "Normal Unique Amulets"
+                "category": "Unique Amulets"
             },
             "Nagelring": {
                 "name": "Nagelring",
@@ -3200,7 +3200,7 @@
                     "Attacker takes 3 Damage",
                     "15-30% better chance of getting magic item"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Manald Heal": {
                 "name": "Manald Heal",
@@ -3213,7 +3213,7 @@
                     "20% Regenerate Mana",
                     "+20 to Life"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Stone of Jordan": {
                 "name": "Stone of Jordan",
@@ -3226,7 +3226,7 @@
                     "Adds 1-12 Lightning damage",
                     "+20 to Mana"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Dwarf Star": {
                 "name": "Dwarf Star",
@@ -3241,7 +3241,7 @@
                     "15% Fire Absorb",
                     "100% extra gold from Monsters"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Raven Frost": {
                 "name": "Raven Frost",
@@ -3256,7 +3256,7 @@
                     "Cannot be frozen",
                     "Adds 15-45 Cold Damage"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Bul-Kathos' Wedding Band": {
                 "name": "Bul-Kathos' Wedding Band",
@@ -3269,7 +3269,7 @@
                     "+50 to maximum Stamina",
                     "+(0.5*Clvl) to Life (Based on Character Level)"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Carrion Wind": {
                 "name": "Carrion Wind",
@@ -3285,7 +3285,7 @@
                     "10% Damage taken goes to Mana",
                     "Level 21 Poison Creeper (15 charges)"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Nature's Peace": {
                 "name": "Nature's Peace",
@@ -3299,7 +3299,7 @@
                     "Damage Reduced by 7-11",
                     "Level 5 Oak Sage (27 charges)"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Wisp Projector": {
                 "name": "Wisp Projector",
@@ -3314,7 +3314,7 @@
                     "Level 5 Heart of Wolverine (13 charges)",
                     "Level 2 Oak Sage (15 charges)"
                 ],
-                "category": "Normal Unique Rings"
+                "category": "Unique Rings"
             },
             "Felloak": {
                 "name": "Felloak",
@@ -4620,7 +4620,7 @@
                     "(0.625*Clvl) Absorbs Cold Damage (Based on Character Level)",
                     "Half Freeze Duration"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "Stormshield": {
                 "name": "Stormshield",
@@ -4643,7 +4643,7 @@
                     "+25% Lightning Resist",
                     "+30 to Strength"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "Spike Thorn": {
                 "name": "Spike Thorn",
@@ -4662,7 +4662,7 @@
                     "Damage Reduced by 15-20%",
                     "Socketed (1)"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "Medusa's Gaze": {
                 "name": "Medusa's Gaze",
@@ -4682,7 +4682,7 @@
                     "+150-180% Enhanced Defense",
                     "+40-80% Cold Resist"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "Head Hunter's Glory": {
                 "name": "Head Hunter's Glory",
@@ -4702,7 +4702,7 @@
                     "+5-7 Life after each Kill",
                     "Socketed (1-3)"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "Spirit Ward": {
                 "name": "Spirit Ward",
@@ -4722,7 +4722,7 @@
                     "All Resistances +30-40",
                     "+6-11 Cold Absorb"
                 ],
-                "category": "Normal Unique Elite Shields"
+                "category": "Elite Unique Shields"
             },
             "The Dragon Chang": {
                 "name": "The Dragon Chang",
@@ -6117,7 +6117,7 @@
                     "+400-600 Defense",
                     "All Resistances +30-50"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Elite Unique Amazon Weapons"
             },
             "Lycander's Flank": {
                 "name": "Lycander's Flank",
@@ -6138,7 +6138,7 @@
                     "+20 to Vitality",
                     "+20% Enhanced Defense"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Exceptional Unique Amazon Weapons"
             },
             "Lycander's Aim": {
                 "name": "Lycander's Aim",
@@ -6159,7 +6159,7 @@
                     "+20 to Energy",
                     "+20% Enhanced Defense"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Exceptional Unique Amazon Weapons"
             },
             "Titan's Revenge": {
                 "name": "Titan's Revenge",
@@ -6181,7 +6181,7 @@
                     "+20 to Dexterity",
                     "Replenishes 1 quantity in 3 seconds"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Exceptional Unique Amazon Weapons"
             },
             "Thunderstroke": {
                 "name": "Thunderstroke",
@@ -6201,7 +6201,7 @@
                     "-15% to Enemy Lightning Resistance",
                     "+3 to Lightning Bolt (Amazon only)"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Elite Unique Amazon Weapons"
             },
             "Blood Raven's Charge": {
                 "name": "Blood Raven's Charge",
@@ -6218,7 +6218,7 @@
                     "200-300% Bonus to Attack Rating",
                     "Level 5 Revive (30 charges)"
                 ],
-                "category": "Normal Unique Amazon Weapons"
+                "category": "Elite Unique Amazon Weapons"
             },
             "Shadow Killer": {
                 "name": "Shadow Killer",
@@ -6237,7 +6237,7 @@
                     "+10-15 Mana after each Kill",
                     "Ethereal (Cannot be Repaired)"
                 ],
-                "category": "Normal Unique Assassin Katars"
+                "category": "Elite Unique Assassin Katars"
             },
             "Bartuc's Cut-Throat": {
                 "name": "Bartuc's Cut-Throat",
@@ -6258,7 +6258,7 @@
                     "+20 to Strength",
                     "+20 to Dexterity"
                 ],
-                "category": "Normal Unique Assassin Katars"
+                "category": "Exceptional Unique Assassin Katars"
             },
             "Jade Talon": {
                 "name": "Jade Talon",
@@ -6276,7 +6276,7 @@
                     "10-15% Mana Stolen per Hit",
                     "All Resistances +40-50"
                 ],
-                "category": "Normal Unique Assassin Katars"
+                "category": "Elite Unique Assassin Katars"
             },
             "Firelizard's Talons": {
                 "name": "Firelizard's Talons",
@@ -6295,7 +6295,7 @@
                     "+1-2 to Wake of Fire (Assassin only)",
                     "+40-70% Fire Resist"
                 ],
-                "category": "Normal Unique Assassin Katars"
+                "category": "Elite Unique Assassin Katars"
             },
             "Arreat's Face": {
                 "name": "Arreat's Face",
@@ -6315,7 +6315,7 @@
                     "+20 to Dexterity",
                     "All Resistances +30"
                 ],
-                "category": "Normal Unique Barbarian Helms"
+                "category": "Exceptional Unique Barbarian Helms"
             },
             "Wolfhowl": {
                 "name": "Wolfhowl",
@@ -6335,7 +6335,7 @@
                     "+8-15 to Vitality",
                     "Level 15 Summon Dire Wolf (18 charges)"
                 ],
-                "category": "Normal Unique Barbarian Helms"
+                "category": "Elite Unique Barbarian Helms"
             },
             "Demonhorn's Edge": {
                 "name": "Demonhorn's Edge",
@@ -6353,7 +6353,7 @@
                     "3-6% Life Stolen per Hit",
                     "Attacker takes Damage of 55-77"
                 ],
-                "category": "Normal Unique Barbarian Helms"
+                "category": "Elite Unique Barbarian Helms"
             },
             "Halaberd's Reign": {
                 "name": "Halaberd's Reign",
@@ -6371,7 +6371,7 @@
                     "+140-170% Enhanced Defense",
                     "+15-23 Replenish Life"
                 ],
-                "category": "Normal Unique Barbarian Helms"
+                "category": "Elite Unique Barbarian Helms"
             },
             "Jalal's Mane": {
                 "name": "Jalal's Mane",
@@ -6391,7 +6391,7 @@
                     "+20 to Energy",
                     "All Resistances +30"
                 ],
-                "category": "Normal Unique Druid Pelts"
+                "category": "Exceptional Unique Druid Pelts"
             },
             "Cerebus' Bite": {
                 "name": "Cerebus' Bite",
@@ -6408,7 +6408,7 @@
                     "+1-2 to Feral Rage (Druid only)",
                     "+130-140% Enhanced Defense"
                 ],
-                "category": "Normal Unique Druid Pelts"
+                "category": "Elite Unique Druid Pelts"
             },
             "Spirit Keeper": {
                 "name": "Spirit Keeper",
@@ -6426,7 +6426,7 @@
                     "+9-14% Lightning Absorb",
                     "15-25% Cold Absorb"
                 ],
-                "category": "Normal Unique Druid Pelts"
+                "category": "Elite Unique Druid Pelts"
             },
             "Ravenlore": {
                 "name": "Ravenlore",
@@ -6443,7 +6443,7 @@
                     "+20-30 to Energy",
                     "All Resistances +15-25"
                 ],
-                "category": "Normal Unique Druid Pelts"
+                "category": "Elite Unique Druid Pelts"
             },
             "Homunculus": {
                 "name": "Homunculus",
@@ -6464,7 +6464,7 @@
                     "33% Regenerate Mana",
                     "All Resistances +40"
                 ],
-                "category": "Normal Unique Necromancer Shrunken Heads"
+                "category": "Exceptional Unique Necromancer Shrunken Heads"
             },
             "Boneflame": {
                 "name": "Boneflame",
@@ -6481,7 +6481,7 @@
                     "+120-150% Enhanced Defense",
                     "All Resistances +20-30"
                 ],
-                "category": "Normal Unique Necromancer Shrunken Heads"
+                "category": "Elite Unique Necromancer Shrunken Heads"
             },
             "Darkforce Spawn": {
                 "name": "Darkforce Spawn",
@@ -6499,7 +6499,7 @@
                     "+140-180% Enhanced Defense",
                     "10% Increase Maximum Mana"
                 ],
-                "category": "Normal Unique Necromancer Shrunken Heads"
+                "category": "Elite Unique Necromancer Shrunken Heads"
             },
             "Herald of Zakarum": {
                 "name": "Herald of Zakarum",
@@ -6520,7 +6520,7 @@
                     "+20 to Vitality",
                     "All Resistances +50"
                 ],
-                "category": "Normal Unique Paladin Shields"
+                "category": "Exceptional Unique Paladin Shields"
             },
             "Alma Negra": {
                 "name": "Alma Negra",
@@ -6539,7 +6539,7 @@
                     "+180-210% Enhanced Defense",
                     "Magic Damage Reduced by 5-9"
                 ],
-                "category": "Normal Unique Paladin Shields"
+                "category": "Elite Unique Paladin Shields"
             },
             "Dragonscale": {
                 "name": "Dragonscale",
@@ -6558,7 +6558,7 @@
                     "+15-25 to Strength",
                     "10-20% Fire Absorb"
                 ],
-                "category": "Normal Unique Paladin Shields"
+                "category": "Elite Unique Paladin Shields"
             },
             "The Oculus": {
                 "name": "The Oculus",
@@ -6577,7 +6577,7 @@
                     "+5 to Mana after each kill",
                     "50% Better Chance of Getting Magic Items"
                 ],
-                "category": "Normal Unique Sorceress Orbs"
+                "category": "Exceptional Unique Sorceress Orbs"
             },
             "Eschuta's Temper": {
                 "name": "Eschuta's Temper",
@@ -6592,7 +6592,7 @@
                     "+10-20% Lightning Skill Damage",
                     "+20-30 to Energy"
                 ],
-                "category": "Normal Unique Sorceress Orbs"
+                "category": "Elite Unique Sorceress Orbs"
             },
             "Death's Fathom": {
                 "name": "Death's Fathom",
@@ -6607,7 +6607,7 @@
                     "+25-40% Lightning Resist",
                     "+25-40% Fire Resist"
                 ],
-                "category": "Normal Unique Sorceress Orbs"
+                "category": "Elite Unique Sorceress Orbs"
             },
             "Annihilus": {
                 "name": "Annihilus",
@@ -6620,7 +6620,7 @@
                     "All Resistances +10-20",
                     "+5-10% To Experience Gained"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Hellfire Torch": {
                 "name": "Hellfire Torch",
@@ -6635,7 +6635,7 @@
                     "+8 to Light Radius",
                     "Level 30 Hydra (10 Charges)"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Gheed's Fortune": {
                 "name": "Gheed's Fortune",
@@ -6647,7 +6647,7 @@
                     "Reduces All Vendor Prices 10-15%",
                     "20-40% Better Chance of Getting Magic Items"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Flame Rift": {
                 "name": "Flame Rift",
@@ -6658,7 +6658,7 @@
                     "Monster Fire Immunity is Sundered",
                     "Fire Resist -70-90%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Cold Rupture": {
                 "name": "Cold Rupture",
@@ -6669,7 +6669,7 @@
                     "Monster Cold Immunity is Sundered",
                     "Cold resist -70-90%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Crack of the Heavens": {
                 "name": "Crack of the Heavens",
@@ -6680,7 +6680,7 @@
                     "Monster Lightning Immunity is Sundered",
                     "Lightning Resist -70-90%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Rotting Fissure": {
                 "name": "Rotting Fissure",
@@ -6691,7 +6691,7 @@
                     "Monster Poison Immunity is Sundered",
                     "Poison Resist -70-90%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Black Cleft": {
                 "name": "Black Cleft",
@@ -6702,7 +6702,7 @@
                     "Monster Magic Immunity is Sundered",
                     "Magic resist -45-65%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "Bone Break": {
                 "name": "Bone Break",
@@ -6713,7 +6713,7 @@
                     "Monster Physical Immunity is Sundered",
                     "Physical Damage Received Increased by 10-20%"
                 ],
-                "category": "Normal Unique Charms"
+                "category": "Unique Charms"
             },
             "ColdDeath": {
                 "name": "Rainbow Facet Cold\n(Death)",
@@ -6726,7 +6726,7 @@
                     "+3-5% to Cold Skill Damage (varies)",
                     "-3-5% to Enemy Cold Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "FireDeath": {
                 "name": "Rainbow Facet Fire\n(Death)",
@@ -6739,7 +6739,7 @@
                     "+3-5% to Fire Skill Damage (varies)",
                     "-3-5% to Enemy Fire Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "LightDeath": {
                 "name": "Rainbow Facet Lightning\n(Death)",
@@ -6752,7 +6752,7 @@
                     "+3-5% to Lightning Skill Damage (varies)",
                     "-3-5% to Enemy Lightning Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "PoisonDeath": {
                 "name": "Rainbow Facet Poison\n(Death)",
@@ -6765,7 +6765,7 @@
                     "+3-5% to Poison Skill Damage (varies)",
                     "-3-5% to Enemy Poison Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "ColdLvlUp": {
                 "name": "Rainbow Facet Cold\n(Level-Up)",
@@ -6778,7 +6778,7 @@
                     "+3-5% to Cold Skill Damage (varies)",
                     "-3-5% to Enemy Cold Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "FireLvlUp": {
                 "name": "Rainbow Facet Fire\n(Level-Up) ",
@@ -6791,7 +6791,7 @@
                     "+3-5% to Fire Skill Damage (varies)",
                     "-3-5% to Enemy Fire Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "LightLvlUp": {
                 "name": "Rainbow Facet Lightning\n(Level-Up)",
@@ -6804,7 +6804,7 @@
                     "+3-5% to Lightning Skill Damage (varies)",
                     "-3-5% to Enemy Lightning Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             },
             "PoisonLvlUp": {
                 "name": "Rainbow Facet Poison\n(Level-Up)",
@@ -6817,7 +6817,7 @@
                     "+3-5% to Poison Skill Damage (varies)",
                     "-3-5% to Enemy Poison Resistance (varies)"
                 ],
-                "category": "Normal Unique Jewels"
+                "category": "Unique Jewels"
             }
         },
         "setItems": {
