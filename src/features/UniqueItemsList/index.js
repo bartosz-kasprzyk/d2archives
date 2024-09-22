@@ -76,12 +76,12 @@ const UniqueItemsList = () => {
                                                 alt={uniqueItem.name}
                                             />
                                             <div>
-                                                <big>{formatText(uniqueItem.name, searchQuery)}</big>
-                                                <small>{formatText(uniqueItem.type, searchQuery)}</small>
+                                                <big>{formatText(uniqueItem.name, location.pathname, searchQuery)}</big>
+                                                <small>{formatText(uniqueItem.type, location.pathname, searchQuery)}</small>
                                             </div>
                                         </RowHeader>
 
-                                        <TableCell>{formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), searchQuery)}</TableCell>
+                                        <TableCell>{formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}</TableCell>
                                         <TableCell>
                                             {uniqueItem.props.map((prop, propIndex, propsArray) => {
                                                 const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
