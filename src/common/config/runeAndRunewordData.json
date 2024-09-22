@@ -251,7 +251,7 @@
                 "50% Chance To Cast Level 20 Poison Nova when you Kill an Enemy\nIndestructible\n+60% Increased Attack Speed\n+350-400% Enhanced Damage (varies)\n-25% Target Defense\n+50 To Attack Rating\n+200% Damage To Undead\n+50 To Attack Rating Against Undead\n7% Mana Stolen Per Hit\n12-15% Life Stolen Per Hit (varies)\nPrevent Monster Heal\n+30 To All Attributes\n+1 To Light Radius\nRequirements -20%"
             ],
             "runewordNEW8": [
-                "Bulwark\n*New*",
+                "Bulwark\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Shael + Io + Sol",
                 "+20% Faster Hit Recovery\n+4-6% Life stolen per hit\n+75-100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nReplenish Life +30\nDamage Reduced by 7\nPhysical Damage Received Reduced by 10-15%"
@@ -281,7 +281,7 @@
                 "10% Chance To Cast Level 17 Chain Lightning On Striking\n7% Chance To Cast Level 13 Static Field On Striking\n+20% Increased Attack Speed\n+180-220% Enhanced Damage (varies)\nIgnore Target's Defense\n-35% To Enemy Lightning Resistance\n25% Chance of Open Wounds\n+9-11 Magic Absorb (varies)\n+2 To Mana After Each Kill\nLevel 18 Summon Spirit Wolf (30 Charges)"
             ],
             "runewordNEW13": [
-                "Cure\n*New*",
+                "Cure\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Shael  + Io  + Tal",
                 "Level 1 Cleansing Aura when Equipped\n+20% Faster Hit Recovery\n+75-100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nPoison Resist +40-60%\nPoison Length Reduced by 50%"
@@ -370,8 +370,8 @@
                 "Fal  + Ohm  + Ort  + Jah",
                 "+30% Increased Attack Speed\n+320-370% Enhanced Damage (varies)\nIgnore Target's Defense\nAdds 180-200 Magic Damage\nAdds 50-200 Fire Damage\nAdds 51-250 Lightning Damage\nAdds 50-200 Cold Damage\n12% Life Stolen Per Hit\nPrevent Monster Heal\n+10 To Strength"
             ],
-            "runewordNEW28": [
-                "Flickering Flame\n*New*",
+            "runeword28": [
+                "Flickering Flame",
                 "Axes & Hammers\n(3 sockets)",
                 "Nef + Pul + Vex",
                 "Level 4-8 Resist Fire Aura When Equipped\n+3 To Fire Skills\n-10-15% To Enemy Fire Resistance\n+30% Enhanced Defense\n+30 Defense vs. Missile\n+50-75 To Mana\nHalf Freeze Duration\n+5% To Maximum Fire Resist\nPoison Length Reduced by 50%"
@@ -401,7 +401,7 @@
                 "35% Chance To Cast Level 15 Venom On Striking\n+30-+40% Increased Attack Speed (varies)\nDamage +340-400 (varies)\nIgnore Target's Defense\n-25% Target Defense\n+(1.875*Clvl)% Damage To Demons (Based on Character Level)\nAdds 5-30 Fire Damage\n-20-25% To Enemy Poison Resistance (varies)\n20% Deadly Strike\nPrevent Monster Heal\n+2 To Mana After Each Kill\n+10-15 Life After Each Kill (varies)"
             ],
             "runewordNEW33": [
-                "Ground\n*New*",
+                "Ground\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Shael + Io + Ort",
                 "+20% Faster Hit Recovery\n+75-100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nLightning Resist +40-60%\nLightning Absorb +10-15%"
@@ -425,7 +425,7 @@
                 "+3 To All Skills\n+40% Faster Cast Rate\n+75% Damage To Demons\n+100 To Attack Rating Against Demons\nAdds 3-14 Cold Damage\n7% Mana Stolen Per Hit\n+10 To Dexterity\nReplenish Life +20\nIncrease Maximum Mana 15%\nAll Resistances +30-40 (varies)\nLevel 4 Oak Sage (25 Charges)\nLevel 14 Raven (60 Charges)"
             ],
             "runewordNEW37": [
-                "Hearth\n*New*",
+                "Hearth\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Shael + Io + Thul",
                 "+20% Faster Hit Recovery\n+75-100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nCold Resist +40-60%\nCold Absorb +10-15%\nCannot be Frozen"
@@ -443,7 +443,7 @@
                 "+1 to All Skills\n+160% Enhanced Damage\n+9 to Minimum Damage\n+9 to Maximum Damage\n+250 Attack Rating\n7% Life Stolen per Hit\n25% Deadly Strike\n+10 to Strength\nReplenish life +10\n+2 to Mana after each Kill\n+1 to Light Radius"
             ],
             "runewordNEW40": [
-                "Hustle\n*New*",
+                "Hustle\n+Ladder only+",
                 "All Weapons & Armor\n(3 sockets)",
                 "Shael + Ko + Eld",
                 "(Weapon Version)\n5% Chance to cast level 1 Burst of Speed on striking\nLevel 1 Fanaticism Aura When Equipped\n+30% Increased Attack Speed\n+180-200% Enhanced Damage\n+75% Damage to Undead\n+50 to Attack Rating against Undead\n+10 to Dexterity\n\n(Armor Version)\n+65% Faster Run/Walk\n+40% Increased Attack Speed\n+20% Faster Hit Recovery\n+6 to Evade\n+10 to Dexterity\n50% Slower Stamina Drain\n+All Resistances +10"
@@ -527,19 +527,19 @@
                 "+3 To Sorceress Skills\n+33% Faster Cast Rate\n+9 To Minimum Damage\n-25% Target Defence\n+3 To Energy Shield (Sorceress Only)\n+2 To Static Field (Sorceress Only)\n+50% Enhanced Defense\n+10 Vitality\n+10 Energy\nIncrease Maximum Mana 20%\nMagic Damage Reduced By 7"
             ],
             "runewordNEW54": [
-                "Metamorphosis\n*New*",
+                "Metamorphosis\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Io + Cham + Fal",
                 "Werewolf strikes grant Mark for 180 seconds\nMark of the Wolf:\n+30% Bonus to Attack Rating\nIncrease Maximum Life 40%\n\nWerebear strikes grant Mark for 180 seconds\nMark of the Bear:\n+25% Increased Attack Speed\nPhysical Damage Received Reduced by 20%\n\n+5 to Shape Shifting Skills (Druid only)\n+25% Chance of Crushing Blow\n+50-80% Enhanced Defense\n+10 to Strength\n+10 to Vitality\nAll Resistances +10\nCannot be Frozen"
             ],
-            "runewordNEW55": [
-                "Mist\n*New*",
+            "runeword55": [
+                "Mist",
                 "Missile Weapons\n(5 sockets)",
                 "Cham + Shael + Gul + Thul + Ith",
                 "Level 8-12 Concentration Aura When Equipped\n+3 To All Skills\n+20% Increased Attack Speed\n+100% Piercing Attack\n+325-375% Enhanced Damage\n+9 To Maximum Damage\n20% Bonus to Attack Rating\nAdds 3-14 Cold Damage\nFreezes Target +3\n+24 to Vitality\nAll Resistances +40"
             ],
             "runewordNEW56": [
-                "Mosaic\n*New*",
+                "Mosaic\n+Ladder only+",
                 "Katars\n(3 sockets)",
                 "Mal + Gul + Amn",
                 "+50% chance for finishing moves to not consume charges\nWhen a finisher is executed this way, it now refreshes the expiration timer of the stack\n+2 to Martial Arts (Assassin only)\n+20% Increased Attack Speed\n+200-250% Enhanced Damage\n+20% Bonus to Attack Rating\n7% Life Steal\n+8-15% to Cold Skill Damage\n+8-15% to Lightning Skill Damage\n+8-15% to Fire Skill Damage\nPrevent Monster Heal"
@@ -562,8 +562,8 @@
                 "Shael  + Pul  + Mal  + Lum",
                 "Indestructible\n30% Chance To Cast Level 20 Bone Spirit On Striking\n+50% Increased Attack Speed\n+210-340% Enhanced Damage (varies)\n+75% Damage To Demons\n+100 To Attack Rating Against Demons\nPrevent Monster Heal\n+10 To Energy\n+10-15 Magic Absorb (varies)\nLevel 16 Heart of Wolverine (20 Charges)\nLevel 17 Iron Golem (14 Charges)"
             ],
-            "runewordNEW60": [
-                "Obsession\n*New*",
+            "runeword60": [
+                "Obsession",
                 "Staves\n(6 sockets)",
                 "Zod + Ist + Lem + Lum + Io + Nef",
                 "Indestructible\n24% Chance to cast level 10 Weaken when struck\n+4 To All Skills\n+65% Faster Cast Rate\n+60% Faster Hit Recovery\nKnockback\n+10 To Vitality\n+10 To Energy\nIncrease Maximum Life 15-25%\nRegenerate Mana 15-30%\nAll Resistances +60-70\n75% Extra Gold from Monsters\n30% Better Chance of Getting Magic Items"
@@ -580,8 +580,8 @@
                 "Dol  + Ort  + Eld  + Lem",
                 "+25% Increased Attack Speed\n+160-210% Enhanced Damage (varies)\n50-80% Bonus To Attack Rating (varies)\n+75% Damage To Undead\n+50 To Attack Rating Against Undead\nAdds 1-50 Lightning Damage\n+1 To Berserk\n+1 To Zeal\nHit Blinds Target +10\nHit Causes Monster To Flee 25%\n75% Extra Gold From Monsters\nLevel 3 Heart of Wolverine (12 Charges)"
             ],
-            "runewordNEW63": [
-                "Pattern\n*New*",
+            "runeword63": [
+                "Pattern",
                 "Katars\n(3 sockets)",
                 "Tal + Ort + Thul",
                 "+30% Faster Block\n+40-80% Enhanced Damage\n10% Bonus to Attack Rating\nAdds 17-62 Fire Damage\nAdds 1-50 Lightning Damage\nAdds 3-14 Cold Damage\n+75 Poison Damage over 5 Seconds\n+6 Strength\n+6 Dexterity\nAll Resistances +15"
@@ -598,8 +598,8 @@
                 "Vex  + Vex  + Lo  + Jah",
                 "(Weapon Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400% Enhanced Damage\nIgnores Target's Defense\n14% Mana Stolen Per Hit\n-28% To Enemy Fire Resistance\n20% Deadly Strike\n+350-400 Defense vs. Missile\n+15-21 Fire Absorb\n\n(Shield Version)\n100% Chance To Cast level 40 Blaze When You Level-Up\n40% Chance To Cast Level 22 Firestorm On Striking\nLevel 10-15 Redemption Aura When Equipped\n+350-400 Defense vs. Missile\n+350-400% Enhanced Damage\n-28% To Enemy Fire Resistance\n+50 To Life\n+5% To Maximum Lightning Resist\n+10% To Maximum Fire Resist\n+15-21 Fire Absorb"
             ],
-            "runewordNEW66": [
-                "Plague\n*New*",
+            "runeword66": [
+                "Plague",
                 "Swords, Katars & Daggers\n(3 sockets)",
                 "Cham + Shael + Um",
                 "20% Chance To Cast Level 12 Lower Resist When Struck\n25% Chance to Cast Level 15 Poison Nova On Striking\nLevel 13-17 Cleansing Aura When Equipped +1-2 To All Skills\n+20% Increased Attack Speed\n+220-320% Enhanced Damage\n-23% To Enemy Poison Resistance\n+0.3% (0-29.7) Deadly Strike (Based on Character Level)\n+25% Chance of Open Wounds\nFreezes Target +3"
@@ -701,7 +701,7 @@
                 "+35% Enhanced Damage\n7% Life stolen per hit\n25% Chance of Crushing Blow\n+20 to Strength\n+10 to Vitality\n+2 to Mana after each Kill"
             ],
             "runewordNEW83": [
-                "Temper\n*New*",
+                "Temper\n+Ladder only+",
                 "Headgear\n(3 sockets)",
                 "Shael + Io + Ral",
                 "+20% Faster Hit Recovery\n+75-100% Enhanced Defense\n+10 to Vitality\nIncrease Maximum Life 5%\nFire Resist +40-60%\nFire Absorb +10-15%"
@@ -712,8 +712,8 @@
                 "Shael  + Thul  + Lem",
                 "5% Chance To Cast Level 15 Fade When Struck\n25% Chance To Cast level 15 Venom On Striking\n+2 To Assassin Skills\n+45% Increased Attack Speed\n+20% Faster Hit Recovery\nCold Resist +30%\n50% Extra Gold From Monsters"
             ],
-            "runewordNEW85": [
-                "Unbending Will\n*New*",
+            "runeword85": [
+                "Unbending Will",
                 "Swords\n(6 sockets)",
                 "Fal + Io + Ith + Eld + El + Hel",
                 "18% Chance to Cast Level 18 Taunt On Striking\n+3 to Combat Skills (Barbarian Only)\n+20-+30% Increased Attack Speed\n+300-350% Enhanced Damage\n+9 to Maximum Damage\n+50 to Attack Rating\n+75% Damage To Undead\n+50 Attack Rating Against Undead\n8-10% Life Stolen Per Hit\nPrevent Monster Heal\n+10 To Strength\n+10 To Vitality\nDamage Reduced by 8\n+1 To Light Radius\nRequirements -20%"
@@ -748,8 +748,8 @@
                 "Sur  + El",
                 "10% Chance To Cast Level 9 Tornado On Striking\n+20% Faster Run/Walk\n+40% Increased Attack Speed\n+15% Faster Hit Recovery\n+120-160% Enhanced Damage (varies)\n-50% Target Defense\n+50 To Attack Rating\nHit Blinds Target\n+1 To Light Radius\nLevel 13 Twister (127 Charges)"
             ],
-            "runewordNEW91": [
-                "Wisdom\n*New*",
+            "runeword91": [
+                "Wisdom",
                 "Headgear\n(3 sockets)",
                 "Pul + Ith + Eld",
                 "+33% Piercing Attack\n+15-25% Bonus to Attack Rating\n4-8% Mana Stolen Per Hit\n+30% Enhanced Defense\n+10 Energy\n15% Slower Stamina Drain\nCannot Be Frozen\n+5 Mana After Each Kill\n15% Damage Taken Goes to Mana"

@@ -87,13 +87,6 @@ export const TableRow = styled.tr`
     ${props => props.$highlight && `
         background-color: #D1AD665A;
     `}
-
-    ${props => props.$new && `
-        border: 2px solid green;
-        box-shadow: 0 0 10px green;
-        overflow: hidden;
-        z-index: 1;
-    `}
 `;
 
 export const StyledSmallImage = styled.img`
@@ -152,7 +145,7 @@ export const CategoryText = styled.span`
     color: #86735a;
 `;
 
-export const NewItem = styled.span`
+export const LadderOnlyItem = styled.span`
     color: green;
     font-weight: bold;
     margin: 0 5px;

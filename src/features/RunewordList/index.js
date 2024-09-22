@@ -23,10 +23,6 @@ const RunewordList = () => {
         .filter(key => key.startsWith('runeword'))
         .map(key => content.content.runewordsTable[key]);
 
-    const runewordsNEW = Object.keys(content.content.runewordsTable)
-        .filter(key => key.startsWith('runewordNEW'))
-        .map(key => content.content.runewordsTable[key]);
-
     return (
         <Container>
             <StyledText>
@@ -56,7 +52,6 @@ const RunewordList = () => {
                                 key={index}
                                 $index={index + 1}
                                 ref={el => rowRefs.current[runeword[0]] = el}
-                                $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
                                 <RowHeader $color={"#86735A"}>{formatText(runeword[0], location.pathname)}</RowHeader>
                                 <TableCell>{formatText(runeword[1], location.pathname)}</TableCell>
