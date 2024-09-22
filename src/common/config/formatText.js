@@ -11,6 +11,12 @@ export const formatText = (text, currentPath) => {
 
     const lines = text.split('\n');
 
+    const escapeRegExp = (string) => {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    };
+
+    const highlightRegex = searchQuery ? new RegExp(`(${escapeRegExp(searchQuery)})`, 'gi') : null;
+
     return lines.map((line, lineIndex) => {
         const parts = line.split(/(\*Ladder only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
 
@@ -43,11 +49,35 @@ export const formatText = (text, currentPath) => {
                         );
                     } else if (runeRegex.test(part)) {
                         return part.split(runeRegex).map((subPart, subPartIndex) => {
-                            if (runes.some(rune => rune.toLowerCase() === subPart.toLowerCase())) {
+                            const isRune = runes.some(rune => rune.toLowerCase() === subPart.toLowerCase());
+
+                            const highlightParts = searchQuery ? subPart.split(highlightRegex) : [subPart];
+
+                            return highlightParts.map((highlightedPart, highlightedIndex) => {
+                                const isHighlighted = highlightedPart.toLowerCase() === searchQuery.toLowerCase();
+                                const key = `${subPartIndex}-${highlightedIndex}`;
+
+                                if (isRune) {
+                                    return isHighlighted ? (
+                                        <RuneText key={key}>
+                                            <HighlightSearch >
+                                                {highlightedPart}
+                                            </HighlightSearch>
+                                        </RuneText>
+                                    ) : (
+                                        <RuneText key={key}>{highlightedPart}</RuneText>
+                                    );
+                                }
+                                return highlightedPart;
+                            });
+                        });
+                    } else if (highlightRegex && highlightRegex.test(part)) {
+                        return part.split(highlightRegex).map((subPart, subPartIndex) => {
+                            if (subPart.toLowerCase() === searchQuery.toLowerCase()) {
                                 return (
-                                    <RuneText key={subPartIndex}>
+                                    <HighlightSearch key={subPartIndex}>
                                         {subPart}
-                                    </RuneText>
+                                    </HighlightSearch>
                                 );
                             }
                             return subPart;
