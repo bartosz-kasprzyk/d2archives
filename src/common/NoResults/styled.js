@@ -12,20 +12,19 @@ export const SpeechBubble = styled.div`
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: #2E29296A; /* Background color for the bubble */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background: #2E29296A;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
 
-    /* Create the triangle effect */
     &:after {
         content: '';
         position: absolute;
-        top: 100%; /* Position below the bubble */
-        left: 10px; /* Adjust to position closer to the image */
+        top: 100%;
+        left: 10px;
         border-width: 10px;
         border-style: solid;
-        border-color: #2E29296A transparent transparent transparent; /* Triangle color matches the bubble */
+        border-color: #2E29296A transparent transparent transparent;
     }
 `;
 
