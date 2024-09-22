@@ -1,9 +1,6 @@
 {
     "content": {
         "runesTable": {
-            "header1": "Rune",
-            "header2": "Ingredients",
-            "header3": "Properties",
             "row1": [
                 "El",
                 "-",
@@ -204,10 +201,6 @@
             ]
         },
         "runewordsTable": {
-            "header1": "Runeword",
-            "header2": "Base",
-            "header3": "Runes",
-            "header4": "Effect",
             "runeword1": [
                 "Ancient's Pledge",
                 "Shields\n(3 sockets)",
