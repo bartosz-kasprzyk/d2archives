@@ -9,7 +9,7 @@ export const SearchBar = ({ value, onChange, placeholder }) => (
                 value={value}
                 onChange={onChange}
             />
-            <UnderlineGlow className="underline-glow" />
+            <UnderlineGlow />
         </SearchBarWrapper>
     </SearchBarContainer>
 );
