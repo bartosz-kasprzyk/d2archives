@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneGridContainer } from './styled';
@@ -17,8 +17,6 @@ const RuneList = () => {
 
     const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
-
-    const location = useLocation();
 
     const scrollToRune = (runeName) => {
         if (rowRefs.current[runeName]) {
@@ -65,9 +63,9 @@ const RuneList = () => {
                 <StyledTable>
                     <thead>
                         <TableRow $index={0}>
-                            <ColumnHeader colSpan="2">{content.content.runesTable.header1}</ColumnHeader>
-                            <ColumnHeader>{content.content.runesTable.header2}</ColumnHeader>
-                            <ColumnHeader>{content.content.runesTable.header3}</ColumnHeader>
+                            <ColumnHeader colSpan="2">Rune</ColumnHeader>
+                            <ColumnHeader>Ingredients</ColumnHeader>
+                            <ColumnHeader>Properties</ColumnHeader>
                         </TableRow>
                     </thead>
                     <tbody>
@@ -80,7 +78,9 @@ const RuneList = () => {
                                 $index={index + 1}>
                                 <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
                                 <TableCell>
-                                    {formatText(row[0], location.pathname)}
+                                    <RuneText>
+                                        {formatText(row[0])}
+                                    </RuneText>
                                     <StyledSmallImage
                                         src={runeImages[row[0]]}
                                         alt={`${row[0]} Rune`}
@@ -122,7 +122,7 @@ const RuneList = () => {
                                     )}
                                 </TableCell>
                                 <TableCell>
-                                    {formatText(row[2], location.pathname)}
+                                    {formatText(row[2])}
                                     <BottomLine>
                                         {row[3]}
                                     </BottomLine>
