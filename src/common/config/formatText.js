@@ -1,10 +1,10 @@
 import React from 'react';
 import runeImages from './runeImages';
-import { CategoryText, InfoText, LadderOnlyItem, RuneText, ValueBox } from '../Table/styled';
+import { CategoryText, HighlightSearch, InfoText, LadderOnlyItem, RuneText, ValueBox } from '../Table/styled';
 
 const runes = Object.keys(runeImages);
 
-export const formatText = (text, currentPath) => {
+export const formatText = (text, currentPath, searchQuery) => {
     const regex = /(?<!Damage:\s|\bDefense:\s|\bAdds\s)\b\d+-\d+\b/g;
 
     const runeRegex = new RegExp(`\\b(${runes.join('|')})\\b`, 'gi');
