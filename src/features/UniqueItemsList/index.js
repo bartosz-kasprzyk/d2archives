@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
 import { ColumnHeader, RowHeader, StyledBigImage, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
@@ -8,14 +8,27 @@ import images from '../../utils/loadImages';
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { toSets } from '../../common/config/routes';
+import { SearchBar } from '../../common/SearchBar';
+import { NoResults } from '../../common/NoResults';
 
 const UniqueItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
+    const [searchQuery, setSearchQuery] = useState('');
+
     const location = useLocation();
 
     if (!content) return <Loading />;
+
+    const filteredUniqueItems = Object.values(content.content.uniqueItems).filter(uniqueItem => {
+        const nameMatch = uniqueItem.name.toLowerCase().includes(searchQuery.toLowerCase());
+        const typeMatch = uniqueItem.type.toLowerCase().includes(searchQuery.toLowerCase());
+        const categoryMatch = uniqueItem.category.toLowerCase().includes(searchQuery.toLowerCase());
+        const propsMatch = uniqueItem.props.some(prop => prop.toLowerCase().includes(searchQuery.toLowerCase()));
+
+        return nameMatch || typeMatch || categoryMatch || propsMatch;
+    });
 
     return (
         <Container>
@@ -27,66 +40,76 @@ const UniqueItemsList = () => {
                 Here is a list of all Unique Items:
             </StyledText>
 
-            <TableWrapper>
-                <StyledTable>
-                    <thead>
-                        <TableRow $index={0}>
-                            <ColumnHeader>Item</ColumnHeader>
-                            <ColumnHeader>Category</ColumnHeader>
-                            <ColumnHeader>Properties</ColumnHeader>
-                        </TableRow>
-                    </thead>
-                    <tbody>
-                        {Object.values(content.content.uniqueItems).map((uniqueItem, index) => {
-                            const imageKey = uniqueItem.image
-                                .replace(/^\/images\//, '')
-                                .replace(/\.(png|jpg|gif|jpeg)$/, '');
-                            const imageSrc = images[imageKey] || '/default_image.png';
+            <SearchBar
+                placeholder={"Search uniques..."}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+            />
 
-                            return (
-                                <TableRow
-                                    key={uniqueItem.name}
-                                    $index={index + 1}
-                                >
-                                    <RowHeader $color={"#86735A"}>
-                                        <StyledBigImage
-                                            src={imageSrc}
-                                            alt={uniqueItem.name}
-                                        />
-                                        <div>
-                                            <big>{formatText(uniqueItem.name)}</big>
-                                            <small>{uniqueItem.type}</small>
-                                        </div>
-                                    </RowHeader>
+            {filteredUniqueItems.length === 0 ? (
+                <NoResults />
+            ) : (
+                <TableWrapper>
+                    <StyledTable>
+                        <thead>
+                            <TableRow $index={0}>
+                                <ColumnHeader>Item</ColumnHeader>
+                                <ColumnHeader>Category</ColumnHeader>
+                                <ColumnHeader>Properties</ColumnHeader>
+                            </TableRow>
+                        </thead>
+                        <tbody>
+                            {filteredUniqueItems.map((uniqueItem, index) => {
+                                const imageKey = uniqueItem.image
+                                    .replace(/^\/images\//, '')
+                                    .replace(/\.(png|jpg|gif|jpeg)$/, '');
+                                const imageSrc = images[imageKey] || '/default_image.png';
 
-                                    <TableCell>{uniqueItem.category.split(' ').slice(0, 2).join(' ')}</TableCell>
-                                    <TableCell>
-                                        {uniqueItem.props.map((prop, propIndex, propsArray) => {
-                                            const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
-                                            const isRequires = prop.startsWith('Required');
+                                return (
+                                    <TableRow
+                                        key={uniqueItem.name}
+                                        $index={index + 1}
+                                    >
+                                        <RowHeader $color={"#86735A"}>
+                                            <StyledBigImage
+                                                src={imageSrc}
+                                                alt={uniqueItem.name}
+                                            />
+                                            <div>
+                                                <big>{formatText(uniqueItem.name, searchQuery)}</big>
+                                                <small>{formatText(uniqueItem.type, searchQuery)}</small>
+                                            </div>
+                                        </RowHeader>
 
-                                            return (
-                                                <div
-                                                    key={propIndex}
-                                                    style={{
-                                                        color: propIndex <= reqLevelIndex
-                                                            ? isRequires
-                                                                ? '#9d4a3c'
-                                                                : '#fff'
-                                                            : '#4f53c5'
-                                                    }}
-                                                >
-                                                    {formatText(prop, location.pathname)}
-                                                </div>
-                                            );
-                                        })}
-                                    </TableCell>
-                                </TableRow>
-                            );
-                        })}
-                    </tbody>
-                </StyledTable>
-            </TableWrapper>
+                                        <TableCell>{formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), searchQuery)}</TableCell>
+                                        <TableCell>
+                                            {uniqueItem.props.map((prop, propIndex, propsArray) => {
+                                                const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
+                                                const isRequires = prop.startsWith('Required');
+
+                                                return (
+                                                    <div
+                                                        key={propIndex}
+                                                        style={{
+                                                            color: propIndex <= reqLevelIndex
+                                                                ? isRequires
+                                                                    ? '#9d4a3c'
+                                                                    : '#fff'
+                                                                : '#4f53c5'
+                                                        }}
+                                                    >
+                                                        {formatText(prop, location.pathname, searchQuery)}
+                                                    </div>
+                                                );
+                                            })}
+                                        </TableCell>
+                                    </TableRow>
+                                );
+                            })}
+                        </tbody>
+                    </StyledTable>
+                </TableWrapper>
+            )}
         </Container >
     );
 };

@@ -7,6 +7,8 @@ import { useLocation } from 'react-router-dom';
 import { toRunes } from '../../common/config/routes';
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { SearchBar } from '../../common/SearchBar';
+import { NoResults } from '../../common/NoResults';
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -14,6 +16,7 @@ const RunewordList = () => {
 
     const rowRefs = useRef({});
     const location = useLocation();
+    const [searchQuery, setSearchQuery] = useState('');
 
     if (!content) {
         return <Loading />;
@@ -22,6 +25,10 @@ const RunewordList = () => {
     const runewords = Object.keys(content.content.runewordsTable)
         .filter(key => key.startsWith('runeword'))
         .map(key => content.content.runewordsTable[key]);
+
+    const filteredRunewords = runewords.filter((runeword) =>
+        runeword.some((item) => item.toLowerCase().includes(searchQuery.toLowerCase()))
+    );
 
     return (
         <Container>
@@ -36,34 +43,50 @@ const RunewordList = () => {
                 Here is a list of all runewords:
             </StyledText>
 
-            <TableWrapper>
-                <StyledTable>
-                    <thead>
-                        <TableRow $index={0}>
-                            <ColumnHeader>{content.content.runewordsTable.header1}</ColumnHeader>
-                            <ColumnHeader>{content.content.runewordsTable.header2}</ColumnHeader>
-                            <ColumnHeader>{content.content.runewordsTable.header3}</ColumnHeader>
-                            <ColumnHeader>{content.content.runewordsTable.header4}</ColumnHeader>
-                        </TableRow>
-                    </thead>
-                    <tbody>
-                        {runewords.map((runeword, index) => (
-                            <TableRow
-                                key={index}
-                                $index={index + 1}
-                                ref={el => rowRefs.current[runeword[0]] = el}
-                            >
-                                <RowHeader $color={"#86735A"}>{formatText(runeword[0], location.pathname)}</RowHeader>
-                                <TableCell>{formatText(runeword[1], location.pathname)}</TableCell>
-                                <TableCell>{formatText(runeword[2], location.pathname)}</TableCell>
-                                <TableCellBlue>
-                                    {formatText(runeword[3], location.pathname)}
-                                </TableCellBlue>
+            <SearchBar
+                placeholder={"Search runewords..."}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+            />
+
+            {filteredRunewords.length === 0 ? (
+                <NoResults />
+            ) : (
+                <TableWrapper>
+                    <StyledTable>
+                        <thead>
+                            <TableRow $index={0}>
+                                <ColumnHeader>Runeword</ColumnHeader>
+                                <ColumnHeader>Base</ColumnHeader>
+                                <ColumnHeader>Runes</ColumnHeader>
+                                <ColumnHeader>Properties</ColumnHeader>
                             </TableRow>
-                        ))}
-                    </tbody>
-                </StyledTable>
-            </TableWrapper>
+                        </thead>
+                        <tbody>
+                            {filteredRunewords.map((runeword, index) => (
+                                <TableRow
+                                    key={index}
+                                    $index={index + 1}
+                                    ref={(el) => (rowRefs.current[runeword[0]] = el)}
+                                >
+                                    <RowHeader $color={'#86735A'}>
+                                        {formatText(runeword[0], location.pathname, searchQuery)}
+                                    </RowHeader>
+                                    <TableCell>
+                                        {formatText(runeword[1], location.pathname, searchQuery)}
+                                    </TableCell>
+                                    <TableCell>
+                                        {formatText(runeword[2], location.pathname, searchQuery)}
+                                    </TableCell>
+                                    <TableCellBlue>
+                                        {formatText(runeword[3], location.pathname, searchQuery)}
+                                    </TableCellBlue>
+                                </TableRow>
+                            ))}
+                        </tbody>
+                    </StyledTable>
+                </TableWrapper>
+            )}
         </Container>
     );
 };
