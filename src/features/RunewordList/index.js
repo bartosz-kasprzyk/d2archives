@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import { Container } from '../../common/Container';
-import { RunewordButton, StyledList, StyledNavigation } from './styled';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
@@ -14,25 +13,7 @@ const RunewordList = () => {
     const content = state.content;
 
     const rowRefs = useRef({});
-    const [highlightedRow, setHighlightedRow] = useState(null);
-
     const location = useLocation();
-
-    const scrollToRuneword = (runeword) => {
-        if (rowRefs.current[runeword]) {
-            const targetRow = rowRefs.current[runeword];
-            targetRow.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center'
-            });
-
-            setHighlightedRow(runeword);
-
-            setTimeout(() => {
-                setHighlightedRow(null);
-            }, 1000);
-        }
-    };
 
     if (!content) {
         return <Loading />;
@@ -59,18 +40,6 @@ const RunewordList = () => {
                 Here is a list of all runewords:
             </StyledText>
 
-            <StyledNavigation>
-                {runewords.map((runeword) => (
-                    <StyledList key={runeword[0]}>
-                        <li>
-                            <RunewordButton onClick={() => scrollToRuneword(runeword[0])}>
-                                {formatText(runeword[0], location.pathname)}
-                            </RunewordButton>
-                        </li>
-                    </StyledList>
-                ))}
-            </StyledNavigation>
-
             <TableWrapper>
                 <StyledTable>
                     <thead>
@@ -87,7 +56,6 @@ const RunewordList = () => {
                                 key={index}
                                 $index={index + 1}
                                 ref={el => rowRefs.current[runeword[0]] = el}
-                                $highlight={highlightedRow === runeword[0]}
                                 $new={runewordsNEW.some(newRw => newRw[0] === runeword[0])}
                             >
                                 <RowHeader $color={"#86735A"}>{formatText(runeword[0], location.pathname)}</RowHeader>
