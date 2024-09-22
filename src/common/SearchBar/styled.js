@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { ReactComponent as Search } from "./Search.svg";
 
 export const SearchBarContainer = styled.div`
   display: flex;
@@ -9,13 +10,20 @@ export const SearchBarContainer = styled.div`
 export const SearchBarWrapper = styled.div`
   position: relative;
   display: inline-block;
+  border-bottom: 1px solid #885C025A;
+`;
+
+export const SearchIcon = styled(Search)`
+    width: 18px;
+    height: 18px;
+    margin-bottom: -3px;
 `;
 
 export const SearchInput = styled.input`
   border: none;
   outline: none;
-  padding: 8px 0;
-  border-bottom: 1px solid #885C025A;
+  padding: 8px;
+  font-size: 18px;
   background: transparent;
   color: inherit;
 `;

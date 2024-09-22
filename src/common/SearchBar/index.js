@@ -1,8 +1,9 @@
-import { SearchBarContainer, SearchBarWrapper, SearchInput, UnderlineGlow } from "./styled";
+import { SearchBarContainer, SearchBarWrapper, SearchIcon, SearchInput, UnderlineGlow } from "./styled";
 
 export const SearchBar = ({ value, onChange, placeholder }) => (
     <SearchBarContainer>
         <SearchBarWrapper>
+            <SearchIcon />
             <SearchInput
                 type="text"
                 placeholder={placeholder}
