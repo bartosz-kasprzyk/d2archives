@@ -298,40 +298,40 @@
                 "23% Chance To Cast Level 12 Volcano On Striking\n5% Chance To Cast Level 23 Molten Boulder On Striking\n100% Chance To Cast level 45 Meteor When You Die\n15% Chance To Cast Level 22 Nova On Attack\n+350% Enhanced Damage\nIgnore Target's Defense\nAdds 100-180 Magic Damage\n7% Mana Stolen Per Hit\n20% Chance Of Crushing Blow\n20% Deadly Strike\nPrevent Monster Heal\n+10 To Dexterity"
             ],
             "runeword17": [
-                "Enigma",
-                "Armor\n(4 sockets)",
-                "Jah  + Ith  + Ber",
-                "+2 To All Skills\n+45% Faster Run/Walk\n+1 To Teleport\n+750-775 Defense (Varies) \n+(0.75*Clvl) To Strength (Based On Character Level)\nIncrease Maximum Life 5%\nDamage Reduced By 8%\n+14 Life After Each Kill\n15% Damage Taken Goes To Mana\n(1*Clvl)% Better Chance of Getting Magic Items (Based On Character Level)"
-            ],
-            "runeword18": [
                 "Doom",
                 "Axes, Hammers & Polearms\n(5 sockets)",
                 "Hel  + Ohm  + Um  + Lo  + Cham",
                 "5% Chance To Cast Level 18 Volcano On Striking\nLevel 12 Holy Freeze Aura When Equipped\n+2 To All Skills\n+45% Increased Attack Speed\n+330-370% Enhanced Damage (varies)\n-40-60% To Enemy Cold Resistance (varies)\n20% Deadly Strike\n25% Chance of Open Wounds\nPrevent Monster Heal\nFreezes Target +3\nRequirements -20%"
             ],
-            "runeword19": [
+            "runeword18": [
                 "Dragon",
                 "Armor, Shields\n(3 sockets)",
                 "Sur  + Lo  + Sol",
                 "20% Chance to Cast Level 18 Venom When Struck\n12% Chance To Cast Level 15 Hydra On Striking\nLevel 14 Holy Fire Aura When Equipped\n+360 Defense\n+230 Defense vs. Missile\n+3-5 To All Attributes (varies)\n+(0.375*Clvl) To Strength (Based on Character Level)\n+5% To Maximum Lightning Resist\nDamage Reduced by 7\nIncrease Maximum Mana 5% (Armor Only)\n+50 To Mana (Shields Only)"
             ],
-            "runeword20": [
+            "runeword19": [
                 "Dream",
                 "Headgear, Shields\n(3 sockets)",
                 "Io  + Jah  + Pul",
                 "10% Chance To Cast Level 15 Confuse When Struck\nLevel 15 Holy Shock Aura When Equipped\n+20-+30% Faster Hit Recovery (varies)\n+30% Enhanced Defense\n+150-220 Defense (varies)\n+10 To Vitality\n+(0.625*Clvl) To Mana (Based On Character Level)\nAll Resistances +5-20 (varies)\n12-25% Better Chance of Getting Magic Items (varies)\nIncrease Maximum Life 5% (Headgear Only)\n+50 To Life (Shields Only)"
             ],
-            "runeword21": [
+            "runeword20": [
                 "Duress",
                 "Armor\n(3 sockets)",
                 "Shael  + Um  + Thul",
                 "+40% faster hit Recovery\n+10-20% Enhanced Damage (varies)\nAdds 37-133 Cold Damage\n15% Crushing Blow\n33% Open Wounds\n+150-200% Enhanced Defense (varies)\n-20% Slower Stamina Drain\nCold Resist +45%\nLightning Resist +15%\nFire Resist +15%\nPoison Resist +15%"
             ],
-            "runeword22": [
+            "runeword21": [
                 "Edge",
                 "Missile Weapons\n(3 sockets)",
                 "Tir  + Tal  + Amn",
                 "Level 15 Thorns Aura When Equipped\n+35% Increased Attack Speed\n+320-380% Damage To Demons (varies)\n+280% Damage To Undead\n+75 Poison Damage over 5 Seconds\n7% Life Stolen Per Hit\nPrevent Monster Heal\n+5-10 To All Attributes (varies)\n+2 To Mana After Each Kill\nReduces All Vendor Prices 15%"
+            ],
+            "runeword22": [
+                "Enigma",
+                "Armor\n(3 sockets)",
+                "Jah  + Ith  + Ber",
+                "+2 To All Skills\n+45% Faster Run/Walk\n+1 To Teleport\n+750-775 Defense (Varies) \n+(0.75*Clvl) To Strength (Based On Character Level)\nIncrease Maximum Life 5%\nDamage Reduced By 8%\n+14 Life After Each Kill\n15% Damage Taken Goes To Mana\n(1*Clvl)% Better Chance of Getting Magic Items (Based On Character Level)"
             ],
             "runeword23": [
                 "Enlightenment",
