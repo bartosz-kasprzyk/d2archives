@@ -2,12 +2,11 @@ import React, { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
-import { RuneButton, RuneButtonImage, RuneGridContainer } from './styled';
+import { RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer } from './styled';
 import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
 import { formatText } from '../../common/config/formatText';
 import gemImages from '../../common/config/gemImages';
-import { useLocation } from 'react-router-dom';
 import { toRunewords } from '../../common/config/routes';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 
@@ -54,7 +53,12 @@ const RuneList = () => {
             <RuneGridContainer>
                 {Object.keys(runeImages).map((runeName) => (
                     <RuneButton key={runeName} onClick={() => scrollToRune(runeName)}>
-                        <RuneButtonImage src={runeImages[runeName]} alt={`${runeName} Rune`} title={`${runeName} Rune`} />
+                        <RuneButtonImage
+                            src={runeImages[runeName]}
+                            alt={`${runeName} Rune`}
+                            title={`${runeName} Rune`}
+                        />
+                        <RuneButtonText>{runeName}</RuneButtonText>
                     </RuneButton>
                 ))}
             </RuneGridContainer>
