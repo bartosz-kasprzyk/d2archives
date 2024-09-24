@@ -9,6 +9,8 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
+import { ClearSelectedButton, FilterContainer, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleButton, ToggleButtonText } from './styled';
+import runeImages from "../../common/config/runeImages"
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -17,6 +19,8 @@ const RunewordList = () => {
     const rowRefs = useRef({});
     const location = useLocation();
     const [searchQuery, setSearchQuery] = useState('');
+    const [selectedRunes, setSelectedRunes] = useState([]);
+    const [isOpen, setIsOpen] = useState(false);
 
     if (!content) {
         return <Loading />;
@@ -26,9 +30,34 @@ const RunewordList = () => {
         .filter(key => key.startsWith('runeword'))
         .map(key => content.content.runewordsTable[key]);
 
-    const filteredRunewords = runewords.filter((runeword) =>
+    const filteredBySearch = runewords.filter((runeword) =>
         runeword.some((item) => item.toLowerCase().includes(searchQuery.toLowerCase()))
     );
+
+    const filteredByRunes = selectedRunes.length > 0 ? filteredBySearch.filter(runeword => {
+        const runewordRunes = runeword[2].split(/\s*\+\s*/);
+        return runewordRunes.every(rune => selectedRunes.includes(rune));
+    }) : filteredBySearch;
+
+
+
+    const handleToggle = () => {
+        setIsOpen(!isOpen);
+    };
+
+    const handleRuneClick = (rune) => {
+        setSelectedRunes(prev => {
+            if (prev.includes(rune)) {
+                return prev.filter(r => r !== rune);
+            } else {
+                return [...prev, rune];
+            }
+        });
+    };
+
+    const clearSelected = () => {
+        setSelectedRunes([]);
+    };
 
     return (
         <Container>
@@ -40,8 +69,40 @@ const RunewordList = () => {
                 Besides the runes, you also need to find the appropriate item.
                 It is worth mentioning that runewords that deal high damage are best combined with items that also have a high base attack rating.
                 Experienced players spend a lot of time searching for the right items and runes to ultimately create their desired equipment.
-                Here is a list of all runewords:
             </StyledText>
+
+            <FilterContainer>
+                <ToggleButton onClick={handleToggle} $isOpen={isOpen}>
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 16l-6-6h12l-6 6z" fill="currentColor" />
+                    </svg>
+                    <ToggleButtonText>
+                        Filter runewords by your runes
+                    </ToggleButtonText>
+                    <svg width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M12 16l-6-6h12l-6 6z" fill="currentColor" />
+                    </svg>
+                </ToggleButton>
+
+                <RuneGridContainer $isOpen={isOpen}>
+                    {Object.keys(runeImages).map((runeName) => (
+                        <RuneButton
+                            key={runeName}
+                            onClick={() => handleRuneClick(runeName)}>
+                            <RuneButtonImage
+                                src={runeImages[runeName]}
+                                alt={`${runeName} Rune`}
+                                title={`${runeName} Rune`}
+                                $opacity={selectedRunes.includes(runeName) ? 1 : 0.4}
+                            />
+                            <RuneButtonText $opacity={selectedRunes.includes(runeName) ? 1 : 0.4}>{runeName}</RuneButtonText>
+                        </RuneButton>
+                    ))}
+                    <ClearSelectedButton onClick={clearSelected}>
+                        Clear all selected
+                    </ClearSelectedButton>
+                </RuneGridContainer>
+            </FilterContainer>
 
             <SearchBar
                 placeholder={"Search runewords..."}
@@ -49,7 +110,7 @@ const RunewordList = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
             />
 
-            {filteredRunewords.length === 0 ? (
+            {filteredByRunes.length === 0 ? (
                 <NoResults />
             ) : (
                 <TableWrapper>
@@ -63,7 +124,7 @@ const RunewordList = () => {
                             </TableRow>
                         </thead>
                         <tbody>
-                            {filteredRunewords.map((runeword, index) => (
+                            {filteredByRunes.map((runeword, index) => (
                                 <TableRow
                                     key={index}
                                     $index={index + 1}
