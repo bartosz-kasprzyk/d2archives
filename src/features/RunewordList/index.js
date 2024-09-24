@@ -111,7 +111,14 @@ const RunewordList = () => {
             />
 
             {filteredByRunes.length === 0 ? (
-                <NoResults />
+                selectedRunes.length > 0 ? (
+                    <NoResults
+                        text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps seek out more runes to uncover new possibilities."}
+                    />
+                ) :
+                    <NoResults
+                        text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                    />
             ) : (
                 <TableWrapper>
                     <StyledTable>

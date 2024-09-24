@@ -1,12 +1,14 @@
 import { NoResultsText, NoResultsWrapper, SpeechBubble, StyledImage } from "./styled";
 import cain from '../../images/Decard_Cain.webp'
 
-export const NoResults = () => {
+export const NoResults = ({ text }) => {
     return (
         <main>
             <NoResultsWrapper>
                 <SpeechBubble>
-                    <NoResultsText>Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path.</NoResultsText>
+                    <NoResultsText>
+                        {text}
+                    </NoResultsText>
                 </SpeechBubble>
                 <StyledImage src={cain} />
             </NoResultsWrapper>

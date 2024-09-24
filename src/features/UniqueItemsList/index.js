@@ -37,7 +37,6 @@ const UniqueItemsList = () => {
                 There is usually only one Unique item for every type of weapon and armor in the game.
                 Unique items are denoted by their names being colored gold. <StyledLink to={toSets()}>Set Items</StyledLink> are different from Unique ones,
                 but very similar to them in terms of how they work and rarity.
-                Here is a list of all Unique Items:
             </StyledText>
 
             <SearchBar
@@ -47,7 +46,9 @@ const UniqueItemsList = () => {
             />
 
             {filteredUniqueItems.length === 0 ? (
-                <NoResults />
+                <NoResults
+                    text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                />
             ) : (
                 <TableWrapper>
                     <StyledTable>
