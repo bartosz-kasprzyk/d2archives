@@ -7,7 +7,7 @@
             "Greyform": {
                 "name": "Greyform",
                 "type": "Quilted Armor",
-                "image": "/images/items/greyform.png",
+                "image": "/images/Items/greyform.png",
                 "props": [
                     "Defense: 28-31",
                     "Required Strength: 12",
@@ -24,7 +24,7 @@
             "Blinkbat's Form": {
                 "name": "Blinkbat's Form",
                 "type": "Leather Armor",
-                "image": "/images/items/blinkbatsform.png",
+                "image": "/images/Items/blinkbatsform.png",
                 "props": [
                     "Defense: 39-42",
                     "Required Strength: 15",
@@ -40,7 +40,7 @@
             "The Centurion": {
                 "name": "The Centurion",
                 "type": "Hard Leather Armor",
-                "image": "/images/items/thecenturion.png",
+                "image": "/images/Items/thecenturion.png",
                 "props": [
                     "Defense: 51-54",
                     "Required Strength: 20",
@@ -59,7 +59,7 @@
             "Twitchthroe": {
                 "name": "Twitchthroe",
                 "type": "Studded Leather",
-                "image": "/images/items/twitchthroe.png",
+                "image": "/images/Items/twitchthroe.png",
                 "props": [
                     "Defense: 57-60",
                     "Required Strength: 27",
@@ -76,7 +76,7 @@
             "Darkglow": {
                 "name": "Darkglow",
                 "type": "Ring Mail",
-                "image": "/images/items/darkglow.png",
+                "image": "/images/Items/darkglow.png",
                 "props": [
                     "Defense: 83-98",
                     "Required Strength: 36",
@@ -96,7 +96,7 @@
             "Hawkmail": {
                 "name": "Hawkmail",
                 "type": "Scale Mail",
-                "image": "/images/items/hawkmail.png",
+                "image": "/images/Items/hawkmail.png",
                 "props": [
                     "Defense: 109-122",
                     "Required Strength: 44",
@@ -112,7 +112,7 @@
             "Venom Ward": {
                 "name": "Venom Ward",
                 "type": "Breast Plate",
-                "image": "/images/items/venomsward.png",
+                "image": "/images/Items/venomsward.png",
                 "props": [
                     "Defense: 110-138",
                     "Required Strength: 30",
@@ -128,7 +128,7 @@
             "Sparking Mail": {
                 "name": "Sparking Mail",
                 "type": "Chain Mail",
-                "image": "/images/items/sparklingmail.png",
+                "image": "/images/Items/sparklingmail.png",
                 "props": [
                     "Defense: 133-140",
                     "Required Strength: 48",
@@ -143,7 +143,7 @@
             "Iceblink": {
                 "name": "Iceblink",
                 "type": "Splint Mail",
-                "image": "/images/items/iceblink.png",
+                "image": "/images/Items/iceblink.png",
                 "props": [
                     "Defense: 163-172",
                     "Required Strength: 51",
@@ -159,7 +159,7 @@
             "Heavenly Garb": {
                 "name": "Heavenly Garb",
                 "type": "Light Plate",
-                "image": "/images/items/heavenlygarb.png",
+                "image": "/images/Items/heavenlygarb.png",
                 "props": [
                     "Defense: 216",
                     "Required Strength: 41",
@@ -176,7 +176,7 @@
             "Boneflesh": {
                 "name": "Boneflesh",
                 "type": "Plate Mail",
-                "image": "/images/items/boneflesh.png",
+                "image": "/images/Items/boneflesh.png",
                 "props": [
                     "Defense: 234-257",
                     "Required Strength: 65",
@@ -191,7 +191,7 @@
             "Rockfleece": {
                 "name": "Rockfleece",
                 "type": "Field Plate",
-                "image": "/images/items/rockfleece.png",
+                "image": "/images/Items/rockfleece.png",
                 "props": [
                     "Defense: 212-243",
                     "Required Strength: 50",
@@ -207,7 +207,7 @@
             "Rattlecage": {
                 "name": "Rattlecage",
                 "type": "Gothic Plate",
-                "image": "/images/items/rattlecage.png",
+                "image": "/images/Items/rattlecage.png",
                 "props": [
                     "Defense: 328-335",
                     "Required Strength: 70",
@@ -222,7 +222,7 @@
             "Goldskin": {
                 "name": "Goldskin",
                 "type": "Full Plate Mail",
-                "image": "/images/items/goldskin.png",
+                "image": "/images/Items/goldskin.png",
                 "props": [
                     "Defense: 356-405",
                     "Required Strength: 80",
@@ -238,7 +238,7 @@
             "Silks of the Victor": {
                 "name": "Silks of the Victor",
                 "type": "Ancient Armor",
-                "image": "/images/items/victorssilk.png",
+                "image": "/images/Items/victorssilk.png",
                 "props": [
                     "Defense: 468-514",
                     "Required Strength: 100",
@@ -253,7 +253,7 @@
             "The Spirit Shroud": {
                 "name": "The Spirit Shroud",
                 "type": "Ghost Armor",
-                "image": "/images/items/quilted.png",
+                "image": "/images/Items/quilted.png",
                 "props": [
                     "Defense: 295",
                     "Required Strength: 38",
@@ -269,7 +269,7 @@
             "Skin of the Vipermagi": {
                 "name": "Skin of the Vipermagi",
                 "type": "Serpentskin Armor",
-                "image": "/images/items/skinoftheviper.png",
+                "image": "/images/Items/skinoftheviper.png",
                 "props": [
                     "Defense: 279",
                     "Required Strength: 43",
@@ -285,7 +285,7 @@
             "Skin of the Flayed One": {
                 "name": "Skin of the Flayed One",
                 "type": "Demonhide Armor",
-                "image": "/images/items/flayedoneskin.png",
+                "image": "/images/Items/flayedoneskin.png",
                 "props": [
                     "Defense: 342-397",
                     "Required Strength: 50",
@@ -301,7 +301,7 @@
             "Iron Pelt": {
                 "name": "Iron Pelt",
                 "type": "Trellised Armor",
-                "image": "/images/items/ironpelt.png",
+                "image": "/images/Items/ironpelt.png",
                 "props": [
                     "Defense: 234-605",
                     "Required Strength: 61",
@@ -317,7 +317,7 @@
             "Spirit Forge": {
                 "name": "Spirit Forge",
                 "type": "Linked Mail",
-                "image": "/images/items/ringmail.png",
+                "image": "/images/Items/ringmail.png",
                 "props": [
                     "Defense: 380-449",
                     "Required Strength: 74",
@@ -335,7 +335,7 @@
             "Crow Caw": {
                 "name": "Crow Caw",
                 "type": "Tigulated Mail",
-                "image": "/images/items/scalemail.png",
+                "image": "/images/Items/scalemail.png",
                 "props": [
                     "Defense: 477-534",
                     "Required Strength: 86",
@@ -351,7 +351,7 @@
             "Duriel's Shell": {
                 "name": "Duriel's Shell",
                 "type": "Cuirass",
-                "image": "/images/items/durielsshell.png",
+                "image": "/images/Items/durielsshell.png",
                 "props": [
                     "Defense: 528-732",
                     "Required Strength: 65",
@@ -371,7 +371,7 @@
             "Shaftstop": {
                 "name": "Shaftstop",
                 "type": "Mesh Armor",
-                "image": "/images/items/chainmail.png",
+                "image": "/images/Items/chainmail.png",
                 "props": [
                     "Defense: 599-684",
                     "Required Strength: 92",
@@ -386,7 +386,7 @@
             "Skullder's Ire": {
                 "name": "Skullder's Ire",
                 "type": "Russet Armor",
-                "image": "/images/items/splintmail.png",
+                "image": "/images/Items/splintmail.png",
                 "props": [
                     "Defense: 634-732",
                     "Required Strength: 97",
@@ -402,7 +402,7 @@
             "Que-Hegan's Wisdom": {
                 "name": "Que-Hegan's Wisdom",
                 "type": "Mage Plate",
-                "image": "/images/items/lightplate.png",
+                "image": "/images/Items/lightplate.png",
                 "props": [
                     "Defense: 628-681",
                     "Required Strength: 55",
@@ -420,7 +420,7 @@
             "Guardian Angel": {
                 "name": "Guardian Angel",
                 "type": "Templar Coat",
-                "image": "/images/items/guardianangel.png",
+                "image": "/images/Items/guardianangel.png",
                 "props": [
                     "Defense: 770-825",
                     "Required Strength: 118",
@@ -438,7 +438,7 @@
             "Toothrow": {
                 "name": "Toothrow",
                 "type": "Sharktooth Armor",
-                "image": "/images/items/toothrow.png",
+                "image": "/images/Items/toothrow.png",
                 "props": [
                     "Defense: 713-888",
                     "Required Strength: 103",
@@ -455,7 +455,7 @@
             "Atma's Wail": {
                 "name": "Atma's Wail",
                 "type": "Embossed Plate",
-                "image": "/images/items/gothicplate.png",
+                "image": "/images/Items/gothicplate.png",
                 "props": [
                     "Defense: 670-988",
                     "Required Strength: 115",
@@ -473,7 +473,7 @@
             "Black Hades": {
                 "name": "Black Hades",
                 "type": "Chaos Armor",
-                "image": "/images/items/fullplate.png",
+                "image": "/images/Items/fullplate.png",
                 "props": [
                     "Defense: 823-1029",
                     "Required Strength: 140",
@@ -490,7 +490,7 @@
             "Corpsemourn": {
                 "name": "Corpsemourn",
                 "type": "Ornate Armor",
-                "image": "/images/items/corpsemourn.png",
+                "image": "/images/Items/corpsemourn.png",
                 "props": [
                     "Defense: 1127-1262",
                     "Required Strength: 170",
@@ -508,7 +508,7 @@
             "Ormus' Robes": {
                 "name": "Ormus' Robes",
                 "type": "Dusk Shroud",
-                "image": "/images/items/quilted.png",
+                "image": "/images/Items/quilted.png",
                 "props": [
                     "Defense: 371-487",
                     "Required Strength: 77",
@@ -526,7 +526,7 @@
             "The Gladiator's Bane": {
                 "name": "The Gladiator's Bane",
                 "type": "Wire Fleece",
-                "image": "/images/items/gladiatorsbane.png",
+                "image": "/images/Items/gladiatorsbane.png",
                 "props": [
                     "Defense: 1255-1496",
                     "Required Strength: 111",
@@ -545,7 +545,7 @@
             "Arkaine's Valor": {
                 "name": "Arkaine's Valor",
                 "type": "Balrog Skin",
-                "image": "/images/items/balrogskin.png",
+                "image": "/images/Items/balrogskin.png",
                 "props": [
                     "Defense: 1295-1450",
                     "Required Strength: 165",
@@ -561,7 +561,7 @@
             "Leviathan": {
                 "name": "Leviathan",
                 "type": "Kraken Shell",
-                "image": "/images/items/leviathan.png",
+                "image": "/images/Items/leviathan.png",
                 "props": [
                     "Defense: 1514-1722",
                     "Required Strength: 174",
@@ -577,7 +577,7 @@
             "Steel Carapace": {
                 "name": "Steel Carapace",
                 "type": "Shadow Plate",
-                "image": "/images/items/fullplate.png",
+                "image": "/images/Items/fullplate.png",
                 "props": [
                     "Defense: 1618-1785",
                     "Required Strength: 230",
@@ -595,7 +595,7 @@
             "Templar's Might": {
                 "name": "Templar's Might",
                 "type": "Sacred Armor",
-                "image": "/images/items/templarsmight.png",
+                "image": "/images/Items/templarsmight.png",
                 "props": [
                     "Defense: 1622-1923",
                     "Required Strength: 232",
@@ -613,7 +613,7 @@
             "Tyrael's Might": {
                 "name": "Tyrael's Might",
                 "type": "Sacred Armor",
-                "image": "/images/items/milabregasrobe.png",
+                "image": "/images/Items/milabregasrobe.png",
                 "props": [
                     "Defense: 1322-1502",
                     "Required Level: 84",
@@ -632,7 +632,7 @@
             "The Gnasher": {
                 "name": "The Gnasher",
                 "type": "Hand Axe",
-                "image": "/images/items/thegnasher.png",
+                "image": "/images/Items/thegnasher.png",
                 "props": [
                     "Damage: 4-10",
                     "Required Level: 5",
@@ -646,7 +646,7 @@
             "Deathspade": {
                 "name": "Deathspade",
                 "type": "Axe",
-                "image": "/images/items/deathspade.png",
+                "image": "/images/Items/deathspade.png",
                 "props": [
                     "Damage: 14-18",
                     "Required Strength: 32",
@@ -662,7 +662,7 @@
             "Bladebone": {
                 "name": "Bladebone",
                 "type": "Double Axe",
-                "image": "/images/items/doubleaxe.png",
+                "image": "/images/Items/doubleaxe.png",
                 "props": [
                     "Damage: 6-19",
                     "Required Strength: 43",
@@ -679,7 +679,7 @@
             "Skull Splitter": {
                 "name": "Skull Splitter",
                 "type": "Military Pick",
-                "image": "/images/items/mindrend.png",
+                "image": "/images/Items/mindrend.png",
                 "props": [
                     "Damage: 11-22",
                     "Required Strength: 49",
@@ -697,7 +697,7 @@
             "Rakescar": {
                 "name": "Rakescar",
                 "type": "War Axe",
-                "image": "/images/items/waraxe.png",
+                "image": "/images/Items/waraxe.png",
                 "props": [
                     "Damage: 17-45",
                     "Required Strength: 67",
@@ -713,7 +713,7 @@
             "Axe of Fechmar": {
                 "name": "Axe of Fechmar",
                 "type": "Large Axe",
-                "image": "/images/items/largeaxe.png",
+                "image": "/images/Items/largeaxe.png",
                 "props": [
                     "Damage: 10-24",
                     "Required Strength: 35",
@@ -728,7 +728,7 @@
             "Goreshovel": {
                 "name": "Goreshovel",
                 "type": "Broad Axe",
-                "image": "/images/items/broadaxe.png",
+                "image": "/images/Items/broadaxe.png",
                 "props": [
                     "Damage: 14-36",
                     "Required Strength: 48",
@@ -744,7 +744,7 @@
             "The Chieftain": {
                 "name": "The Chieftain",
                 "type": "Battle Axe",
-                "image": "/images/items/thechieftan.png",
+                "image": "/images/Items/thechieftan.png",
                 "props": [
                     "Damage: 24-64",
                     "Required Strength: 54",
@@ -760,7 +760,7 @@
             "Brainhew": {
                 "name": "Brainhew",
                 "type": "Great Axe",
-                "image": "/images/items/brainhew.png",
+                "image": "/images/Items/brainhew.png",
                 "props": [
                     "Damage: 27-54",
                     "Required Strength: 63",
@@ -778,7 +778,7 @@
             "Humongous": {
                 "name": "Humongous",
                 "type": "Giant Axe",
-                "image": "/images/items/giantaxe.png",
+                "image": "/images/Items/giantaxe.png",
                 "props": [
                     "Damage: 47-124",
                     "Required Strength: 84",
@@ -794,7 +794,7 @@
             "Coldkill": {
                 "name": "Coldkill",
                 "type": "Hatchet",
-                "image": "/images/items/coldkill.png",
+                "image": "/images/Items/coldkill.png",
                 "props": [
                     "Damage: 25-60",
                     "Required Strength: 25",
@@ -813,7 +813,7 @@
             "Butcher's Pupil": {
                 "name": "Butcher's Pupil",
                 "type": "Cleaver",
-                "image": "/images/items/butcherspupil.png",
+                "image": "/images/Items/butcherspupil.png",
                 "props": [
                     "Damage: 55-149",
                     "Required Strength: 68",
@@ -830,7 +830,7 @@
             "Islestrike": {
                 "name": "Islestrike",
                 "type": "Twin Axe",
-                "image": "/images/items/doubleaxe.png",
+                "image": "/images/Items/doubleaxe.png",
                 "props": [
                     "Damage: 35-110",
                     "Required Strength: 85",
@@ -848,7 +848,7 @@
             "Pompeii's Wrath": {
                 "name": "Pompeii's Wrath",
                 "type": "Crowbill",
-                "image": "/images/items/mindrend.png",
+                "image": "/images/Items/mindrend.png",
                 "props": [
                     "Damage: 33-91",
                     "Required Strength: 94",
@@ -865,7 +865,7 @@
             "Guardian Naga": {
                 "name": "Guardian Naga",
                 "type": "Naga",
-                "image": "/images/items/waraxe.png",
+                "image": "/images/Items/waraxe.png",
                 "props": [
                     "Damage: 40-145",
                     "Required Strength: 121",
@@ -882,7 +882,7 @@
             "Warlord's Trust": {
                 "name": "Warlord's Trust",
                 "type": "Military Axe",
-                "image": "/images/items/largeaxe.png",
+                "image": "/images/Items/largeaxe.png",
                 "props": [
                     "Damage: 38-93",
                     "Required Strength: 73",
@@ -900,7 +900,7 @@
             "Spellsteel": {
                 "name": "Spellsteel",
                 "type": "Beared Axe",
-                "image": "/images/items/broadaxe.png",
+                "image": "/images/Items/broadaxe.png",
                 "props": [
                     "Damage: 55-129",
                     "Required Strength: 37",
@@ -921,7 +921,7 @@
             "Stormrider": {
                 "name": "Stormrider",
                 "type": "Tabar",
-                "image": "/images/items/stormrider.png",
+                "image": "/images/Items/stormrider.png",
                 "props": [
                     "Damage: 83-229",
                     "Required Strength: 101",
@@ -939,7 +939,7 @@
             "Boneslayer Blade": {
                 "name": "Boneslayer Blade",
                 "type": "Gothic Axe",
-                "image": "/images/items/brainhew.png",
+                "image": "/images/Items/brainhew.png",
                 "props": [
                     "Damage: 50-224",
                     "Required Strength: 115",
@@ -959,7 +959,7 @@
             "The Minotaur": {
                 "name": "The Minotaur",
                 "type": "Ancient Axe",
-                "image": "/images/items/giantaxe.png",
+                "image": "/images/Items/giantaxe.png",
                 "props": [
                     "Damage: 123-285",
                     "Required Strength: 125",
@@ -977,7 +977,7 @@
             "Razor's Edge": {
                 "name": "Razor's Edge",
                 "type": "Tomahawk",
-                "image": "/images/items/thegnasher.png",
+                "image": "/images/Items/thegnasher.png",
                 "props": [
                     "Damage: 90-188",
                     "Required Strength: 125",
@@ -994,7 +994,7 @@
             "Rune Master": {
                 "name": "Rune Master",
                 "type": "Ettin Axe",
-                "image": "/images/items/doubleaxe.png",
+                "image": "/images/Items/doubleaxe.png",
                 "props": [
                     "Damage: 105-244",
                     "Required Strength: 145",
@@ -1010,7 +1010,7 @@
             "Cranebeak": {
                 "name": "Cranebeak",
                 "type": "War Spike",
-                "image": "/images/items/mindrend.png",
+                "image": "/images/Items/mindrend.png",
                 "props": [
                     "Damage: 102-192",
                     "Required Strength: 133",
@@ -1028,7 +1028,7 @@
             "Death Cleaver": {
                 "name": "Death Cleaver",
                 "type": "Berserker Axe",
-                "image": "/images/items/waraxe.png",
+                "image": "/images/Items/waraxe.png",
                 "props": [
                     "Damage: 79-269",
                     "Required Strength: 138",
@@ -1045,7 +1045,7 @@
             "Ethereal Edge": {
                 "name": "Ethereal Edge",
                 "type": "Silver Edged Axe",
-                "image": "/images/items/broadaxe.png",
+                "image": "/images/Items/broadaxe.png",
                 "props": [
                     "Damage: 232-462",
                     "Required Strength: 156",
@@ -1065,7 +1065,7 @@
             "Hellslayer": {
                 "name": "Hellslayer",
                 "type": "Decapitator",
-                "image": "/images/items/thechieftan.png",
+                "image": "/images/Items/thechieftan.png",
                 "props": [
                     "Damage: 98-680",
                     "Required Strength: 189",
@@ -1084,7 +1084,7 @@
             "Messerschmidt's Reaver": {
                 "name": "Messerschmidt's Reaver",
                 "type": "Champion Axe",
-                "image": "/images/items/brainhew.png",
+                "image": "/images/Items/brainhew.png",
                 "props": [
                     "Damage: 177-514",
                     "Required Strength: 167",
@@ -1104,7 +1104,7 @@
             "Executioner's Justice": {
                 "name": "Executioner's Justice",
                 "type": "Glorious Axe",
-                "image": "/images/items/giantaxe.png",
+                "image": "/images/Items/giantaxe.png",
                 "props": [
                     "Damage: 204-483",
                     "Required Strength: 164",
@@ -1121,7 +1121,7 @@
             "Lenymo": {
                 "name": "Lenymo",
                 "type": "Sash",
-                "image": "/images/items/lenymscord.png",
+                "image": "/images/Items/lenymscord.png",
                 "props": [
                     "Defense: 2",
                     "Belt Size: +8 Slots",
@@ -1136,7 +1136,7 @@
             "Snakecord": {
                 "name": "Snakecord",
                 "type": "Light Belt",
-                "image": "/images/items/snakecord.png",
+                "image": "/images/Items/snakecord.png",
                 "props": [
                     "Defense: 14-15",
                     "Belt Size: +8 Slots",
@@ -1153,7 +1153,7 @@
             "Nightsmoke": {
                 "name": "Nightsmoke",
                 "type": "Belt",
-                "image": "/images/items/nightsmoke.png",
+                "image": "/images/Items/nightsmoke.png",
                 "props": [
                     "Defense: 22-24",
                     "Belt Size: +12 Slots",
@@ -1171,7 +1171,7 @@
             "Goldwrap": {
                 "name": "Goldwrap",
                 "type": "Heavy Belt",
-                "image": "/images/items/goldwrap.png",
+                "image": "/images/Items/goldwrap.png",
                 "props": [
                     "Defense: 34-36",
                     "Belt Size: +12 Slots",
@@ -1189,7 +1189,7 @@
             "Bladebuckle": {
                 "name": "Bladebuckle",
                 "type": "Plated Belt",
-                "image": "/images/items/bladebuckle.png",
+                "image": "/images/Items/bladebuckle.png",
                 "props": [
                     "Defense: 51-54",
                     "Belt Size: +16 Slots",
@@ -1208,7 +1208,7 @@
             "String of Ears": {
                 "name": "String of Ears",
                 "type": "Demonhide Sash",
-                "image": "/images/items/sash.png",
+                "image": "/images/Items/sash.png",
                 "props": [
                     "Defense: 102-113",
                     "Belt Size: +16 Slots",
@@ -1225,7 +1225,7 @@
             "Razortail": {
                 "name": "Razortail",
                 "type": "Sharkskin Belt",
-                "image": "/images/items/lightbelt.png",
+                "image": "/images/Items/lightbelt.png",
                 "props": [
                     "Defense: 96-107",
                     "Belt Size: +16 Slots",
@@ -1243,7 +1243,7 @@
             "Gloom's Trap": {
                 "name": "Gloom's Trap",
                 "type": "Mesh Belt",
-                "image": "/images/items/belt.png",
+                "image": "/images/Items/belt.png",
                 "props": [
                     "Defense: 90-102",
                     "Belt Size: +16 Slots",
@@ -1261,7 +1261,7 @@
             "Snowclash": {
                 "name": "Snowclash",
                 "type": "Battle Belt",
-                "image": "/images/items/heavybelt.png",
+                "image": "/images/Items/heavybelt.png",
                 "props": [
                     "Defense: 98-116",
                     "Belt Size: +16 Slots",
@@ -1281,7 +1281,7 @@
             "Thundergod's Vigor": {
                 "name": "Thundergod's Vigor",
                 "type": "War Belt",
-                "image": "/images/items/girdle.png",
+                "image": "/images/Items/girdle.png",
                 "props": [
                     "Defense: 137-159",
                     "Belt Size: +16 Slots",
@@ -1302,7 +1302,7 @@
             "Arachnid Mesh": {
                 "name": "Arachnid Mesh",
                 "type": "Spiderweb Sash",
-                "image": "/images/items/arachnidmesh.png",
+                "image": "/images/Items/arachnidmesh.png",
                 "props": [
                     "Defense: 119-138",
                     "Belt Size: +16 Slots",
@@ -1320,7 +1320,7 @@
             "Nosferatu's Coil": {
                 "name": "Nosferatu's Coil",
                 "type": "Vampirefang Belt",
-                "image": "/images/items/lightbelt.png",
+                "image": "/images/Items/lightbelt.png",
                 "props": [
                     "Defense: 56-63",
                     "Belt Size: +16 Slots",
@@ -1338,7 +1338,7 @@
             "Verdungo's Hearty Cord": {
                 "name": "Verdungo's Hearty Cord",
                 "type": "Mithril Coil",
-                "image": "/images/items/belt.png",
+                "image": "/images/Items/belt.png",
                 "props": [
                     "Defense: 125-158",
                     "Belt Size: +16 Slots",
@@ -1356,7 +1356,7 @@
             "Hotspur": {
                 "name": "Hotspur",
                 "type": "Boots",
-                "image": "/images/items/hotspur.png",
+                "image": "/images/Items/hotspur.png",
                 "props": [
                     "Defense: 10",
                     "Assassin Kick Damage: 3-8",
@@ -1373,7 +1373,7 @@
             "Gorefoot": {
                 "name": "Gorefoot",
                 "type": "Heavy Boots",
-                "image": "/images/items/gorefoot.png",
+                "image": "/images/Items/gorefoot.png",
                 "props": [
                     "Defense: 20-21",
                     "Assassin Kick Damage: 4-10",
@@ -1391,7 +1391,7 @@
             "Treads of Cthon": {
                 "name": "Treads of Cthon",
                 "type": "Chain Boots",
-                "image": "/images/items/treadsofcthon.png",
+                "image": "/images/Items/treadsofcthon.png",
                 "props": [
                     "Defense: 25-26",
                     "Assassin Kick Damage: 6-12",
@@ -1409,7 +1409,7 @@
             "Goblin Toe": {
                 "name": "Goblin Toe",
                 "type": "Light Plated Boots",
-                "image": "/images/items/goblintoe.png",
+                "image": "/images/Items/goblintoe.png",
                 "props": [
                     "Defense: 33-34",
                     "Assassin Kick Damage: 8-16",
@@ -1427,7 +1427,7 @@
             "Tearhaunch": {
                 "name": "Tearhaunch",
                 "type": "Greaves",
-                "image": "/images/items/tearhaunch.png",
+                "image": "/images/Items/tearhaunch.png",
                 "props": [
                     "Defense: 60-63",
                     "Assassin Kick Damage: 10-20",
@@ -1446,7 +1446,7 @@
             "Infernostride": {
                 "name": "Infernostride",
                 "type": "Demonhide Boots",
-                "image": "/images/items/leatherboots.png",
+                "image": "/images/Items/leatherboots.png",
                 "props": [
                     "Defense: 94-105",
                     "Assassin Kick Damage: 26-46",
@@ -1467,7 +1467,7 @@
             "Waterwalk": {
                 "name": "Waterwalk",
                 "type": "Sharkskin Boots",
-                "image": "/images/items/heavyboots.png",
+                "image": "/images/Items/heavyboots.png",
                 "props": [
                     "Defense: 112-124",
                     "Assassin Kick Damage: 28-50",
@@ -1487,7 +1487,7 @@
             "Silkweave": {
                 "name": "Silkweave",
                 "type": "Mesh Boots",
-                "image": "/images/items/chainboots.png",
+                "image": "/images/Items/chainboots.png",
                 "props": [
                     "Defense: 112-130",
                     "Assassin Kick Damage: 23-52",
@@ -1505,7 +1505,7 @@
             "War Traveler": {
                 "name": "War Traveler",
                 "type": "Battle Boots",
-                "image": "/images/items/lightplateboots.png",
+                "image": "/images/Items/lightplateboots.png",
                 "props": [
                     "Defense: 120-139",
                     "Assassin Kick Damage: 37-64",
@@ -1525,7 +1525,7 @@
             "Gore Rider": {
                 "name": "Gore Rider",
                 "type": "War Boots",
-                "image": "/images/items/plateboots.png",
+                "image": "/images/Items/plateboots.png",
                 "props": [
                     "Defense: 140-162",
                     "Assassin Kick Damage: 39-80",
@@ -1544,7 +1544,7 @@
             "Sandstorm Trek": {
                 "name": "Sandstorm Trek",
                 "type": "Scarabshell Boots",
-                "image": "/images/items/heavyboots.png",
+                "image": "/images/Items/heavyboots.png",
                 "props": [
                     "Defense: 158-178",
                     "Assassin Kick Damage: 60-110",
@@ -1565,7 +1565,7 @@
             "Marrowwalk": {
                 "name": "Marrowwalk",
                 "type": "Boneweave Boots",
-                "image": "/images/items/chainboots.png",
+                "image": "/images/Items/chainboots.png",
                 "props": [
                     "Defense: 183-204",
                     "Assassin Kick Damage: 69-118",
@@ -1587,7 +1587,7 @@
             "Shadow Dancer": {
                 "name": "Shadow Dancer",
                 "type": "Myrmidon Greaves",
-                "image": "/images/items/plateboots.png",
+                "image": "/images/Items/plateboots.png",
                 "props": [
                     "Defense: 122-144",
                     "Assassin Kick Damage: 83-149",
@@ -1605,7 +1605,7 @@
             "Pluckeye": {
                 "name": "Pluckeye",
                 "type": "Short Bow",
-                "image": "/images/items/pluckeye.png",
+                "image": "/images/Items/pluckeye.png",
                 "props": [
                     "Damage: 2-8",
                     "Required Dexterity: 15",
@@ -1622,7 +1622,7 @@
             "Witherstring": {
                 "name": "Witherstring",
                 "type": "Hunter Bow",
-                "image": "/images/items/witherstring.png",
+                "image": "/images/Items/witherstring.png",
                 "props": [
                     "Damage: 3-12",
                     "Required Dexterity: 28",
@@ -1638,7 +1638,7 @@
             "Raven Claw": {
                 "name": "Raven Claw",
                 "type": "Long Bow",
-                "image": "/images/items/rimeraven.png",
+                "image": "/images/Items/rimeraven.png",
                 "props": [
                     "Damage: 4-17",
                     "Required Dexterity: 19",
@@ -1655,7 +1655,7 @@
             "Rogue's Bow": {
                 "name": "Rogue's Bow",
                 "type": "Composite Bow",
-                "image": "/images/items/piercerib.png",
+                "image": "/images/Items/piercerib.png",
                 "props": [
                     "Damage: 5-12",
                     "Required Dexterity: 35",
@@ -1673,7 +1673,7 @@
             "Stormstrike": {
                 "name": "Stormstrike",
                 "type": "Short Battle Bow",
-                "image": "/images/items/pullspite.png",
+                "image": "/images/Items/pullspite.png",
                 "props": [
                     "Damage: 8-20",
                     "Required Dexterity: 40",
@@ -1691,7 +1691,7 @@
             "Wizendraw": {
                 "name": "Wizendraw",
                 "type": "Long Battle Bow",
-                "image": "/images/items/wizendraw.png",
+                "image": "/images/Items/wizendraw.png",
                 "props": [
                     "Damage: 5-32",
                     "Required Dexterity: 50",
@@ -1711,7 +1711,7 @@
             "Hellclap": {
                 "name": "Hellclap",
                 "type": "Short War Bow",
-                "image": "/images/items/hellclap.png",
+                "image": "/images/Items/hellclap.png",
                 "props": [
                     "Damage: 10-26",
                     "Required Dexterity: 55",
@@ -1730,7 +1730,7 @@
             "Blastbark": {
                 "name": "Blastbark",
                 "type": "Long War Bow",
-                "image": "/images/items/blastbark.png",
+                "image": "/images/Items/blastbark.png",
                 "props": [
                     "Damage: 5-52",
                     "Required Dexterity: 65",
@@ -1747,7 +1747,7 @@
             "Skystrike": {
                 "name": "Skystrike",
                 "type": "Edge Bow",
-                "image": "/images/items/shortbow.png",
+                "image": "/images/Items/shortbow.png",
                 "props": [
                     "Damage: 17-60",
                     "Required Dexterity: 43",
@@ -1766,7 +1766,7 @@
             "Riphook": {
                 "name": "Riphook",
                 "type": "Razor Bow",
-                "image": "/images/items/riphook.png",
+                "image": "/images/Items/riphook.png",
                 "props": [
                     "Damage: 22-70",
                     "Required Dexterity: 62",
@@ -1784,7 +1784,7 @@
             "Kuko Shakaku": {
                 "name": "Kuko Shakaku",
                 "type": "Cedar Bow",
-                "image": "/images/items/kukoshakaku.png",
+                "image": "/images/Items/kukoshakaku.png",
                 "props": [
                     "Damage: 25-81",
                     "Required Dexterity: 49",
@@ -1802,7 +1802,7 @@
             "Endlesshail": {
                 "name": "Endlesshail",
                 "type": "Double Bow",
-                "image": "/images/items/piercerib.png",
+                "image": "/images/Items/piercerib.png",
                 "props": [
                     "Damage: 30-83",
                     "Required Dexterity: 73",
@@ -1820,7 +1820,7 @@
             "Witchwild String": {
                 "name": "Witchwild String",
                 "type": "Short Siege Bow",
-                "image": "/images/items/witchwildstring.png",
+                "image": "/images/Items/witchwildstring.png",
                 "props": [
                     "Damage: 32-81",
                     "Required Dexterity: 80",
@@ -1838,7 +1838,7 @@
             "Cliffkiller": {
                 "name": "Cliffkiller",
                 "type": "Large Siege Bow",
-                "image": "/images/items/longbattlebow.png",
+                "image": "/images/Items/longbattlebow.png",
                 "props": [
                     "Damage: 34-168",
                     "Required Dexterity: 95",
@@ -1856,7 +1856,7 @@
             "Magewrath": {
                 "name": "Magewrath",
                 "type": "Rune Bow",
-                "image": "/images/items/hellclap.png",
+                "image": "/images/Items/hellclap.png",
                 "props": [
                     "Damage: 55-137",
                     "Required Dexterity: 103",
@@ -1877,7 +1877,7 @@
             "Goldstrike Arch": {
                 "name": "Goldstrike Arch",
                 "type": "Gothic Bow",
-                "image": "/images/items/goldstrikearch.png",
+                "image": "/images/Items/goldstrikearch.png",
                 "props": [
                     "Damage: 30-175",
                     "Required Dexterity: 118",
@@ -1896,7 +1896,7 @@
             "Eaglehorn": {
                 "name": "Eaglehorn",
                 "type": "Crusader Bow",
-                "image": "/images/items/blastbark.png",
+                "image": "/images/Items/blastbark.png",
                 "props": [
                     "Damage: 45-313",
                     "Required Dexterity: 121",
@@ -1914,7 +1914,7 @@
             "Widowmaker": {
                 "name": "Widowmaker",
                 "type": "Ward Bow",
-                "image": "/images/items/widowmaker.png",
+                "image": "/images/Items/widowmaker.png",
                 "props": [
                     "Damage: 50-159",
                     "Required Strength: 146",
@@ -1931,7 +1931,7 @@
             "Windforce": {
                 "name": "Windforce",
                 "type": "Hydra Bow",
-                "image": "/images/items/blastbark.png",
+                "image": "/images/Items/blastbark.png",
                 "props": [
                     "Damage: 35-547",
                     "Required Dexterity: 167",
@@ -1951,7 +1951,7 @@
             "Leadcrow": {
                 "name": "Leadcrow",
                 "type": "Light Crossbow",
-                "image": "/images/items/leadcrow.png",
+                "image": "/images/Items/leadcrow.png",
                 "props": [
                     "Damage: 10-15",
                     "Required Dexterity: 27",
@@ -1969,7 +1969,7 @@
             "Ichorsting": {
                 "name": "Ichorsting",
                 "type": "Crossbow",
-                "image": "/images/items/ichorsting.png",
+                "image": "/images/Items/ichorsting.png",
                 "props": [
                     "Damage: 13-24",
                     "Required Dexterity: 33",
@@ -1987,7 +1987,7 @@
             "Hellcast": {
                 "name": "Hellcast",
                 "type": "Heavy Crossbow",
-                "image": "/images/items/hellcast.png",
+                "image": "/images/Items/hellcast.png",
                 "props": [
                     "Damage: 23-46",
                     "Required Dexterity: 40",
@@ -2006,7 +2006,7 @@
             "Doomslinger": {
                 "name": "Doomslinger",
                 "type": "Repeating Crossbow",
-                "image": "/images/items/doomspittle.png",
+                "image": "/images/Items/doomspittle.png",
                 "props": [
                     "Damage: 9-24",
                     "Required Dexterity: 50",
@@ -2023,7 +2023,7 @@
             "Langer Briser": {
                 "name": "Langer Briser",
                 "type": "Arbalest",
-                "image": "/images/items/langerbriser.png",
+                "image": "/images/Items/langerbriser.png",
                 "props": [
                     "Damage: 37-111",
                     "Required Dexterity:  61",
@@ -2042,7 +2042,7 @@
             "Pus Spitter": {
                 "name": "Pus Spitter",
                 "type": "Siege Crossbow",
-                "image": "/images/items/pusspitter.png",
+                "image": "/images/Items/pusspitter.png",
                 "props": [
                     "Damage: 50-134",
                     "Required Dexterity: 28",
@@ -2061,7 +2061,7 @@
             "Buriza-Do Kyanon": {
                 "name": "Buriza-Do Kyanon",
                 "type": "Ballista",
-                "image": "/images/items/hellcast.png",
+                "image": "/images/Items/hellcast.png",
                 "props": [
                     "Damage: 82-412",
                     "Required Dexterity: 80",
@@ -2081,7 +2081,7 @@
             "Demon Machine": {
                 "name": "Demon Machine",
                 "type": "Chu-Ko-Nu",
-                "image": "/images/items/demonmachine.png",
+                "image": "/images/Items/demonmachine.png",
                 "props": [
                     "Damage: 31-137",
                     "Required Dexterity: 95",
@@ -2100,7 +2100,7 @@
             "Hellrack": {
                 "name": "Hellrack",
                 "type": "Colossus Crossbow",
-                "image": "/images/items/hellrack.png",
+                "image": "/images/Items/hellrack.png",
                 "props": [
                     "Damage: 89-300",
                     "Required Dexterity: 77",
@@ -2120,7 +2120,7 @@
             "Gut Siphon": {
                 "name": "Gut Siphon",
                 "type": "Demon Crossbow",
-                "image": "/images/items/gutsiphon.png",
+                "image": "/images/Items/gutsiphon.png",
                 "props": [
                     "Damage: 67-128",
                     "Required Dexterity: 98",
@@ -2137,7 +2137,7 @@
             "Gull": {
                 "name": "Gull",
                 "type": "Dagger",
-                "image": "/images/items/dagger.png",
+                "image": "/images/Items/dagger.png",
                 "props": [
                     "Damage: 2-19",
                     "Required Level: 4",
@@ -2150,7 +2150,7 @@
             "The Diggler": {
                 "name": "The Diggler",
                 "type": "Dirk",
-                "image": "/images/items/thediggler.png",
+                "image": "/images/Items/thediggler.png",
                 "props": [
                     "Damage: 4-13",
                     "Required Dexterity: 25",
@@ -2167,7 +2167,7 @@
             "The Jade Tan Do": {
                 "name": "The Jade Tan Do",
                 "type": "Kris",
-                "image": "/images/items/thejadetando.png",
+                "image": "/images/Items/thejadetando.png",
                 "props": [
                     "Damage: 2-11",
                     "Required Dexterity: 45",
@@ -2183,7 +2183,7 @@
             "Spectral Shard": {
                 "name": "Spectral Shard",
                 "type": "Blade",
-                "image": "/images/items/iricesshard.png",
+                "image": "/images/Items/iricesshard.png",
                 "props": [
                     "Damage: 4-15",
                     "Required Strength: 35",
@@ -2199,7 +2199,7 @@
             "Spineripper": {
                 "name": "Spineripper",
                 "type": "Poignard",
-                "image": "/images/items/dagger.png",
+                "image": "/images/Items/dagger.png",
                 "props": [
                     "Damage: 33-88",
                     "Required Strength: 25",
@@ -2218,7 +2218,7 @@
             "Heart Carver": {
                 "name": "Heart Carver",
                 "type": "Rondel",
-                "image": "/images/items/thediggler.png",
+                "image": "/images/Items/thediggler.png",
                 "props": [
                     "Damage: 44-123",
                     "Required Strength: 25",
@@ -2237,7 +2237,7 @@
             "Blackbog's Sharp": {
                 "name": "Blackbog's Sharp",
                 "type": "Cinquedeas",
-                "image": "/images/items/thejadetando.png",
+                "image": "/images/Items/thejadetando.png",
                 "props": [
                     "Damage: 30-76",
                     "Required Strength: 25",
@@ -2257,7 +2257,7 @@
             "Stormspike": {
                 "name": "Stormspike",
                 "type": "Stilleto",
-                "image": "/images/items/stormspike.png",
+                "image": "/images/Items/stormspike.png",
                 "props": [
                     "Damage: 47-90",
                     "Required Strength: 47",
@@ -2274,7 +2274,7 @@
             "Wizardspike": {
                 "name": "Wizardspike",
                 "type": "Bone Knife",
-                "image": "/images/items/dagger.png",
+                "image": "/images/Items/dagger.png",
                 "props": [
                     "Damage: 23-49",
                     "Required Strength: 38",
@@ -2292,7 +2292,7 @@
             "Fleshripper": {
                 "name": "Fleshripper",
                 "type": "Fanged Knife",
-                "image": "/images/items/fleshripper.png",
+                "image": "/images/Items/fleshripper.png",
                 "props": [
                     "Damage: 45-228",
                     "Required Strength: 42",
@@ -2311,7 +2311,7 @@
             "Ghostflame": {
                 "name": "Ghostflame",
                 "type": "Legend Spike",
-                "image": "/images/items/ghostflame.png",
+                "image": "/images/Items/ghostflame.png",
                 "props": [
                     "Damage: 133-238",
                     "Required Strength: 55",
@@ -2330,7 +2330,7 @@
             "The Hand of Broc": {
                 "name": "The Hand of Broc",
                 "type": "Leather Gloves",
-                "image": "/images/items/thehandofbroc.png",
+                "image": "/images/Items/thehandofbroc.png",
                 "props": [
                     "Defense: 14",
                     "Required Level: 5",
@@ -2346,7 +2346,7 @@
             "Bloodfist": {
                 "name": "Bloodfist",
                 "type": "Heavy Gloves",
-                "image": "/images/items/bloodfist.png",
+                "image": "/images/Items/bloodfist.png",
                 "props": [
                     "Defense: 17-18",
                     "Required Level: 9",
@@ -2362,7 +2362,7 @@
             "Chance Guards": {
                 "name": "Chance Guards",
                 "type": "Chain Gloves",
-                "image": "/images/items/chanceguards.png",
+                "image": "/images/Items/chanceguards.png",
                 "props": [
                     "Defense: 27-28",
                     "Required Strength: 25",
@@ -2379,7 +2379,7 @@
             "Magefist": {
                 "name": "Magefist",
                 "type": "Light Gauntlets",
-                "image": "/images/items/magefist.png",
+                "image": "/images/Items/magefist.png",
                 "props": [
                     "Defense: 24-25",
                     "Required Strength: 45",
@@ -2396,7 +2396,7 @@
             "Frostburn": {
                 "name": "Frostburn",
                 "type": "Gauntlets",
-                "image": "/images/items/frostburn.png",
+                "image": "/images/Items/frostburn.png",
                 "props": [
                     "Defense: 47-49",
                     "Required Strength: 60",
@@ -2412,7 +2412,7 @@
             "Venom Grip": {
                 "name": "Venom Grip",
                 "type": "Demonhide Gloves",
-                "image": "/images/items/leathergloves.png",
+                "image": "/images/Items/leathergloves.png",
                 "props": [
                     "Defense: 97-118",
                     "Required Strength: 20",
@@ -2430,7 +2430,7 @@
             "Gravepalm": {
                 "name": "Gravepalm",
                 "type": "Sharkskin Gloves",
-                "image": "/images/items/heavygloves.png",
+                "image": "/images/Items/heavygloves.png",
                 "props": [
                     "Defense: 96-112",
                     "Required Strength: 20",
@@ -2446,7 +2446,7 @@
             "Ghoulhide": {
                 "name": "Ghoulhide",
                 "type": "Heavy Bracers",
-                "image": "/images/items/chaingloves.png",
+                "image": "/images/Items/chaingloves.png",
                 "props": [
                     "Defense: 112-130",
                     "Required Strength: 58",
@@ -2462,7 +2462,7 @@
             "Lava Gout": {
                 "name": "Lava Gout",
                 "type": "Battle Gauntlets",
-                "image": "/images/items/lightgauntlets.png",
+                "image": "/images/Items/lightgauntlets.png",
                 "props": [
                     "Defense: 120-144",
                     "Required Strength: 88",
@@ -2479,7 +2479,7 @@
             "Hellmouth": {
                 "name": "Hellmouth",
                 "type": "War Gauntlets",
-                "image": "/images/items/gauntlets.png",
+                "image": "/images/Items/gauntlets.png",
                 "props": [
                     "Defense: 135-162",
                     "Required Strength: 110",
@@ -2495,7 +2495,7 @@
             "Dracul's Grasp": {
                 "name": "Dracul's Grasp",
                 "type": "Vampirebone Gloves",
-                "image": "/images/items/heavygloves.png",
+                "image": "/images/Items/heavygloves.png",
                 "props": [
                     "Defense: 125-145",
                     "Required Strength: 50",
@@ -2512,7 +2512,7 @@
             "Soul Drainer": {
                 "name": "Soul Drainer",
                 "type": "Vambraces",
-                "image": "/images/items/chaingloves.png",
+                "image": "/images/Items/chaingloves.png",
                 "props": [
                     "Defense: 129-149",
                     "Required Strength: 106",
@@ -2528,7 +2528,7 @@
             "Steelrend": {
                 "name": "Steelrend",
                 "type": "Ogre Gauntlets",
-                "image": "/images/items/gauntlets.png",
+                "image": "/images/Items/gauntlets.png",
                 "props": [
                     "Defense: 232-281",
                     "Required Strength: 185",
@@ -2543,7 +2543,7 @@
             "Biggin's Bonnet": {
                 "name": "Biggin's Bonnet",
                 "type": "Cap",
-                "image": "/images/items/warbonet.png",
+                "image": "/images/Items/warbonet.png",
                 "props": [
                     "Defense: 17-19",
                     "Required Level: 3",
@@ -2558,7 +2558,7 @@
             "Tarnhelm": {
                 "name": "Tarnhelm",
                 "type": "Skull Cap",
-                "image": "/images/items/tarnhelm.png",
+                "image": "/images/Items/tarnhelm.png",
                 "props": [
                     "Defense: 8-11",
                     "Required Strength: 15",
@@ -2572,7 +2572,7 @@
             "Coif of Glory": {
                 "name": "Coif of Glory",
                 "type": "Helm",
-                "image": "/images/items/coifofglory.png",
+                "image": "/images/Items/coifofglory.png",
                 "props": [
                     "Defense: 25-28",
                     "Required Strength: 26",
@@ -2588,7 +2588,7 @@
             "Duskdeep": {
                 "name": "Duskdeep",
                 "type": "Full Helm",
-                "image": "/images/items/duskdeep.png",
+                "image": "/images/Items/duskdeep.png",
                 "props": [
                     "Defense: 45-60",
                     "Required Strength: 41",
@@ -2605,7 +2605,7 @@
             "Howltusk": {
                 "name": "Howltusk",
                 "type": "Great Helm",
-                "image": "/images/items/howltusk.png",
+                "image": "/images/Items/howltusk.png",
                 "props": [
                     "Defense: 64",
                     "Required Strength: 63",
@@ -2622,7 +2622,7 @@
             "The Face of Horror": {
                 "name": "The Face of Horror",
                 "type": "Mask",
-                "image": "/images/items/mask.png",
+                "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 34-52",
                     "Required Strength: 23",
@@ -2638,7 +2638,7 @@
             "Undead Crown": {
                 "name": "Undead Crown",
                 "type": "Crown",
-                "image": "/images/items/undeadcrown.png",
+                "image": "/images/Items/undeadcrown.png",
                 "props": [
                     "Defense: 99-113",
                     "Required Strength: 55",
@@ -2657,7 +2657,7 @@
             "Wormskull": {
                 "name": "Wormskull",
                 "type": "Bone Helm",
-                "image": "/images/items/wormskull.png",
+                "image": "/images/Items/wormskull.png",
                 "props": [
                     "Defense: 33-36",
                     "Required Strength: 25",
@@ -2673,7 +2673,7 @@
             "Peasant Crown": {
                 "name": "Peasant Crown",
                 "type": "War Hat",
-                "image": "/images/items/cap.png",
+                "image": "/images/Items/cap.png",
                 "props": [
                     "Defense: 108",
                     "Required Strength: 20",
@@ -2690,7 +2690,7 @@
             "Rockstopper": {
                 "name": "Rockstopper",
                 "type": "Sallet",
-                "image": "/images/items/rockstopper.png",
+                "image": "/images/Items/rockstopper.png",
                 "props": [
                     "Defense: 163-201",
                     "Required Strength: 43",
@@ -2708,7 +2708,7 @@
             "Stealskull": {
                 "name": "Stealskull",
                 "type": "Casque",
-                "image": "/images/items/coifofglory.png",
+                "image": "/images/Items/coifofglory.png",
                 "props": [
                     "Defense: 219-248",
                     "Required Strength: 59",
@@ -2725,7 +2725,7 @@
             "Darksight Helm": {
                 "name": "Darksight Helm",
                 "type": "Basinet",
-                "image": "/images/items/darksighthelm.png",
+                "image": "/images/Items/darksighthelm.png",
                 "props": [
                     "Defense: 77-282",
                     "Required Strength: 82",
@@ -2743,7 +2743,7 @@
             "Valkyrie Wing": {
                 "name": "Valkyrie Wing",
                 "type": "Winged Helm",
-                "image": "/images/items/howltusk.png",
+                "image": "/images/Items/howltusk.png",
                 "props": [
                     "Defense: 247-297",
                     "Required Strength: 115",
@@ -2759,7 +2759,7 @@
             "Blackhorn's Face": {
                 "name": "Blackhorn's Face",
                 "type": "Death Mask",
-                "image": "/images/items/mask.png",
+                "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 243-278",
                     "Required Strength: 55",
@@ -2776,7 +2776,7 @@
             "Crown of Thieves": {
                 "name": "Crown of Thieves",
                 "type": "Grand Crown",
-                "image": "/images/items/crownofthieves.png",
+                "image": "/images/Items/crownofthieves.png",
                 "props": [
                     "Defense: 296-342",
                     "Required Strength: 103",
@@ -2794,7 +2794,7 @@
             "Vampire Gaze": {
                 "name": "Vampire Gaze",
                 "type": "Grim Helm",
-                "image": "/images/items/vampiregaze.png",
+                "image": "/images/Items/vampiregaze.png",
                 "props": [
                     "Defense: 252",
                     "Required Strength: 58",
@@ -2812,7 +2812,7 @@
             "Harlequin Crest": {
                 "name": "Harlequin Crest",
                 "type": "Shako",
-                "image": "/images/items/harlequincrest.png",
+                "image": "/images/Items/harlequincrest.png",
                 "props": [
                     "Defense: 98-141",
                     "Required Strength: 50",
@@ -2832,7 +2832,7 @@
             "Steel Shade": {
                 "name": "Steel Shade",
                 "type": "Armet",
-                "image": "/images/items/steelshade.png",
+                "image": "/images/Items/steelshade.png",
                 "props": [
                     "Defense: 300-345",
                     "Required Strength: 109",
@@ -2847,7 +2847,7 @@
             "Veil of Steel": {
                 "name": "Veil of Steel",
                 "type": "Spired Helm",
-                "image": "/images/items/veilofsteel.png",
+                "image": "/images/Items/veilofsteel.png",
                 "props": [
                     "Defense: 396",
                     "Required Strength: 192",
@@ -2864,7 +2864,7 @@
             "Nightwing's Veil": {
                 "name": "Nightwing's Veil",
                 "type": "Spired Helm",
-                "image": "/images/items/nightwingsveil.png",
+                "image": "/images/Items/nightwingsveil.png",
                 "props": [
                     "Defense: 304-352",
                     "Required Strength: 96",
@@ -2882,7 +2882,7 @@
             "Andariel's Visage": {
                 "name": "Andariel's Visage",
                 "type": "Demonhead Mask",
-                "image": "/images/items/mask.png",
+                "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 310-387",
                     "Required Strength: 102",
@@ -2903,7 +2903,7 @@
             "Crown of Ages": {
                 "name": "Crown of Ages",
                 "type": "Corona",
-                "image": "/images/items/crownofages.png",
+                "image": "/images/Items/crownofages.png",
                 "props": [
                     "Defense: 349-399",
                     "Required Strength: 174",
@@ -2922,7 +2922,7 @@
             "Giant Skull": {
                 "name": "Giant Skull",
                 "type": "Bone Visage",
-                "image": "/images/items/giantskull.png",
+                "image": "/images/Items/giantskull.png",
                 "props": [
                     "Defense: 350-477",
                     "Required Strength: 106",
@@ -2938,7 +2938,7 @@
             "Kira's Guardian": {
                 "name": "Kira's Guardian",
                 "type": "Tiara",
-                "image": "/images/items/tiara.png",
+                "image": "/images/Items/tiara.png",
                 "props": [
                     "Defense: 90-170",
                     "Required Level: 77",
@@ -2952,7 +2952,7 @@
             "Griffon's Eye": {
                 "name": "Griffon's Eye",
                 "type": "Diadem",
-                "image": "/images/items/diadem.png",
+                "image": "/images/Items/diadem.png",
                 "props": [
                     "Defense: 150-260",
                     "Required Level: 76",
@@ -2967,7 +2967,7 @@
             "Demon's Arch": {
                 "name": "Demon's Arch",
                 "type": "Balrog Spear",
-                "image": "/images/items/demonsarch.png",
+                "image": "/images/Items/demonsarch.png",
                 "props": [
                     "Throw Damage: 104-192",
                     "Damage: 85-195",
@@ -2986,7 +2986,7 @@
             "Wraith Flight": {
                 "name": "Wraith Flight",
                 "type": "Ghost Glaive",
-                "image": "/images/items/wraithflight.png",
+                "image": "/images/Items/wraithflight.png",
                 "props": [
                     "Throw Damage: 112-368",
                     "Damage: 70-261",
@@ -3004,7 +3004,7 @@
             "Gargoyle's Bite": {
                 "name": "Gargoyle's Bite",
                 "type": "Winged Harpoon",
-                "image": "/images/items/gargoylesbite.png",
+                "image": "/images/Items/gargoylesbite.png",
                 "props": [
                     "Throw Damage: 30-254",
                     "Damage: 75-115",
@@ -3022,7 +3022,7 @@
             "Nokozan Relic": {
                 "name": "Nokozan Relic",
                 "type": "",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 10",
                     "+20% Faster Hit Recovery",
@@ -3036,7 +3036,7 @@
             "The Eye of Etlich": {
                 "name": "The Eye of Etlich",
                 "type": "",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 15",
                     "+1 to Skills",
@@ -3050,7 +3050,7 @@
             "The Mahim-Oak Curio": {
                 "name": "The Mahim-Oak Curio",
                 "type": "",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 25",
                     "+10 Defense",
@@ -3064,7 +3064,7 @@
             "Saracen's Chance": {
                 "name": "Saracen's Chance",
                 "type": "",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 47",
                     "10% chance to cast level 2 Iron Maiden when struck",
@@ -3076,7 +3076,7 @@
             "The Cat's Eye": {
                 "name": "The Cat's Eye",
                 "type": "",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 50",
                     "+30% Faster Run/Walk",
@@ -3090,7 +3090,7 @@
             "Crescent Moon": {
                 "name": "Crescent Moon",
                 "type": "",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 50",
                     "10% Damage taken goes to Mana",
@@ -3105,7 +3105,7 @@
             "Atma's Scarab": {
                 "name": "Atma's Scarab",
                 "type": "",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 60",
                     "5% chance to cast level 2 Amplify Damage on striking",
@@ -3120,7 +3120,7 @@
             "The Rising Sun": {
                 "name": "The Rising Sun",
                 "type": "",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 65",
                     "2% chance to cast level 13-19 Meteor when struck",
@@ -3135,7 +3135,7 @@
             "Highlord's Wrath": {
                 "name": "Highlord's Wrath",
                 "type": "",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 65",
                     "+20% Increased Attack Speed",
@@ -3150,7 +3150,7 @@
             "Mara's Kaleidoscope": {
                 "name": "Mara's Kaleidoscope",
                 "type": "",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 67",
                     "+2 to All Skills",
@@ -3162,7 +3162,7 @@
             "Seraph's Hymn": {
                 "name": "Seraph's Hymn",
                 "type": "",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 65",
                     "+2 to all Skill",
@@ -3178,7 +3178,7 @@
             "Metalgrid": {
                 "name": "Metalgrid",
                 "type": "",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 81",
                     "+400-450 to Attack Rating",
@@ -3192,7 +3192,7 @@
             "Nagelring": {
                 "name": "Nagelring",
                 "type": "",
-                "image": "/images/items/ring1.png",
+                "image": "/images/Items/ring1.png",
                 "props": [
                     "Required Level: 7",
                     "Magic Damage reduced by 3",
@@ -3205,7 +3205,7 @@
             "Manald Heal": {
                 "name": "Manald Heal",
                 "type": "",
-                "image": "/images/items/ring2.png",
+                "image": "/images/Items/ring2.png",
                 "props": [
                     "Required Level: 15",
                     "4-7% Mana stolen per hit",
@@ -3218,7 +3218,7 @@
             "Stone of Jordan": {
                 "name": "Stone of Jordan",
                 "type": "",
-                "image": "/images/items/ring3.png",
+                "image": "/images/Items/ring3.png",
                 "props": [
                     "Required Level: 29",
                     "+1 to All Skills",
@@ -3231,7 +3231,7 @@
             "Dwarf Star": {
                 "name": "Dwarf Star",
                 "type": "",
-                "image": "/images/items/ring2.png",
+                "image": "/images/Items/ring2.png",
                 "props": [
                     "Required Level: 45",
                     "Magic Damage reduced by 12-15",
@@ -3246,7 +3246,7 @@
             "Raven Frost": {
                 "name": "Raven Frost",
                 "type": "",
-                "image": "/images/items/ring3.png",
+                "image": "/images/Items/ring3.png",
                 "props": [
                     "Required Level: 45",
                     "+150-250 to Attack Rating",
@@ -3261,7 +3261,7 @@
             "Bul-Kathos' Wedding Band": {
                 "name": "Bul-Kathos' Wedding Band",
                 "type": "",
-                "image": "/images/items/ring1.png",
+                "image": "/images/Items/ring1.png",
                 "props": [
                     "Required Level: 58",
                     "+1 to All Skills",
@@ -3274,7 +3274,7 @@
             "Carrion Wind": {
                 "name": "Carrion Wind",
                 "type": "",
-                "image": "/images/items/ring3.png",
+                "image": "/images/Items/ring3.png",
                 "props": [
                     "Required Level: 60",
                     "10% Chance to Cast Level 10 Poison Nova when struck",
@@ -3290,7 +3290,7 @@
             "Nature's Peace": {
                 "name": "Nature's Peace",
                 "type": "",
-                "image": "/images/items/ring3.png",
+                "image": "/images/Items/ring3.png",
                 "props": [
                     "Required Level: 69",
                     "Slain Monsters Rest in Peace",
@@ -3304,7 +3304,7 @@
             "Wisp Projector": {
                 "name": "Wisp Projector",
                 "type": "",
-                "image": "/images/items/ring3.png",
+                "image": "/images/Items/ring3.png",
                 "props": [
                     "Required Level: 76",
                     "10% Chance to Cast Level 16 Lightning Bolt on striking",
@@ -3319,7 +3319,7 @@
             "Felloak": {
                 "name": "Felloak",
                 "type": "Club",
-                "image": "/images/items/felloak.png",
+                "image": "/images/Items/felloak.png",
                 "props": [
                     "Damage: 1-10",
                     "Required Level: 3",
@@ -3335,7 +3335,7 @@
             "Stoutnail": {
                 "name": "Stoutnail",
                 "type": "Spiked Club",
-                "image": "/images/items/stoutnail.png",
+                "image": "/images/Items/stoutnail.png",
                 "props": [
                     "Damage: 10-16",
                     "Required Level: 5",
@@ -3350,7 +3350,7 @@
             "Crushflange": {
                 "name": "Crushflange",
                 "type": "Mace",
-                "image": "/images/items/crushflange.png",
+                "image": "/images/Items/crushflange.png",
                 "props": [
                     "Damage: 4-16",
                     "Required Strength: 27",
@@ -3368,7 +3368,7 @@
             "Bloodrise": {
                 "name": "Bloodrise",
                 "type": "Morning Star",
-                "image": "/images/items/bloodrise.png",
+                "image": "/images/Items/bloodrise.png",
                 "props": [
                     "Damage: 15-35",
                     "Required Strength: 36",
@@ -3387,7 +3387,7 @@
             "The General's Tan Do Li Ga": {
                 "name": "The General's Tan Do Li Ga",
                 "type": "Flail",
-                "image": "/images/items/thegeneralstandoliga.png",
+                "image": "/images/Items/thegeneralstandoliga.png",
                 "props": [
                     "Damage: 2-58",
                     "Required Strength: 41",
@@ -3406,7 +3406,7 @@
             "Ironstone": {
                 "name": "Ironstone",
                 "type": "War Hammer",
-                "image": "/images/items/ironstone.png",
+                "image": "/images/Items/ironstone.png",
                 "props": [
                     "Damage: 38-72",
                     "Required Strength: 53",
@@ -3422,7 +3422,7 @@
             "Bonesnap": {
                 "name": "Bonesnap",
                 "type": "Maul",
-                "image": "/images/items/bonesnap.png",
+                "image": "/images/Items/bonesnap.png",
                 "props": [
                     "Damage: 90-172",
                     "Durabilty: 60",
@@ -3439,7 +3439,7 @@
             "Steeldriver": {
                 "name": "Steeldriver",
                 "type": "Great Maul",
-                "image": "/images/items/steeldriver.png",
+                "image": "/images/Items/steeldriver.png",
                 "props": [
                     "Damage: 95-203",
                     "Required Strength: 50",
@@ -3455,7 +3455,7 @@
             "Dark Clan Crusher": {
                 "name": "Dark Clan Crusher",
                 "type": "Cudgel",
-                "image": "/images/items/felloak.png",
+                "image": "/images/Items/felloak.png",
                 "props": [
                     "Damage: 17-61",
                     "Required Strength: 25",
@@ -3473,7 +3473,7 @@
             "Fleshrender": {
                 "name": "Fleshrender",
                 "type": "Barbed Club",
-                "image": "/images/items/stoutnail.png",
+                "image": "/images/Items/stoutnail.png",
                 "props": [
                     "Damage: 64-125",
                     "Required Strength: 30",
@@ -3493,7 +3493,7 @@
             "Sureshrill Frost": {
                 "name": "Sureshrill Frost",
                 "type": "Flanged Mace",
-                "image": "/images/items/crushflange.png",
+                "image": "/images/Items/crushflange.png",
                 "props": [
                     "Damage: 42-74",
                     "Required Strength: 61",
@@ -3511,7 +3511,7 @@
             "Moonfall": {
                 "name": "Moonfall",
                 "type": "Jagged Star",
-                "image": "/images/items/bloodrise.png",
+                "image": "/images/Items/bloodrise.png",
                 "props": [
                     "Damage: 54-92",
                     "Required Strength: 74",
@@ -3530,7 +3530,7 @@
             "Baezil's Vortex": {
                 "name": "Baezil's Vortex",
                 "type": "Knout",
-                "image": "/images/items/thegeneralstandoliga.png",
+                "image": "/images/Items/thegeneralstandoliga.png",
                 "props": [
                     "Damage: 33-105",
                     "Required Strength: 82",
@@ -3550,7 +3550,7 @@
             "Earthshaker": {
                 "name": "Earthshaker",
                 "type": "Battle Hammer",
-                "image": "/images/items/warhammer.png",
+                "image": "/images/Items/warhammer.png",
                 "props": [
                     "Damage: 98-162",
                     "Required Strength: 100",
@@ -3568,7 +3568,7 @@
             "Bloodtree Stump": {
                 "name": "Bloodtree Stump",
                 "type": "War Club",
-                "image": "/images/items/maul.png",
+                "image": "/images/Items/maul.png",
                 "props": [
                     "Damage: 148-249",
                     "Required Strength: 124",
@@ -3586,7 +3586,7 @@
             "The Gavel of Pain": {
                 "name": "The Gavel of Pain",
                 "type": "Martel de Fer",
-                "image": "/images/items/greatmaul.png",
+                "image": "/images/Items/greatmaul.png",
                 "props": [
                     "Damage: 152-286",
                     "Required Strength: 169",
@@ -3605,7 +3605,7 @@
             "Nord's Tenderizer": {
                 "name": "Nord's Tenderizer",
                 "type": "Truncheon",
-                "image": "/images/items/felloak.png",
+                "image": "/images/Items/felloak.png",
                 "props": [
                     "Damage: 129-184",
                     "Required Strength: 88",
@@ -3625,7 +3625,7 @@
             "Demon Limb": {
                 "name": "Demon Limb",
                 "type": "Tyrant Club",
-                "image": "/images/items/stoutnail.png",
+                "image": "/images/Items/stoutnail.png",
                 "props": [
                     "Damage: 89-191",
                     "Required Strength: 133",
@@ -3644,7 +3644,7 @@
             "Baranar's Star": {
                 "name": "Baranar's Star",
                 "type": "Devil Star",
-                "image": "/images/items/bloodrise.png",
+                "image": "/images/Items/bloodrise.png",
                 "props": [
                     "Damage: 129-159",
                     "Required Strength: 153",
@@ -3665,7 +3665,7 @@
             "Horizon's Tornado": {
                 "name": "Horizon's Tornado",
                 "type": "Scourge",
-                "image": "/images/items/horizonstornado.png",
+                "image": "/images/Items/horizonstornado.png",
                 "props": [
                     "Damage: 9-304",
                     "Required Strength: 100",
@@ -3683,7 +3683,7 @@
             "Stormlash": {
                 "name": "Stormlash",
                 "type": "Scourge",
-                "image": "/images/items/stormlash.png",
+                "image": "/images/Items/stormlash.png",
                 "props": [
                     "Damage: 10-320",
                     "Required Strength: 125",
@@ -3704,7 +3704,7 @@
             "Schaefer's Hammer": {
                 "name": "Schaefer's Hammer",
                 "type": "Legendary Mallet",
-                "image": "/images/items/ironstone.png",
+                "image": "/images/Items/ironstone.png",
                 "props": [
                     "Damage: 100-338",
                     "Required Strength: 189",
@@ -3726,7 +3726,7 @@
             "Stone Crusher": {
                 "name": "Stone Crusher",
                 "type": "Legendary Mallet",
-                "image": "/images/items/ironstone.png",
+                "image": "/images/Items/ironstone.png",
                 "props": [
                     "Damage: 190-256",
                     "Required Strength: 189",
@@ -3744,7 +3744,7 @@
             "Windhammer": {
                 "name": "Windhammer",
                 "type": "Ogre Maul",
-                "image": "/images/items/maul.png",
+                "image": "/images/Items/maul.png",
                 "props": [
                     "Damage: 215-349",
                     "Required Strength: 225",
@@ -3760,7 +3760,7 @@
             "The Cranium Basher": {
                 "name": "The Cranium Basher",
                 "type": "Thunder Maul",
-                "image": "/images/items/steeldriver.png",
+                "image": "/images/Items/steeldriver.png",
                 "props": [
                     "Damage: 119-632",
                     "Required Strength: 253",
@@ -3780,7 +3780,7 @@
             "Earth Shifter": {
                 "name": "Earth Shifter",
                 "type": "Thunder Maul",
-                "image": "/images/items/steeldriver.png",
+                "image": "/images/Items/steeldriver.png",
                 "props": [
                     "Damage: 115-720",
                     "Required Strength: 253",
@@ -3799,7 +3799,7 @@
             "Dimoak's Hew": {
                 "name": "Dimoak's Hew",
                 "type": "Bardiche",
-                "image": "/images/items/bardiche.png",
+                "image": "/images/Items/bardiche.png",
                 "props": [
                     "Damage: 2-54",
                     "Required Strength: 40",
@@ -3814,7 +3814,7 @@
             "Steelgoad": {
                 "name": "Steelgoad",
                 "type": "Voulge",
-                "image": "/images/items/steelgoad.png",
+                "image": "/images/Items/steelgoad.png",
                 "props": [
                     "Damage: 9-37",
                     "Required Strength: 50",
@@ -3830,7 +3830,7 @@
             "Soul Harvest": {
                 "name": "Soul Harvest",
                 "type": "Scythe",
-                "image": "/images/items/soulharvest.png",
+                "image": "/images/Items/soulharvest.png",
                 "props": [
                     "Damage: 12-38",
                     "Required Dexterity: 41",
@@ -3848,7 +3848,7 @@
             "The Battlebranch": {
                 "name": "The Battlebranch",
                 "type": "Poleaxe",
-                "image": "/images/items/poleaxe.png",
+                "image": "/images/Items/poleaxe.png",
                 "props": [
                     "Damage: 27-66",
                     "Required Strength: 62",
@@ -3864,7 +3864,7 @@
             "Woestave": {
                 "name": "Woestave",
                 "type": "Halberd",
-                "image": "/images/items/halberd.png",
+                "image": "/images/Items/halberd.png",
                 "props": [
                     "Damage: 14-62",
                     "Required Dexterity: 47",
@@ -3884,7 +3884,7 @@
             "The Grim Reaper": {
                 "name": "The Grim Reaper",
                 "type": "War Scythe",
-                "image": "/images/items/warscythe.png",
+                "image": "/images/Items/warscythe.png",
                 "props": [
                     "Damage: 33-43",
                     "Required Dexterity: 80",
@@ -3901,7 +3901,7 @@
             "The Meat Scraper": {
                 "name": "The Meat Scraper",
                 "type": "Lochaber Axe",
-                "image": "/images/items/bardiche.png",
+                "image": "/images/Items/bardiche.png",
                 "props": [
                     "Damage: 15-174",
                     "Required Strength: 80",
@@ -3918,7 +3918,7 @@
             "Blackleach Blade": {
                 "name": "Blackleach Blade",
                 "type": "Bill",
-                "image": "/images/items/voulge.png",
+                "image": "/images/Items/voulge.png",
                 "props": [
                     "Damage: 28-250",
                     "Required Strength: 72",
@@ -3935,7 +3935,7 @@
             "Athena's Wrath": {
                 "name": "Athena's Wrath",
                 "type": "Battle Scythe",
-                "image": "/images/items/scythe.png",
+                "image": "/images/Items/scythe.png",
                 "props": [
                     "Damage: 45-224",
                     "Required Strength: 82",
@@ -3953,7 +3953,7 @@
             "Pierre Tombale Couant": {
                 "name": "Pierre Tombale Couant",
                 "type": "Partizan",
-                "image": "/images/items/poleaxe.png",
+                "image": "/images/Items/poleaxe.png",
                 "props": [
                     "Damage: 100-260",
                     "Required Strength: 113",
@@ -3972,7 +3972,7 @@
             "Husoldal Evo": {
                 "name": "Husoldal Evo",
                 "type": "Bec-de-Corbin",
-                "image": "/images/items/halberd.png",
+                "image": "/images/Items/halberd.png",
                 "props": [
                     "Damage: 53-287",
                     "Required Strength: 133",
@@ -3990,7 +3990,7 @@
             "Grim's Burning Dead": {
                 "name": "Grim's Burning Dead",
                 "type": "Grim Scythe",
-                "image": "/images/items/warscythe.png",
+                "image": "/images/Items/warscythe.png",
                 "props": [
                     "Damage: 72-196",
                     "Required Strength: 70",
@@ -4011,7 +4011,7 @@
             "Bonehew": {
                 "name": "Bonehew",
                 "type": "Ogre Axe",
-                "image": "/images/items/bardiche.png",
+                "image": "/images/Items/bardiche.png",
                 "props": [
                     "Damage: 103-609",
                     "Required Strength: 195",
@@ -4029,7 +4029,7 @@
             "The Reaper's Toll": {
                 "name": "The Reaper's Toll",
                 "type": "Thresher",
-                "image": "/images/items/scythe.png",
+                "image": "/images/Items/scythe.png",
                 "props": [
                     "Damage: 34-479",
                     "Required Strength: 114",
@@ -4048,7 +4048,7 @@
             "Tomb Reaver": {
                 "name": "Tomb Reaver",
                 "type": "Cryptic Axe",
-                "image": "/images/items/poleaxe.png",
+                "image": "/images/Items/poleaxe.png",
                 "props": [
                     "Damage: 99-570",
                     "Required Strength: 165",
@@ -4070,7 +4070,7 @@
             "Stormspire": {
                 "name": "Stormspire",
                 "type": "Giant Thresher",
-                "image": "/images/items/warscythe.png",
+                "image": "/images/Items/warscythe.png",
                 "props": [
                     "Damage: 100-399",
                     "Required Strength: 188",
@@ -4091,7 +4091,7 @@
             "Knell Striker": {
                 "name": "Knell Striker",
                 "type": "Scepter",
-                "image": "/images/items/scepter.png",
+                "image": "/images/Items/scepter.png",
                 "props": [
                     "Damage: 10-19",
                     "Required Strength: 25",
@@ -4109,7 +4109,7 @@
             "Rusthandle": {
                 "name": "Rusthandle",
                 "type": "Grand Scepter",
-                "image": "/images/items/grandscepter.png",
+                "image": "/images/Items/grandscepter.png",
                 "props": [
                     "Damage: 15-35",
                     "Required Strength: 37",
@@ -4128,7 +4128,7 @@
             "Stormeye": {
                 "name": "Stormeye",
                 "type": "War Scepter",
-                "image": "/images/items/warscepter.png",
+                "image": "/images/Items/warscepter.png",
                 "props": [
                     "Damage: 18-37",
                     "Required Strength: 55",
@@ -4147,7 +4147,7 @@
             "Zakarum's Hand": {
                 "name": "Zakarum's Hand",
                 "type": "Rune Scepter",
-                "image": "/images/items/scepter.png",
+                "image": "/images/Items/scepter.png",
                 "props": [
                     "Damage: 36-76",
                     "Required Strength: 58",
@@ -4168,7 +4168,7 @@
             "The Fetid Sprinkler": {
                 "name": "The Fetid Sprinkler",
                 "type": "Holy Water Sprinkler",
-                "image": "/images/items/grandscepter.png",
+                "image": "/images/Items/grandscepter.png",
                 "props": [
                     "Damage: 51-129",
                     "Required Strength: 76",
@@ -4187,7 +4187,7 @@
             "Hand of Blessed Light": {
                 "name": "Hand of Blessed Light",
                 "type": "Divine Scepter",
-                "image": "/images/items/warscepter.png",
+                "image": "/images/Items/warscepter.png",
                 "props": [
                     "Damage: 56-143",
                     "Required Strength: 103",
@@ -4209,7 +4209,7 @@
             "Heaven's Light": {
                 "name": "Heaven's Light",
                 "type": "Mighty Scepter",
-                "image": "/images/items/scepter.png",
+                "image": "/images/Items/scepter.png",
                 "props": [
                     "Damage: 140-208",
                     "Required Strength: 125",
@@ -4230,7 +4230,7 @@
             "The Redeemer": {
                 "name": "The Redeemer",
                 "type": "Mighty Scepter",
-                "image": "/images/items/scepter.png",
+                "image": "/images/Items/scepter.png",
                 "props": [
                     "Damage: 140-208",
                     "Required Strength: 50",
@@ -4252,7 +4252,7 @@
             "Astreon's Iron Ward": {
                 "name": "Astreon's Iron Ward",
                 "type": "Caduceus",
-                "image": "/images/items/warscepter.png",
+                "image": "/images/Items/warscepter.png",
                 "props": [
                     "Damage: 125-167",
                     "Required Strength: 97",
@@ -4274,7 +4274,7 @@
             "Pelta Lunata": {
                 "name": "Pelta Lunata",
                 "type": "Buckler",
-                "image": "/images/items/peltalunata.png",
+                "image": "/images/Items/peltalunata.png",
                 "props": [
                     "Defense: 39",
                     "% Block: Paladin 50%",
@@ -4295,7 +4295,7 @@
             "Umbral Disk": {
                 "name": "Umbral Disk",
                 "type": "Small Shield",
-                "image": "/images/items/umbraldisk.png",
+                "image": "/images/Items/umbraldisk.png",
                 "props": [
                     "Defense: 45-46",
                     "% Block: Paladin 65%",
@@ -4316,7 +4316,7 @@
             "Stormguild": {
                 "name": "Stormguild",
                 "type": "Large Shield",
-                "image": "/images/items/stormguild.png",
+                "image": "/images/Items/stormguild.png",
                 "props": [
                     "Defense: 52-54",
                     "% Block: Paladin 72%",
@@ -4337,7 +4337,7 @@
             "Steelclash": {
                 "name": "Steelclash",
                 "type": "Kite Shield",
-                "image": "/images/items/steelclash.png",
+                "image": "/images/Items/steelclash.png",
                 "props": [
                     "Defense: 50-58",
                     "% Block: Paladin 63%",
@@ -4359,7 +4359,7 @@
             "Swordback Hold": {
                 "name": "Swordback Hold",
                 "type": "Spiked Shield",
-                "image": "/images/items/swordbackhold.png",
+                "image": "/images/Items/swordbackhold.png",
                 "props": [
                     "Defense: 43-51",
                     "Durabilty: 40",
@@ -4379,7 +4379,7 @@
             "Bverrit Keep": {
                 "name": "Bverrit Keep",
                 "type": "Tower Shield",
-                "image": "/images/items/bverritkeep.png",
+                "image": "/images/Items/bverritkeep.png",
                 "props": [
                     "Defense: 76-87",
                     "% Block: Paladin 64%",
@@ -4399,7 +4399,7 @@
             "Wall of the Eyeless": {
                 "name": "Wall of the Eyeless",
                 "type": "Bone Shield",
-                "image": "/images/items/walloftheeyeless.png",
+                "image": "/images/Items/walloftheeyeless.png",
                 "props": [
                     "Defense: 50-53",
                     "% Block: Paladin 50%",
@@ -4419,7 +4419,7 @@
             "The Ward": {
                 "name": "The Ward",
                 "type": "Gothic Shield",
-                "image": "/images/items/theward.png",
+                "image": "/images/Items/theward.png",
                 "props": [
                     "Defense: 112",
                     "% Block: Paladin 56%",
@@ -4439,7 +4439,7 @@
             "Visceratuant": {
                 "name": "Visceratuant",
                 "type": "Defender",
-                "image": "/images/items/peltalunata.png",
+                "image": "/images/Items/peltalunata.png",
                 "props": [
                     "Defense: 100-125",
                     "% Block: Paladin 70%",
@@ -4458,7 +4458,7 @@
             "Moser's Blessed Circle": {
                 "name": "Moser's Blessed Circle",
                 "type": "Round Shield",
-                "image": "/images/items/blessedcircle.png",
+                "image": "/images/Items/blessedcircle.png",
                 "props": [
                     "Defense: 156-179",
                     "% Block: Paladin 67%",
@@ -4477,7 +4477,7 @@
             "Stormchaser": {
                 "name": "Stormchaser",
                 "type": "Scutum",
-                "image": "/images/items/stormchaser.png",
+                "image": "/images/Items/stormchaser.png",
                 "props": [
                     "Defense: 161-198",
                     "% Block: Paladin 64%",
@@ -4500,7 +4500,7 @@
             "Tiamat's Rebuke": {
                 "name": "Tiamat's Rebuke",
                 "type": "Dragon Shield",
-                "image": "/images/items/steelclash.png",
+                "image": "/images/Items/steelclash.png",
                 "props": [
                     "Defense: 163-204",
                     "% Block: Paladin 48%",
@@ -4522,7 +4522,7 @@
             "Lance Guard": {
                 "name": "Lance Guard",
                 "type": "Barbed Shield",
-                "image": "/images/items/lanceguard.png",
+                "image": "/images/Items/lanceguard.png",
                 "props": [
                     "Defense: 134-173",
                     "% Block: Paladin 47%",
@@ -4542,7 +4542,7 @@
             "Gerke's Sanctuary": {
                 "name": "Gerke's Sanctuary",
                 "type": "Pavise",
-                "image": "/images/items/bverritkeep.png",
+                "image": "/images/Items/bverritkeep.png",
                 "props": [
                     "Defense: 221-268",
                     "% Block: Paladin 84%",
@@ -4562,7 +4562,7 @@
             "Lidless Wall": {
                 "name": "Lidless Wall",
                 "type": "Grim Shield",
-                "image": "/images/items/lidlesswall.png",
+                "image": "/images/Items/lidlesswall.png",
                 "props": [
                     "Defense: 271-347",
                     "% Block: Paladin 50%",
@@ -4583,7 +4583,7 @@
             "Radament's Sphere": {
                 "name": "Radament's Sphere",
                 "type": "Ancient Shield",
-                "image": "/images/items/theward.png",
+                "image": "/images/Items/theward.png",
                 "props": [
                     "Defense: 244-282",
                     "% Block: Paladin 66%",
@@ -4604,7 +4604,7 @@
             "Blackoak Shield": {
                 "name": "Blackoak Shield",
                 "type": "Luna",
-                "image": "/images/items/umbraldisk.png",
+                "image": "/images/Items/umbraldisk.png",
                 "props": [
                     "Defense: 322-372",
                     "% Block: Paladin 50%",
@@ -4625,7 +4625,7 @@
             "Stormshield": {
                 "name": "Stormshield",
                 "type": "Monarch",
-                "image": "/images/items/steelclash.png",
+                "image": "/images/Items/steelclash.png",
                 "props": [
                     "Defense: 136-519",
                     "% Block: Paladin 77%",
@@ -4648,7 +4648,7 @@
             "Spike Thorn": {
                 "name": "Spike Thorn",
                 "type": "Blade Barrier",
-                "image": "/images/items/swordbackhold.png",
+                "image": "/images/Items/swordbackhold.png",
                 "props": [
                     "Defense: 360-410",
                     "% Block: Paladin 50%",
@@ -4667,7 +4667,7 @@
             "Medusa's Gaze": {
                 "name": "Medusa's Gaze",
                 "type": "Aegis",
-                "image": "/images/items/bverritkeep.png",
+                "image": "/images/Items/bverritkeep.png",
                 "props": [
                     "Defense: 405-453",
                     "% Block: Paladin 54%",
@@ -4687,7 +4687,7 @@
             "Head Hunter's Glory": {
                 "name": "Head Hunter's Glory",
                 "type": "Troll Nest",
-                "image": "/images/items/walloftheeyeless.png",
+                "image": "/images/Items/walloftheeyeless.png",
                 "props": [
                     "Defense: 478-593",
                     "% Block: Paladin 50%",
@@ -4707,7 +4707,7 @@
             "Spirit Ward": {
                 "name": "Spirit Ward",
                 "type": "Ward",
-                "image": "/images/items/theward.png",
+                "image": "/images/Items/theward.png",
                 "props": [
                     "Defense: 393-478",
                     "% Block: Paladin 74-84%",
@@ -4727,7 +4727,7 @@
             "The Dragon Chang": {
                 "name": "The Dragon Chang",
                 "type": "Spear",
-                "image": "/images/items/thedragonchang.png",
+                "image": "/images/Items/thedragonchang.png",
                 "props": [
                     "Damage: 13-15",
                     "Dexterity: 20",
@@ -4743,7 +4743,7 @@
             "Razortine": {
                 "name": "Razortine",
                 "type": "Trident",
-                "image": "/images/items/razortine.png",
+                "image": "/images/Items/razortine.png",
                 "props": [
                     "Damage: 11-22",
                     "Required Strength: 38",
@@ -4761,7 +4761,7 @@
             "Bloodthief": {
                 "name": "Bloodthief",
                 "type": "Brandistock",
-                "image": "/images/items/bloodthief.png",
+                "image": "/images/Items/bloodthief.png",
                 "props": [
                     "Damage: 10-28",
                     "Required Strength: 40",
@@ -4778,7 +4778,7 @@
             "Lance of Yaggai": {
                 "name": "Lance of Yaggai",
                 "type": "Spetum",
-                "image": "/images/items/lanceofyaggai.png",
+                "image": "/images/Items/lanceofyaggai.png",
                 "props": [
                     "Damage: 15-23",
                     "Required Strength: 54",
@@ -4794,7 +4794,7 @@
             "The Tannr Gorerod": {
                 "name": "The Tannr Gorerod",
                 "type": "Pike",
-                "image": "/images/items/thetannrgorerod.png",
+                "image": "/images/Items/thetannrgorerod.png",
                 "props": [
                     "Damage: 25-126",
                     "Required Strength: 60",
@@ -4813,7 +4813,7 @@
             "The Impaler": {
                 "name": "The Impaler",
                 "type": "War Spear",
-                "image": "/images/items/impaler.png",
+                "image": "/images/Items/impaler.png",
                 "props": [
                     "Damage: 24-99",
                     "Required Strength: 25",
@@ -4833,7 +4833,7 @@
             "Kelpie Snare": {
                 "name": "Kelpie Snare",
                 "type": "Fuscina",
-                "image": "/images/items/razortine.png",
+                "image": "/images/Items/razortine.png",
                 "props": [
                     "Damage: 75-153",
                     "Required Strength: 77",
@@ -4851,7 +4851,7 @@
             "Soulfeast Tine": {
                 "name": "Soulfeast Tine",
                 "type": "War Fork",
-                "image": "/images/items/soulfeastine.png",
+                "image": "/images/Items/soulfeastine.png",
                 "props": [
                     "Damage: 40-116",
                     "Required Strength: 64",
@@ -4869,7 +4869,7 @@
             "Hone Sundan": {
                 "name": "Hone Sundan",
                 "type": "Yari",
-                "image": "/images/items/lanceofyaggai.png",
+                "image": "/images/Items/lanceofyaggai.png",
                 "props": [
                     "Damage: 95-217",
                     "Required Strength: 101",
@@ -4885,7 +4885,7 @@
             "Spire of Honor": {
                 "name": "Spire of Honor",
                 "type": "Lance",
-                "image": "/images/items/pike.png",
+                "image": "/images/Items/pike.png",
                 "props": [
                     "Damage: 87-382",
                     "Required Strength: 110",
@@ -4907,7 +4907,7 @@
             "Arioc's Needle": {
                 "name": "Arioc's Needle",
                 "type": "Hyperion Spear",
-                "image": "/images/items/ariocsneedle.png",
+                "image": "/images/Items/ariocsneedle.png",
                 "props": [
                     "Damage: 98-392",
                     "Required Strength: 155",
@@ -4925,7 +4925,7 @@
             "Viperfork": {
                 "name": "Viperfork",
                 "type": "Mancatcher",
-                "image": "/images/items/viperfork.png",
+                "image": "/images/Items/viperfork.png",
                 "props": [
                     "Damage: 121-312",
                     "Required Strength: 132",
@@ -4943,7 +4943,7 @@
             "Steel Pillar": {
                 "name": "Steel Pillar",
                 "type": "War Pike",
-                "image": "/images/items/pike.png",
+                "image": "/images/Items/pike.png",
                 "props": [
                     "Damage: 102-640",
                     "Required Strength: 165",
@@ -4961,7 +4961,7 @@
             "Bane Ash": {
                 "name": "Bane Ash",
                 "type": "Short Staff",
-                "image": "/images/items/baneash.png",
+                "image": "/images/Items/baneash.png",
                 "props": [
                     "Damage: 1-8",
                     "Required Level: 5",
@@ -4979,7 +4979,7 @@
             "Serpent Lord": {
                 "name": "Serpent Lord",
                 "type": "Long Staff",
-                "image": "/images/items/serpentlord.png",
+                "image": "/images/Items/serpentlord.png",
                 "props": [
                     "Damage: 2-11",
                     "Required Level: 9",
@@ -4997,7 +4997,7 @@
             "Spire of Lazarus": {
                 "name": "Spire of Lazarus",
                 "type": "Gnarled Staff",
-                "image": "/images/items/lazarusspire.png",
+                "image": "/images/Items/lazarusspire.png",
                 "props": [
                     "Damage: 4-12",
                     "Required Level: 18",
@@ -5017,7 +5017,7 @@
             "The Salamander": {
                 "name": "The Salamander",
                 "type": "Battle Staff",
-                "image": "/images/items/thesalamander.png",
+                "image": "/images/Items/thesalamander.png",
                 "props": [
                     "Damage: 6-13",
                     "Required Level: 21",
@@ -5034,7 +5034,7 @@
             "The Iron Jang Bong": {
                 "name": "The Iron Jang Bong",
                 "type": "War Staff",
-                "image": "/images/items/theironjangbong.png",
+                "image": "/images/Items/theironjangbong.png",
                 "props": [
                     "Damage: 24-56",
                     "Required Level: 28",
@@ -5053,7 +5053,7 @@
             "Razorswitch": {
                 "name": "Razorswitch",
                 "type": "Jo Staff",
-                "image": "/images/items/shortstaff.png",
+                "image": "/images/Items/shortstaff.png",
                 "props": [
                     "Damage: 6-21",
                     "Required Strength: 25",
@@ -5072,7 +5072,7 @@
             "Ribcracker": {
                 "name": "Ribcracker",
                 "type": "Quarterstaff",
-                "image": "/images/items/ribcracker.png",
+                "image": "/images/Items/ribcracker.png",
                 "props": [
                     "Damage: 54-169",
                     "Required Strength: 25",
@@ -5092,7 +5092,7 @@
             "Chromatic Ire": {
                 "name": "Chromatic Ire",
                 "type": "Cedar Staff",
-                "image": "/images/items/lazarusspire.png",
+                "image": "/images/Items/lazarusspire.png",
                 "props": [
                     "Damage: 11-32",
                     "Required Strength: 25",
@@ -5112,7 +5112,7 @@
             "Warpspear": {
                 "name": "Warpspear",
                 "type": "Gothic Staff",
-                "image": "/images/items/warpspear.png",
+                "image": "/images/Items/warpspear.png",
                 "props": [
                     "Damage: 14-34",
                     "Required Strength: 25",
@@ -5130,7 +5130,7 @@
             "Skull Collector": {
                 "name": "Skull Collector",
                 "type": "Rune Staff",
-                "image": "/images/items/skullcollector.png",
+                "image": "/images/Items/skullcollector.png",
                 "props": [
                     "Damage: 24-58",
                     "Required Strength: 25",
@@ -5146,7 +5146,7 @@
             "Ondal's Wisdom": {
                 "name": "Ondal's Wisdom",
                 "type": "Elder Staff",
-                "image": "/images/items/lazarusspire.png",
+                "image": "/images/Items/lazarusspire.png",
                 "props": [
                     "Damage: 80-93",
                     "Required Strength: 44",
@@ -5165,7 +5165,7 @@
             "Mang Song's Lesson": {
                 "name": "Mang Song's Lesson",
                 "type": "Archon Staff",
-                "image": "/images/items/mangsongslesson.png",
+                "image": "/images/Items/mangsongslesson.png",
                 "props": [
                     "Damage: 83-99",
                     "Required Strength: 34",
@@ -5183,7 +5183,7 @@
             "Rixot's Keen": {
                 "name": "Rixot's Keen",
                 "type": "Short Sword",
-                "image": "/images/items/rixotskeen.png",
+                "image": "/images/Items/rixotskeen.png",
                 "props": [
                     "Damage: 9-14",
                     "Required Level: 2",
@@ -5199,7 +5199,7 @@
             "Blood Crescent": {
                 "name": "Blood Crescent",
                 "type": "Scimitar",
-                "image": "/images/items/bloodcrescent.png",
+                "image": "/images/Items/bloodcrescent.png",
                 "props": [
                     "Damage: 3-10",
                     "Required Dexterity: 21",
@@ -5217,7 +5217,7 @@
             "Skewer of Krintiz": {
                 "name": "Skewer of Krintiz",
                 "type": "Sabre",
-                "image": "/images/items/angelicsickle.png",
+                "image": "/images/Items/angelicsickle.png",
                 "props": [
                     "Damage: 7-19",
                     "Required Strength: 25",
@@ -5235,7 +5235,7 @@
             "Gleamscythe": {
                 "name": "Gleamscythe",
                 "type": "Falchion",
-                "image": "/images/items/gleamscythe.png",
+                "image": "/images/Items/gleamscythe.png",
                 "props": [
                     "Damage: 14-34",
                     "Required Strength: 33",
@@ -5252,7 +5252,7 @@
             "Griswold's Edge": {
                 "name": "Griswold's Edge",
                 "type": "Broad Sword",
-                "image": "/images/items/griswoldsedge.png",
+                "image": "/images/Items/griswoldsedge.png",
                 "props": [
                     "Damage: 12-30",
                     "Required Strength: 48",
@@ -5269,7 +5269,7 @@
             "Hellplague": {
                 "name": "Hellplague",
                 "type": "Long Sword",
-                "image": "/images/items/hellplague.png",
+                "image": "/images/Items/hellplague.png",
                 "props": [
                     "Damage: 5-34",
                     "Required Strength: 55",
@@ -5287,7 +5287,7 @@
             "Culwen's Point": {
                 "name": "Culwen's Point",
                 "type": "War Sword",
-                "image": "/images/items/warsword.png",
+                "image": "/images/Items/warsword.png",
                 "props": [
                     "Damage: 13-36",
                     "Required Strength: 71",
@@ -5305,7 +5305,7 @@
             "Shadowfang": {
                 "name": "Shadowfang",
                 "type": " 2-Handed Sword",
-                "image": "/images/items/shadowfang.png",
+                "image": "/images/Items/shadowfang.png",
                 "props": [
                     "Damage: 16-34",
                     "Required Strength: 35",
@@ -5323,7 +5323,7 @@
             "Soulflay": {
                 "name": "Soulflay",
                 "type": "Claymore",
-                "image": "/images/items/soulflay.png",
+                "image": "/images/Items/soulflay.png",
                 "props": [
                     "Damage: 22-60",
                     "Required Strength: 47",
@@ -5339,7 +5339,7 @@
             "Kinemil's Awl": {
                 "name": "Kinemil's Awl",
                 "type": "Giant Sword",
-                "image": "/images/items/kinemilsawl.png",
+                "image": "/images/Items/kinemilsawl.png",
                 "props": [
                     "Damage: 16-56",
                     "Required Strength: 56",
@@ -5356,7 +5356,7 @@
             "Blacktongue": {
                 "name": "Blacktongue",
                 "type": "Bastard Sword",
-                "image": "/images/items/blacktongue.png",
+                "image": "/images/Items/blacktongue.png",
                 "props": [
                     "Damage: 30-44",
                     "Required Strength: 62",
@@ -5372,7 +5372,7 @@
             "Ripsaw": {
                 "name": "Ripsaw",
                 "type": "Flamberge",
-                "image": "/images/items/ripsaw.png",
+                "image": "/images/Items/ripsaw.png",
                 "props": [
                     "Damage: 22-67",
                     "Required Strength: 70",
@@ -5388,7 +5388,7 @@
             "The Patriarch": {
                 "name": "The Patriarch",
                 "type": "Great Sword",
-                "image": "/images/items/thepatriarch.png",
+                "image": "/images/Items/thepatriarch.png",
                 "props": [
                     "Damage: 50-92",
                     "Required Strength: 100",
@@ -5406,7 +5406,7 @@
             "Bloodletter": {
                 "name": "Bloodletter",
                 "type": "Gladius",
-                "image": "/images/items/rixotskeen.png",
+                "image": "/images/Items/rixotskeen.png",
                 "props": [
                     "Damage: 31-97",
                     "Required Strength: 25",
@@ -5425,7 +5425,7 @@
             "Coldsteel Eye": {
                 "name": "Coldsteel Eye",
                 "type": "Cutlass",
-                "image": "/images/items/bloodcrescent.png",
+                "image": "/images/Items/bloodcrescent.png",
                 "props": [
                     "Damage: 24-73",
                     "Required Strength: 25",
@@ -5443,7 +5443,7 @@
             "Hexfire": {
                 "name": "Hexfire",
                 "type": "Shamshir",
-                "image": "/images/items/hexfire.png",
+                "image": "/images/Items/hexfire.png",
                 "props": [
                     "Damage: 59-102",
                     "Required Strength: 58",
@@ -5462,7 +5462,7 @@
             "Blade of Ali Baba": {
                 "name": "Blade of Ali Baba",
                 "type": "Tulwar",
-                "image": "/images/items/bladeofalibaba.png",
+                "image": "/images/Items/bladeofalibaba.png",
                 "props": [
                     "Damage: 25-77",
                     "Required Strength: 70",
@@ -5480,7 +5480,7 @@
             "Ginther's Rift": {
                 "name": "Ginther's Rift",
                 "type": "Dimensional Blade",
-                "image": "/images/items/riftlash.png",
+                "image": "/images/Items/riftlash.png",
                 "props": [
                     "Damage: 26-87",
                     "Required Strength: 85",
@@ -5497,7 +5497,7 @@
             "Headstriker": {
                 "name": "Headstriker",
                 "type": "Battle Sword",
-                "image": "/images/items/headstriker.png",
+                "image": "/images/Items/headstriker.png",
                 "props": [
                     "Damage: 40-184",
                     "Required Strength: 92",
@@ -5514,7 +5514,7 @@
             "Plague Bearer": {
                 "name": "Plague Bearer",
                 "type": "Rune Sword",
-                "image": "/images/items/plaguebearer.png",
+                "image": "/images/Items/plaguebearer.png",
                 "props": [
                     "Damage: 35-150",
                     "Required Strength: 103",
@@ -5532,7 +5532,7 @@
             "The Atlantean": {
                 "name": "The Atlantean",
                 "type": "Ancient Sword",
-                "image": "/images/items/warsword.png",
+                "image": "/images/Items/warsword.png",
                 "props": [
                     "Damage: 54-150",
                     "Required Strength: 127",
@@ -5551,7 +5551,7 @@
             "Crainte Vomir": {
                 "name": "Crainte Vomir",
                 "type": "Espandon",
-                "image": "/images/items/shadowfang.png",
+                "image": "/images/Items/shadowfang.png",
                 "props": [
                     "Damage: 46-120",
                     "Required Strength: 73",
@@ -5569,7 +5569,7 @@
             "Bing Sz Wang": {
                 "name": "Bing Sz Wang",
                 "type": "Dacian Falx",
-                "image": "/images/items/soulflay.png",
+                "image": "/images/Items/soulflay.png",
                 "props": [
                     "Damage: 59-158",
                     "Required Strength: 64",
@@ -5587,7 +5587,7 @@
             "The Vile Husk": {
                 "name": "The Vile Husk",
                 "type": "Tusk Sword",
-                "image": "/images/items/kinemilsawl.png",
+                "image": "/images/Items/kinemilsawl.png",
                 "props": [
                     "Damage: 47-174",
                     "Required Strength: 104",
@@ -5605,7 +5605,7 @@
             "Cloudcrack": {
                 "name": "Cloudcrack",
                 "type": "Gothic Sword",
-                "image": "/images/items/blacktongue.png",
+                "image": "/images/Items/blacktongue.png",
                 "props": [
                     "Damage: 97-180",
                     "Required Strength: 113",
@@ -5626,7 +5626,7 @@
             "Todesfaelle Flamme": {
                 "name": "Todesfaelle Flamme",
                 "type": "Zweihander",
-                "image": "/images/items/todesfaelleflamme.png",
+                "image": "/images/Items/todesfaelleflamme.png",
                 "props": [
                     "Damage: 63-140",
                     "Required Strength: 125",
@@ -5645,7 +5645,7 @@
             "Swordguard": {
                 "name": "Swordguard",
                 "type": "Executioner Sword",
-                "image": "/images/items/swordguard.png",
+                "image": "/images/Items/swordguard.png",
                 "props": [
                     "Damage: 126-224",
                     "Required Strength: 85",
@@ -5666,7 +5666,7 @@
             "Djinn Slayer": {
                 "name": "Djinn Slayer",
                 "type": "Ataghan",
-                "image": "/images/items/bloodcrescent.png",
+                "image": "/images/Items/bloodcrescent.png",
                 "props": [
                     "Damage: 75-156",
                     "Required Strength: 138",
@@ -5685,7 +5685,7 @@
             "Bloodmoon": {
                 "name": "Bloodmoon",
                 "type": "Elegant Blade",
-                "image": "/images/items/hexfire.png",
+                "image": "/images/Items/hexfire.png",
                 "props": [
                     "Damage: 102-162",
                     "Required Strength: 109",
@@ -5702,7 +5702,7 @@
             "Azurewrath": {
                 "name": "Azurewrath",
                 "type": "Phase Blade",
-                "image": "/images/items/azurewrath.png",
+                "image": "/images/Items/azurewrath.png",
                 "props": [
                     "Damage: 102-129",
                     "Durability: Indestructible",
@@ -5723,7 +5723,7 @@
             "Lightsabre": {
                 "name": "Lightsabre",
                 "type": "Phase Blade",
-                "image": "/images/items/azurewrath.png",
+                "image": "/images/Items/azurewrath.png",
                 "props": [
                     "Damage: 87-135",
                     "Durability: Indestructible",
@@ -5746,7 +5746,7 @@
             "Frostwind": {
                 "name": "Frostwind",
                 "type": "Cryptic Sword",
-                "image": "/images/items/hellplague.png",
+                "image": "/images/Items/hellplague.png",
                 "props": [
                     "Damage: 14-254",
                     "Required Strength: 99",
@@ -5765,7 +5765,7 @@
             "Flamebellow": {
                 "name": "Flamebellow",
                 "type": "Balrog Blade",
-                "image": "/images/items/flamebellow.png",
+                "image": "/images/Items/flamebellow.png",
                 "props": [
                     "Damage: 148-401",
                     "Required Strength: 185",
@@ -5785,7 +5785,7 @@
             "Doombringer": {
                 "name": "Doombringer",
                 "type": "Champion Sword",
-                "image": "/images/items/blacktongue.png",
+                "image": "/images/Items/blacktongue.png",
                 "props": [
                     "Damage: 228-390",
                     "Required Strength: 163",
@@ -5804,7 +5804,7 @@
             "The Grandfather": {
                 "name": "The Grandfather",
                 "type": "Colossus Blade",
-                "image": "/images/items/thepatriarch.png",
+                "image": "/images/Items/thepatriarch.png",
                 "props": [
                     "Damage: 145-649",
                     "Required Strength: 189",
@@ -5822,7 +5822,7 @@
             "Deathbit": {
                 "name": "Deathbit",
                 "type": "Battle Dart",
-                "image": "/images/items/throwingknife.png",
+                "image": "/images/Items/throwingknife.png",
                 "props": [
                     "Damage: 18-44",
                     "Required Strength: 25",
@@ -5841,7 +5841,7 @@
             "The Scalper": {
                 "name": "The Scalper",
                 "type": "Francisca",
-                "image": "/images/items/balancedaxe.png",
+                "image": "/images/Items/balancedaxe.png",
                 "props": [
                     "Damage: 27-66",
                     "Required Strength: 25",
@@ -5861,7 +5861,7 @@
             "Warshrike": {
                 "name": "Warshrike",
                 "type": "Winged Knife",
-                "image": "/images/items/warshrike.png",
+                "image": "/images/Items/warshrike.png",
                 "props": [
                     "Damage: 81-122",
                     "Required Strength: 45",
@@ -5880,7 +5880,7 @@
             "Grimmershred": {
                 "name": "Gimmershred",
                 "type": "Flying Axe",
-                "image": "/images/items/throwingaxe.png",
+                "image": "/images/Items/throwingaxe.png",
                 "props": [
                     "Damage: 44-201",
                     "Required Strength: 88",
@@ -5899,7 +5899,7 @@
             "Lacerator": {
                 "name": "Lacerator",
                 "type": "Winged Axe",
-                "image": "/images/items/balancedaxe.png",
+                "image": "/images/Items/balancedaxe.png",
                 "props": [
                     "Damage: 27-173",
                     "Required Strength: 96",
@@ -5919,7 +5919,7 @@
             "Torch of Iro": {
                 "name": "Torch of Iro",
                 "type": "Wand",
-                "image": "/images/items/irostorch.png",
+                "image": "/images/Items/irostorch.png",
                 "props": [
                     "Damage: 2-4",
                     "Required Level: 5",
@@ -5936,7 +5936,7 @@
             "Maelstrom": {
                 "name": "Maelstrom",
                 "type": "Yew Wand",
-                "image": "/images/items/maelstrom.png",
+                "image": "/images/Items/maelstrom.png",
                 "props": [
                     "Damage: 2-8",
                     "Required Level: 14",
@@ -5955,7 +5955,7 @@
             "Gravenspine": {
                 "name": "Gravenspine",
                 "type": "Bone Wand",
-                "image": "/images/items/gravenspine.png",
+                "image": "/images/Items/gravenspine.png",
                 "props": [
                     "Damage: 3-7",
                     "Durabiilty: 15",
@@ -5973,7 +5973,7 @@
             "Ume's Lament": {
                 "name": "Ume's Lament",
                 "type": "Grim Wand",
-                "image": "/images/items/grimwand.png",
+                "image": "/images/Items/grimwand.png",
                 "props": [
                     "Damage: 5-11",
                     "Required Level: 28",
@@ -5990,7 +5990,7 @@
             "Suicide Branch": {
                 "name": "Suicide Branch",
                 "type": "Burnt Wand",
-                "image": "/images/items/wand.png",
+                "image": "/images/Items/wand.png",
                 "props": [
                     "Damage: 8-18",
                     "Required Strength: 25",
@@ -6008,7 +6008,7 @@
             "Carin Shard": {
                 "name": "Carin Shard",
                 "type": "Petrified Wand",
-                "image": "/images/items/maelstrom.png",
+                "image": "/images/Items/maelstrom.png",
                 "props": [
                     "Damage: 8-24",
                     "Required Strength: 25",
@@ -6027,7 +6027,7 @@
             "Arm of King Leoric": {
                 "name": "Arm of King Leoric",
                 "type": "Tomb Wand",
-                "image": "/images/items/gravenspine.png",
+                "image": "/images/Items/gravenspine.png",
                 "props": [
                     "Damage: 10-22",
                     "Required Strength: 25",
@@ -6049,7 +6049,7 @@
             "Blackhand Key": {
                 "name": "Blackhand Key",
                 "type": "Grave Wand",
-                "image": "/images/items/grimwand.png",
+                "image": "/images/Items/grimwand.png",
                 "props": [
                     "Damage: 13-29",
                     "Required Strength: 25",
@@ -6069,7 +6069,7 @@
             "Boneshade": {
                 "name": "Boneshade",
                 "type": "Lich Wand",
-                "image": "/images/items/gravenspine.png",
+                "image": "/images/Items/gravenspine.png",
                 "props": [
                     "Damage: 10-31",
                     "Required Strength: 25",
@@ -6088,7 +6088,7 @@
             "Death's Web": {
                 "name": "Death's Web",
                 "type": "Unearthed Wand",
-                "image": "/images/items/grimwand.png",
+                "image": "/images/Items/grimwand.png",
                 "props": [
                     "Damage: 22-28",
                     "Required Strength: 25",
@@ -6105,7 +6105,7 @@
             "Stoneraven": {
                 "name": "Stoneraven",
                 "type": "Matriarchal Spear",
-                "image": "/images/items/stoneraven.png",
+                "image": "/images/Items/stoneraven.png",
                 "props": [
                     "Damage: 214-361",
                     "Required Strength: 114",
@@ -6122,7 +6122,7 @@
             "Lycander's Flank": {
                 "name": "Lycander's Flank",
                 "type": "Ceremonial Pike",
-                "image": "/images/items/maidenpike.png",
+                "image": "/images/Items/maidenpike.png",
                 "props": [
                     "Damage: 130-353",
                     "Required Strength: 115",
@@ -6143,7 +6143,7 @@
             "Lycander's Aim": {
                 "name": "Lycander's Aim",
                 "type": "Ceremonial Bow",
-                "image": "/images/items/reflexbow.png",
+                "image": "/images/Items/reflexbow.png",
                 "props": [
                     "Damage: 72-173",
                     "Required Strength: 73",
@@ -6164,7 +6164,7 @@
             "Titan's Revenge": {
                 "name": "Titan's Revenge",
                 "type": "Ceremonial Javelin",
-                "image": "/images/items/maidenjavelin.png",
+                "image": "/images/Items/maidenjavelin.png",
                 "props": [
                     "Throw Damage: 70-212",
                     "Damage: 70-155",
@@ -6186,7 +6186,7 @@
             "Thunderstroke": {
                 "name": "Thunderstroke",
                 "type": "Matriarchal Javelin",
-                "image": "/images/items/maidenjavelin.png",
+                "image": "/images/Items/maidenjavelin.png",
                 "props": [
                     "Throw Damage: 87-198",
                     "Damage: 75-162",
@@ -6206,7 +6206,7 @@
             "Blood Raven's Charge": {
                 "name": "Blood Raven's Charge",
                 "type": "Matriarchal Bow",
-                "image": "/images/items/bloodravenscharge.png",
+                "image": "/images/Items/bloodravenscharge.png",
                 "props": [
                     "Damage: 56-155",
                     "Required Strength: 87",
@@ -6223,7 +6223,7 @@
             "Shadow Killer": {
                 "name": "Shadow Killer",
                 "type": "Battle Cestus",
-                "image": "/images/items/shadowkiller.png",
+                "image": "/images/Items/shadowkiller.png",
                 "props": [
                     "Damage: 145-201",
                     "Required Strength: 100",
@@ -6242,7 +6242,7 @@
             "Bartuc's Cut-Throat": {
                 "name": "Bartuc's Cut-Throat",
                 "type": "Greater Talons",
-                "image": "/images/items/claws.png",
+                "image": "/images/Items/claws.png",
                 "props": [
                     "Damage: 77-155",
                     "Required Strength: 79",
@@ -6263,7 +6263,7 @@
             "Jade Talon": {
                 "name": "Jade Talon",
                 "type": "Wrist Sword",
-                "image": "/images/items/jadetalon.png",
+                "image": "/images/Items/jadetalon.png",
                 "props": [
                     "Damage: 98-153",
                     "Required Strength: 105",
@@ -6281,7 +6281,7 @@
             "Firelizard's Talons": {
                 "name": "Firelizard's Talons",
                 "type": "Feral Claws",
-                "image": "/images/items/claws.png",
+                "image": "/images/Items/claws.png",
                 "props": [
                     "Damage: 66-196",
                     "Required Strength: 113",
@@ -6300,7 +6300,7 @@
             "Arreat's Face": {
                 "name": "Arreat's Face",
                 "type": "Slayer Guard",
-                "image": "/images/items/avengerguard.png",
+                "image": "/images/Items/avengerguard.png",
                 "props": [
                     "Defense: 302-363",
                     "Required Strength: 118",
@@ -6320,7 +6320,7 @@
             "Wolfhowl": {
                 "name": "Wolfhowl",
                 "type": "Fury Visor",
-                "image": "/images/items/fangedhelm.png",
+                "image": "/images/Items/fangedhelm.png",
                 "props": [
                     "Defense: 332-377",
                     "Required Strength: 129",
@@ -6340,7 +6340,7 @@
             "Demonhorn's Edge": {
                 "name": "Demonhorn's Edge",
                 "type": "Destroyer Helm",
-                "image": "/images/items/hornedhelm.png",
+                "image": "/images/Items/hornedhelm.png",
                 "props": [
                     "Defense: 345-408",
                     "Required Strength: 151",
@@ -6358,7 +6358,7 @@
             "Halaberd's Reign": {
                 "name": "Halaberd's Reign",
                 "type": "Conqueror Crown",
-                "image": "/images/items/assualthelm.png",
+                "image": "/images/Items/assualthelm.png",
                 "props": [
                     "Defense: 384-432",
                     "Required Strength: 174",
@@ -6376,7 +6376,7 @@
             "Jalal's Mane": {
                 "name": "Jalal's Mane",
                 "type": "Totemic Mask",
-                "image": "/images/items/spiritmask.png",
+                "image": "/images/Items/spiritmask.png",
                 "props": [
                     "Defense: 247-297",
                     "Required Strength: 65",
@@ -6396,7 +6396,7 @@
             "Cerebus' Bite": {
                 "name": "Cerebus' Bite",
                 "type": "Blood Spirit",
-                "image": "/images/items/cerebusbite.png",
+                "image": "/images/Items/cerebusbite.png",
                 "props": [
                     "Defense: 335-350",
                     "Required Strength: 86",
@@ -6413,7 +6413,7 @@
             "Spirit Keeper": {
                 "name": "Spirit Keeper",
                 "type": "Earth Spirit",
-                "image": "/images/items/antlers.png",
+                "image": "/images/Items/antlers.png",
                 "props": [
                     "Defense: 413-443",
                     "Required Strength: 104",
@@ -6431,7 +6431,7 @@
             "Ravenlore": {
                 "name": "Ravenlore",
                 "type": "Sky Spirit",
-                "image": "/images/items/hawkhelm.png",
+                "image": "/images/Items/hawkhelm.png",
                 "props": [
                     "Defense: 343-390",
                     "Required Strength: 113",
@@ -6448,7 +6448,7 @@
             "Homunculus": {
                 "name": "Homunculus",
                 "type": "Hierophant Trophy",
-                "image": "/images/items/demonhead.png",
+                "image": "/images/Items/demonhead.png",
                 "props": [
                     "Defense: 177-213",
                     "Required Strength: 58",
@@ -6469,7 +6469,7 @@
             "Boneflame": {
                 "name": "Boneflame",
                 "type": "Succubus Skull",
-                "image": "/images/items/gargoylehead.png",
+                "image": "/images/Items/gargoylehead.png",
                 "props": [
                     "Defense: 323-367",
                     "Required Strength: 95",
@@ -6486,7 +6486,7 @@
             "Darkforce Spawn": {
                 "name": "Darkforce Spawn",
                 "type": "Bloodlord Skull",
-                "image": "/images/items/demonhead.png",
+                "image": "/images/Items/demonhead.png",
                 "props": [
                     "Defense: 357-417",
                     "Required Strength: 106",
@@ -6504,7 +6504,7 @@
             "Herald of Zakarum": {
                 "name": "Herald of Zakarum",
                 "type": "Gilded Shield",
-                "image": "/images/items/aerinshield.png",
+                "image": "/images/Items/aerinshield.png",
                 "props": [
                     "Defense: 422-507",
                     "Required Strength: 89",
@@ -6525,7 +6525,7 @@
             "Alma Negra": {
                 "name": "Alma Negra",
                 "type": "Sacred Rondache",
-                "image": "/images/items/rondache.png",
+                "image": "/images/Items/rondache.png",
                 "props": [
                     "Defense: 461-511",
                     "Required Strength: 109",
@@ -6544,7 +6544,7 @@
             "Dragonscale": {
                 "name": "Dragonscale",
                 "type": "Zakarum Shield",
-                "image": "/images/items/aerinshield.png",
+                "image": "/images/Items/aerinshield.png",
                 "props": [
                     "Defense: 523-582",
                     "Required Strength: 142",
@@ -6563,7 +6563,7 @@
             "The Oculus": {
                 "name": "The Oculus",
                 "type": "Swirling Crystal",
-                "image": "/images/items/dragonstone.png",
+                "image": "/images/Items/dragonstone.png",
                 "props": [
                     "Damage: 18-42",
                     "Required Level: 42",
@@ -6582,7 +6582,7 @@
             "Eschuta's Temper": {
                 "name": "Eschuta's Temper",
                 "type": "Eldritch Orb",
-                "image": "/images/items/sacredglobe.png",
+                "image": "/images/Items/sacredglobe.png",
                 "props": [
                     "Damage: 18-50",
                     "Required Level: 72",
@@ -6597,7 +6597,7 @@
             "Death's Fathom": {
                 "name": "Death's Fathom",
                 "type": "Dimensional Shard",
-                "image": "/images/items/dragonstone.png",
+                "image": "/images/Items/dragonstone.png",
                 "props": [
                     "Damage: 30-53",
                     "Required Level: 73",
@@ -6612,7 +6612,7 @@
             "Annihilus": {
                 "name": "Annihilus",
                 "type": "Small Charm",
-                "image": "/images/items/annihilus.png",
+                "image": "/images/Items/annihilus.png",
                 "props": [
                     "Required Level: 70",
                     "+1 To All Skills",
@@ -6625,7 +6625,7 @@
             "Hellfire Torch": {
                 "name": "Hellfire Torch",
                 "type": "Large Charm",
-                "image": "/images/items/hellfiretorch.jpg",
+                "image": "/images/Items/hellfiretorch.jpg",
                 "props": [
                     "Required Level: 75",
                     "5% Chance to cast level 10 Firestorm on attack",
@@ -6640,7 +6640,7 @@
             "Gheed's Fortune": {
                 "name": "Gheed's Fortune",
                 "type": "Grand Charm",
-                "image": "/images/items/gheeds.png",
+                "image": "/images/Items/gheeds.png",
                 "props": [
                     "Required Level: 62",
                     "80-160% Extra Gold From Monsters",
@@ -6652,7 +6652,7 @@
             "Flame Rift": {
                 "name": "Flame Rift",
                 "type": "Grand Charm",
-                "image": "/images/items/flamerift.png",
+                "image": "/images/Items/flamerift.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Fire Immunity is Sundered",
@@ -6663,7 +6663,7 @@
             "Cold Rupture": {
                 "name": "Cold Rupture",
                 "type": "Grand Charm",
-                "image": "/images/items/coldrupture.png",
+                "image": "/images/Items/coldrupture.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Cold Immunity is Sundered",
@@ -6674,7 +6674,7 @@
             "Crack of the Heavens": {
                 "name": "Crack of the Heavens",
                 "type": "Grand Charm",
-                "image": "/images/items/crackoftheheavens.png",
+                "image": "/images/Items/crackoftheheavens.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Lightning Immunity is Sundered",
@@ -6685,7 +6685,7 @@
             "Rotting Fissure": {
                 "name": "Rotting Fissure",
                 "type": "Grand Charm",
-                "image": "/images/items/rottingfissure.png",
+                "image": "/images/Items/rottingfissure.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Poison Immunity is Sundered",
@@ -6696,7 +6696,7 @@
             "Black Cleft": {
                 "name": "Black Cleft",
                 "type": "Grand Charm",
-                "image": "/images/items/blackcleft.png",
+                "image": "/images/Items/blackcleft.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Magic Immunity is Sundered",
@@ -6707,7 +6707,7 @@
             "Bone Break": {
                 "name": "Bone Break",
                 "type": "Grand Charm",
-                "image": "/images/items/bonebreak.png",
+                "image": "/images/Items/bonebreak.png",
                 "props": [
                     "Required Level: 75",
                     "Monster Physical Immunity is Sundered",
@@ -6718,7 +6718,7 @@
             "ColdDeath": {
                 "name": "Rainbow Facet Cold\n(Death)",
                 "type": "Jewel",
-                "image": "/images/items/jewel02.png",
+                "image": "/images/Items/jewel02.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 37 Blizzard When You Die",
@@ -6731,7 +6731,7 @@
             "FireDeath": {
                 "name": "Rainbow Facet Fire\n(Death)",
                 "type": "Jewel",
-                "image": "/images/items/jewel05.png",
+                "image": "/images/Items/jewel05.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 31 Meteor When You Die",
@@ -6744,7 +6744,7 @@
             "LightDeath": {
                 "name": "Rainbow Facet Lightning\n(Death)",
                 "type": "Jewel",
-                "image": "/images/items/jewel06.png",
+                "image": "/images/Items/jewel06.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 47 Chain Lightning When You Die",
@@ -6757,7 +6757,7 @@
             "PoisonDeath": {
                 "name": "Rainbow Facet Poison\n(Death)",
                 "type": "Jewel",
-                "image": "/images/items/jewel04.png",
+                "image": "/images/Items/jewel04.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 51 Poison Nova When You Die",
@@ -6770,7 +6770,7 @@
             "ColdLvlUp": {
                 "name": "Rainbow Facet Cold\n(Level-Up)",
                 "type": "Jewel",
-                "image": "/images/items/jewel02.png",
+                "image": "/images/Items/jewel02.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 43 Frost Nova When You Level-Up",
@@ -6783,7 +6783,7 @@
             "FireLvlUp": {
                 "name": "Rainbow Facet Fire\n(Level-Up) ",
                 "type": "Jewel",
-                "image": "/images/items/jewel05.png",
+                "image": "/images/Items/jewel05.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 29 Blaze When You Level-Up",
@@ -6796,7 +6796,7 @@
             "LightLvlUp": {
                 "name": "Rainbow Facet Lightning\n(Level-Up)",
                 "type": "Jewel",
-                "image": "/images/items/jewel06.png",
+                "image": "/images/Items/jewel06.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 41 Nova When You Level-Up",
@@ -6809,7 +6809,7 @@
             "PoisonLvlUp": {
                 "name": "Rainbow Facet Poison\n(Level-Up)",
                 "type": "Jewel",
-                "image": "/images/items/jewel04.png",
+                "image": "/images/Items/jewel04.png",
                 "props": [
                     "Required Level: 49",
                     "100% Chance to Cast Level 23 Venom When You Level-Up",
@@ -6824,7 +6824,7 @@
             "Angelic Mantle": {
                 "name": "Angelic Mantle",
                 "type": "Ring Mail",
-                "image": "/images/items/angelicmantle.png",
+                "image": "/images/Items/angelicmantle.png",
                 "props": [
                     "Defense: 68-218",
                     "Required Strength: 36",
@@ -6839,7 +6839,7 @@
             "Angelic Sickle": {
                 "name": "Angelic Sickle",
                 "type": "Sabre",
-                "image": "/images/items/angelicsickle.png",
+                "image": "/images/Items/angelicsickle.png",
                 "props": [
                     "One Hand Damage: 3-14",
                     "Required Dexterity: 25",
@@ -6855,7 +6855,7 @@
             "Angelic Halo": {
                 "name": "Angelic Halo",
                 "type": "Ring",
-                "image": "/images/items/ring2.png",
+                "image": "/images/Items/ring2.png",
                 "props": [
                     "Required Level: 12",
                     "Replenish Life +6",
@@ -6868,7 +6868,7 @@
             "Angelic Wings": {
                 "name": "Angelic Wings",
                 "type": "Amulet",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 12",
                     "20% Damage taken goes to Mana",
@@ -6881,7 +6881,7 @@
             "Arcanna's Head": {
                 "name": "Arcanna's Head",
                 "type": "Skull Cap",
-                "image": "/images/items/arcannashead.png",
+                "image": "/images/Items/arcannashead.png",
                 "props": [
                     "Defense: 8-308",
                     "Required Level: 15",
@@ -6896,7 +6896,7 @@
             "Arcanna's Flesh": {
                 "name": "Arcanna's Flesh",
                 "type": "Light Plate",
-                "image": "/images/items/arcannasflesh.png",
+                "image": "/images/Items/arcannasflesh.png",
                 "props": [
                     "Defense: 90-207",
                     "Required Level: 15",
@@ -6911,7 +6911,7 @@
             "Arcanna's Deathwand": {
                 "name": "Arcanna's Deathwand",
                 "type": "War Staff",
-                "image": "/images/items/arcannasdeathwand.png",
+                "image": "/images/Items/arcannasdeathwand.png",
                 "props": [
                     "Two-Hand Damage: 12-28",
                     "Required Level: 15",
@@ -6926,7 +6926,7 @@
             "Arcanna's Sign": {
                 "name": "Arcanna's Sign",
                 "type": "Amulet",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 15",
                     "20% regenerate Mana",
@@ -6939,7 +6939,7 @@
             "Arctic Furs": {
                 "name": "Arctic Furs",
                 "type": "Quilted Armor",
-                "image": "/images/items/arcticfurs.png",
+                "image": "/images/Items/arcticfurs.png",
                 "props": [
                     "Defense: 45-348",
                     "Required Strength: 12",
@@ -6954,7 +6954,7 @@
             "Arctic Binding": {
                 "name": "Arctic Binding",
                 "type": "Light Belt",
-                "image": "/images/items/arcticbinding.png",
+                "image": "/images/Items/arcticbinding.png",
                 "props": [
                     "Defense: 33",
                     "Required Level: 2",
@@ -6968,7 +6968,7 @@
             "Arctic Mitts": {
                 "name": "Arctic Mitts",
                 "type": "Light Gauntlets",
-                "image": "/images/items/arcticmitts.png",
+                "image": "/images/Items/arcticmitts.png",
                 "props": [
                     "Defense: 9-11",
                     "Required Strength: 45",
@@ -6983,7 +6983,7 @@
             "Arctic Horn": {
                 "name": "Arctic Horn",
                 "type": "Short War Bow",
-                "image": "/images/items/arctichorn.png",
+                "image": "/images/Items/arctichorn.png",
                 "props": [
                     "Two-Hand Damage: 9-21",
                     "Required Dexterity: 55",
@@ -6999,7 +6999,7 @@
             "Berserker's Headgear": {
                 "name": "Berserker's Headgear",
                 "type": "Helm",
-                "image": "/images/items/berserkerheadgear.png",
+                "image": "/images/Items/berserkerheadgear.png",
                 "props": [
                     "Defense: 30-33",
                     "Required Strength: 26",
@@ -7013,7 +7013,7 @@
             "Berserker's Hauberk": {
                 "name": "Berserker's Hauberk",
                 "type": "Splint Mail",
-                "image": "/images/items/berserkerhauberk.png",
+                "image": "/images/Items/berserkerhauberk.png",
                 "props": [
                     "Defense: 90-392",
                     "Required Strength: 51",
@@ -7027,7 +7027,7 @@
             "Berserker's Hatchet": {
                 "name": "Berserker's Hatchet",
                 "type": "Double Axe",
-                "image": "/images/items/berserkerhatchet.png",
+                "image": "/images/Items/berserkerhatchet.png",
                 "props": [
                     "One-Hand Damage: 5-13",
                     "Required Strength: 43",
@@ -7041,7 +7041,7 @@
             "Cathan's Visage": {
                 "name": "Cathan's Visage",
                 "type": "Mask",
-                "image": "/images/items/mask.png",
+                "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 9-225",
                     "Required Strength: 23",
@@ -7055,7 +7055,7 @@
             "Cathan's Mesh": {
                 "name": "Cathan's Mesh",
                 "type": "Chain Mail",
-                "image": "/images/items/cathansmesh.png",
+                "image": "/images/Items/cathansmesh.png",
                 "props": [
                     "Defense: 87-90",
                     "Required Strength: 24",
@@ -7070,7 +7070,7 @@
             "Cathan's Rule": {
                 "name": "Cathan's Rule",
                 "type": "Battle Staff",
-                "image": "/images/items/cathansrule.png",
+                "image": "/images/Items/cathansrule.png",
                 "props": [
                     "Two-Hand Damage: 6-13",
                     "Required Level: 11",
@@ -7085,7 +7085,7 @@
             "Cathan's Sigil": {
                 "name": "Cathan's Sigil",
                 "type": "Amulet",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 11",
                     "Attacker takes Lightning Damage of 5",
@@ -7098,7 +7098,7 @@
             "Cathan's Seal": {
                 "name": "Cathan's Seal",
                 "type": "Ring",
-                "image": "/images/items/ring4.png",
+                "image": "/images/Items/ring4.png",
                 "props": [
                     "Required Level: 11",
                     "6% Life stolen per hit",
@@ -7110,7 +7110,7 @@
             "Civerb's Cudgel": {
                 "name": "Civerb's Cudgel",
                 "type": "Grand Scepter",
-                "image": "/images/items/grandscepter.png",
+                "image": "/images/Items/grandscepter.png",
                 "props": [
                     "One-Hand Damage:8-140",
                     "Required Strength: 37",
@@ -7125,7 +7125,7 @@
             "Civerb's Icon": {
                 "name": "Civerb's Icon",
                 "type": "Amulet",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 9",
                     "Replenish Life +4",
@@ -7138,7 +7138,7 @@
             "Civerb's Ward": {
                 "name": "Civerb's Ward",
                 "type": "Large Shield",
-                "image": "/images/items/civerbsward.png",
+                "image": "/images/Items/civerbsward.png",
                 "props": [
                     "Defense: 27-29",
                     "52% Chance to block",
@@ -7154,7 +7154,7 @@
             "Cleglaw's Tooth": {
                 "name": "Cleglaw's Tooth",
                 "type": "Long Sword",
-                "image": "/images/items/cleglawstooth.png",
+                "image": "/images/Items/cleglawstooth.png",
                 "props": [
                     "One-Hand Damage: 3-142",
                     "Required Strength: 55",
@@ -7169,7 +7169,7 @@
             "Cleglaw's Pincers": {
                 "name": "Cleglaw's Pincers",
                 "type": "Chain Gloves",
-                "image": "/images/items/cleglawspincers.png",
+                "image": "/images/Items/cleglawspincers.png",
                 "props": [
                     "Defense: 8-9",
                     "Required Strength: 25",
@@ -7183,7 +7183,7 @@
             "Cleglaw's Claw": {
                 "name": "Cleglaw's Claw",
                 "type": "Small Shield",
-                "image": "/images/items/cleglawsclaw.png",
+                "image": "/images/Items/cleglawsclaw.png",
                 "props": [
                     "Defense: 25-27",
                     "30% Chance to Block",
@@ -7198,7 +7198,7 @@
             "Death's Touch": {
                 "name": "Death's Touch",
                 "type": "War Sword",
-                "image": "/images/items/deathstouch.png",
+                "image": "/images/Items/deathstouch.png",
                 "props": [
                     "One-Hand Damage: 10-25",
                     "Required Strength: 71",
@@ -7213,7 +7213,7 @@
             "Death's Hand": {
                 "name": "Death's Hand",
                 "type": "Leather Gloves",
-                "image": "/images/items/deathshand.png",
+                "image": "/images/Items/deathshand.png",
                 "props": [
                     "Defense: 2-3",
                     "Required Level: 6",
@@ -7226,7 +7226,7 @@
             "Death's Guard": {
                 "name": "Death's Guard",
                 "type": "Sash",
-                "image": "/images/items/deathsguard.png",
+                "image": "/images/Items/deathsguard.png",
                 "props": [
                     "Defense: 22",
                     "Required Level: 6",
@@ -7239,7 +7239,7 @@
             "Hsarus' Iron Fist": {
                 "name": "Hsarus' Iron Fist",
                 "type": "Buckler",
-                "image": "/images/items/hsarusironfist.png",
+                "image": "/images/Items/hsarusironfist.png",
                 "props": [
                     "Defense: 4-253",
                     "25% chance to Block",
@@ -7254,7 +7254,7 @@
             "Hsarus' Iron Stay": {
                 "name": "Hsarus' Iron Stay",
                 "type": "Belt",
-                "image": "/images/items/hsarusironstay.png",
+                "image": "/images/Items/hsarusironstay.png",
                 "props": [
                     "Defense: 5-252",
                     "Required Strength: 25",
@@ -7268,7 +7268,7 @@
             "Hsarus' Iron Heel": {
                 "name": "Hsarus' Iron Heel",
                 "type": "Chain Boots",
-                "image": "/images/items/hsarusironheel.png",
+                "image": "/images/Items/hsarusironheel.png",
                 "props": [
                     "Defense: 8-9",
                     "Assassin Kick Damage: 6-12",
@@ -7283,7 +7283,7 @@
             "Infernal Cranium": {
                 "name": "Infernal Cranium",
                 "type": "Cap",
-                "image": "/images/items/infernalcranium.png",
+                "image": "/images/Items/infernalcranium.png",
                 "props": [
                     "Defense: 3-203",
                     "Required Level: 5",
@@ -7296,7 +7296,7 @@
             "Infernal Sign": {
                 "name": "Infernal Sign",
                 "type": "Heavy Belt",
-                "image": "/images/items/infernalbuckle.png",
+                "image": "/images/Items/infernalbuckle.png",
                 "props": [
                     "Defense: 31",
                     "Required Strength: 45",
@@ -7311,7 +7311,7 @@
             "Infernal Torch": {
                 "name": "Infernal Torch",
                 "type": "Grim Wand",
-                "image": "/images/items/grimwand.png",
+                "image": "/images/Items/grimwand.png",
                 "props": [
                     "One-Hand Damage: 13-14",
                     "Required Level: 5",
@@ -7325,7 +7325,7 @@
             "Iratha's Coil": {
                 "name": "Iratha's Coil",
                 "type": "Crown",
-                "image": "/images/items/irathascoil.png",
+                "image": "/images/Items/irathascoil.png",
                 "props": [
                     "Defense: 25-243",
                     "Required Strength: 55",
@@ -7339,7 +7339,7 @@
             "Iratha's Collar": {
                 "name": "Iratha's Collar",
                 "type": "Amulet",
-                "image": "/images/items/amu1.png",
+                "image": "/images/Items/amu1.png",
                 "props": [
                     "Required Level: 15",
                     "Poison Length reduced by 75%",
@@ -7351,7 +7351,7 @@
             "Iratha's Cord": {
                 "name": "Iratha's Cord",
                 "type": "Heavy Belt",
-                "image": "/images/items/irathascord.png",
+                "image": "/images/Items/irathascord.png",
                 "props": [
                     "Defense: 31",
                     "Required Strength: 45",
@@ -7365,7 +7365,7 @@
             "Iratha's Cuff": {
                 "name": "Iratha's Cuff",
                 "type": "Light Gauntlets",
-                "image": "/images/items/irathascuff.png",
+                "image": "/images/Items/irathascuff.png",
                 "props": [
                     "Defense: 9-11",
                     "Required Strength: 45",
@@ -7379,7 +7379,7 @@
             "Isenhart's Lightbrand": {
                 "name": "Isenhart's Lightbrand",
                 "type": "Broad Sword",
-                "image": "/images/items/isenhartslightbrand.png",
+                "image": "/images/Items/isenhartslightbrand.png",
                 "props": [
                     "One-Hand Damage: 17-18",
                     "Required Strength: 48",
@@ -7393,7 +7393,7 @@
             "Isenhart's Horns": {
                 "name": "Isenhart's Horns",
                 "type": "Full Helm",
-                "image": "/images/items/isenhartshorns.png",
+                "image": "/images/Items/isenhartshorns.png",
                 "props": [
                     "Defense: 23-26",
                     "Required Strength: 41",
@@ -7407,7 +7407,7 @@
             "Isenhart's Case": {
                 "name": "Isenhart's Case",
                 "type": "Breast Plate",
-                "image": "/images/items/isenhartscase.png",
+                "image": "/images/Items/isenhartscase.png",
                 "props": [
                     "Defense: 105-306",
                     "Required Strength: 30",
@@ -7421,7 +7421,7 @@
             "Isenhart's Parry": {
                 "name": "Isenhart's Parry",
                 "type": "Gothic Shield",
-                "image": "/images/items/isenhartsparry.png",
+                "image": "/images/Items/isenhartsparry.png",
                 "props": [
                     "Defense: 70-75",
                     "41% chance to block",
@@ -7436,7 +7436,7 @@
             "Milabrega's Diadem": {
                 "name": "Milabrega's Diadem",
                 "type": "Crown",
-                "image": "/images/items/milabregasdiadem.png",
+                "image": "/images/Items/milabregasdiadem.png",
                 "props": [
                     "Defense: 25-45",
                     "Required Strength: 55",
@@ -7450,7 +7450,7 @@
             "Milabrega's Robe": {
                 "name": "Milabrega's Robe",
                 "type": "Ancient Armor",
-                "image": "/images/items/milabregasrobe.png",
+                "image": "/images/Items/milabregasrobe.png",
                 "props": [
                     "Defense: 218-468",
                     "Required Strength: 100",
@@ -7464,7 +7464,7 @@
             "Milabrega's Orb": {
                 "name": "Milabrega's Orb",
                 "type": "Kite Shield",
-                "image": "/images/items/milabregasorb.png",
+                "image": "/images/Items/milabregasorb.png",
                 "props": [
                     "Defense: 44-53",
                     "33% chance to block",
@@ -7480,7 +7480,7 @@
             "Milabrega's Rod": {
                 "name": "Milabrega's Rod",
                 "type": "War Scepter",
-                "image": "/images/items/warscepter.png",
+                "image": "/images/Items/warscepter.png",
                 "props": [
                     "One-Hand Damage: 15-25",
                     "Required Strength: 55",
@@ -7495,7 +7495,7 @@
             "Sigon's Visor": {
                 "name": "Sigon's Visor",
                 "type": "Great Helm",
-                "image": "/images/items/sigonsvisor.png",
+                "image": "/images/Items/sigonsvisor.png",
                 "props": [
                     "Defense: 55-60",
                     "Required Level: 6",
@@ -7509,7 +7509,7 @@
             "Sigon's Shelter": {
                 "name": "Sigon's Shelter",
                 "type": "Gothic Plate",
-                "image": "/images/items/sigonsshelter.png",
+                "image": "/images/Items/sigonsshelter.png",
                 "props": [
                     "Defense: 128-170",
                     "Required Strength: 70",
@@ -7523,7 +7523,7 @@
             "Sigon's Sabot": {
                 "name": "Sigon's Sabot",
                 "type": "Greaves",
-                "image": "/images/items/sigonsgreaves.png",
+                "image": "/images/Items/sigonsgreaves.png",
                 "props": [
                     "Defense: 12-15",
                     "Assassin Kick Damage: 10-20",
@@ -7539,7 +7539,7 @@
             "Sigon's Guard": {
                 "name": "Sigon's Guard",
                 "type": "Tower Shield",
-                "image": "/images/items/sigonsguard.png",
+                "image": "/images/Items/sigonsguard.png",
                 "props": [
                     "Defense: 22-25",
                     "69% Chance to Block",
@@ -7553,7 +7553,7 @@
             "Sigon's Wrap": {
                 "name": "Sigon's Wrap",
                 "type": "Plated Belt",
-                "image": "/images/items/sigonswrap.png",
+                "image": "/images/Items/sigonswrap.png",
                 "props": [
                     "Defense: 8-209",
                     "Required Strength: 60",
@@ -7567,7 +7567,7 @@
             "Sigon's Gage": {
                 "name": "Sigon's Gage",
                 "type": "Gauntlets",
-                "image": "/images/items/sigonsgauntlets.png",
+                "image": "/images/Items/sigonsgauntlets.png",
                 "props": [
                     "Defense: 12-15",
                     "Required Strength: 60",
@@ -7581,7 +7581,7 @@
             "Tancred's Skull": {
                 "name": "Tancred's Skull",
                 "type": "Bone Helm",
-                "image": "/images/items/tancredsskull.png",
+                "image": "/images/Items/tancredsskull.png",
                 "props": [
                     "Defense: 33-36",
                     "Required Strength: 25",
@@ -7595,7 +7595,7 @@
             "Tancred's Spine": {
                 "name": "Tancred's Spine",
                 "type": "Full Plate Mail",
-                "image": "/images/items/tancredsspine.png",
+                "image": "/images/Items/tancredsspine.png",
                 "props": [
                     "Defense: 150-359",
                     "Required Strength: 80",
@@ -7609,7 +7609,7 @@
             "Tancred's Hobnails": {
                 "name": "Tancred's Hobnails",
                 "type": "Boots",
-                "image": "/images/items/tancredshobnails.png",
+                "image": "/images/Items/tancredshobnails.png",
                 "props": [
                     "Defense: 2-3",
                     "Assassin Kick Damage: 3-8",
@@ -7624,7 +7624,7 @@
             "Tancred's Crowbill": {
                 "name": "Tancred's Crowbill",
                 "type": "Military Pick",
-                "image": "/images/items/tancredscrowbill.png",
+                "image": "/images/Items/tancredscrowbill.png",
                 "props": [
                     "One-Hand Damage: 12-19",
                     "Required Dexterity: 33",
@@ -7640,7 +7640,7 @@
             "Tancred's Weird": {
                 "name": "Tancred's Weird",
                 "type": "Amulet",
-                "image": "/images/items/amu3.png",
+                "image": "/images/Items/amu3.png",
                 "props": [
                     "Required Level: 20",
                     "Damage Reduced by 2",
@@ -7653,7 +7653,7 @@
             "Vidala's Barb": {
                 "name": "Vidala's Barb",
                 "type": "Long Battle Bow",
-                "image": "/images/items/vidalasbarb.png",
+                "image": "/images/Items/vidalasbarb.png",
                 "props": [
                     "Two-Hand Damage: 3-18",
                     "Required Dexterity: 50",
@@ -7667,7 +7667,7 @@
             "Vidala's Ambush": {
                 "name": "Vidala's Ambush",
                 "type": "Leather Armor",
-                "image": "/images/items/vidalasambush.png",
+                "image": "/images/Items/vidalasambush.png",
                 "props": [
                     "Defense: 64-314",
                     "Required Strength: 15",
@@ -7682,7 +7682,7 @@
             "Vidala's Fetlock": {
                 "name": "Vidala's Fetlock",
                 "type": "Light Plated Boots",
-                "image": "/images/items/vidalasfetlock.png",
+                "image": "/images/Items/vidalasfetlock.png",
                 "props": [
                     "Defense: 9-11",
                     "Assassin Kick Damage: 8-16",
@@ -7697,7 +7697,7 @@
             "Vidala's Snare": {
                 "name": "Vidala's Snare",
                 "type": "Amulet",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 14",
                     "20% Cold Resist",
@@ -7709,7 +7709,7 @@
             "Aldur's Stony Gaze": {
                 "name": "Aldur's Stony Gaze",
                 "type": "Hunter's Guise",
-                "image": "/images/items/aldursstoneygaze.png",
+                "image": "/images/Items/aldursstoneygaze.png",
                 "props": [
                     "Defense: 157-171",
                     "Required Strength:  56",
@@ -7729,7 +7729,7 @@
             "Aldur's Advance": {
                 "name": "Aldur's Advance",
                 "type": "Battle Boots",
-                "image": "/images/items/aldursadvance.png",
+                "image": "/images/Items/aldursadvance.png",
                 "props": [
                     "Defense: 39-47",
                     "Assassin Kick Damage: 37-64",
@@ -7751,7 +7751,7 @@
             "Aldur's Deception": {
                 "name": "Aldur's Deception",
                 "type": "Shadow Plate",
-                "image": "/images/items/aldursdeception.png",
+                "image": "/images/Items/aldursdeception.png",
                 "props": [
                     "Defense: 746-857",
                     "Required Strength:  115",
@@ -7772,7 +7772,7 @@
             "Aldur's Rhythm": {
                 "name": "Aldur's Rhythm",
                 "type": "Jagged Star",
-                "image": "/images/items/aldursrhythm.png",
+                "image": "/images/Items/aldursrhythm.png",
                 "props": [
                     "Damage: 60-93",
                     "Required Strength:  74",
@@ -7794,7 +7794,7 @@
             "Bul-Kathos' Sacred Charge": {
                 "name": "Bul-Kathos' Sacred Charge",
                 "type": "Colossus Blade",
-                "image": "/images/items/bulkathossacredcharge.png",
+                "image": "/images/Items/bulkathossacredcharge.png",
                 "props": [
                     "One-handed Damage: 75-195",
                     "Two-handed Damage: 174-345",
@@ -7812,7 +7812,7 @@
             "Bul-Kathos' Tribal Guardian": {
                 "name": "Bul-Kathos' Tribal Guardian",
                 "type": "Mythical Sword",
-                "image": "/images/items/bulkathostribalguardian.png",
+                "image": "/images/Items/bulkathostribalguardian.png",
                 "props": [
                     "One-handed Damage: 120-156",
                     "Required Strength: 147",
@@ -7829,7 +7829,7 @@
             "Cow King's Horns": {
                 "name": "Cow King's Horns",
                 "type": "War Hat",
-                "image": "/images/items/cap.png",
+                "image": "/images/Items/cap.png",
                 "props": [
                     "Defense: 120-128",
                     "Required Strength: 20",
@@ -7844,7 +7844,7 @@
             "Cow King's Hide": {
                 "name": "Cow King's Hide",
                 "type": "Studded Leather",
-                "image": "/images/items/studdedleather.png",
+                "image": "/images/Items/studdedleather.png",
                 "props": [
                     "Defense: 57",
                     "Required Strength: 27",
@@ -7859,7 +7859,7 @@
             "Cow King's Hooves": {
                 "name": "Cow King's Hooves",
                 "type": "Heavy Boots",
-                "image": "/images/items/heavyboots.png",
+                "image": "/images/Items/heavyboots.png",
                 "props": [
                     "Defense: 30-41",
                     "Assassin Kick Damage: 4-10",
@@ -7876,7 +7876,7 @@
             "Telling of Beads": {
                 "name": "Telling of Beads",
                 "type": "Amulet",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level: 30",
                     "+1 to All Skills",
@@ -7889,7 +7889,7 @@
             "Laying of Hands": {
                 "name": "Laying of Hands",
                 "type": "Bramble Mitts",
-                "image": "/images/items/layingofhands.png",
+                "image": "/images/Items/layingofhands.png",
                 "props": [
                     "Defense: 79-87",
                     "Required Strength: 50",
@@ -7905,7 +7905,7 @@
             "Dark Adherent": {
                 "name": "Dark Adherent",
                 "type": "Dusk Shroud",
-                "image": "/images/items/darkadherent.png",
+                "image": "/images/Items/darkadherent.png",
                 "props": [
                     "Defense: 666-882",
                     "Required Strength: 77",
@@ -7920,7 +7920,7 @@
             "Rite of Passage": {
                 "name": "Rite of Passage",
                 "type": "Demonhide Boots",
-                "image": "/images/items/riteofpassage.png",
+                "image": "/images/Items/riteofpassage.png",
                 "props": [
                     "Defense: 53-60",
                     "Assassin Kick Damage: 26-46",
@@ -7936,7 +7936,7 @@
             "Credendum": {
                 "name": "Credendum",
                 "type": "Mithril Coil",
-                "image": "/images/items/credendum.png",
+                "image": "/images/Items/credendum.png",
                 "props": [
                     "Defense: 108-115",
                     "Required Strength: 106",
@@ -7951,7 +7951,7 @@
             "Griswold's Heart": {
                 "name": "Griswold's Heart",
                 "type": "Ornate Armor",
-                "image": "/images/items/griswoldsheart.png",
+                "image": "/images/Items/griswoldsheart.png",
                 "props": [
                     "Defense: 917-950",
                     "Required Strength:  102",
@@ -7967,7 +7967,7 @@
             "Griswold's Valor": {
                 "name": "Griswold's Valor",
                 "type": "Corona",
-                "image": "/images/items/griswoldsvalor.png",
+                "image": "/images/Items/griswoldsvalor.png",
                 "props": [
                     "Defense: 249-290",
                     "Required Strength:  105",
@@ -7985,7 +7985,7 @@
             "Griswold's Redemption": {
                 "name": "Griswold's Redemption",
                 "type": "Caduceus",
-                "image": "/images/items/griswoldsredemption.png",
+                "image": "/images/Items/griswoldsredemption.png",
                 "props": [
                     "Damage: 114-129",
                     "Required Strength:  78",
@@ -8004,7 +8004,7 @@
             "Griswold's Honor": {
                 "name": "Griswold's Honor",
                 "type": "Vortex Shield",
-                "image": "/images/items/griswoldshonor.png",
+                "image": "/images/Items/griswoldshonor.png",
                 "props": [
                     "Defense: 290-333",
                     "Required Strength:  148",
@@ -8022,7 +8022,7 @@
             "Haemosu's Adamant": {
                 "name": "Haemosu's Adamant",
                 "type": "Cuirass",
-                "image": "/images/items/haemosusadament.png",
+                "image": "/images/Items/haemosusadament.png",
                 "props": [
                     "Defense: 688-702",
                     "Required Strength: 52",
@@ -8038,7 +8038,7 @@
             "Dangoon's Teaching": {
                 "name": "Dangoon's Teaching",
                 "type": "Reinforced Mace",
-                "image": "/images/items/dangoonsteaching.png",
+                "image": "/images/Items/dangoonsteaching.png",
                 "props": [
                     "Damage: 41-197",
                     "Required Strength: 145",
@@ -8055,7 +8055,7 @@
             "Taebaek's Glory": {
                 "name": "Taebaek's Glory",
                 "type": "Ward",
-                "image": "/images/items/taebaeksglory.png",
+                "image": "/images/Items/taebaeksglory.png",
                 "props": [
                     "Defense: 203-220",
                     "Required Strength: 185",
@@ -8073,7 +8073,7 @@
             "Ondal's Almighty": {
                 "name": "Ondal's Almighty",
                 "type": "Spired Helm",
-                "image": "/images/items/ondalsalmighty.png",
+                "image": "/images/Items/ondalsalmighty.png",
                 "props": [
                     "Defense: 164-209",
                     "Required Strength: 116",
@@ -8090,7 +8090,7 @@
             "Hwanin's Splendor": {
                 "name": "Hwanin's Splendor",
                 "type": "Grand Crown",
-                "image": "/images/items/hwaninssplendor.png",
+                "image": "/images/Items/hwaninssplendor.png",
                 "props": [
                     "Defense: 156-226",
                     "Required Strength: 103",
@@ -8105,7 +8105,7 @@
             "Hwanin's Justice": {
                 "name": "Hwanin's Justice",
                 "type": "Bill",
-                "image": "/images/items/voulge.png",
+                "image": "/images/Items/voulge.png",
                 "props": [
                     "Damage: 42-159",
                     "Required Strength: 95",
@@ -8122,7 +8122,7 @@
             "Hwanin's Refuge": {
                 "name": "Hwanin's Refuge",
                 "type": "Tigulated Mail",
-                "image": "/images/items/scalemail.png",
+                "image": "/images/Items/scalemail.png",
                 "props": [
                     "Defense: 375-390",
                     "Required Strength: 86",
@@ -8137,7 +8137,7 @@
             "Hwanin's Blessing": {
                 "name": "Hwanin's Blessing",
                 "type": "Belt",
-                "image": "/images/items/hwaninsblessing.png",
+                "image": "/images/Items/hwaninsblessing.png",
                 "props": [
                     "Defense: 6-153",
                     "Required Strength: 25",
@@ -8152,7 +8152,7 @@
             "Immortal King's Will": {
                 "name": "Immortal King's Will",
                 "type": "Avenger Guard",
-                "image": "/images/items/immortalwill.png",
+                "image": "/images/Items/immortalwill.png",
                 "props": [
                     "Defense: 160-175",
                     "Required Strength:  65",
@@ -8169,7 +8169,7 @@
             "Immortal King's Stone Crusher": {
                 "name": "Immortal King's Stone Crusher",
                 "type": "Ogre Maul",
-                "image": "/images/items/maul.png",
+                "image": "/images/Items/maul.png",
                 "props": [
                     "Damage: 231-318",
                     "Required Strength:  225",
@@ -8192,7 +8192,7 @@
             "Immortal King's Soul Cage": {
                 "name": "Immortal King's Soul Cage",
                 "type": "Sacred Armor",
-                "image": "/images/items/immortalsoulcage.png",
+                "image": "/images/Items/immortalsoulcage.png",
                 "props": [
                     "Defense: 487-1301",
                     "Required Strength:  232",
@@ -8212,7 +8212,7 @@
             "Immortal King's Detail": {
                 "name": "Immortal King's Detail",
                 "type": "War Belt",
-                "image": "/images/items/girdle.png",
+                "image": "/images/Items/girdle.png",
                 "props": [
                     "Defense: 89-247",
                     "Required Strength:  110",
@@ -8232,7 +8232,7 @@
             "Immortal King's Forge": {
                 "name": "Immortal King's Forge",
                 "type": "War Gauntlets",
-                "image": "/images/items/gauntlets.png",
+                "image": "/images/Items/gauntlets.png",
                 "props": [
                     "Defense: 108-238",
                     "Required Strength:  110",
@@ -8252,7 +8252,7 @@
             "Immortal King's Pillar": {
                 "name": "Immortal King's Pillar",
                 "type": "War Boots",
-                "image": "/images/items/plateboots.png",
+                "image": "/images/Items/plateboots.png",
                 "props": [
                     "Defense: 118-288",
                     "Required Strength:  125",
@@ -8271,7 +8271,7 @@
             "M'avina's True Sight": {
                 "name": "M'avina's True Sight",
                 "type": "Diadem",
-                "image": "/images/items/mavinastruesight.png",
+                "image": "/images/Items/mavinastruesight.png",
                 "props": [
                     "Defense: 200-210",
                     "Required Level:  64",
@@ -8288,7 +8288,7 @@
             "M'avina's Caster": {
                 "name": "M'avina's Caster",
                 "type": "Grand Matron Bow",
-                "image": "/images/items/mavinascaster.png",
+                "image": "/images/Items/mavinascaster.png",
                 "props": [
                     "Damage: 40-207",
                     "Required Strength:  108",
@@ -8307,7 +8307,7 @@
             "M'avina's Embrace": {
                 "name": "M'avina's Embrace",
                 "type": "Kraken Shell",
-                "image": "/images/items/mavinasembrace.png",
+                "image": "/images/Items/mavinasembrace.png",
                 "props": [
                     "Defense: 771-1269",
                     "Required Strength:  122",
@@ -8325,7 +8325,7 @@
             "M'avina's Icy Clutch": {
                 "name": "M'avina's Icy Clutch",
                 "type": "Battle Gauntlets",
-                "image": "/images/items/mavinasicyclutch.png",
+                "image": "/images/Items/mavinasicyclutch.png",
                 "props": [
                     "Defense: 84-97",
                     "Required Strength: 88",
@@ -8344,7 +8344,7 @@
             "M'avina's Tenet": {
                 "name": "M'avina's Tenet",
                 "type": "Sharkskin Belt",
-                "image": "/images/items/mavinastenet.png",
+                "image": "/images/Items/mavinastenet.png",
                 "props": [
                     "Defense: 81-86",
                     "Required Strength:  20",
@@ -8360,7 +8360,7 @@
             "Naj's Circlet": {
                 "name": "Naj's Circlet",
                 "type": "Circlet",
-                "image": "/images/items/najscirclet.png",
+                "image": "/images/Items/najscirclet.png",
                 "props": [
                     "Defense: 95-105",
                     "Required Level: 28",
@@ -8375,7 +8375,7 @@
             "Naj's Light Plate": {
                 "name": "Naj's Light Plate",
                 "type": "Hellforge Plate",
-                "image": "/images/items/platemail.png",
+                "image": "/images/Items/platemail.png",
                 "props": [
                     "Defense: 721-830",
                     "Required Strength: 79",
@@ -8392,7 +8392,7 @@
             "Naj's Puzzler": {
                 "name": "Naj's Puzzler",
                 "type": "Elder Staff",
-                "image": "/images/items/lazarusspire.png",
+                "image": "/images/Items/lazarusspire.png",
                 "props": [
                     "Damage: 200-232",
                     "Required Strength: 44",
@@ -8412,7 +8412,7 @@
             "Natalya's Totem": {
                 "name": "Natalya's Totem",
                 "type": "Grim Helm",
-                "image": "/images/items/natalyastotem.png",
+                "image": "/images/Items/natalyastotem.png",
                 "props": [
                     "Defense: 195-300",
                     "Required Strength: 58",
@@ -8428,7 +8428,7 @@
             "Natalya's Mark": {
                 "name": "Natalya's Mark",
                 "type": "Scissors Suwayyah",
-                "image": "/images/items/natalyasmark.png",
+                "image": "/images/Items/natalyasmark.png",
                 "props": [
                     "Damage: 120-153",
                     "Required Strength: 118",
@@ -8447,7 +8447,7 @@
             "Natalya's Shadow": {
                 "name": "Natalya's Shadow",
                 "type": "Loricated Mail",
-                "image": "/images/items/natalyasshadow.png",
+                "image": "/images/Items/natalyasshadow.png",
                 "props": [
                     "Defense: 540-721",
                     "Required Strength: 149",
@@ -8464,7 +8464,7 @@
             "Natalya's Soul": {
                 "name": "Natalya's Soul",
                 "type": "Mesh Boots",
-                "image": "/images/items/natalyassoul.png",
+                "image": "/images/Items/natalyassoul.png",
                 "props": [
                     "Defense: 112-169",
                     "Assassin Kick Damage: 23-52",
@@ -8481,7 +8481,7 @@
             "Guillaume's Face": {
                 "name": "Guillaume's Face",
                 "type": "Winged Helm",
-                "image": "/images/items/guillaumesface.png",
+                "image": "/images/Items/guillaumesface.png",
                 "props": [
                     "Defense: 187-217",
                     "Required Strength: 115",
@@ -8497,7 +8497,7 @@
             "Whitstan's Guard": {
                 "name": "Whitstan's Guard",
                 "type": "Round Shield",
-                "image": "/images/items/whitstansguard.png",
+                "image": "/images/Items/whitstansguard.png",
                 "props": [
                     "Defense: 154",
                     "Required Strength: 53",
@@ -8514,7 +8514,7 @@
             "Magnus' Skin": {
                 "name": "Magnus' Skin",
                 "type": "Sharkskin Glove",
-                "image": "/images/items/magnusskin.png",
+                "image": "/images/Items/magnusskin.png",
                 "props": [
                     "Defense: 60",
                     "Required Strength: 20",
@@ -8530,7 +8530,7 @@
             "Wilhelm's Pride": {
                 "name": "Wilhelm's Pride",
                 "type": "Battle Belt",
-                "image": "/images/items/wilhelmspride.png",
+                "image": "/images/Items/wilhelmspride.png",
                 "props": [
                     "Defense: 75",
                     "Required Strength: 88",
@@ -8545,7 +8545,7 @@
             "Sander's Paragon": {
                 "name": "Sander's Paragon",
                 "type": "Cap",
-                "image": "/images/items/sandersparagon.png",
+                "image": "/images/Items/sandersparagon.png",
                 "props": [
                     "Defense: 4-104",
                     "Required Level: 25",
@@ -8558,7 +8558,7 @@
             "Sander's Superstition": {
                 "name": "Sander's Superstition",
                 "type": "Bone Wand",
-                "image": "/images/items/sanderssuperstition.png",
+                "image": "/images/Items/sanderssuperstition.png",
                 "props": [
                     "Damage: 5-12",
                     "Required Level: 25",
@@ -8574,7 +8574,7 @@
             "Sander's Taboo": {
                 "name": "Sander's Taboo",
                 "type": "Heavy Gloves",
-                "image": "/images/items/sanderstaboo.png",
+                "image": "/images/Items/sanderstaboo.png",
                 "props": [
                     "Defense: 25-31",
                     "Required Level: 28",
@@ -8588,7 +8588,7 @@
             "Sander's Riprap": {
                 "name": "Sander's Riprap",
                 "type": "Heavy Boots",
-                "image": "/images/items/sandersriprap.png",
+                "image": "/images/Items/sandersriprap.png",
                 "props": [
                     "Defense: 5-6",
                     "Assassin Kick Damage: 4-10",
@@ -8604,7 +8604,7 @@
             "Sazabi's Mental Sheath": {
                 "name": "Sazabi's Mental Sheath",
                 "type": "Basinet",
-                "image": "/images/items/sazabismentalsheath.png",
+                "image": "/images/Items/sazabismentalsheath.png",
                 "props": [
                     "Defense: 175-184",
                     "Required Strength: 82",
@@ -8619,7 +8619,7 @@
             "Sazabi's Cobalt Redeemer": {
                 "name": "Sazabi's Cobalt Redeemer",
                 "type": "Cryptic Sword",
-                "image": "/images/items/sazabiscobaltredeemer.png",
+                "image": "/images/Items/sazabiscobaltredeemer.png",
                 "props": [
                     "Damage: 12-192",
                     "Required Strength: 99",
@@ -8638,7 +8638,7 @@
             "Sazabi's Ghost Liberator": {
                 "name": "Sazabi's Ghost Liberator",
                 "type": "Balrog Skin",
-                "image": "/images/items/sazabisghostliberator.png",
+                "image": "/images/Items/sazabisghostliberator.png",
                 "props": [
                     "Defense: 810-917",
                     "Required Strength: 165",
@@ -8654,7 +8654,7 @@
             "Tal Rasha's Lidless Eye": {
                 "name": "Tal Rasha's Lidless Eye",
                 "type": "Swirling Crystal",
-                "image": "/images/items/talrashaslidlesseye.png",
+                "image": "/images/Items/talrashaslidlesseye.png",
                 "props": [
                     "Damage: 18-42",
                     "Required Strength:",
@@ -8677,7 +8677,7 @@
             "Tal Rasha's Horadric Crest": {
                 "name": "Tal Rasha's Horadric Crest",
                 "type": "Death Mask",
-                "image": "/images/items/mask.png",
+                "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 99-131",
                     "Required Strength:  55",
@@ -8694,7 +8694,7 @@
             "Tal Rasha's Guardianship": {
                 "name": "Tal Rasha's Guardianship",
                 "type": "Lacquered Plate",
-                "image": "/images/items/talrashasguardianship.png",
+                "image": "/images/Items/talrashasguardianship.png",
                 "props": [
                     "Defense: 833-941",
                     "Required Strength:  84",
@@ -8713,7 +8713,7 @@
             "Tal Rasha's Fine Spun Cloth": {
                 "name": "Tal Rasha's Fine Spun Cloth",
                 "type": "Mesh Belt",
-                "image": "/images/items/talrashasfine-spuncloth.png",
+                "image": "/images/Items/talrashasfine-spuncloth.png",
                 "props": [
                     "Defense: 35-100",
                     "Required Strength:  47",
@@ -8731,7 +8731,7 @@
             "Tal Rasha's Adjudication": {
                 "name": "Tal Rasha's Adjudication",
                 "type": "Amulet",
-                "image": "/images/items/amu2.png",
+                "image": "/images/Items/amu2.png",
                 "props": [
                     "Required Level:  67",
                     "+2 to Sorceress Skills",
@@ -8746,7 +8746,7 @@
             "Trang-Oul's Guise": {
                 "name": "Trang-Oul's Guise",
                 "type": "Bone Visage",
-                "image": "/images/items/trang-oulsguise.png",
+                "image": "/images/Items/trang-oulsguise.png",
                 "props": [
                     "Defense: 180-257",
                     "Required Strength:  106",
@@ -8762,7 +8762,7 @@
             "Trang-Oul's Scales": {
                 "name": "Trang-Oul's Scales",
                 "type": "Chaos Armor",
-                "image": "/images/items/trang-oulsscales.png",
+                "image": "/images/Items/trang-oulsscales.png",
                 "props": [
                     "Defense: 857",
                     "Required Strength:  84",
@@ -8781,7 +8781,7 @@
             "Trang-Oul's Wing": {
                 "name": "Trang-Oul's Wing",
                 "type": "Cantor Trophy",
-                "image": "/images/items/trang-oulswing.png",
+                "image": "/images/Items/trang-oulswing.png",
                 "props": [
                     "Defense: 175-189",
                     "Required Strength:  50",
@@ -8801,7 +8801,7 @@
             "Trang-Oul's Girth": {
                 "name": "Trang-Oul's Girth",
                 "type": "Troll Belt",
-                "image": "/images/items/trang-oulsgirth.png",
+                "image": "/images/Items/trang-oulsgirth.png",
                 "props": [
                     "Defense: 134-166",
                     "Required Strength:  91",
@@ -8820,7 +8820,7 @@
             "Trang-Oul's Claws": {
                 "name": "Trang-Oul's Claws",
                 "type": "Heavy Bracers",
-                "image": "/images/items/trang-oulsclaws.png",
+                "image": "/images/Items/trang-oulsclaws.png",
                 "props": [
                     "Defense: 67-74",
                     "Required Strength:  58",
