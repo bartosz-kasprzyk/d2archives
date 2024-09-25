@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import Backdrop from '../../images/ValueBox/box_background.webp'
-import { ReactComponent as Reset } from "../../images/Reset.svg";
+import { ReactComponent as Reset } from "../../images/UI/Reset.svg";
 
 export const FilterContainer = styled.div`
     position: fixed;

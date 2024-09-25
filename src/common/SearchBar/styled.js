@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { ReactComponent as Search } from "./Search.svg";
+import { ReactComponent as Search } from "../../images/UI/Search.svg";
 
 export const SearchBarContainer = styled.div`
   display: flex;
