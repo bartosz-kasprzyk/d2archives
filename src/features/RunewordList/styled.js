@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Backdrop from '../../images/ValueBox/box_background.webp'
+import { ReactComponent as Reset } from "../../images/Reset.svg";
 
 export const FilterContainer = styled.div`
     position: fixed;
@@ -115,6 +116,12 @@ export const ButtonContainer = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 20px;
+`;
+
+export const ResetIcon = styled(Reset)`
+    width: 18px;
+    height: 18px;
+    margin: 3px 10px -3px 0;
 `;
 
 export const ClearSelectedButton = styled.button`

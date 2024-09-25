@@ -9,7 +9,7 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
-import { Arrow, ClearSelectedButton, FilterContainer, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleTextContainer } from './styled';
+import { Arrow, ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleTextContainer } from './styled';
 import runeImages from "../../common/config/runeImages"
 
 const RunewordList = () => {
@@ -94,7 +94,8 @@ const RunewordList = () => {
                         </RuneButton>
                     ))}
                     <ClearSelectedButton onClick={clearSelected}>
-                        Clear all
+                        <ResetIcon />
+                        Reset
                     </ClearSelectedButton>
                 </RuneGridContainer>
             </FilterContainer>
