@@ -64,14 +64,21 @@ export const StyledNavLink = styled(NavLink)`
 export const StyledUnderline = styled.img`
     width: 700px;
     margin: -340px auto;
-    z-index: -1;
+    z-index: -2;
 `;
 
 export const StyledSigil = styled.img`
     width: 40px;
     margin-top: -30px;
-    z-index: 0;
+    z-index: -1;
     filter: brightness(0.3);
+`;
+
+export const StyledChatGem = styled.img`
+    width: 16px;
+    margin: -28px auto;
+    z-index: 0;
+    cursor: pointer;
 `;
 
 export const StyledCorner = styled.div`

@@ -1,5 +1,5 @@
 import { toRunes, toRunewords, toSets, toUniques } from "../config/routes";
-import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledCorner, StyledHeader, StyledNavLink, StyledSigil, StyledUnderline } from "./styled";
+import { LogoIcon1, LogoIcon2, LogoWrapper, NavSection, StyledChatGem, StyledCorner, StyledHeader, StyledNavLink, StyledSigil, StyledUnderline } from "./styled";
 import d2r from "../../images/Logo/d2r.gif"
 import archives from "../../images/Logo/archives.png"
 import runes from "../../images/Navigation/runes.png"
@@ -8,8 +8,19 @@ import uniques from "../../images/Navigation/uniques.png"
 import sets from "../../images/Navigation/sets.png"
 import underline from '../../images/Ornaments/underline.png'
 import sigil from '../../images/Ornaments/sigil.png'
+import chatgem_blue from '../../images/chatgem_blue.webp'
+import chatgem_pink from '../../images/chatgem_pink.webp'
+import { useState } from "react";
 
 export const Header = () => {
+    const [isBlueGem, setIsBlueGem] = useState(true);
+
+    const handleGemClick = () => {
+        setIsBlueGem((prev) => !prev);
+    };
+
+    const gemSrc = isBlueGem ? chatgem_blue : chatgem_pink;
+
     return (
         <StyledHeader>
             <StyledCorner $position="left" />
@@ -42,6 +53,7 @@ export const Header = () => {
             </NavSection >
             <StyledUnderline src={underline} />
             <StyledSigil src={sigil} />
+            <StyledChatGem src={gemSrc} onClick={handleGemClick} alt="Chat Gem" />
         </StyledHeader>
     )
 };
