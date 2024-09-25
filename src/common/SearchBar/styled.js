@@ -11,6 +11,11 @@ export const SearchBarWrapper = styled.div`
   position: relative;
   display: inline-block;
   border-bottom: 1px solid #885C025A;
+  transition: border-bottom 300ms ease;
+
+  &:hover {
+    border-bottom: 1px solid #C88C0E5A;
+    }
 `;
 
 export const SearchIcon = styled(Search)`
