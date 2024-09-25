@@ -11,7 +11,6 @@ import Backdrop from "../../images/ValueBox/box_background.webp"
 
 export const TableWrapper = styled.div`
     display: flex;
-    overflow-x: auto;
     justify-content: center;
 `;
 
