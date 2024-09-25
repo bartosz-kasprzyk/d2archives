@@ -8,8 +8,8 @@ import uniques from "../../images/Navigation/uniques.png"
 import sets from "../../images/Navigation/sets.png"
 import underline from '../../images/Ornaments/underline.png'
 import sigil from '../../images/Ornaments/sigil.png'
-import chatgem_blue from '../../images/chatgem_blue.webp'
-import chatgem_pink from '../../images/chatgem_pink.webp'
+import chatgem_blue from '../../images/Ornaments/chatgem_blue.webp'
+import chatgem_pink from '../../images/Ornaments/chatgem_pink.webp'
 import { useState } from "react";
 
 export const Header = () => {
