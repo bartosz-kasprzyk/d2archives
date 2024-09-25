@@ -9,7 +9,7 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
-import { ClearSelectedButton, FilterContainer, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleButton, ToggleButtonText } from './styled';
+import { Arrow, ClearSelectedButton, FilterContainer, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleTextContainer } from './styled';
 import runeImages from "../../common/config/runeImages"
 
 const RunewordList = () => {
@@ -71,19 +71,14 @@ const RunewordList = () => {
                 Experienced players spend a lot of time searching for the right items and runes to ultimately create their desired equipment.
             </StyledText>
 
-            <FilterContainer>
-                <ToggleButton onClick={handleToggle} $isOpen={isOpen}>
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M12 16l-6-6h12l-6 6z" fill="currentColor" />
-                    </svg>
-                    <ToggleButtonText>
-                        Filter runewords by your runes
-                    </ToggleButtonText>
-                    <svg width="24" height="24" viewBox="0 0 24 24">
-                        <path d="M12 16l-6-6h12l-6 6z" fill="currentColor" />
-                    </svg>
-                </ToggleButton>
-
+            <FilterContainer $isOpen={isOpen}>
+                <ToggleTextContainer onClick={handleToggle}>
+                    Rune<br />
+                    Filter
+                    <Arrow $isOpen={isOpen} viewBox="0 0 24 24">
+                        <path d="M8 12l6-6v12l-6-6z" fill="currentColor" /> {/* Left Arrow */}
+                    </Arrow>
+                </ToggleTextContainer>
                 <RuneGridContainer $isOpen={isOpen}>
                     {Object.keys(runeImages).map((runeName) => (
                         <RuneButton
@@ -93,13 +88,13 @@ const RunewordList = () => {
                                 src={runeImages[runeName]}
                                 alt={`${runeName} Rune`}
                                 title={`${runeName} Rune`}
-                                $opacity={selectedRunes.includes(runeName) ? 1 : 0.4}
+                                $opacity={selectedRunes.includes(runeName) ? 1 : 0.2}
                             />
                             <RuneButtonText $opacity={selectedRunes.includes(runeName) ? 1 : 0.4}>{runeName}</RuneButtonText>
                         </RuneButton>
                     ))}
                     <ClearSelectedButton onClick={clearSelected}>
-                        Clear all selected
+                        Clear all
                     </ClearSelectedButton>
                 </RuneGridContainer>
             </FilterContainer>
@@ -110,52 +105,54 @@ const RunewordList = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
             />
 
-            {filteredByRunes.length === 0 ? (
-                selectedRunes.length > 0 ? (
-                    <NoResults
-                        text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps seek out more runes to uncover new possibilities."}
-                    />
-                ) :
-                    <NoResults
-                        text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
-                    />
-            ) : (
-                <TableWrapper>
-                    <StyledTable>
-                        <thead>
-                            <TableRow $index={0}>
-                                <ColumnHeader>Runeword</ColumnHeader>
-                                <ColumnHeader>Base</ColumnHeader>
-                                <ColumnHeader>Runes</ColumnHeader>
-                                <ColumnHeader>Properties</ColumnHeader>
-                            </TableRow>
-                        </thead>
-                        <tbody>
-                            {filteredByRunes.map((runeword, index) => (
-                                <TableRow
-                                    key={index}
-                                    $index={index + 1}
-                                    ref={(el) => (rowRefs.current[runeword[0]] = el)}
-                                >
-                                    <RowHeader $color={'#86735A'}>
-                                        {formatText(runeword[0], location.pathname, searchQuery)}
-                                    </RowHeader>
-                                    <TableCell>
-                                        {formatText(runeword[1], location.pathname, searchQuery)}
-                                    </TableCell>
-                                    <TableCell>
-                                        {formatText(runeword[2], location.pathname, searchQuery)}
-                                    </TableCell>
-                                    <TableCellBlue>
-                                        {formatText(runeword[3], location.pathname, searchQuery)}
-                                    </TableCellBlue>
+            {
+                filteredByRunes.length === 0 ? (
+                    selectedRunes.length > 0 ? (
+                        <NoResults
+                            text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps seek out more runes to uncover new possibilities."}
+                        />
+                    ) :
+                        <NoResults
+                            text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                        />
+                ) : (
+                    <TableWrapper>
+                        <StyledTable>
+                            <thead>
+                                <TableRow $index={0}>
+                                    <ColumnHeader>Runeword</ColumnHeader>
+                                    <ColumnHeader>Base</ColumnHeader>
+                                    <ColumnHeader>Runes</ColumnHeader>
+                                    <ColumnHeader>Properties</ColumnHeader>
                                 </TableRow>
-                            ))}
-                        </tbody>
-                    </StyledTable>
-                </TableWrapper>
-            )}
-        </Container>
+                            </thead>
+                            <tbody>
+                                {filteredByRunes.map((runeword, index) => (
+                                    <TableRow
+                                        key={index}
+                                        $index={index + 1}
+                                        ref={(el) => (rowRefs.current[runeword[0]] = el)}
+                                    >
+                                        <RowHeader $color={'#86735A'}>
+                                            {formatText(runeword[0], location.pathname, searchQuery)}
+                                        </RowHeader>
+                                        <TableCell>
+                                            {formatText(runeword[1], location.pathname, searchQuery)}
+                                        </TableCell>
+                                        <TableCell>
+                                            {formatText(runeword[2], location.pathname, searchQuery)}
+                                        </TableCell>
+                                        <TableCellBlue>
+                                            {formatText(runeword[3], location.pathname, searchQuery)}
+                                        </TableCellBlue>
+                                    </TableRow>
+                                ))}
+                            </tbody>
+                        </StyledTable>
+                    </TableWrapper>
+                )
+            }
+        </Container >
     );
 };
 

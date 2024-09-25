@@ -2,73 +2,48 @@ import styled from "styled-components"
 import Backdrop from '../../images/ValueBox/box_background.webp'
 
 export const FilterContainer = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 900px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: -40px;
+    position: fixed;
+    top: 20%;
+    left: ${({ $isOpen }) => ($isOpen ? '0' : '-170px')};
+    width: 170px;
+    height: auto;
+    background: #201F1F5A;
+    border-radius: 0 10px 10px 0;
+    transition: left 300ms ease;
+    z-index: 2000;
 `;
-
-export const ToggleButton = styled.button`
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 12px 16px;
-    background-color: #0000008A;
-    background-image: url(${Backdrop});
-        background-repeat: repeat;
-        background-size: cover;
-        background-position: center center;
-        background-blend-mode: overlay;
-    color: #757575;
-    border: 3px solid #000;
-    border-bottom: none;
-    border-radius: 5px 5px 0 0;
-    cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    transition: filter 300ms ease;
-
-    &:hover {
-        filter: brightness(1.3);
-    }
-
-    &:focus {
-        outline: none;
-    }
-
-    svg {
-        transition: transform 300ms ease;
-        transform: ${({ $isOpen }) => ($isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
-    }
-`;
-
-export const ToggleButtonText = styled.span`
-    font-size: 18px;
-    margin: 0 auto;
-`
 
 export const RuneGridContainer = styled.div`
-    width: 100%;
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(11, 60px);
-    grid-template-rows: repeat(4, auto);
-    gap: 15px;
-    padding: 20px;
-    background: #201F1F5A;
-    background-image: url(${Backdrop});
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    background-blend-mode: overlay;
-    border: 3px solid #000;
-    border-radius: 0 0 10px 10px;
-    transition: max-height 300ms ease, padding 300ms ease;
-    overflow: hidden;
-    max-height: ${({ $isOpen }) => ($isOpen ? '500px' : '0')};
-    padding: ${({ $isOpen }) => ($isOpen ? '20px' : '0 20px')};
+    grid-template-columns: repeat(3, 45px);
+    grid-template-rows: repeat(12, auto);
+    gap: 5px;
+    padding: 10px;
+`;
+
+export const ToggleTextContainer = styled.div`
+    position: absolute;
+    right: -65px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #201F1F4A;
+    padding: 30px 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    white-space: normal;
+    width: 65px;
+`;
+
+export const Arrow = styled.svg`
+    display: block;
+    width: 24px;
+    height: 24px;
+    transition: transform 300ms ease;
+    transform: ${({ $isOpen }) => ($isOpen ? 'rotate(0deg)' : 'rotate(180deg)')};
+    margin: 10px auto 0;
 `;
 
 export const RuneButton = styled.button`
@@ -76,8 +51,8 @@ export const RuneButton = styled.button`
     border: none;
     padding: 5px;
     margin: 0;
-    width: 60px;
-    height: 80px;
+    width: 45px;
+    height: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,13 +66,13 @@ export const RuneButton = styled.button`
     }
 
     &:hover {
-        transform: scale(1.10);
-        filter: drop-shadow(0 0 10px rgba(0, 0, 0, 1));
+        transform: scale(1.05);
+        filter: brightness(1.8);
     }
 
     &:active {
         transform: scale(0.80);
-        filter: brightness(1.2);
+        filter: brightness(3);
     }
 `;
 
@@ -125,10 +100,9 @@ export const ButtonContainer = styled.div`
 `;
 
 export const ClearSelectedButton = styled.button`
-    grid-column: span 11;
+    grid-column: span 3;
     font-family: 'AvQest', sans-serif;
     font-size: 20px;
-    width: 100%;
     padding: 10px;
     background-image: url(${Backdrop});
     background-repeat: repeat;
@@ -148,7 +122,7 @@ export const ClearSelectedButton = styled.button`
     }
 
     &:active {
-        transform: scale(0.99, 0.94);
+        transform: scale(0.97, 0.9);
         filter: brightness(2);
     }
 `;
