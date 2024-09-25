@@ -7,7 +7,14 @@ export const FilterContainer = styled.div`
     left: ${({ $isOpen }) => ($isOpen ? '0' : '-170px')};
     width: 170px;
     height: auto;
-    background: #201F1F5A;
+    background: #0000009A;
+    background-image: url(${Backdrop});
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
+    border: 3px solid #000;
+    border-left: none;
     border-radius: 0 10px 10px 0;
     transition: left 300ms ease;
     z-index: 2000;
@@ -26,15 +33,26 @@ export const ToggleTextContainer = styled.div`
     right: -65px;
     top: 50%;
     transform: translateY(-50%);
-    background: #201F1F4A;
+    background: #0000008A;
+    background-image: url(${Backdrop});
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: overlay;
     padding: 30px 0;
     cursor: pointer;
     text-align: center;
     font-size: 14px;
-    color: #fff;
+    color: #ccc;
+    border: 3px solid #000;
+    border-left: none;
     border-radius: 0 10px 10px 0;
     white-space: normal;
     width: 65px;
+
+    &:hover {
+        filter: brightness(1.2);
+    }
 `;
 
 export const Arrow = styled.svg`
