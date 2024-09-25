@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/d2archives/static/css/main.843f300e.css",
-    "main.js": "/d2archives/static/js/main.95c78b2b.js",
-    "static/js/221.15cee684.chunk.js": "/d2archives/static/js/221.15cee684.chunk.js",
+    "main.js": "/d2archives/static/js/main.49eb9b2c.js",
+    "static/js/221.08a3b967.chunk.js": "/d2archives/static/js/221.08a3b967.chunk.js",
     "static/js/672.1c73456f.chunk.js": "/d2archives/static/js/672.1c73456f.chunk.js",
     "static/js/453.e7b7c2bd.chunk.js": "/d2archives/static/js/453.e7b7c2bd.chunk.js",
     "static/media/d2r.gif": "/d2archives/static/media/d2r.83a59ad0f92e7c0e02f4.gif",
@@ -186,6 +186,8 @@
     "static/media/chipped_emerald.png": "/d2archives/static/media/chipped_emerald.e014d72f94c282d93488.png",
     "index.html": "/d2archives/index.html",
     "static/media/Search.svg": "/d2archives/static/media/Search.cedfd9655ff8c7dc8f505d67b1c97ac0.svg",
+    "static/media/chatgem_blue.webp": "/d2archives/static/media/chatgem_blue.d4f3e971f2b517364dce.webp",
+    "static/media/chatgem_pink.webp": "/d2archives/static/media/chatgem_pink.9be57a50ece13cd2c7bb.webp",
     "static/media/box_bottom_left.webp": "/d2archives/static/media/box_bottom_left.f3b784dc5e220d4d45b9.webp",
     "static/media/box_bottom_right.webp": "/d2archives/static/media/box_bottom_right.30df33f706e3cceb5d4d.webp",
     "static/media/box_top_right.webp": "/d2archives/static/media/box_top_right.548ff05320d163be9566.webp",
@@ -195,11 +197,11 @@
     "static/media/box_bottom.webp": "/d2archives/static/media/box_bottom.15bc793b5736cf6b3df6.webp",
     "static/media/box_top.webp": "/d2archives/static/media/box_top.b98ce4df90bfb72eab63.webp",
     "main.843f300e.css.map": "/d2archives/static/css/main.843f300e.css.map",
-    "main.95c78b2b.js.map": "/d2archives/static/js/main.95c78b2b.js.map",
+    "main.49eb9b2c.js.map": "/d2archives/static/js/main.49eb9b2c.js.map",
     "453.e7b7c2bd.chunk.js.map": "/d2archives/static/js/453.e7b7c2bd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.843f300e.css",
-    "static/js/main.95c78b2b.js"
+    "static/js/main.49eb9b2c.js"
   ]
 }
