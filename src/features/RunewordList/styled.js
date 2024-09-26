@@ -1,12 +1,13 @@
 import styled from "styled-components"
 import Backdrop from '../../images/ValueBox/box_background.webp'
+import Frame from '../../images/UI/frame.png'
 import { ReactComponent as Reset } from "../../images/UI/Reset.svg";
 
 export const FilterContainer = styled.div`
     position: fixed;
-    top: 20%;
-    left: ${({ $isOpen }) => ($isOpen ? '0' : '-170px')};
-    width: 170px;
+    top: 19%;
+    left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-180px')};
+    width: 190px;
     height: auto;
     background: #0000009A;
     background-image: url(${Backdrop});
@@ -14,7 +15,8 @@ export const FilterContainer = styled.div`
     background-size: cover;
     background-position: center center;
     background-blend-mode: overlay;
-    border: 3px solid #000;
+    border: 10px solid transparent;
+    border-image: url(${Frame}) 30 stretch;
     border-left: none;
     border-radius: 0 10px 10px 0;
     transition: left 300ms ease;
@@ -26,43 +28,22 @@ export const RuneGridContainer = styled.div`
     grid-template-columns: repeat(3, 45px);
     grid-template-rows: repeat(12, auto);
     gap: 5px;
-    padding: 10px;
+    padding: 7px 20px;
 `;
 
-export const ToggleTextContainer = styled.div`
+export const StyledArrow = styled.img`
     position: absolute;
-    right: -65px;
-    top: 50%;
+    right: ${({ $isOpen }) => ($isOpen ? '-15px' : '-29px')};
+    top: 45%;
     transform: translateY(-50%);
-    background: #0000008A;
-    background-image: url(${Backdrop});
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center center;
-    background-blend-mode: overlay;
-    padding: 30px 0;
+    padding: 20px 0;
     cursor: pointer;
-    text-align: center;
-    font-size: 14px;
-    color: #ccc;
-    border: 3px solid #000;
-    border-left: none;
-    border-radius: 0 10px 10px 0;
-    white-space: normal;
-    width: 65px;
+    width: 30px;
+    transform: ${({ $isOpen }) => ($isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
 
     &:hover {
         filter: brightness(1.2);
     }
-`;
-
-export const Arrow = styled.svg`
-    display: block;
-    width: 24px;
-    height: 24px;
-    transition: transform 300ms ease;
-    transform: ${({ $isOpen }) => ($isOpen ? 'rotate(0deg)' : 'rotate(180deg)')};
-    margin: 10px auto 0;
 `;
 
 export const RuneButton = styled.button`
@@ -128,7 +109,8 @@ export const ClearSelectedButton = styled.button`
     grid-column: span 3;
     font-family: 'AvQest', sans-serif;
     font-size: 20px;
-    padding: 10px;
+    padding: 7px;
+    margin: 2px 7px;
     background-image: url(${Backdrop});
     background-repeat: repeat;
     background-size: cover;

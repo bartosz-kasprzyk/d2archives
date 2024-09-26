@@ -9,8 +9,9 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
-import { Arrow, ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, ToggleTextContainer } from './styled';
+import { ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow, StyledFrame } from './styled';
 import runeImages from "../../common/config/runeImages"
+import arrow from '../../images/UI/arrow.png'
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -72,13 +73,7 @@ const RunewordList = () => {
             </StyledText>
 
             <FilterContainer $isOpen={isOpen}>
-                <ToggleTextContainer onClick={handleToggle}>
-                    Rune<br />
-                    Filter
-                    <Arrow $isOpen={isOpen} viewBox="0 0 24 24">
-                        <path d="M8 12l6-6v12l-6-6z" fill="currentColor" /> {/* Left Arrow */}
-                    </Arrow>
-                </ToggleTextContainer>
+                <StyledArrow src={arrow} $isOpen={isOpen} onClick={handleToggle} />
                 <RuneGridContainer $isOpen={isOpen}>
                     {Object.keys(runeImages).map((runeName) => (
                         <RuneButton
