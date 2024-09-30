@@ -9,9 +9,10 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
-import { ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow, StyledFrame } from './styled';
+import { ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow } from './styled';
 import runeImages from "../../common/config/runeImages"
 import arrow from '../../images/UI/arrow.png'
+import hoverArrow from '../../images/UI/arrow_highlight.png'
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -22,6 +23,7 @@ const RunewordList = () => {
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedRunes, setSelectedRunes] = useState([]);
     const [isOpen, setIsOpen] = useState(false);
+    const [isHovered, setIsHovered] = useState(false);
 
     if (!content) {
         return <Loading />;
@@ -73,7 +75,13 @@ const RunewordList = () => {
             </StyledText>
 
             <FilterContainer $isOpen={isOpen}>
-                <StyledArrow src={arrow} $isOpen={isOpen} onClick={handleToggle} />
+                <StyledArrow
+                    src={arrow}
+                    $isOpen={isOpen}
+                    src={isHovered ? hoverArrow : arrow}
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+                    onClick={handleToggle} />
                 <RuneGridContainer $isOpen={isOpen}>
                     {Object.keys(runeImages).map((runeName) => (
                         <RuneButton

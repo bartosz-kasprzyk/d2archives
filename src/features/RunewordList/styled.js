@@ -40,10 +40,6 @@ export const StyledArrow = styled.img`
     cursor: pointer;
     width: 30px;
     transform: ${({ $isOpen }) => ($isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
-
-    &:hover {
-        filter: brightness(1.2);
-    }
 `;
 
 export const RuneButton = styled.button`
