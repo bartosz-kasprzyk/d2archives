@@ -76,9 +76,8 @@ const RunewordList = () => {
 
             <FilterContainer $isOpen={isOpen}>
                 <StyledArrow
-                    src={arrow}
-                    $isOpen={isOpen}
                     src={isHovered ? hoverArrow : arrow}
+                    $isOpen={isOpen}
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                     onClick={handleToggle} />
