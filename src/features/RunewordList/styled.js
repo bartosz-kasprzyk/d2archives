@@ -23,8 +23,7 @@ export const FilterContainer = styled.div`
     z-index: 2000;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        top: 0;
-        max-height: 100%;
+        top: 5%;
     }
 `;
 
@@ -37,7 +36,6 @@ export const RuneGridContainer = styled.div`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         grid-template-columns: repeat(3, 40px);
-        gap: 3px;
         padding: 3px 20px 7px 32px;
     }
 `;
