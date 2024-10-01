@@ -43,6 +43,10 @@ export const ColumnHeader = styled.th`
     color: #885C02;
     background: #0000003A;
     font-size: 20px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 15px;
+    }
 `;
 
 export const TableHeader = styled(ColumnHeader)`
@@ -86,6 +90,21 @@ export const TableRow = styled.tr`
     ${props => props.$highlight && `
         background-color: #D1AD665A;
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 13px;
+    }
+`;
+
+export const SmallImageContainer = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+`;
+
+export const SmallImageCounter = styled.span`
+    margin-right: 5px;
 `;
 
 export const StyledSmallImage = styled.img`

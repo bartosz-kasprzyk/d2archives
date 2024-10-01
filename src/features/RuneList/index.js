@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText, SmallImageCounter, SmallImageContainer } from "../../common/Table/styled";
 import runeImages from "../../common/config/runeImages"
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer } from './styled';
@@ -9,10 +9,14 @@ import { formatText } from '../../common/config/formatText';
 import gemImages from '../../common/config/gemImages';
 import { toRunewords } from '../../common/config/routes';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
+import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 
 const RuneList = () => {
     const state = useLoadContent('runeAndRuneword');
     const content = state.content;
+
+    const screenWidth = useScreenWidth();
+    const isLargeScreen = screenWidth > 767;
 
     const rowRefs = useRef({});
     const [highlightedRow, setHighlightedRow] = useState(null);
@@ -95,40 +99,63 @@ const RuneList = () => {
                                     {row[0] === 'El' ? (
                                         '-'
                                     ) : (
-                                        <>
-                                            <StyledSmallImage
-                                                src={runeImages[row[1]]}
-                                                alt={`${row[1]} Rune`}
-                                                title={`${row[1]} Rune`}
-                                            />
-                                            <StyledSmallImage
-                                                src={runeImages[row[1]]}
-                                                alt={`${row[1]} Rune`}
-                                                title={`${row[1]} Rune`}
-                                            />
-                                            {index < 21 && (
+                                        isLargeScreen ? (
+                                            <>
                                                 <StyledSmallImage
                                                     src={runeImages[row[1]]}
                                                     alt={`${row[1]} Rune`}
                                                     title={`${row[1]} Rune`}
                                                 />
-                                            )}
-                                            {index >= 10 && (
-                                                <>
+                                                <StyledSmallImage
+                                                    src={runeImages[row[1]]}
+                                                    alt={`${row[1]} Rune`}
+                                                    title={`${row[1]} Rune`}
+                                                />
+                                                {index < 21 && (
                                                     <StyledSmallImage
-                                                        src={gemImages[index - 10].image}
-                                                        alt={gemImages[index - 10].name}
-                                                        title={gemImages[index - 10].name}
+                                                        src={runeImages[row[1]]}
+                                                        alt={`${row[1]} Rune`}
+                                                        title={`${row[1]} Rune`}
                                                     />
-                                                </>
-                                            )}
-                                        </>
+                                                )}
+                                                {index >= 10 && (
+                                                    <>
+                                                        <StyledSmallImage
+                                                            src={gemImages[index - 10].image}
+                                                            alt={gemImages[index - 10].name}
+                                                            title={gemImages[index - 10].name}
+                                                        />
+                                                    </>
+                                                )}
+                                            </>
+                                        ) : (
+                                            <>
+                                                <SmallImageContainer>
+                                                    <SmallImageCounter>{index < 21 ? '3x' : '2x'}</SmallImageCounter>
+                                                    <StyledSmallImage
+                                                        src={runeImages[row[1]]}
+                                                        alt={`${row[1]} Rune`}
+                                                        title={`${row[1]} Rune`}
+                                                    />
+                                                </SmallImageContainer>
+                                                {index >= 10 && (
+                                                    <SmallImageContainer>
+                                                        <SmallImageCounter>{'1x'}</SmallImageCounter>
+                                                        <StyledSmallImage
+                                                            src={gemImages[index - 10].image}
+                                                            alt={gemImages[index - 10].name}
+                                                            title={gemImages[index - 10].name}
+                                                        />
+                                                    </SmallImageContainer>
+                                                )}
+                                            </>
+                                        )
                                     )}
                                 </TableCell>
                                 <TableCell>
                                     {formatText(row[2])}
                                     <BottomLine>
-                                        {row[3]}
+                                        {isLargeScreen ? row[3] : row[4]}
                                     </BottomLine>
                                 </TableCell>
                             </TableRow>
