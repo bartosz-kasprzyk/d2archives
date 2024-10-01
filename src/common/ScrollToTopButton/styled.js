@@ -40,6 +40,11 @@ export const StyledButton = styled.button`
     &:active {
         transform: scale(0.99, 0.97);
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        opacity: 0;
+        visibility: hidden;
+    }
 `;
 
 export const ButtonWrapper = styled.div`
@@ -59,4 +64,9 @@ export const ButtonWrapper = styled.div`
         opacity: 1;
         visibility: visible;
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        opacity: 0;
+        visibility: hidden;
+    }
 `
