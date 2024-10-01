@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const NoResultsWrapper = styled.div`
-    margin: auto 300px;
+    margin: auto 20%;
 `;
 
 export const SpeechBubble = styled.div`
@@ -26,14 +26,34 @@ export const SpeechBubble = styled.div`
         border-style: solid;
         border-color: #2E29296A transparent transparent transparent;
     }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.laptop}) { 
+        width: 600px;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.tablet}) { 
+        width: auto;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+        padding: 15px;
+    }
 `;
 
 export const NoResultsText = styled.p`
     font-size: 18px;
     color: #aaa;
     margin: 0;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+        font-size: 13px;
+    }
 `;
 
 export const StyledImage = styled.img`
     width: 50px;
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+        width: 30px;
+    }
 `;
