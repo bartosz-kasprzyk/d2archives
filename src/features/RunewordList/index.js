@@ -9,7 +9,7 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
-import { ClearSelectedButton, FilterContainer, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow } from './styled';
+import { ClearSelectedButton, FilterContainer, FilterTitle, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow } from './styled';
 import runeImages from "../../common/config/runeImages"
 import arrow from '../../images/UI/arrow.png'
 import hoverArrow from '../../images/UI/arrow_highlight.png'
@@ -81,6 +81,9 @@ const RunewordList = () => {
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                     onClick={handleToggle} />
+                <FilterTitle>
+                    Sort by runes
+                </FilterTitle>
                 <RuneGridContainer $isOpen={isOpen}>
                     {Object.keys(runeImages).map((runeName) => (
                         <RuneButton

@@ -21,14 +21,25 @@ export const FilterContainer = styled.div`
     border-radius: 0 10px 10px 0;
     transition: left 300ms ease;
     z-index: 2000;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        top: 0;
+        max-height: 100%;
+    }
 `;
 
 export const RuneGridContainer = styled.div`
     display: grid;
     grid-template-columns: repeat(3, 45px);
     grid-template-rows: repeat(12, auto);
-    gap: 5px;
-    padding: 7px 20px;
+    gap: 2px;
+    padding: 3px 20px 7px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        grid-template-columns: repeat(3, 40px);
+        gap: 3px;
+        padding: 3px 20px 7px 32px;
+    }
 `;
 
 export const StyledArrow = styled.img`
@@ -40,6 +51,19 @@ export const StyledArrow = styled.img`
     cursor: pointer;
     width: 30px;
     transform: ${({ $isOpen }) => ($isOpen ? 'rotate(180deg)' : 'rotate(0deg)')};
+`;
+
+export const FilterTitle = styled.span`
+    display: block;
+    font-family: 'AvQest', sans-serif;
+    font-size: 20px;
+    padding: 4px;
+    padding-bottom: 0;
+    text-align: center;
+    
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        padding-left: 15px;
+    }
 `;
 
 export const RuneButton = styled.button`
@@ -69,6 +93,11 @@ export const RuneButton = styled.button`
     &:active {
         transform: scale(0.80);
         filter: brightness(3);
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 40px;
+        height: 45px;
     }
 `;
 
