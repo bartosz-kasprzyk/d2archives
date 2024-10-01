@@ -48,16 +48,20 @@ function App() {
         text="Follow Me"
         href="https://github.com/bartosz-kasprzyk"
         $bottom="280px"
+        $bottomPhone="160px"
         $color="#21262D"
         $translateX="-110px"
+        $translateXPhone="-60px"
       />
       <SlideOutLink
         icon={coffee_icon}
         text="Buy Me A Coffee"
         href="https://buymeacoffee.com/bkasprzyk"
         $bottom="200px"
+        $bottomPhone="100px"
         $color="#9D590C"
         $translateX="-170px"
+        $translateXPhone="-90px"
       />
       <ScrollToTopButton />
     </HashRouter>
