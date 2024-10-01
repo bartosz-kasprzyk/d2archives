@@ -4,6 +4,10 @@ import styled from "styled-components";
 export const StyledText = styled.p`
     color: #DDDDDD;
     font-size: 17px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 13px;
+    }
 `;
 
 export const StyledLink = styled(Link)`
