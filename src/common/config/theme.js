@@ -14,12 +14,10 @@ export const theme = {
     },
     breakpoint: {
         laptop: "1480px",
-        tablet: "1278px",
-        tabletOne: "1120px",
-        tabletTwo: "1045px",
+        tablet: "1170px",
         tabletPortrait: "990px",
+        phoneTwo: "900px",
         phone: "767px",
-        phoneTwo: "700px",
         phonePortrait: "481px"
     },
     fontWeight: {
