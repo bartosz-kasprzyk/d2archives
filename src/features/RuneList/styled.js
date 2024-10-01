@@ -7,6 +7,26 @@ export const RuneGridContainer = styled.div`
     grid-template-rows: repeat(3, auto);
     gap: 15px;
     margin: 20px 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tabletPortrait}) {
+        grid-template-columns: repeat(9, 60px);
+        gap: 10px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phoneTwo}) {
+        grid-template-columns: repeat(7, 60px);
+        gap: 10px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        grid-template-columns: repeat(6, 50px);
+        gap: 8px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        grid-template-columns: repeat(7, 40px);
+        gap: 5px;
+    }
 `;
 
 export const RuneButton = styled.button`
@@ -37,6 +57,21 @@ export const RuneButton = styled.button`
         transform: scale(0.80);
         filter: brightness(1.2);
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tabletPortrait}) {
+        width: 50px;
+        height: 70px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 45px;
+        height: 65px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        width: 40px;
+        height: 60px;
+    }
 `;
 
 export const RuneButtonImage = styled.img`
@@ -53,4 +88,12 @@ export const RuneButtonText = styled.div`
     color: #ca8120;
     text-align: center;
     margin-top: 5px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 11px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 10px;
+    }
 `;
