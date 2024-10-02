@@ -10,14 +10,18 @@ import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles
 import { toSets } from '../../common/config/routes';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
+import { useScreenWidth } from '../../common/hooks/useScreenWidth';
+import { Navigation } from '../../common/Header/Navigation';
 
 const UniqueItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
-    const [searchQuery, setSearchQuery] = useState('');
+    const screenWidth = useScreenWidth();
+    const isLargeScreen = screenWidth > 767;
 
     const location = useLocation();
+    const [searchQuery, setSearchQuery] = useState('');
 
     if (!content) return <Loading />;
 
@@ -32,6 +36,8 @@ const UniqueItemsList = () => {
 
     return (
         <Container>
+            {!isLargeScreen && <Navigation />}
+
             <StyledText>
                 <StyledKeyword $color={"#86735A"}>Unique Items</StyledKeyword> are by far the most sought-after, possessing many magical properties that no Magical, Rare, or Crafted Item has.
                 There is usually only one Unique item for every type of weapon and armor in the game.

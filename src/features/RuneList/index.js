@@ -10,6 +10,7 @@ import gemImages from '../../common/config/gemImages';
 import { toRunewords } from '../../common/config/routes';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
+import { Navigation } from '../../common/Header/Navigation';
 
 const RuneList = () => {
     const state = useLoadContent('runeAndRuneword');
@@ -47,6 +48,8 @@ const RuneList = () => {
 
     return (
         <Container>
+            {!isLargeScreen && <Navigation />}
+
             <StyledText>
                 <StyledKeyword $color={"#CA8120"}>Runes</StyledKeyword> are stones that enhance items with socketed slots.
                 They add various properties depending on the item type.

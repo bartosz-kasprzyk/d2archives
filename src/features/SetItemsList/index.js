@@ -10,18 +10,19 @@ import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles
 import { toUniques } from '../../common/config/routes';
 import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSetList } from './styled';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
+import { Navigation } from '../../common/Header/Navigation';
 
 const SetItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
-    const location = useLocation();
-
     const screenWidth = useScreenWidth();
-    const isLargeScreen = screenWidth > 1322;
+    const isEnoughSpace = screenWidth > 1322;
+    const isLargeScreen = screenWidth > 767;
 
     const categoryRefs = useRef({});
     const itemRefs = useRef({});
+    const location = useLocation();
     const [highlightedRow, setHighlightedRow] = useState(null);
     const [highlightedCategory, setHighlightedCategory] = useState(null);
 
@@ -75,6 +76,8 @@ const SetItemsList = () => {
 
     return (
         <Container>
+            {!isLargeScreen && <Navigation />}
+
             <StyledText>
                 <StyledKeyword $color={"#1B9718"}>Set Items</StyledKeyword> are special items introduced in Diablo II.
                 They are like <StyledLink to={toUniques()}>Unique Items</StyledLink>, in the way that every time you find the same item, it has the same attributes.
@@ -93,7 +96,7 @@ const SetItemsList = () => {
                             </SetButton>
 
                             <StyledSetItemList>
-                                {isLargeScreen && items.map((item, itemIndex) => (
+                                {isEnoughSpace && items.map((item, itemIndex) => (
                                     <li key={itemIndex}>
                                         <SetItemButton onClick={() => scrollToSetItem(item.name)}>
                                             {item.name}

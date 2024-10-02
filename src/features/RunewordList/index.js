@@ -13,10 +13,15 @@ import { ClearSelectedButton, FilterContainer, FilterTitle, ResetIcon, RuneButto
 import runeImages from "../../common/config/runeImages"
 import arrow from '../../images/UI/arrow.png'
 import hoverArrow from '../../images/UI/arrow_highlight.png'
+import { useScreenWidth } from '../../common/hooks/useScreenWidth';
+import { Navigation } from '../../common/Header/Navigation';
 
 const RunewordList = () => {
     const state = useLoadContent('runeAndRuneword');
     const content = state.content;
+
+    const screenWidth = useScreenWidth();
+    const isLargeScreen = screenWidth > 767;
 
     const rowRefs = useRef({});
     const location = useLocation();
@@ -64,6 +69,8 @@ const RunewordList = () => {
 
     return (
         <Container>
+            {!isLargeScreen && <Navigation />}
+
             <StyledText>
                 <StyledKeyword $color={"#86735A"}>Runewords</StyledKeyword> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
                 The correct arrangement of runes in socketed items not only provides basic attributes but also bonus effects that enhance the item's power.
