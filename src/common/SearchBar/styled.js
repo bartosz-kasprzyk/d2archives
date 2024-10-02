@@ -19,9 +19,20 @@ export const SearchBarWrapper = styled.div`
 `;
 
 export const SearchIcon = styled(Search)`
-    width: 18px;
-    height: 18px;
-    margin-bottom: -3px;
+  width: 18px;
+  height: 18px;
+  margin-bottom: -3px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    width: 15px;
+    height: 15px;
+    margin-bottom: -2px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+    width: 13px;
+    height: 13px;
+  }
 `;
 
 export const SearchInput = styled.input`
@@ -31,6 +42,18 @@ export const SearchInput = styled.input`
   font-size: 18px;
   background: transparent;
   color: inherit;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+    width: 130px;
+    padding: 3px;
+    font-size: 13px;
+  }
 `;
 
 export const UnderlineGlow = styled.div`
