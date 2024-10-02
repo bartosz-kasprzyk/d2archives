@@ -24,7 +24,7 @@ export const RuneGridContainer = styled.div`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        grid-template-columns: repeat(7, 40px);
+        grid-template-columns: repeat(6, 35px);
         gap: 5px;
     }
 `;
@@ -69,8 +69,8 @@ export const RuneButton = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        width: 40px;
-        height: 60px;
+        width: 35px;
+        height: 55px;
     }
 `;
 

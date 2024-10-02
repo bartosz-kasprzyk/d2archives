@@ -71,7 +71,7 @@ const RuneList = () => {
                 <StyledTable>
                     <thead>
                         <TableRow $index={0}>
-                            <ColumnHeader colSpan="2">Rune</ColumnHeader>
+                            <ColumnHeader colSpan={isLargeScreen ? 2 : 1}>Rune</ColumnHeader>
                             <ColumnHeader>Ingredients</ColumnHeader>
                             <ColumnHeader>Properties</ColumnHeader>
                         </TableRow>
@@ -84,7 +84,9 @@ const RuneList = () => {
                                 ref={el => rowRefs.current[row[0]] = el}
                                 $highlight={highlightedRow === row[0]}
                                 $index={index + 1}>
-                                <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
+                                {isLargeScreen && (
+                                    <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
+                                )}
                                 <TableCell>
                                     <RuneText>
                                         {formatText(row[0])}
@@ -163,7 +165,7 @@ const RuneList = () => {
                     </tbody>
                 </StyledTable>
             </TableWrapper>
-        </Container>
+        </Container >
     );
 };
 
