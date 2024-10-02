@@ -9,11 +9,16 @@ import useLoadContent from '../../common/hooks/useLoadContent';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { toUniques } from '../../common/config/routes';
 import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSetList } from './styled';
+import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 
 const SetItemsList = () => {
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
+
     const location = useLocation();
+
+    const screenWidth = useScreenWidth();
+    const isLargeScreen = screenWidth > 1322;
 
     const categoryRefs = useRef({});
     const itemRefs = useRef({});
@@ -88,7 +93,7 @@ const SetItemsList = () => {
                             </SetButton>
 
                             <StyledSetItemList>
-                                {items.map((item, itemIndex) => (
+                                {isLargeScreen && items.map((item, itemIndex) => (
                                     <li key={itemIndex}>
                                         <SetItemButton onClick={() => scrollToSetItem(item.name)}>
                                             {item.name}

@@ -14,6 +14,7 @@ export const theme = {
     },
     breakpoint: {
         laptop: "1480px",
+        tabletTwo: "1322px",
         tablet: "1170px",
         tabletPortrait: "990px",
         phoneTwo: "900px",
