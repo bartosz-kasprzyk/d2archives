@@ -80,13 +80,13 @@ export const StyledUnderline = styled.img`
     z-index: -2;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
-        width: 400px;
-        margin: -190px auto -120px;
+        width: 330px;
+        margin: -150px auto -120px;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
-        width: 300px;
-        margin: -140px auto;
+        width: 200px;
+        margin: -90px auto;
     }
 `;
 
@@ -98,7 +98,7 @@ export const StyledSigil = styled.img`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         width: 30px;
-        margin-top: -95px;
+        margin-top: -60px;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
