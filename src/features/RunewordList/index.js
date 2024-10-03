@@ -149,11 +149,11 @@ const RunewordList = () => {
                                         <RowHeader $color={'#86735A'}>
                                             {formatText(runeword[0], location.pathname, searchQuery)}
                                             {!isLargeScreen && (
-                                                <div>
+                                                <div style={{ color: "#ddd" }}>
                                                     <small>
                                                         {formatText(runeword[2], location.pathname, searchQuery)}
                                                     </small>
-                                                    <div style={{ color: "#ddd", paddingTop: "30px" }}>
+                                                    <div style={{ paddingTop: "30px" }}>
                                                         {formatText(runeword[1], location.pathname, searchQuery)}
                                                     </div>
                                                 </div>
