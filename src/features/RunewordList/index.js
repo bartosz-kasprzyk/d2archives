@@ -134,8 +134,8 @@ const RunewordList = () => {
                             <thead>
                                 <TableRow $index={0}>
                                     <ColumnHeader>Runeword</ColumnHeader>
-                                    <ColumnHeader>Base</ColumnHeader>
-                                    <ColumnHeader>Runes</ColumnHeader>
+                                    {isLargeScreen && <ColumnHeader>Base</ColumnHeader>}
+                                    {isLargeScreen && <ColumnHeader>Runes</ColumnHeader>}
                                     <ColumnHeader>Properties</ColumnHeader>
                                 </TableRow>
                             </thead>
@@ -148,13 +148,31 @@ const RunewordList = () => {
                                     >
                                         <RowHeader $color={'#86735A'}>
                                             {formatText(runeword[0], location.pathname, searchQuery)}
+                                            {!isLargeScreen && (
+                                                <div>
+                                                    <small>
+                                                        {formatText(runeword[2], location.pathname, searchQuery)}
+                                                    </small>
+                                                    <div style={{ color: "#ddd", paddingTop: "30px" }}>
+                                                        {formatText(runeword[1], location.pathname, searchQuery)}
+                                                    </div>
+                                                </div>
+
+                                            )}
                                         </RowHeader>
-                                        <TableCell>
-                                            {formatText(runeword[1], location.pathname, searchQuery)}
-                                        </TableCell>
-                                        <TableCell>
-                                            {formatText(runeword[2], location.pathname, searchQuery)}
-                                        </TableCell>
+
+                                        {isLargeScreen && (
+                                            <TableCell>
+                                                {formatText(runeword[1], location.pathname, searchQuery)}
+                                            </TableCell>
+                                        )}
+
+                                        {isLargeScreen && (
+                                            <TableCell>
+                                                {formatText(runeword[2], location.pathname, searchQuery)}
+                                            </TableCell>
+                                        )}
+
                                         <TableCellBlue>
                                             {formatText(runeword[3], location.pathname, searchQuery)}
                                         </TableCellBlue>
