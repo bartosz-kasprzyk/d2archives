@@ -18,12 +18,12 @@ export const formatText = (text, currentPath, searchQuery) => {
     const highlightRegex = searchQuery ? new RegExp(`(${escapeRegExp(searchQuery)})`, 'gi') : null;
 
     return lines.map((line, lineIndex) => {
-        const parts = line.split(/(\*Ladder only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
+        const parts = line.split(/(\*Ladder\u00A0only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
 
         return (
             <React.Fragment key={lineIndex}>
                 {parts.map((part, partIndex) => {
-                    if (part === "+Ladder only+") {
+                    if (part === "+Ladder\u00A0only+") {
                         return (
                             <LadderOnlyItem key={partIndex}>
                                 {part}
