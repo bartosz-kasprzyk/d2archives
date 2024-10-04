@@ -113,7 +113,10 @@ export const StyledSmallImage = styled.img`
 
 export const StyledBigImage = styled.img`
     transform: scale(0.8);
-    vertical-align: top;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        transform: scale(0.6);
+    }
 `;
 
 export const ImageTitle = styled.span`

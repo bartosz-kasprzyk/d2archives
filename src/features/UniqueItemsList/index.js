@@ -61,7 +61,7 @@ const UniqueItemsList = () => {
                         <thead>
                             <TableRow $index={0}>
                                 <ColumnHeader>Item</ColumnHeader>
-                                <ColumnHeader>Category</ColumnHeader>
+                                {isLargeScreen && (<ColumnHeader>Category</ColumnHeader>)}
                                 <ColumnHeader>Properties</ColumnHeader>
                             </TableRow>
                         </thead>
@@ -85,30 +85,41 @@ const UniqueItemsList = () => {
                                             <div>
                                                 <big>{formatText(uniqueItem.name, location.pathname, searchQuery)}</big>
                                                 <small>{formatText(uniqueItem.type, location.pathname, searchQuery)}</small>
+                                                <small style={{ color: "#ddd" }}>
+                                                    {!isLargeScreen && (
+                                                        formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)
+                                                    )}
+                                                </small>
                                             </div>
                                         </RowHeader>
 
-                                        <TableCell>{formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}</TableCell>
-                                        <TableCell>
-                                            {uniqueItem.props.map((prop, propIndex, propsArray) => {
-                                                const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
-                                                const isRequires = prop.startsWith('Required');
+                                        {isLargeScreen && (
+                                            <TableCell>
+                                                {formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}
+                                            </TableCell>
+                                        )}
+                                        < TableCell >
+                                            {
+                                                uniqueItem.props.map((prop, propIndex, propsArray) => {
+                                                    const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
+                                                    const isRequires = prop.startsWith('Required');
 
-                                                return (
-                                                    <div
-                                                        key={propIndex}
-                                                        style={{
-                                                            color: propIndex <= reqLevelIndex
-                                                                ? isRequires
-                                                                    ? '#9d4a3c'
-                                                                    : '#fff'
-                                                                : '#4f53c5'
-                                                        }}
-                                                    >
-                                                        {formatText(prop, location.pathname, searchQuery)}
-                                                    </div>
-                                                );
-                                            })}
+                                                    return (
+                                                        <div
+                                                            key={propIndex}
+                                                            style={{
+                                                                color: propIndex <= reqLevelIndex
+                                                                    ? isRequires
+                                                                        ? '#9d4a3c'
+                                                                        : '#fff'
+                                                                    : '#4f53c5'
+                                                            }}
+                                                        >
+                                                            {formatText(prop, location.pathname, searchQuery)}
+                                                        </div>
+                                                    );
+                                                })
+                                            }
                                         </TableCell>
                                     </TableRow>
                                 );
@@ -116,7 +127,8 @@ const UniqueItemsList = () => {
                         </tbody>
                     </StyledTable>
                 </TableWrapper>
-            )}
+            )
+            }
         </Container >
     );
 };
