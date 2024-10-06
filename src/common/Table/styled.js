@@ -191,9 +191,21 @@ export const ImageSubtitle = styled.span`
 export const BottomLine = styled.div`
     color: #979797;
     border-top: 1px solid #97979770;
-    margin: 0;
+    margin: 0 30px;
     margin-top: 2px;
     padding-top: 5px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        margin: 0 10px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        margin: 0 5px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        margin: 0;
+    }
 `;
 
 export const ValueBox = styled.span`
