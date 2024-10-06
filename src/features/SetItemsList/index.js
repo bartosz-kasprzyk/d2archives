@@ -119,7 +119,7 @@ const SetItemsList = () => {
                                 <thead>
                                     <TableRow ref={el => categoryRefs.current[category] = el}>
                                         <TableHeader colSpan={isLargeScreen ? 3 : 2} $highlight={highlightedCategory === category}>
-                                            + {category} +
+                                            +&nbsp;{category}&nbsp;+
                                         </TableHeader>
                                     </TableRow>
                                     <TableRow $index={0}>

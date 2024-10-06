@@ -41,11 +41,11 @@ export const ColumnHeader = styled.th`
     padding: 10px;
     text-align: center;
     color: #885C02;
-    background: #0000003A;
+    background: #0000004A;
     font-size: 20px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 15px;
+        font-size: 14px;
     }
 `;
 
@@ -66,7 +66,7 @@ export const TableHeader = styled(ColumnHeader)`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 20px;
+        font-size: 18px;
     }
 `;
 
@@ -147,6 +147,7 @@ export const StyledBigImage = styled.img`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         transform: scale(0.6);
+        max-height: 120px
     }
 `;
 
