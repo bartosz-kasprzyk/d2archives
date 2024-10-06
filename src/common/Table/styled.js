@@ -60,18 +60,35 @@ export const TableHeader = styled(ColumnHeader)`
         filter: brightness(3);
         transform: scale(1.1);
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        font-size: 30px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 20px;
+    }
 `;
 
 export const RowHeader = styled.th`
     border: 3px solid #000;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     color: ${({ $color }) => $color || 'inherit'};
     transition: background-color 1s ease;
+    overflow: hidden;
 
     ${props => props.$highlight && `
         background-color: #D1AD665A;
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        padding: 10px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        padding: 5px;
+    }
 `;
 
 export const TableRow = styled.tr`
@@ -91,8 +108,16 @@ export const TableRow = styled.tr`
         background-color: #D1AD665A;
     `}
 
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        font-size: 14px;
+    }
+
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 13px;
+        font-size: 12px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 10px;
     }
 `;
 
@@ -113,6 +138,12 @@ export const StyledSmallImage = styled.img`
 
 export const StyledBigImage = styled.img`
     transform: scale(0.8);
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+    position: relative;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         transform: scale(0.6);
@@ -124,6 +155,18 @@ export const ImageTitle = styled.span`
     text-align: center;
     font-size: 18px;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        font-size: 15px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 13px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 11px;
+    }
 `;
 
 export const ImageSubtitle = styled.span`
@@ -131,6 +174,18 @@ export const ImageSubtitle = styled.span`
     text-align: center;
     font-size: 15px;
     margin: 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        font-size: 12px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 10px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 8px;
+    }
 `;
 
 export const BottomLine = styled.div`
@@ -178,12 +233,20 @@ export const RuneText = styled.span`
 
 export const BonusListTitle = styled.h2`
     color: #DDDDDD;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        padding-top: 5px;
+    }
 `
 
 export const BonusList = styled.ul`
     list-style-type: none;
     padding: 0;
     padding-bottom: 60px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        padding-bottom: 15px;
+    }
 `
 
 export const BonusListItem = styled.li`

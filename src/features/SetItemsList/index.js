@@ -109,50 +109,45 @@ const SetItemsList = () => {
                 ))}
             </StyledNavigation>
 
-            {
-                Object.entries(groupedItems).map(([category, items], index) => {
-                    const bonuses = content.content.setBonuses[category] || {};
+            {Object.entries(groupedItems).map(([category, items], index) => {
+                const bonuses = content.content.setBonuses[category] || {};
 
-                    return (
-                        <div key={index}>
-                            <TableWrapper>
-                                <StyledTable>
-                                    <thead>
-                                        <TableRow ref={el => categoryRefs.current[category] = el}>
-                                            <TableHeader colSpan={3} $highlight={highlightedCategory === category}>
-                                                + {category} +
-                                            </TableHeader>
-                                        </TableRow>
-                                        <TableRow $index={0}>
-                                            <ColumnHeader>Item</ColumnHeader>
-                                            <ColumnHeader>Properties</ColumnHeader>
-                                            <ColumnHeader>Set Bonuses</ColumnHeader>
-                                        </TableRow>
-                                    </thead>
-                                    <tbody>
-                                        {items.map((setItem, itemIndex) => {
-                                            const imageKey = setItem.image
-                                                .replace(/^\/images\//, '')
-                                                .replace(/\.(png|jpg|gif|jpeg)$/, '');
-                                            const imageSrc = images[imageKey] || '/default_image.png';
+                return (
+                    <div key={index}>
+                        <TableWrapper>
+                            <StyledTable>
+                                <thead>
+                                    <TableRow ref={el => categoryRefs.current[category] = el}>
+                                        <TableHeader colSpan={isLargeScreen ? 3 : 2} $highlight={highlightedCategory === category}>
+                                            + {category} +
+                                        </TableHeader>
+                                    </TableRow>
+                                    <TableRow $index={0}>
+                                        <ColumnHeader>Item</ColumnHeader>
+                                        <ColumnHeader>Properties</ColumnHeader>
+                                        {isLargeScreen && <ColumnHeader>Set Bonuses</ColumnHeader>}
+                                    </TableRow>
+                                </thead>
+                                <tbody>
+                                    {items.map((setItem, itemIndex) => {
+                                        const imageKey = setItem.image
+                                            .replace(/^\/images\//, '')
+                                            .replace(/\.(png|jpg|gif|jpeg)$/, '');
+                                        const imageSrc = images[imageKey] || '/default_image.png';
 
-                                            return (
-                                                <TableRow
-                                                    key={setItem.name}
-                                                    $index={itemIndex + 1}
-                                                    ref={el => (itemRefs.current[setItem.name] = el)}
-                                                >
+                                        return (
+                                            <React.Fragment key={setItem.name}>
+                                                <TableRow $index={itemIndex + 1}>
                                                     <RowHeader
                                                         $color={"#1B9718"}
                                                         $highlight={highlightedRow === setItem.name}
+                                                        isLargeScreen={isLargeScreen}
                                                     >
                                                         <StyledBigImage src={imageSrc} alt={setItem.name} />
                                                         <ImageTitle>{setItem.name}</ImageTitle>
                                                         <ImageSubtitle>{setItem.type}</ImageSubtitle>
                                                     </RowHeader>
-                                                    <TableCell
-                                                        $highlight={highlightedRow === setItem.name}
-                                                    >
+                                                    <TableCell $highlight={highlightedRow === setItem.name}>
                                                         {setItem.props.map((prop, propIndex, propsArray) => {
                                                             const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
                                                             const isRequires = prop.startsWith('Required');
@@ -176,7 +171,7 @@ const SetItemsList = () => {
                                                             );
                                                         })}
                                                     </TableCell>
-                                                    {itemIndex === 0 ? (
+                                                    {isLargeScreen && itemIndex === 0 && (
                                                         <TableCell rowSpan={items.length}>
                                                             <div>
                                                                 <BonusListTitle>Partial Set Bonus:</BonusListTitle>
@@ -195,18 +190,45 @@ const SetItemsList = () => {
                                                                 </BonusList>
                                                             </div>
                                                         </TableCell>
-                                                    ) : null}
+                                                    )}
                                                 </TableRow>
-                                            );
-                                        })}
-                                    </tbody>
-                                </StyledTable>
-                            </TableWrapper>
-                        </div>
-                    );
-                })
-            }
-        </Container >
+                                                {!isLargeScreen && itemIndex === items.length - 1 && (
+                                                    <React.Fragment>
+                                                        <TableRow $index={0}>
+                                                            <ColumnHeader colSpan={2}>Set Bonuses</ColumnHeader>
+                                                        </TableRow>
+                                                        <TableRow>
+                                                            <TableCell colSpan={2}>
+                                                                <div>
+                                                                    <BonusListTitle>Partial Set Bonus:</BonusListTitle>
+                                                                    <BonusList>
+                                                                        {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
+                                                                            <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                        ))}
+                                                                    </BonusList>
+                                                                </div>
+                                                                <div>
+                                                                    <BonusListTitle>Full Set Bonus:</BonusListTitle>
+                                                                    <BonusList>
+                                                                        {bonuses["Full Set Bonus"]?.map((bonus, i) => (
+                                                                            <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                        ))}
+                                                                    </BonusList>
+                                                                </div>
+                                                            </TableCell>
+                                                        </TableRow>
+                                                    </React.Fragment>
+                                                )}
+                                            </React.Fragment>
+                                        );
+                                    })}
+                                </tbody>
+                            </StyledTable>
+                        </TableWrapper>
+                    </div>
+                );
+            })}
+        </Container>
     );
 };
 
