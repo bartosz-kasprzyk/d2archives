@@ -140,7 +140,10 @@ const SetItemsList = () => {
 
                                         return (
                                             <React.Fragment key={setItem.name}>
-                                                <TableRow $index={itemIndex + 1}>
+                                                <TableRow
+                                                    $index={itemIndex + 1}
+                                                    ref={el => itemRefs.current[setItem.name] = el}
+                                                >
                                                     <RowHeader
                                                         $color={theme.color.set}
                                                         $highlight={highlightedRow === setItem.name}
