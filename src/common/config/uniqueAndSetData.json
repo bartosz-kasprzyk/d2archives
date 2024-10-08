@@ -8657,9 +8657,7 @@
                 "image": "/images/Items/talrashaslidlesseye.png",
                 "props": [
                     "Damage: 18-42",
-                    "Required Strength:",
-                    "Required Dexterity:",
-                    "Required Level:  65",
+                    "Required Level: 65",
                     "+20% Faster Cast Rate",
                     "+1-2 to Cold Mastery (Sorceress only)",
                     "+1-2 to Lightning Mastery (Sorceress only)",
@@ -8680,8 +8678,8 @@
                 "image": "/images/Items/mask.png",
                 "props": [
                     "Defense: 99-131",
-                    "Required Strength:  55",
-                    "Required level:  66",
+                    "Required Strength: 55",
+                    "Required Level: 66",
                     "10% Life stolen per hit",
                     "10% Mana stolen per hit",
                     "+45 Defense",
@@ -8697,8 +8695,8 @@
                 "image": "/images/Items/talrashasguardianship.png",
                 "props": [
                     "Defense: 833-941",
-                    "Required Strength:  84",
-                    "Required Level:  71",
+                    "Required Strength: 84",
+                    "Required Level: 71",
                     "-60% to Requirements",
                     "Magic damage reduced by 15",
                     "+40% Cold Resist",
@@ -8716,8 +8714,8 @@
                 "image": "/images/Items/talrashasfine-spuncloth.png",
                 "props": [
                     "Defense: 35-100",
-                    "Required Strength:  47",
-                    "Required Level:  53",
+                    "Required Strength: 47",
+                    "Required Level: 53",
                     "37% damage taken goes to Mana",
                     "-20% to Requirements",
                     "+30 to Mana",
@@ -8733,7 +8731,7 @@
                 "type": "Amulet",
                 "image": "/images/Items/amu2.png",
                 "props": [
-                    "Required Level:  67",
+                    "Required Level: 67",
                     "+2 to Sorceress Skills",
                     "+33% Lightning Resist",
                     "Adds 3-32 Lightning Damage",
@@ -8749,8 +8747,8 @@
                 "image": "/images/Items/trang-oulsguise.png",
                 "props": [
                     "Defense: 180-257",
-                    "Required Strength:  106",
-                    "Required Level:  65",
+                    "Required Strength: 106",
+                    "Required Level: 65",
                     "+25% Faster Hit Recovery",
                     "+80-100 Defense",
                     "+150 to Mana",
