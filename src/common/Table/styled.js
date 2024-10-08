@@ -54,11 +54,10 @@ export const TableHeader = styled(ColumnHeader)`
     background: ${({ theme }) => theme.color.black.deep};
     font-size: 40px;
     margin: 20px 5px -10px;
-    transition: filter 1s ease, transform 1s ease;
+    transition: filter 1s ease, transform 1s ease, background-color 1s ease;
 
-    ${props => props.$highlight && `
-        filter: brightness(3);
-        transform: scale(1.1);
+    ${({ $highlight, theme }) => $highlight && `
+        background-color: ${theme.color.highlight};
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
