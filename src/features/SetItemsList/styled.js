@@ -30,7 +30,7 @@ export const StyledSetList = styled.ul`
 
             &::before {
                 content: '◈';
-                color: #135F11;
+                color: ${({ theme }) => theme.color.darkGreen};
                 font-size: 10px;
                 position: absolute;
                 left: -15px;
@@ -49,7 +49,7 @@ export const StyledSetItemList = styled.ul`
 
         &::before {
             content: '◈';
-            color: #135F11;
+            color: ${({ theme }) => theme.color.darkGreen};
             font-size: 10px;
             position: absolute;
             left: -15px;
@@ -66,11 +66,11 @@ export const StyledSetItemList = styled.ul`
 export const SetButton = styled.button`
     background: none;
     border: none;
-    color: #ca8120;
+    color: ${({ theme }) => theme.color.rune};
     text-align: left;
     cursor: pointer;
     transition: filter 0.1s ease, transform 0.1s ease;
-    color: #1B9718;
+    color: ${({ theme }) => theme.color.set};
     font-family: 'AvQest', sans-serif;
     font-size: 20px;
     padding: 0;

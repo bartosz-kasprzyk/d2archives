@@ -9,7 +9,7 @@ export const FilterContainer = styled.div`
     left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-180px')};
     width: 190px;
     height: auto;
-    background: #0000009A;
+    background: ${({ theme }) => theme.color.black.deep};
     background-image: url(${Backdrop});
     background-repeat: repeat;
     background-size: cover;
@@ -110,7 +110,7 @@ export const RuneButtonImage = styled.img`
 export const RuneButtonText = styled.div`
     font-family: 'AvQest', sans-serif;
     font-size: 13px;
-    color: #ca8120;
+    color: ${({ theme }) => theme.color.rune};
     text-align: center;
     margin-top: 5px;
     opacity: ${({ $opacity }) => $opacity || 'inherit'};
@@ -138,7 +138,7 @@ export const ClearSelectedButton = styled.button`
     background-repeat: repeat;
     background-size: cover;
     background-position: center center;
-    color: #ddd;
+    color: ${({ theme }) => theme.color.white};
     border: none;
     border-radius: 5px;
     cursor: pointer;

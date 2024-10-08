@@ -1,16 +1,28 @@
 export const theme = {
     color: {
-        white: "#FFFFFF",
-        whisper: "#F5F5FA",
-        mystic: "#E4E6F0",
-        waterloo: "#7E839A",
-        stormGrey: "#74788B",
-        woodsmoke: "#18181B",
-        mineShaft: "#333333",
-        heater: "#BAC7D5",
-        pattensBlue: "#D6E4FF",
-        scienceBlue: "#0044CC",
-        black: "#000000",
+        white: "#DDDDDD",
+        grey: {
+            dark: "#979797",
+            light: "#97979720"
+        },
+        silver: "#AAAAAA",
+        gold: "#BD9B4E",
+        highlight: "#D1AD665A",
+        search: "#BD9B4E",
+        rune: "#CA8120",
+        unique: "#86735A",
+        set: "#1B9718",
+        darkGreen: "#135F11",
+        required: "#9D4A3C",
+        magic: "#4F53C5",
+        value: "#8470ff",
+        brown: "#885C02",
+        black: {
+            dark: "#000000",
+            deep: "#0000009A",
+            medium: "#0000007A",
+            light: "#0000004A"
+        }
     },
     breakpoint: {
         laptop: "1480px",

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledText = styled.p`
-    color: #DDDDDD;
+    color: ${({ theme }) => theme.color.white};
     font-size: 17px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
@@ -11,7 +11,7 @@ export const StyledText = styled.p`
 `;
 
 export const StyledLink = styled(Link)`
-    color: #ca8120;
+    color: ${({ theme }) => theme.color.rune};
     transition: filter 0.3s ease;
 
     &:hover {

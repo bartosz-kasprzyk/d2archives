@@ -15,8 +15,11 @@ import arrow from '../../images/UI/arrow.png'
 import hoverArrow from '../../images/UI/arrow_highlight.png'
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
+import { useTheme } from 'styled-components';
 
 const RunewordList = () => {
+    const theme = useTheme();
+
     const state = useLoadContent('runeAndRuneword');
     const content = state.content;
 
@@ -72,7 +75,7 @@ const RunewordList = () => {
             {!isLargeScreen && <Navigation />}
 
             <StyledText>
-                <StyledKeyword $color={"#86735A"}>Runewords</StyledKeyword> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
+                <StyledKeyword $color={theme.color.unique}>Runewords</StyledKeyword> are combinations of several different <StyledLink to={toRunes()}>runes</StyledLink> designed to create powerful weapons or armor.
                 The correct arrangement of runes in socketed items not only provides basic attributes but also bonus effects that enhance the item's power.
                 Most of the most important weapons and armor in the game come from runewords.
                 Many of these are very difficult to obtain due to the rare appearance of runes at higher levels.
@@ -146,10 +149,10 @@ const RunewordList = () => {
                                         $index={index + 1}
                                         ref={(el) => (rowRefs.current[runeword[0]] = el)}
                                     >
-                                        <RowHeader $color={'#86735A'}>
+                                        <RowHeader $color={theme.color.unique}>
                                             {formatText(runeword[0], location.pathname, searchQuery)}
                                             {!isLargeScreen && (
-                                                <div style={{ color: "#ddd" }}>
+                                                <div style={{ color: theme.color.white }}>
                                                     <small>
                                                         {formatText(runeword[2], location.pathname, searchQuery)}
                                                     </small>

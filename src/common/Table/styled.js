@@ -24,24 +24,24 @@ export const TableCell = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #DDDDDD;
+    color: ${({ theme }) => theme.color.white};
     transition: background-color 1s ease;
 
-    ${props => props.$highlight && `
-        background-color: #D1AD665A;
+    ${({ $highlight, theme }) => $highlight && `
+        background-color: ${theme.color.highlight};
     `}
 `;
 
 export const TableCellBlue = styled(TableCell)`
-    color: #4f53c5;
+    color: ${({ theme }) => theme.color.magic};
 `;
 
 export const ColumnHeader = styled.th`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: #885C02;
-    background: #0000004A;
+    color: ${({ theme }) => theme.color.brown};
+    background: ${({ theme }) => theme.color.black.light};
     font-size: 20px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
@@ -50,8 +50,8 @@ export const ColumnHeader = styled.th`
 `;
 
 export const TableHeader = styled(ColumnHeader)`
-    color: #1B9718;
-    background: #0000009A;
+    color: ${({ theme }) => theme.color.set};
+    background: ${({ theme }) => theme.color.black.deep};
     font-size: 40px;
     margin: 20px 5px -10px;
     transition: filter 1s ease, transform 1s ease;
@@ -71,15 +71,15 @@ export const TableHeader = styled(ColumnHeader)`
 `;
 
 export const RowHeader = styled.th`
-    border: 3px solid #000;
+    border: 3px solid ${({ theme }) => theme.color.black.dark};
     padding: 20px;
     text-align: center;
     color: ${({ $color }) => $color || 'inherit'};
     transition: background-color 1s ease;
     overflow: hidden;
 
-    ${props => props.$highlight && `
-        background-color: #D1AD665A;
+    ${({ $highlight, theme }) => $highlight && `
+        background-color: ${theme.color.highlight};
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
@@ -96,7 +96,11 @@ export const TableRow = styled.tr`
     font-size: 17px;
     position: relative;
     z-index: 0;
-    background: ${({ $index }) => ($index % 2 === 0 ? '#1413138A' : '#201F1F5A')};
+    background: ${({ $index, theme }) =>
+        $index % 2 === 0
+            ? theme.color.black.medium
+            : theme.color.black.light
+    };
     background-image: url(${Backdrop});
     background-repeat: repeat;
     background-size: cover;
@@ -104,8 +108,8 @@ export const TableRow = styled.tr`
     background-blend-mode: overlay;
     transition: background-color 1s ease;
 
-    ${props => props.$highlight && `
-        background-color: #D1AD665A;
+    ${({ $highlight, theme }) => $highlight && `
+        background-color: ${theme.color.highlight};
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
@@ -134,6 +138,10 @@ export const SmallImageCounter = styled.span`
 
 export const StyledSmallImage = styled.img`
     width: 30px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 25px;
+    }
 `;
 
 export const StyledBigImage = styled.img`
@@ -190,8 +198,8 @@ export const ImageSubtitle = styled.span`
 `;
 
 export const BottomLine = styled.div`
-    color: #979797;
-    border-top: 1px solid #97979770;
+    color: ${({ theme }) => theme.color.grey.dark};
+    border-top: 2px solid ${({ theme }) => theme.color.grey.light};
     margin: 0 30px;
     margin-top: 2px;
     padding-top: 5px;
@@ -210,7 +218,7 @@ export const BottomLine = styled.div`
 `;
 
 export const ValueBox = styled.span`
-    color: #8470ff;
+    color: ${({ theme }) => theme.color.value};
     padding: 3px 8px 1px;
     filter: opacity(0.8);
     background: 
@@ -226,26 +234,26 @@ export const ValueBox = styled.span`
 `;
 
 export const InfoText = styled.span`
-    color: grey;
+    color: ${({ theme }) => theme.color.grey.dark};;
     font-style: italic;
 `;
 
 export const CategoryText = styled.span`
-    color: #86735a;
+    color: ${({ theme }) => theme.color.unique};
 `;
 
 export const LadderOnlyItem = styled.span`
-    color: green;
+    color: ${({ theme }) => theme.color.darkGreen};
     font-weight: bold;
     margin: 0 5px;
 `;
 
 export const RuneText = styled.span`
-    color: #ca8120;
+    color: ${({ theme }) => theme.color.rune};
 `;
 
 export const BonusListTitle = styled.h2`
-    color: #DDDDDD;
+    color: ${({ theme }) => theme.color.white};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         padding-top: 5px;
@@ -263,12 +271,12 @@ export const BonusList = styled.ul`
 `
 
 export const BonusListItem = styled.li`
-    color: #86735A;
+    color: ${({ theme }) => theme.color.unique};
 `
 
 export const HighlightSearch = styled.span`
-    color: #000;
-    background-color: #F8F412;
+    color: ${({ theme }) => theme.color.black.dark};
+    background-color: ${({ theme }) => theme.color.search};
     padding: 0 2px;
     border-radius: 3px;
 `;

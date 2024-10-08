@@ -11,8 +11,11 @@ import { toRunewords } from '../../common/config/routes';
 import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles/styled';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
+import { useTheme } from 'styled-components';
 
 const RuneList = () => {
+    const theme = useTheme();
+
     const state = useLoadContent('runeAndRuneword');
     const content = state.content;
 
@@ -88,7 +91,7 @@ const RuneList = () => {
                                 $highlight={highlightedRow === row[0]}
                                 $index={index + 1}>
                                 {isLargeScreen && (
-                                    <RowHeader $color={"#86735A"}>#{index + 1}</RowHeader>
+                                    <RowHeader $color={theme.color.unique}>#{index + 1}</RowHeader>
                                 )}
                                 <TableCell>
                                     <RuneText>

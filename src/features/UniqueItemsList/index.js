@@ -12,8 +12,11 @@ import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
+import { useTheme } from 'styled-components';
 
 const UniqueItemsList = () => {
+    const theme = useTheme();
+
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
@@ -39,7 +42,7 @@ const UniqueItemsList = () => {
             {!isLargeScreen && <Navigation />}
 
             <StyledText>
-                <StyledKeyword $color={"#86735A"}>Unique Items</StyledKeyword> are by far the most sought-after, possessing many magical properties that no Magical, Rare, or Crafted Item has.
+                <StyledKeyword $color={theme.color.unique}>Unique Items</StyledKeyword> are by far the most sought-after, possessing many magical properties that no Magical, Rare, or Crafted Item has.
                 There is usually only one Unique item for every type of weapon and armor in the game.
                 Unique items are denoted by their names being colored gold. <StyledLink to={toSets()}>Set Items</StyledLink> are different from Unique ones,
                 but very similar to them in terms of how they work and rarity.
@@ -77,7 +80,7 @@ const UniqueItemsList = () => {
                                         key={uniqueItem.name}
                                         $index={index + 1}
                                     >
-                                        <RowHeader $color={"#86735A"}>
+                                        <RowHeader $color={theme.color.unique}>
                                             <StyledBigImage
                                                 src={imageSrc}
                                                 alt={uniqueItem.name}
@@ -85,7 +88,7 @@ const UniqueItemsList = () => {
                                             <div>
                                                 <big>{formatText(uniqueItem.name, location.pathname, searchQuery)}</big>
                                                 <small>{formatText(uniqueItem.type, location.pathname, searchQuery)}</small>
-                                                <small style={{ color: "#ddd" }}>
+                                                <small style={{ color: theme.color.white }}>
                                                     {!isLargeScreen && (
                                                         formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)
                                                     )}
@@ -110,9 +113,9 @@ const UniqueItemsList = () => {
                                                             style={{
                                                                 color: propIndex <= reqLevelIndex
                                                                     ? isRequires
-                                                                        ? '#9d4a3c'
-                                                                        : '#fff'
-                                                                    : '#4f53c5'
+                                                                        ? theme.color.required
+                                                                        : theme.color.white
+                                                                    : theme.color.magic
                                                             }}
                                                         >
                                                             {formatText(prop, location.pathname, searchQuery)}

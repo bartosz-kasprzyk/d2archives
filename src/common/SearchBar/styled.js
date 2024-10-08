@@ -62,7 +62,7 @@ export const UnderlineGlow = styled.div`
   left: 0;
   right: 0;
   height: 2px;
-  background: #885C02;
+  background: ${({ theme }) => theme.color.brown};
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.3s ease;

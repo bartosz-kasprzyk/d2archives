@@ -12,7 +12,7 @@ export const SpeechBubble = styled.div`
     align-items: center;
     text-align: center;
     padding: 20px;
-    background: #2E29296A;
+    background: ${({ theme }) => theme.color.grey.light};
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     margin: 20px;
@@ -24,7 +24,7 @@ export const SpeechBubble = styled.div`
         left: 10px;
         border-width: 10px;
         border-style: solid;
-        border-color: #2E29296A transparent transparent transparent;
+        border-color: ${({ theme }) => theme.color.grey.light} transparent transparent transparent;
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.laptop}) { 
@@ -42,7 +42,7 @@ export const SpeechBubble = styled.div`
 
 export const NoResultsText = styled.p`
     font-size: 18px;
-    color: #aaa;
+    color: ${({ theme }) => theme.color.silver};
     margin: 0;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 

@@ -11,8 +11,11 @@ import { toUniques } from '../../common/config/routes';
 import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSetList } from './styled';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
+import { useTheme } from 'styled-components';
 
 const SetItemsList = () => {
+    const theme = useTheme();
+
     const state = useLoadContent('uniqueAndSet');
     const content = state.content;
 
@@ -79,7 +82,7 @@ const SetItemsList = () => {
             {!isLargeScreen && <Navigation />}
 
             <StyledText>
-                <StyledKeyword $color={"#1B9718"}>Set Items</StyledKeyword> are special items introduced in Diablo II.
+                <StyledKeyword $color={theme.color.set}>Set Items</StyledKeyword> are special items introduced in Diablo II.
                 They are like <StyledLink to={toUniques()}>Unique Items</StyledLink>, in the way that every time you find the same item, it has the same attributes.
                 However, in general, Set Items are a tad weaker than Unique Items, or so called "Uniques".
                 This is because Set Items are each part of specific sets, and moreover, if you equip the entire set, you will gain an extra set of Bonus Affixes, hence the name "Set Items".
@@ -139,9 +142,8 @@ const SetItemsList = () => {
                                             <React.Fragment key={setItem.name}>
                                                 <TableRow $index={itemIndex + 1}>
                                                     <RowHeader
-                                                        $color={"#1B9718"}
+                                                        $color={theme.color.set}
                                                         $highlight={highlightedRow === setItem.name}
-                                                        isLargeScreen={isLargeScreen}
                                                     >
                                                         <StyledBigImage src={imageSrc} alt={setItem.name} />
                                                         <ImageTitle>{setItem.name}</ImageTitle>
@@ -158,12 +160,12 @@ const SetItemsList = () => {
                                                                     key={propIndex}
                                                                     style={{
                                                                         color: isSetItems
-                                                                            ? '#1B9718'
+                                                                            ? theme.color.set
                                                                             : propIndex <= reqLevelIndex
                                                                                 ? isRequires
-                                                                                    ? '#9d4a3c'
-                                                                                    : '#DDDDDD'
-                                                                                : '#4f53c5',
+                                                                                    ? theme.color.required
+                                                                                    : theme.color.white
+                                                                                : theme.color.magic,
                                                                     }}
                                                                 >
                                                                     {formatText(prop, location.pathname)}

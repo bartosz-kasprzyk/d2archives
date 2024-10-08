@@ -85,7 +85,7 @@ export const RuneButtonImage = styled.img`
 export const RuneButtonText = styled.div`
     font-family: 'AvQest', sans-serif;
     font-size: 13px;
-    color: #ca8120;
+    color: ${({ theme }) => theme.color.rune};
     text-align: center;
     margin-top: 5px;
 

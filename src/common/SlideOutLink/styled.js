@@ -10,7 +10,7 @@ export const ButtonContainer = styled.a`
     width: 260px;
     display: inline-flex;
     align-items: center;
-    color: #ffffff;
+    color: ${({ theme }) => theme.color.white};
     font-family: "Cookie", cursive;
     font-size: 30px;
     padding: 10px 20px;
