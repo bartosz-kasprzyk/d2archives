@@ -8,6 +8,10 @@ export const StyledText = styled.p`
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         font-size: 13px;
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 9px;
+    }
 `;
 
 export const StyledLink = styled(Link)`
