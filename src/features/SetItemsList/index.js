@@ -172,8 +172,10 @@ const SetItemsList = () => {
                                                             $highlight={highlightedRow === setItem.name}
                                                         >
                                                             <StyledBigImage src={imageSrc} alt={setItem.name} />
-                                                            <ImageTitle>{formatText(setItem.name, location.pathname, searchQuery)}</ImageTitle>
-                                                            <ImageSubtitle>{formatText(setItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                            <div style={{ marginTop: '-15px' }}>
+                                                                <ImageTitle>{formatText(setItem.name, location.pathname, searchQuery)}</ImageTitle>
+                                                                <ImageSubtitle>{formatText(setItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                            </div>
                                                         </RowHeader>
                                                         <TableCell $highlight={highlightedRow === setItem.name}>
                                                             {setItem.props.map((prop, propIndex, propsArray) => {

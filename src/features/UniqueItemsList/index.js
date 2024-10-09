@@ -85,12 +85,12 @@ const UniqueItemsList = () => {
                                                 src={imageSrc}
                                                 alt={uniqueItem.name}
                                             />
-                                            <div>
+                                            <div style={{ marginTop: '-15px' }}>
                                                 <ImageTitle>{formatText(uniqueItem.name, location.pathname, searchQuery)}</ImageTitle>
                                                 <ImageSubtitle>{formatText(uniqueItem.type, location.pathname, searchQuery)}</ImageSubtitle>
-                                                <span style={{ fontSize: '0.70em', color: theme.color.white }}>
+                                                <div style={{ fontSize: '0.70em', marginTop: '3px', color: theme.color.white }}>
                                                     {!isLargeScreen && formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}
-                                                </span>
+                                                </div>
                                             </div>
                                         </RowHeader>
 

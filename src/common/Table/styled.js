@@ -151,7 +151,7 @@ export const StyledBigImage = styled.img`
     transform: scale(0.8);
     max-width: 100%;
     max-height: 100%;
-    margin: 0 auto;
+    margin: -25px auto 0;
     padding: 10px;
     display: block;
     object-fit: contain;
@@ -171,6 +171,7 @@ export const StyledBigImage = styled.img`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         transform: scale(0.55);
+        max-height: 100px;
     }
 `;
 
