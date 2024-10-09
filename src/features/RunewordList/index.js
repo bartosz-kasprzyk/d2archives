@@ -156,7 +156,7 @@ const RunewordList = () => {
                                                     <small>
                                                         {formatText(runeword[2], location.pathname, searchQuery)}
                                                     </small>
-                                                    <div style={{ paddingTop: "30px" }}>
+                                                    <div style={{ fontSize: '0.85em', paddingTop: "10px", opacity: 0.7 }}>
                                                         {formatText(runeword[1], location.pathname, searchQuery)}
                                                     </div>
                                                 </div>
@@ -165,7 +165,7 @@ const RunewordList = () => {
                                         </RowHeader>
 
                                         {isLargeScreen && (
-                                            <TableCell>
+                                            <TableCell style={{ opacity: 0.7 }}>
                                                 {formatText(runeword[1], location.pathname, searchQuery)}
                                             </TableCell>
                                         )}
