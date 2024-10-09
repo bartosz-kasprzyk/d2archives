@@ -78,7 +78,7 @@ const RuneList = () => {
                     <thead>
                         <TableRow $index={0}>
                             <ColumnHeader colSpan={isLargeScreen ? 2 : 1}>Rune</ColumnHeader>
-                            <ColumnHeader>Ingredients</ColumnHeader>
+                            <ColumnHeader>{isLargeScreen ? "Ingredients" : "Ingr."}</ColumnHeader>
                             <ColumnHeader>Properties</ColumnHeader>
                         </TableRow>
                     </thead>

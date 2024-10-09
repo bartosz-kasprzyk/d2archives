@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Loading } from '../../common/Loading';
 import { Container } from '../../common/Container';
-import { ColumnHeader, RowHeader, StyledBigImage, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
+import { ColumnHeader, ImageSubtitle, ImageTitle, RowHeader, StyledBigImage, StyledTable, TableCell, TableRow, TableWrapper } from '../../common/Table/styled';
 import { formatText } from '../../common/config/formatText';
 import { useLocation } from 'react-router-dom';
 import images from '../../utils/loadImages';
@@ -86,13 +86,11 @@ const UniqueItemsList = () => {
                                                 alt={uniqueItem.name}
                                             />
                                             <div>
-                                                <big>{formatText(uniqueItem.name, location.pathname, searchQuery)}</big>
-                                                <small>{formatText(uniqueItem.type, location.pathname, searchQuery)}</small>
-                                                <small style={{ color: theme.color.white }}>
-                                                    {!isLargeScreen && (
-                                                        formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)
-                                                    )}
-                                                </small>
+                                                <ImageTitle>{formatText(uniqueItem.name, location.pathname, searchQuery)}</ImageTitle>
+                                                <ImageSubtitle>{formatText(uniqueItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                <span style={{ fontSize: '0.70em', color: theme.color.white }}>
+                                                    {!isLargeScreen && formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}
+                                                </span>
                                             </div>
                                         </RowHeader>
 

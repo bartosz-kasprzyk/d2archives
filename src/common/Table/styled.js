@@ -47,6 +47,10 @@ export const ColumnHeader = styled.th`
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         font-size: 14px;
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        font-size: 11px;
+    }
 `;
 
 export const TableHeader = styled(ColumnHeader)`
@@ -71,7 +75,7 @@ export const TableHeader = styled(ColumnHeader)`
 
 export const RowHeader = styled.th`
     border: 3px solid ${({ theme }) => theme.color.black.dark};
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     color: ${({ $color }) => $color || 'inherit'};
     transition: background-color 1s ease;
@@ -80,10 +84,6 @@ export const RowHeader = styled.th`
     ${({ $highlight, theme }) => $highlight && `
         background-color: ${theme.color.highlight};
     `}
-
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        padding: 10px;
-    }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         padding: 5px;
@@ -120,7 +120,7 @@ export const TableRow = styled.tr`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 10px;
+        font-size: 7px;
     }
 `;
 
@@ -141,6 +141,10 @@ export const StyledSmallImage = styled.img`
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 25px;
     }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        width: 20px;
+    }
 `;
 
 export const StyledBigImage = styled.img`
@@ -148,13 +152,25 @@ export const StyledBigImage = styled.img`
     max-width: 100%;
     max-height: 100%;
     margin: 0 auto;
+    padding: 10px;
     display: block;
     object-fit: contain;
     position: relative;
 
+    @media (max-width: ${({ theme }) => theme.breakpoint.laptop}) {
+        transform: scale(0.7);
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        transform: scale(0.65);
+    }
+
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         transform: scale(0.6);
-        max-height: 120px
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        transform: scale(0.55);
     }
 `;
 
@@ -173,7 +189,7 @@ export const ImageTitle = styled.span`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 11px;
+        font-size: 8px;
     }
 `;
 
@@ -192,7 +208,7 @@ export const ImageSubtitle = styled.span`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 8px;
+        font-size: 6px;
     }
 `;
 
