@@ -12,6 +12,8 @@ import { SetButton, SetItemButton, StyledNavigation, StyledSetItemList, StyledSe
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
+import { SearchBar } from '../../common/SearchBar';
+import { NoResults } from '../../common/NoResults';
 
 const SetItemsList = () => {
     const theme = useTheme();
@@ -29,6 +31,7 @@ const SetItemsList = () => {
     const [highlightedRow, setHighlightedRow] = useState(null);
     const [highlightedCategory, setHighlightedCategory] = useState(null);
 
+    const [searchQuery, setSearchQuery] = useState('');
 
     const scrollToSet = (categoryName) => {
         const targetRow = categoryRefs.current[categoryName];
@@ -68,7 +71,16 @@ const SetItemsList = () => {
         return <Loading />;
     }
 
-    const groupedItems = Object.values(content.content.setItems).reduce((acc, item) => {
+    const filteredSetItems = Object.values(content.content.setItems).filter(setItem => {
+        const nameMatch = setItem.name.toLowerCase().includes(searchQuery.toLowerCase());
+        const typeMatch = setItem.type.toLowerCase().includes(searchQuery.toLowerCase());
+        const categoryMatch = setItem.category.toLowerCase().includes(searchQuery.toLowerCase());
+        const propsMatch = setItem.props.some(prop => prop.toLowerCase().includes(searchQuery.toLowerCase()));
+
+        return nameMatch || typeMatch || categoryMatch || propsMatch;
+    });
+
+    const groupedItems = filteredSetItems.reduce((acc, item) => {
         const category = item.category;
         if (!acc[category]) {
             acc[category] = [];
@@ -112,103 +124,88 @@ const SetItemsList = () => {
                 ))}
             </StyledNavigation>
 
-            {Object.entries(groupedItems).map(([category, items], index) => {
-                const bonuses = content.content.setBonuses[category] || {};
+            <SearchBar
+                placeholder={"Search sets..."}
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+            />
 
-                return (
-                    <div key={index}>
-                        <TableWrapper>
-                            <StyledTable>
-                                <thead>
-                                    <TableRow ref={el => categoryRefs.current[category] = el}>
-                                        <TableHeader colSpan={isLargeScreen ? 3 : 2} $highlight={highlightedCategory === category}>
-                                            +&nbsp;{category}&nbsp;+
-                                        </TableHeader>
-                                    </TableRow>
-                                    <TableRow $index={0}>
-                                        <ColumnHeader>Item</ColumnHeader>
-                                        <ColumnHeader>Properties</ColumnHeader>
-                                        {isLargeScreen && <ColumnHeader>Set Bonuses</ColumnHeader>}
-                                    </TableRow>
-                                </thead>
-                                <tbody>
-                                    {items.map((setItem, itemIndex) => {
-                                        const imageKey = setItem.image
-                                            .replace(/^\/images\//, '')
-                                            .replace(/\.(png|jpg|gif|jpeg)$/, '');
-                                        const imageSrc = images[imageKey] || '/default_image.png';
+            {filteredSetItems.length === 0 ? (
+                <NoResults
+                    text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                />
+            ) : (
+                Object.entries(groupedItems).map(([category, items], index) => {
+                    const bonuses = content.content.setBonuses[category] || {};
 
-                                        return (
-                                            <React.Fragment key={setItem.name}>
-                                                <TableRow
-                                                    $index={itemIndex + 1}
-                                                    ref={el => itemRefs.current[setItem.name] = el}
-                                                >
-                                                    <RowHeader
-                                                        $color={theme.color.set}
-                                                        $highlight={highlightedRow === setItem.name}
+                    return (
+                        <div key={index}>
+                            <TableWrapper>
+                                <StyledTable>
+                                    <thead>
+                                        <TableRow ref={el => categoryRefs.current[category] = el}>
+                                            <TableHeader colSpan={isLargeScreen ? 3 : 2} $highlight={highlightedCategory === category}>
+                                                +&nbsp;{category}&nbsp;+
+                                            </TableHeader>
+                                        </TableRow>
+                                        <TableRow $index={0}>
+                                            <ColumnHeader>Item</ColumnHeader>
+                                            <ColumnHeader>Properties</ColumnHeader>
+                                            {isLargeScreen && <ColumnHeader>Set Bonuses</ColumnHeader>}
+                                        </TableRow>
+                                    </thead>
+                                    <tbody>
+                                        {items.map((setItem, itemIndex) => {
+                                            const imageKey = setItem.image
+                                                .replace(/^\/images\//, '')
+                                                .replace(/\.(png|jpg|gif|jpeg)$/, '');
+                                            const imageSrc = images[imageKey] || '/default_image.png';
+
+                                            return (
+                                                <React.Fragment key={setItem.name}>
+                                                    <TableRow
+                                                        $index={itemIndex + 1}
+                                                        ref={el => itemRefs.current[setItem.name] = el}
                                                     >
-                                                        <StyledBigImage src={imageSrc} alt={setItem.name} />
-                                                        <ImageTitle>{setItem.name}</ImageTitle>
-                                                        <ImageSubtitle>{setItem.type}</ImageSubtitle>
-                                                    </RowHeader>
-                                                    <TableCell $highlight={highlightedRow === setItem.name}>
-                                                        {setItem.props.map((prop, propIndex, propsArray) => {
-                                                            const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
-                                                            const isRequires = prop.startsWith('Required');
-                                                            const isSetItems = prop.toLowerCase().includes('set items');
+                                                        <RowHeader
+                                                            $color={theme.color.set}
+                                                            $highlight={highlightedRow === setItem.name}
+                                                        >
+                                                            <StyledBigImage src={imageSrc} alt={setItem.name} />
+                                                            <ImageTitle>{formatText(setItem.name, location.pathname, searchQuery)}</ImageTitle>
+                                                            <ImageSubtitle>{formatText(setItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                        </RowHeader>
+                                                        <TableCell $highlight={highlightedRow === setItem.name}>
+                                                            {setItem.props.map((prop, propIndex, propsArray) => {
+                                                                const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
+                                                                const isRequires = prop.startsWith('Required');
+                                                                const isSetItems = prop.toLowerCase().includes('set items');
 
-                                                            return (
-                                                                <div
-                                                                    key={propIndex}
-                                                                    style={{
-                                                                        color: isSetItems
-                                                                            ? theme.color.set
-                                                                            : propIndex <= reqLevelIndex
-                                                                                ? isRequires
-                                                                                    ? theme.color.required
-                                                                                    : theme.color.white
-                                                                                : theme.color.magic,
-                                                                    }}
-                                                                >
-                                                                    {formatText(prop, location.pathname)}
-                                                                </div>
-                                                            );
-                                                        })}
-                                                    </TableCell>
-                                                    {isLargeScreen && itemIndex === 0 && (
-                                                        <TableCell rowSpan={items.length}>
-                                                            <div>
-                                                                <BonusListTitle>Partial Set Bonus:</BonusListTitle>
-                                                                <BonusList>
-                                                                    {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                        <BonusListItem key={i}>{bonus}</BonusListItem>
-                                                                    ))}
-                                                                </BonusList>
-                                                            </div>
-                                                            <div>
-                                                                <BonusListTitle>Full Set Bonus:</BonusListTitle>
-                                                                <BonusList>
-                                                                    {bonuses["Full Set Bonus"]?.map((bonus, i) => (
-                                                                        <BonusListItem key={i}>{bonus}</BonusListItem>
-                                                                    ))}
-                                                                </BonusList>
-                                                            </div>
+                                                                return (
+                                                                    <div
+                                                                        key={propIndex}
+                                                                        style={{
+                                                                            color: isSetItems
+                                                                                ? theme.color.set
+                                                                                : propIndex <= reqLevelIndex
+                                                                                    ? isRequires
+                                                                                        ? theme.color.required
+                                                                                        : theme.color.white
+                                                                                    : theme.color.magic,
+                                                                        }}
+                                                                    >
+                                                                        {formatText(prop, location.pathname, searchQuery)}
+                                                                    </div>
+                                                                );
+                                                            })}
                                                         </TableCell>
-                                                    )}
-                                                </TableRow>
-                                                {!isLargeScreen && itemIndex === items.length - 1 && (
-                                                    <React.Fragment>
-                                                        <TableRow $index={0}>
-                                                            <ColumnHeader colSpan={2}>Set Bonuses</ColumnHeader>
-                                                        </TableRow>
-                                                        <TableRow>
-                                                            <TableCell colSpan={2}>
+                                                        {isLargeScreen && itemIndex === 0 && (
+                                                            <TableCell rowSpan={items.length}>
                                                                 <div>
                                                                     <BonusListTitle>Partial Set Bonus:</BonusListTitle>
                                                                     <BonusList>
                                                                         {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                            <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                            <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
                                                                         ))}
                                                                     </BonusList>
                                                                 </div>
@@ -216,23 +213,50 @@ const SetItemsList = () => {
                                                                     <BonusListTitle>Full Set Bonus:</BonusListTitle>
                                                                     <BonusList>
                                                                         {bonuses["Full Set Bonus"]?.map((bonus, i) => (
-                                                                            <BonusListItem key={i}>{bonus}</BonusListItem>
+                                                                            <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
                                                                         ))}
                                                                     </BonusList>
                                                                 </div>
                                                             </TableCell>
-                                                        </TableRow>
-                                                    </React.Fragment>
-                                                )}
-                                            </React.Fragment>
-                                        );
-                                    })}
-                                </tbody>
-                            </StyledTable>
-                        </TableWrapper>
-                    </div>
-                );
-            })}
+                                                        )}
+                                                    </TableRow>
+                                                    {!isLargeScreen && itemIndex === items.length - 1 && (
+                                                        <React.Fragment>
+                                                            <TableRow $index={0}>
+                                                                <ColumnHeader colSpan={2}>Set Bonuses</ColumnHeader>
+                                                            </TableRow>
+                                                            <TableRow>
+                                                                <TableCell colSpan={2}>
+                                                                    <div>
+                                                                        <BonusListTitle>Partial Set Bonus:</BonusListTitle>
+                                                                        <BonusList>
+                                                                            {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
+                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                            ))}
+                                                                        </BonusList>
+                                                                    </div>
+                                                                    <div>
+                                                                        <BonusListTitle>Full Set Bonus:</BonusListTitle>
+                                                                        <BonusList>
+                                                                            {bonuses["Full Set Bonus"]?.map((bonus, i) => (
+                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                            ))}
+                                                                        </BonusList>
+                                                                    </div>
+                                                                </TableCell>
+                                                            </TableRow>
+                                                        </React.Fragment>
+                                                    )}
+                                                </React.Fragment>
+                                            );
+                                        })}
+                                    </tbody>
+                                </StyledTable>
+                            </TableWrapper>
+                        </div>
+                    );
+                })
+            )}
         </Container>
     );
 };
