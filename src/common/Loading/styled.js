@@ -31,6 +31,6 @@ export const StyledLoading = styled.img`
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         width: 300px;
         height: 300px;
-        margin-top: -170px;
+        margin-top: 130px;
     }
 `;
