@@ -8,7 +8,7 @@ export const theme = {
         silver: "#AAAAAA",
         gold: "#BD9B4E",
         highlight: "#D1AD665A",
-        search: "#BD9B4E",
+        search: "#F8F412",
         rune: "#CA8120",
         unique: "#86735A",
         set: "#1B9718",
