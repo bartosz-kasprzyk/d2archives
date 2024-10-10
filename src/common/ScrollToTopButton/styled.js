@@ -42,8 +42,11 @@ export const StyledButton = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        opacity: 0;
-        visibility: hidden;
+        margin: 0;
+        bottom: 4px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
     }
 `;
 
@@ -66,7 +69,9 @@ export const ButtonWrapper = styled.div`
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        opacity: 0;
-        visibility: hidden;
+        bottom: 10px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
     }
-`
+`;
