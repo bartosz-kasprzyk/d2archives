@@ -39,6 +39,10 @@ export const StyledButton = styled.button`
 
     &:active {
         transform: scale(0.99, 0.97);
+
+        @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+            transform: translateX(-50%) scale(0.99, 0.97);
+        }
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
@@ -69,9 +73,9 @@ export const ButtonWrapper = styled.div`
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        bottom: 10px;
+        bottom: 5px;
         right: auto;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translateX(-50%) scale(0.6);
     }
 `;
