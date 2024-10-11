@@ -16,6 +16,13 @@ export const ButtonBar = styled.div`
         height: 50px;
         background-color: #0000009A;
         z-index: 999;
+        opacity: 0;
+        visibility: hidden;
+
+        ${({ $isVisible }) => $isVisible && `
+            opacity: 1;
+            visibility: visible;
+        `}
     }
 `;
 

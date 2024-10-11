@@ -28,7 +28,7 @@ export const ScrollToTopButton = () => {
     }, []);
 
     return (
-        <ButtonBar>
+        <ButtonBar $isVisible={isVisible}>
             <ButtonWrapper $isVisible={isVisible}>
                 <StyledButton $isVisible={isVisible} onClick={scrollToTop}>
                     scroll to the top
