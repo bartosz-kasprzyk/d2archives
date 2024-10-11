@@ -36,7 +36,9 @@ export const SpeechBubble = styled.div`
     }
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
+        width: 120%;
         padding: 15px;
+        margin-left: -10px;
     }
 `;
 
@@ -55,5 +57,10 @@ export const StyledImage = styled.img`
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
         width: 30px;
+    }
+
+    @media(max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) { 
+        width: 30px;
+        margin-left: -15px;
     }
 `;
