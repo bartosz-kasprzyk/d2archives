@@ -6,7 +6,7 @@ import { ReactComponent as Reset } from "../../images/UI/Reset.svg";
 export const FilterContainer = styled.div`
     position: fixed;
     top: 19%;
-    left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-180px')};
+    left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-175px')};
     width: 190px;
     height: auto;
     background: ${({ theme }) => theme.color.black.deep};
@@ -23,7 +23,9 @@ export const FilterContainer = styled.div`
     z-index: 2000;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        top: 0%;
+        top: 50%;
+        transform: translateY(-50%);
+        left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-155px')};
         width: 170px;
     }
 `;
@@ -80,20 +82,19 @@ export const RuneButton = styled.button`
     justify-content: center;
     cursor: pointer;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
-    transition: transform 300ms ease, filter 300ms ease;
+    transition: transform 300ms ease, filter 1000ms ease;
+    -webkit-tap-highlight-color: transparent; 
 
     &:focus {
         outline: none;
     }
 
     &:hover {
-        transform: scale(1.05);
-        filter: brightness(1.8);
+        transform: ${({ $isLargeScreen }) => ($isLargeScreen ? 'scale(1.05)' : 'none')};
     }
 
     &:active {
         transform: scale(0.80);
-        filter: brightness(3);
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
@@ -110,7 +111,7 @@ export const RuneButtonImage = styled.img`
     opacity: ${({ $opacity }) => $opacity || 'inherit'};
 
     ${({ $opacity }) => $opacity === 1 && `
-        animation: goldenSheen 1s ease-out;
+        animation: goldenSheen 1s linear;
     `}
 
     @keyframes goldenSheen {
@@ -121,7 +122,7 @@ export const RuneButtonImage = styled.img`
             filter: brightness(1.5) drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
         }
         100% {
-            filter: brightness(1) drop-shadow(0 0 0px rgba(255, 215, 0, 0));
+            filter: brightness(1) drop-shadow(0 0 10px rgba(255, 215, 0, 0));
         }
     }
 `;

@@ -98,6 +98,7 @@ const RunewordList = () => {
                     {Object.keys(runeImages).map((runeName) => (
                         <RuneButton
                             key={runeName}
+                            $isLargeScreen={isLargeScreen}
                             onClick={() => handleRuneClick(runeName)}>
                             <RuneButtonImage
                                 src={runeImages[runeName]}
