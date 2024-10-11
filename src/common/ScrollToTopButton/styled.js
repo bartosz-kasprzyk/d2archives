@@ -4,6 +4,21 @@ import ButtonRight from "../../images/ScrollButton/button_right.webp"
 import ButtonMid from "../../images/ScrollButton/button_mid.webp"
 import ButtonBackground from "../../images/ScrollButton/button_background.png"
 
+export const ButtonBar = styled.div`
+    display: none;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        background-color: #0000009A;
+        z-index: 999;
+    }
+`;
+
 export const StyledButton = styled.button`
     width: 220px;
     color: ${({ theme }) => theme.color.gold};
@@ -73,7 +88,7 @@ export const ButtonWrapper = styled.div`
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        bottom: 5px;
+        bottom: 2px;
         right: auto;
         left: 50%;
         transform: translateX(-50%) scale(0.6);

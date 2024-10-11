@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ButtonWrapper, StyledButton } from './styled';
+import { ButtonWrapper, ButtonBar, StyledButton } from './styled';
 
 export const ScrollToTopButton = () => {
     const [isVisible, setIsVisible] = useState(false);
@@ -28,10 +28,12 @@ export const ScrollToTopButton = () => {
     }, []);
 
     return (
-        <ButtonWrapper $isVisible={isVisible}>
-            <StyledButton $isVisible={isVisible} onClick={scrollToTop}>
-                scroll to the top
-            </StyledButton>
-        </ButtonWrapper>
+        <ButtonBar>
+            <ButtonWrapper $isVisible={isVisible}>
+                <StyledButton $isVisible={isVisible} onClick={scrollToTop}>
+                    scroll to the top
+                </StyledButton>
+            </ButtonWrapper>
+        </ButtonBar>
     );
 };
