@@ -18,6 +18,7 @@ export const ButtonContainer = styled.a`
     border-radius: 10px;
     filter: brightness(0.6);
     transition: transform 1s ease, filter 1s ease;
+    cursor: pointer;
 
     &:hover {
         transform: translateX(${({ $translateX }) => $translateX || '0px'});
@@ -30,10 +31,13 @@ export const ButtonContainer = styled.a`
         height: 42px;
         width: 150px;
         font-size: 15px;
+        transform: translateX(${({ $translateXPhone }) => $translateXPhone || '0px'});
+        text-decoration: underline;
 
         &:hover {
-            transform: translateX(${({ $translateXphone }) => $translateXphone || '0px'});
-    }
+            filter: brightness(1.2);
+            transform: translateX(${({ $translateXPhone }) => $translateXPhone || '0px'});
+        }
     }
 `;
 
@@ -45,4 +49,4 @@ export const StyledIcon = styled.img`
         width: 25px;
         margin: -2px 7px 0 -11px;
     }
-`
+`;
