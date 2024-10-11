@@ -23,7 +23,8 @@ export const FilterContainer = styled.div`
     z-index: 2000;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        top: 5%;
+        top: 0%;
+        width: 170px;
     }
 `;
 
@@ -35,8 +36,9 @@ export const RuneGridContainer = styled.div`
     padding: 3px 20px 7px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        grid-template-columns: repeat(3, 40px);
-        padding: 3px 20px 7px 32px;
+        grid-template-columns: repeat(3, 35px);
+        padding: 3px 20px 7px 28px;
+        gap: 4px;
     }
 `;
 
@@ -60,6 +62,7 @@ export const FilterTitle = styled.span`
     text-align: center;
     
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 18px;
         padding-left: 15px;
     }
 `;
@@ -94,8 +97,8 @@ export const RuneButton = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        width: 40px;
-        height: 45px;
+        width: 35px;
+        height: 40px;
     }
 `;
 
@@ -105,6 +108,22 @@ export const RuneButtonImage = styled.img`
     object-fit: cover;
     display: block;
     opacity: ${({ $opacity }) => $opacity || 'inherit'};
+
+    ${({ $opacity }) => $opacity === 1 && `
+        animation: goldenSheen 1s ease-out;
+    `}
+
+    @keyframes goldenSheen {
+        0% {
+            filter: brightness(2) drop-shadow(0 0 30px rgba(255, 215, 0, 1));
+        }
+        50% {
+            filter: brightness(1.5) drop-shadow(0 0 20px rgba(255, 215, 0, 0.5));
+        }
+        100% {
+            filter: brightness(1) drop-shadow(0 0 0px rgba(255, 215, 0, 0));
+        }
+    }
 `;
 
 export const RuneButtonText = styled.div`
@@ -114,6 +133,10 @@ export const RuneButtonText = styled.div`
     text-align: center;
     margin-top: 5px;
     opacity: ${({ $opacity }) => $opacity || 'inherit'};
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        margin-top: 2px;
+    }
 `;
 
 export const ButtonContainer = styled.div`
@@ -126,6 +149,12 @@ export const ResetIcon = styled(Reset)`
     width: 18px;
     height: 18px;
     margin: 3px 10px -3px 0;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 14px;
+        height: 14px;
+        margin-right: 7px;
+    }
 `;
 
 export const ClearSelectedButton = styled.button`
@@ -154,5 +183,9 @@ export const ClearSelectedButton = styled.button`
     &:active {
         transform: scale(0.97, 0.9);
         filter: brightness(2);
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 16px;
     }
 `;
