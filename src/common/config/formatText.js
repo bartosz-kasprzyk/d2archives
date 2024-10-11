@@ -41,7 +41,7 @@ export const formatText = (text, currentPath, searchQuery) => {
                                 {part}
                             </CategoryText>
                         );
-                    } else if ((currentPath === '/runewords' || currentPath === '/uniques') && regex.test(part)) {
+                    } else if ((currentPath === '/runewords' || currentPath === '/uniques' || currentPath === '/sets') && regex.test(part)) {
                         return (
                             <ValueBox key={partIndex}>
                                 {part}

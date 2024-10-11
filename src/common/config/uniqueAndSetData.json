@@ -7112,7 +7112,7 @@
                 "type": "Grand Scepter",
                 "image": "/images/Items/grandscepter.png",
                 "props": [
-                    "One-Hand Damage:8-140",
+                    "One-Hand Damage: 8-140",
                     "Required Strength: 37",
                     "Required Level: 9",
                     "+17-23 to Maximum Damage",
