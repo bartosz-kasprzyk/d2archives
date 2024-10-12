@@ -5,15 +5,13 @@ import ButtonMid from "../../images/ScrollButton/button_mid.webp"
 import ButtonBackground from "../../images/ScrollButton/button_background.png"
 
 export const ButtonBar = styled.div`
-    display: none;
-
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         display: block;
         position: fixed;
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 50px;
+        height: 65px;
         background-color: #000000;
         z-index: 999;
         opacity: 0;
@@ -23,6 +21,10 @@ export const ButtonBar = styled.div`
             opacity: 1;
             visibility: visible;
         `}
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        height: 50px;
     }
 `;
 
@@ -45,7 +47,7 @@ export const StyledButton = styled.button`
     position: fixed;
     bottom: 10px;
     right: 20px;
-    z-index: 1000;
+    z-index: 1001;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease, filter 0.3s ease;
@@ -62,12 +64,12 @@ export const StyledButton = styled.button`
     &:active {
         transform: scale(0.99, 0.97);
 
-        @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
             transform: translateX(-50%) scale(0.99, 0.97);
         }
     }
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         margin: 0;
         bottom: 4px;
         right: auto;
@@ -84,7 +86,7 @@ export const ButtonWrapper = styled.div`
     height: 48px;
     background: url(${ButtonBackground});
     background-size: auto 100%;
-    z-index: 999;
+    z-index: 1000;
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease, visibility 0.3s ease;
@@ -93,6 +95,13 @@ export const ButtonWrapper = styled.div`
         opacity: 1;
         visibility: visible;
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+        bottom: 8px;
+        right: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         bottom: 1px;
