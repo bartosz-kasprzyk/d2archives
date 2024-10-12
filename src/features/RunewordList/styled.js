@@ -22,7 +22,7 @@ export const FilterContainer = styled.div`
     transition: left 300ms ease;
     z-index: 2000;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         top: 50%;
         transform: translateY(-50%);
         left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-155px')};

@@ -55,7 +55,7 @@ export const RuneButton = styled.button`
 
     &:active {
         transform: scale(0.80);
-        filter: brightness(1.2);
+        filter: brightness(2);
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tabletPortrait}) {
