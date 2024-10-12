@@ -2,10 +2,9 @@ import styled from "styled-components";
 
 export const LoadingWrapper = styled.div`
     position: fixed;
-    top: 0;
+    top: 100px;
     left: 0;
     width: 100%;
-    height: 100%;
     padding-top: 300px;
     z-index: 1000;
     display: flex;
@@ -14,23 +13,26 @@ export const LoadingWrapper = styled.div`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         padding-top: 0;
+        top: 230px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        top: 180px;
     }
 `;
 
 export const StyledLoading = styled.img`
     width: 500px;
     height: 400px;
-    margin: 50px auto;
+    margin: 0 auto;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 400px;
         height: 350px;
-        margin-top: -70px;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
         width: 300px;
         height: 300px;
-        margin-top: 130px;
     }
 `;
