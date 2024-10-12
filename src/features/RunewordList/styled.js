@@ -83,7 +83,6 @@ export const RuneButton = styled.button`
     cursor: pointer;
     filter: drop-shadow(0 0 5px rgba(0, 0, 0, 1));
     transition: transform 300ms ease, filter 1000ms ease;
-    -webkit-tap-highlight-color: transparent; 
 
     &:focus {
         outline: none;
