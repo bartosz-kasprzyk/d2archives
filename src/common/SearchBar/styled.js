@@ -82,4 +82,8 @@ export const UnderlineGlow = styled.div`
       transform: scaleX(1);
     }
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    height: 1px;
+  }
 `;
