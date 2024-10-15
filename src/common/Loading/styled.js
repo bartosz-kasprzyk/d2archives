@@ -17,7 +17,7 @@ export const LoadingWrapper = styled.div`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        top: 180px;
+        top: 200px;
     }
 `;
 
