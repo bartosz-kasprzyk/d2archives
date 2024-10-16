@@ -1,4 +1,4 @@
-# <img width="30px" src="/public/icon192.png" /> Diablo II Archives
+# <img width="25px" src="/public/icon192.png" /> Diablo II Archives
 
 ![logo strony](/public/share_cropped.gif)
 
