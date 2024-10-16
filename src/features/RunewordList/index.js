@@ -92,7 +92,7 @@ const RunewordList = () => {
                     onMouseLeave={() => setIsHovered(false)}
                     onClick={handleToggle} />
                 <FilterTitle>
-                    Sort by runes
+                    Filter by runes
                 </FilterTitle>
                 <RuneGridContainer $isOpen={isOpen}>
                     {Object.keys(runeImages).map((runeName) => (

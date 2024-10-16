@@ -5,7 +5,8 @@ import { ReactComponent as Reset } from "../../images/UI/Reset.svg";
 
 export const FilterContainer = styled.div`
     position: fixed;
-    top: 19%;
+    top: 50%;
+    transform: translateY(-50%);
     left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-175px')};
     width: 190px;
     height: auto;
@@ -23,8 +24,6 @@ export const FilterContainer = styled.div`
     z-index: 2000;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        top: 50%;
-        transform: translateY(-50%);
         left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-155px')};
         width: 170px;
     }
