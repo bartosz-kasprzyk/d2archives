@@ -126,7 +126,7 @@ const RunewordList = () => {
                 filteredByRunes.length === 0 ? (
                     selectedRunes.length > 0 ? (
                         <NoResults
-                            text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps seek out more runes to uncover new possibilities."}
+                            text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps you should seek out more runes to reveal greater secrets."}
                         />
                     ) :
                         <NoResults
