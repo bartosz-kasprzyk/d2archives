@@ -1479,7 +1479,7 @@
                     "+15 to Dexterity",
                     "+45-65 to Life",
                     "+40 to maximum Stamina",
-                    "+50% Heal Stamina",
+                    "Heal Stamina Plus 50%",
                     "+5% to maximum Fire Resist"
                 ],
                 "category": "Exceptional Unique Boots"
@@ -1577,7 +1577,7 @@
                     "+10-20 to Strength",
                     "+17 to Dexterity",
                     "10% Regenerate Mana",
-                    "+10% Heal Stamina",
+                    "Heal Stamina Plus 10%",
                     "Half Freeze Duration",
                     "Level 33 Bone Prison (13 charges)",
                     "Level 12 Life Tap (10 charges)"
@@ -1944,7 +1944,7 @@
                     "Knockback",
                     "+10 to Strength",
                     "+5 to Dexterity",
-                    "+30% Heal Stamina"
+                    "Heal Stamina Plus 30%"
                 ],
                 "category": "Elite Unique Bows"
             },
@@ -3235,7 +3235,7 @@
                 "props": [
                     "Required Level: 45",
                     "Magic Damage reduced by 12-15",
-                    "+15% heal Stamina",
+                    "Heal Stamina Plus 15%",
                     "+40 to maximum Stamina",
                     "+40 to Life",
                     "15% Fire Absorb",
@@ -3446,7 +3446,7 @@
                     "Required Level: 29",
                     "+40% Increased Attack Speed",
                     "+150-250% Enhanced Damage",
-                    "Heal Stamina +25%",
+                    "Heal Stamina Plus 25%",
                     "Requirements -50%",
                     "+50% Damage to Undead"
                 ],
@@ -4159,7 +4159,7 @@
                     "8% Mana stolen per hit",
                     "Ignore target defense",
                     "10% Regenerate Mana",
-                    "15% Heal Stamina",
+                    "Heal Stamina Plus 15%",
                     "+2 to Holy Shock (Paladin only)",
                     "+2 to Holy Freeze (Paladin only)"
                 ],
@@ -7614,7 +7614,7 @@
                     "Defense: 2-3",
                     "Assassin Kick Damage: 3-8",
                     "Required Level: 20",
-                    "+25% Heal Stamina",
+                    "Heal Stamina Plus 25%",
                     "+10 to Dexterity",
                     "+30% Faster Run/Walk (2 set items)",
                     "+10 to Strength (3 set items)"
@@ -7739,7 +7739,7 @@
                     "+40% Faster Run/Walk",
                     "+50 to Life",
                     "+180 to Maximum Stamina",
-                    "+32% Heal Stamina",
+                    "Heal Stamina Plus 32%",
                     "+40-50% Fire Resist",
                     "10% Damage taken goes to Mana",
                     "+15 Dexterity (2 set items)",
@@ -8472,7 +8472,7 @@
                     "Required Level: 25",
                     "+40% Faster Run/Walk",
                     "+75-125 Defense",
-                    "Heal Stamina Plus +(0.25*Clvl)% (Based On Character Level)",
+                    "Heal Stamina Plus (0.25*Clvl)% (Based On Character Level)",
                     "+15-25% Cold Resist",
                     "+15-25% Lightning Resist"
                 ],
@@ -8970,6 +8970,9 @@
                     "+24% Piercing Attack (3 set items)"
                 ],
                 "Full Set Bonus": [
+                    "+50 Defense",
+                    "+20% Faster Run/Walk",
+                    "+24% Piercing Attack",
                     "+15 Dexterity",
                     "10% To Maximum Poison Resist",
                     "10% To Maximum Cold Resist",
@@ -8984,6 +8987,8 @@
                     "+10 Dexterity (3 set items)"
                 ],
                 "Full Set Bonus": [
+                    "+10 Strength",
+                    "+10 Dexterity",
                     "20% Faster Run/Walk",
                     "5% Life Stolen Per Hit",
                     "35% Bonus to Attack Rating",
@@ -8995,7 +9000,7 @@
                 "Partial Set Bonus": [
                     "+(2*Clvl) To Lightning Damage (Based on Character Level) (2 set items)",
                     "+75 Attack Rating (2 set items)",
-                    "+125 Attack Rating (3 set items)",
+                    "Additional +125 Attack Rating (3 set items)",
                     "Cannot Be Frozen (3 set items)"
                 ],
                 "Full Set Bonus": [
@@ -9003,7 +9008,9 @@
                     "+200 Attack Rating",
                     "8% Life Stolen Per Hit",
                     "10% Mana Stolen Per Hit",
-                    "Poison Resist +15%"
+                    "Poison Resist +15%",
+                    "+(2*Clvl) To Lightning Damage (Based on Character Level)",
+                    "Cannot Be Frozen"
                 ]
             },
             "Sigon's Complete Steel": {
@@ -9012,6 +9019,8 @@
                     "+100 Defense (3 set items)"
                 ],
                 "Full Set Bonus": [
+                    "+10% Life Stolen Per Hit",
+                    "+100 Defense",
                     "+20 To Mana",
                     "+24 To Maximum Fire Damage",
                     "Fire Resist +12%",
@@ -9044,6 +9053,7 @@
                     "+75 To Attack Rating",
                     "+(1.5*Clvl) to Maximum Cold Damage (Based on Character Level)",
                     "Freezes Target",
+                    "7% Mana Stolen Per Hit",
                     "+10 Strength",
                     "+15 Dexterity"
                 ]
@@ -9061,7 +9071,7 @@
                     "+150 Mana",
                     "+350% Enhanced Damage",
                     "+150% to Attack Rating",
-                    "+50% Magic Find",
+                    "+50% Better Chance of Getting Magical Items",
                     "Display Aura"
                 ]
             },
@@ -9084,9 +9094,10 @@
                 "Full Set Bonus": [
                     "25% Chance To Cast Level 5 Static Field When Struck",
                     "+1 to All Skills",
+                    "+30% Increased Attack Speed",
+                    "+(5*Clvl) Defense (Based on Character Level)",
                     "+100 Maximum Stamina",
                     "+20 Strength",
-                    "+30% Increased Attack Speed",
                     "100% Better Chance Of Getting Magic Items",
                     "100% Extra Gold From Monsters",
                     "+100 to Life"
@@ -9126,7 +9137,7 @@
             },
             "Heaven's Brethren": {
                 "Partial Set Bonus": [
-                    "Heal Stamina +50% (2 set items)",
+                    "Heal Stamina Plus 50% (2 set items)",
                     "Replenish Life +20 (3 set items)"
                 ],
                 "Full Set Bonus": [
@@ -9141,7 +9152,7 @@
             "Hwanin's Majesty": {
                 "Partial Set Bonus": [
                     "+100 Defense (2 set items)",
-                    "+300 Defense (3 set items)"
+                    "Additional +200 Defense (3 set items)"
                 ],
                 "Full Set Bonus": [
                     "+2 To All Skills",
@@ -9154,9 +9165,9 @@
             "Immortal King": {
                 "Partial Set Bonus": [
                     "+50 To Attack Rating (2 set items)",
-                    "+75 To Attack Rating (3 set items)",
-                    "+125 To Attack Rating (4 set items)",
-                    "+200 To Attack Rating (5 set items)"
+                    "Additional +75 To Attack Rating (3 set items)",
+                    "Additional +125 To Attack Rating (4 set items)",
+                    "Additional +200 To Attack Rating (5 set items)"
                 ],
                 "Full Set Bonus": [
                     "+3 To Barbarian Skill Levels",
@@ -9197,12 +9208,13 @@
                     "+20 Strength",
                     "+100 To Mana",
                     "Increased Maximum Life 12%",
-                    "Replenish Life +10"
+                    "Replenish Life +10",
+                    "(1.5*Clvl)% Better Chance of Getting Magic Items (Based on Character Level)"
                 ]
             },
             "Natalya's Odium": {
                 "Partial Set Bonus": [
-                    "-15 Magical Damage Taken (2 set items)",
+                    "Magic Damage Reduced By 15 (2 set items)",
                     "+200 Defense (3 set items)"
                 ],
                 "Full Set Bonus": [
@@ -9222,6 +9234,8 @@
                     "Attacker Takes Damage of 5 (3 set items)"
                 ],
                 "Full Set Bonus": [
+                    "+35 Life",
+                    "Attacker Takes Damage of 5",
                     "All Resistances +15",
                     "+100 Defense",
                     "+10 Dexterity",
@@ -9254,7 +9268,8 @@
                     "15% Life Stolen Per Hit",
                     "Increase Maximum Life 27%",
                     "All Resistances +30",
-                    "Damage Reduced by 16%"
+                    "Damage Reduced by 16%",
+                    "Poison Length Reduced by 75%"
                 ]
             },
             "Tal Rasha's Wrappings": {
