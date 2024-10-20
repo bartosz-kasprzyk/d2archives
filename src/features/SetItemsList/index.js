@@ -203,14 +203,17 @@ const SetItemsList = () => {
                                                         </TableCell>
                                                         {isLargeScreen && itemIndex === 0 && (
                                                             <TableCell rowSpan={items.length}>
-                                                                <div>
-                                                                    <BonusListTitle>Partial Set Bonus:</BonusListTitle>
-                                                                    <BonusList>
-                                                                        {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                            <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
-                                                                        ))}
-                                                                    </BonusList>
-                                                                </div>
+                                                                {bonuses["Partial Set Bonus"] ?
+                                                                    <div>
+                                                                        <BonusListTitle>Partial Set Bonus:</BonusListTitle>
+                                                                        <BonusList>
+                                                                            {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
+                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                            ))}
+                                                                        </BonusList>
+                                                                    </div>
+                                                                    : null
+                                                                }
                                                                 <div>
                                                                     <BonusListTitle>Full Set Bonus:</BonusListTitle>
                                                                     <BonusList>
