@@ -25,6 +25,7 @@ Project was created with technologies such as:
 * Grid
 * Custom hooks
 * Styled components
+* React
 * React Router
 * Create React App
 
