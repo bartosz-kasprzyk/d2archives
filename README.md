@@ -17,14 +17,15 @@ Enjoy!
 ## Technologies 🛠️
 
 Project was created with technologies such as:
+* TypeScript
 * CSS
 * HTML
-* TypeScript
 * BEM
 * Flexbox
 * Grid
 * Custom hooks
 * Styled components
+* React Router
 * Create React App
 
 ## Available Scripts
