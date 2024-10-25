@@ -19,7 +19,7 @@ Enjoy!
 Project was created with technologies such as:
 * CSS
 * HTML
-* JavaScript (ES6+) features
+* TypeScript
 * BEM
 * Flexbox
 * Grid
