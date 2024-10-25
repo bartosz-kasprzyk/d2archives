@@ -5,10 +5,11 @@ import d2Loading3 from '../../images/D2Loading/d2Loading3.jpg';
 import d2Loading4 from '../../images/D2Loading/d2Loading4.jpg';
 import { LoadingWrapper, StyledLoading } from './styled';
 import useLoadContent from '../hooks/useLoadContent';
+import { DataType } from '../../types';
 
 const images = [d2Loading1, d2Loading2, d2Loading3, d2Loading4];
 
-export const Loading = ({ dataType }) => {
+export const Loading = ({ dataType }: { dataType: DataType }) => {
     const [currentImage, setCurrentImage] = useState(images[0]);
     const state = useLoadContent(dataType);
 

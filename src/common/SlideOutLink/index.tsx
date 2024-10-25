@@ -1,17 +1,28 @@
-import React, { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { ButtonContainer, StyledIcon } from './styled';
 import { useScreenWidth } from '../hooks/useScreenWidth';
 
-export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, $translateX, $translateXPhone }) => {
+interface SlideOutLinkProps {
+    icon: string,
+    text: string,
+    href: string,
+    $bottom: string,
+    $bottomPhone: string,
+    $color: string,
+    $translateX: string,
+    $translateXPhone: string
+}
+
+export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, $translateX, $translateXPhone }: SlideOutLinkProps) => {
     const [translateXPhone, setTranslateXPhone] = useState('0px');
-    const buttonRef = useRef(null);
+    const buttonRef = useRef<HTMLAnchorElement | null>(null);
 
     const screenWidth = useScreenWidth();
     const isLargeScreen = screenWidth > 767;
 
     useEffect(() => {
-        const handleClickOutside = (e) => {
-            if (buttonRef.current && !buttonRef.current.contains(e.target)) {
+        const handleClickOutside = (e: MouseEvent) => {
+            if (buttonRef.current && !buttonRef.current.contains(e.target as Node)) {
                 setTranslateXPhone('0px');
             }
         };
@@ -25,7 +36,7 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
         };
     }, [translateXPhone]);
 
-    const handleClick = (e) => {
+    const handleClick = (e: React.MouseEvent) => {
         if (!isLargeScreen) {
             if (translateXPhone === '0px') {
                 e.preventDefault();

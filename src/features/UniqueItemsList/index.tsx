@@ -13,12 +13,13 @@ import { NoResults } from '../../common/NoResults';
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
+import { DataType, UniqueAndSetData } from '../../types';
 
-const UniqueItemsList = () => {
+const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
 
-    const state = useLoadContent('uniqueAndSet');
-    const content = state.content;
+    const state = useLoadContent(dataType);
+    const content = state.content as UniqueAndSetData;
 
     const screenWidth = useScreenWidth();
     const isLargeScreen = screenWidth > 767;
@@ -26,7 +27,9 @@ const UniqueItemsList = () => {
     const location = useLocation();
     const [searchQuery, setSearchQuery] = useState('');
 
-    if (!content) return <Loading />;
+    if (!content) {
+        return <Loading dataType={dataType} />
+    };
 
     const filteredUniqueItems = Object.values(content.content.uniqueItems).filter(uniqueItem => {
         const nameMatch = uniqueItem.name.toLowerCase().includes(searchQuery.toLowerCase());
@@ -86,20 +89,40 @@ const UniqueItemsList = () => {
                                                 alt={uniqueItem.name}
                                             />
                                             <div style={{ marginTop: '-15px' }}>
-                                                <ImageTitle>{formatText(uniqueItem.name, location.pathname, searchQuery)}</ImageTitle>
-                                                <ImageSubtitle>{formatText(uniqueItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                <ImageTitle>
+                                                    {formatText({
+                                                        text: uniqueItem.name,
+                                                        currentPath: location.pathname,
+                                                        searchQuery: searchQuery
+                                                    })}
+                                                </ImageTitle>
+                                                <ImageSubtitle>
+                                                    {formatText({
+                                                        text: uniqueItem.type,
+                                                        currentPath: location.pathname,
+                                                        searchQuery: searchQuery
+                                                    })}
+                                                </ImageSubtitle>
                                                 <div style={{ fontSize: '0.70em', marginTop: '3px', color: theme.color.white }}>
-                                                    {!isLargeScreen && formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}
+                                                    {!isLargeScreen && formatText({
+                                                        text: uniqueItem.category.split(' ').slice(0, 2).join(' '),
+                                                        currentPath: location.pathname,
+                                                        searchQuery: searchQuery
+                                                    })}
                                                 </div>
                                             </div>
                                         </RowHeader>
 
                                         {isLargeScreen && (
                                             <TableCell>
-                                                {formatText(uniqueItem.category.split(' ').slice(0, 2).join(' '), location.pathname, searchQuery)}
+                                                {formatText({
+                                                    text: uniqueItem.category.split(' ').slice(0, 2).join(' '),
+                                                    currentPath: location.pathname,
+                                                    searchQuery: searchQuery
+                                                })}
                                             </TableCell>
                                         )}
-                                        < TableCell >
+                                        <TableCell>
                                             {
                                                 uniqueItem.props.map((prop, propIndex, propsArray) => {
                                                     const reqLevelIndex = propsArray.findIndex(p => p.startsWith('Required Level:'));
@@ -116,7 +139,11 @@ const UniqueItemsList = () => {
                                                                     : theme.color.magic
                                                             }}
                                                         >
-                                                            {formatText(prop, location.pathname, searchQuery)}
+                                                            {formatText({
+                                                                text: prop,
+                                                                currentPath: location.pathname,
+                                                                searchQuery: searchQuery
+                                                            })}
                                                         </div>
                                                     );
                                                 })

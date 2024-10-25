@@ -4,7 +4,7 @@ import ButtonRight from "../../images/ScrollButton/button_right.webp"
 import ButtonMid from "../../images/ScrollButton/button_mid.webp"
 import ButtonBackground from "../../images/ScrollButton/button_background.png"
 
-export const ButtonBar = styled.div`
+export const ButtonBar = styled.div<{ $isVisible: boolean }>`
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         display: block;
         position: fixed;
@@ -28,7 +28,7 @@ export const ButtonBar = styled.div`
     }
 `;
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.button<{ $isVisible: boolean }>`
     width: 220px;
     color: ${({ theme }) => theme.color.gold};
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
@@ -78,7 +78,7 @@ export const StyledButton = styled.button`
     }
 `;
 
-export const ButtonWrapper = styled.div`
+export const ButtonWrapper = styled.div<{ $isVisible: boolean }>`
     position: fixed;
     bottom: 16px;
     right: 27px;

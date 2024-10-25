@@ -1,7 +1,7 @@
 import { NoResultsText, NoResultsWrapper, SpeechBubble, StyledImage } from "./styled";
 import cain from '../../images/Decard_Cain.webp'
 
-export const NoResults = ({ text }) => {
+export const NoResults = ({ text }: { text: string }) => {
     return (
         <main>
             <NoResultsWrapper>

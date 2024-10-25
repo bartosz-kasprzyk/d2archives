@@ -1,7 +1,13 @@
 import { useEffect, useState } from 'react';
+import { DataType, RuneAndRunewordData, UniqueAndSetData } from '../../types';
 
-const useLoadContent = (dataType) => {
-    const [state, setState] = useState({
+interface State<T> {
+    status: 'loading' | 'success' | 'error';
+    content: T | null;
+}
+
+const useLoadContent = (dataType: DataType) => {
+    const [state, setState] = useState<State<RuneAndRunewordData | UniqueAndSetData>>({
         status: 'loading',
         content: null
     });
@@ -13,12 +19,12 @@ const useLoadContent = (dataType) => {
             }
 
             try {
-                let contentModule;
+                let contentModule: { default: RuneAndRunewordData | UniqueAndSetData };
 
                 if (dataType === 'runeAndRuneword') {
-                    contentModule = await import('../config/runeAndRunewordData.json');
+                    contentModule = await import('../config/runeAndRunewordData.json') as { default: RuneAndRunewordData };
                 } else if (dataType === 'uniqueAndSet') {
-                    contentModule = await import('../config/uniqueAndSetData.json');
+                    contentModule = await import('../config/uniqueAndSetData.json') as { default: UniqueAndSetData };
                 } else {
                     throw new Error('Invalid data type');
                 }
@@ -26,7 +32,7 @@ const useLoadContent = (dataType) => {
                 setTimeout(() => {
                     setState({
                         status: 'success',
-                        content: contentModule
+                        content: contentModule.default
                     });
                 }, 800);
 

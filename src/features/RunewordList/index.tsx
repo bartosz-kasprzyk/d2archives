@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, TableWrapper, TableCellBlue } from "../../common/Table/styled";
 import { Container } from '../../common/Container';
 import { Loading } from '../../common/Loading';
@@ -10,43 +10,44 @@ import { StyledKeyword, StyledLink, StyledText } from '../../common/CommonStyles
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
 import { ClearSelectedButton, FilterContainer, FilterTitle, ResetIcon, RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer, StyledArrow } from './styled';
-import runeImages from "../../common/config/runeImages"
+import runeAssets from "../../common/config/runeAssets"
 import arrow from '../../images/UI/arrow.png'
 import hoverArrow from '../../images/UI/arrow_highlight.png'
 import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
+import { DataType, RuneAndRunewordData } from '../../types';
 
-const RunewordList = () => {
+const RunewordList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
 
-    const state = useLoadContent('runeAndRuneword');
-    const content = state.content;
+    const state = useLoadContent(dataType);
+    const content = state.content as RuneAndRunewordData;
 
     const screenWidth = useScreenWidth();
     const isLargeScreen = screenWidth > 767;
 
-    const rowRefs = useRef({});
+    const rowRefs = useRef<{ [key: string]: HTMLTableRowElement | null }>({});
     const location = useLocation();
     const [searchQuery, setSearchQuery] = useState('');
-    const [selectedRunes, setSelectedRunes] = useState([]);
+    const [selectedRunes, setSelectedRunes] = useState<string[]>([]);
     const [isOpen, setIsOpen] = useState(false);
     const [isHovered, setIsHovered] = useState(false);
 
     if (!content) {
-        return <Loading />;
+        return <Loading dataType={dataType} />;
     }
 
     const runewords = Object.keys(content.content.runewordsTable)
         .filter(key => key.startsWith('runeword'))
         .map(key => content.content.runewordsTable[key]);
 
-    const filteredBySearch = runewords.filter((runeword) =>
+    const filteredBySearch = runewords.filter((runeword: string[]) =>
         runeword.some((item) => item.toLowerCase().includes(searchQuery.toLowerCase()))
     );
 
     const filteredByRunes = selectedRunes.length > 0 ? filteredBySearch.filter(runeword => {
-        const runewordRunes = runeword[2].split(/\s*\+\s*/);
+        const runewordRunes: string[] = runeword[2].split(/\s*\+\s*/);
         return runewordRunes.every(rune => selectedRunes.includes(rune));
     }) : filteredBySearch;
 
@@ -56,7 +57,7 @@ const RunewordList = () => {
         setIsOpen(!isOpen);
     };
 
-    const handleRuneClick = (rune) => {
+    const handleRuneClick = (rune: string) => {
         setSelectedRunes(prev => {
             if (prev.includes(rune)) {
                 return prev.filter(r => r !== rune);
@@ -94,14 +95,14 @@ const RunewordList = () => {
                 <FilterTitle>
                     Filter by runes
                 </FilterTitle>
-                <RuneGridContainer $isOpen={isOpen}>
-                    {Object.keys(runeImages).map((runeName) => (
+                <RuneGridContainer>
+                    {Object.keys(runeAssets).map((runeName) => (
                         <RuneButton
                             key={runeName}
                             $isLargeScreen={isLargeScreen}
                             onClick={() => handleRuneClick(runeName)}>
                             <RuneButtonImage
-                                src={runeImages[runeName]}
+                                src={runeAssets[runeName].image}
                                 alt={`${runeName} Rune`}
                                 title={`${runeName} Rune`}
                                 $opacity={selectedRunes.includes(runeName) ? 1 : 0.2}
@@ -151,14 +152,26 @@ const RunewordList = () => {
                                         ref={(el) => (rowRefs.current[runeword[0]] = el)}
                                     >
                                         <RowHeader $color={theme.color.unique}>
-                                            {formatText(runeword[0], location.pathname, searchQuery)}
+                                            {formatText({
+                                                text: runeword[0],
+                                                currentPath: location.pathname,
+                                                searchQuery: searchQuery
+                                            })}
                                             {!isLargeScreen && (
                                                 <div style={{ color: theme.color.white }}>
                                                     <small>
-                                                        {formatText(runeword[2], location.pathname, searchQuery)}
+                                                        {formatText({
+                                                            text: runeword[2],
+                                                            currentPath: location.pathname,
+                                                            searchQuery: searchQuery
+                                                        })}
                                                     </small>
                                                     <div style={{ fontSize: '0.85em', paddingTop: "10px", opacity: 0.7 }}>
-                                                        {formatText(runeword[1], location.pathname, searchQuery)}
+                                                        {formatText({
+                                                            text: runeword[1],
+                                                            currentPath: location.pathname,
+                                                            searchQuery: searchQuery
+                                                        })}
                                                     </div>
                                                 </div>
 
@@ -167,18 +180,30 @@ const RunewordList = () => {
 
                                         {isLargeScreen && (
                                             <TableCell style={{ opacity: 0.7 }}>
-                                                {formatText(runeword[1], location.pathname, searchQuery)}
+                                                {formatText({
+                                                    text: runeword[1],
+                                                    currentPath: location.pathname,
+                                                    searchQuery: searchQuery
+                                                })}
                                             </TableCell>
                                         )}
 
                                         {isLargeScreen && (
                                             <TableCell>
-                                                {formatText(runeword[2], location.pathname, searchQuery)}
+                                                {formatText({
+                                                    text: runeword[2],
+                                                    currentPath: location.pathname,
+                                                    searchQuery: searchQuery
+                                                })}
                                             </TableCell>
                                         )}
 
                                         <TableCellBlue>
-                                            {formatText(runeword[3], location.pathname, searchQuery)}
+                                            {formatText({
+                                                text: runeword[3],
+                                                currentPath: location.pathname,
+                                                searchQuery: searchQuery
+                                            })}
                                         </TableCellBlue>
                                     </TableRow>
                                 ))}

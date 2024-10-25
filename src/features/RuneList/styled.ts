@@ -74,7 +74,7 @@ export const RuneButton = styled.button`
     }
 `;
 
-export const RuneButtonImage = styled.img`
+export const RuneButtonImage = styled.img<{ $opacity?: number }>`
     width: 100%;
     height: 60%;
     object-fit: cover;

@@ -1,231 +1,231 @@
 {
     "content": {
         "runesTable": {
-            "row1": [
+            "rune1": [
                 "El",
                 "-",
                 "Weapon: +50 Attack Rating, +1 Light Radius\nHelmet/Armor: +15 Defense, +1 Light Radius\nShield: +15 Defense, +1 Light Radius",
                 "Required Character Level: 11",
                 "Req Clvl: 11"
             ],
-            "row2": [
+            "rune2": [
                 "Eld",
                 "El",
                 "Weapon: +75% Damage, +50 Attack Rating against Undead\nHelmet/Armor: 15% Slower Stamina Drain\nShield: 7% Increased Chance of Blocking",
                 "Required Character Level: 11",
                 "Req Clvl: 11"
             ],
-            "row3": [
+            "rune3": [
                 "Tir",
                 "Eld",
                 "Weapon: +2 Mana After Each Kill\nHelmet/Armor: +2 Mana After Each Kill\nShield: +2 Mana After Each Kill",
                 "Required Character Level: 13",
                 "Req Clvl: 13"
             ],
-            "row4": [
+            "rune4": [
                 "Nef",
                 "Tir",
                 "Weapon: Knockback\nHelmet/Armor: +30 Defense vs. Missile\nShield: +30 Defense vs. Missile",
                 "Required Character Level: 13",
                 "Req Clvl: 13"
             ],
-            "row5": [
+            "rune5": [
                 "Eth",
                 "Nef",
                 "Weapon: -25% Target Defense\nHelmet/Armor: Regenerate Mana 15%\nShield: Regenerate Mana 15%",
                 "Required Character Level: 15",
                 "Req Clvl: 15"
             ],
-            "row6": [
+            "rune6": [
                 "Ith",
                 "Eth",
                 "Weapon: +9 Maximum Damage\nHelmet/Armor: 15% Damage Taken Goes to Mana\nShield: 15% Damage Taken Goes to Mana",
                 "Required Character Level: 15",
                 "Req Clvl: 15"
             ],
-            "row7": [
+            "rune7": [
                 "Tal",
                 "Ith",
                 "Weapon: +75 Poison Damage over 5 Seconds\nHelmet/Armor: Poison Resist +30%\nShield: Poison Resist +35%",
                 "Required Character Level: 17",
                 "Req Clvl: 17"
             ],
-            "row8": [
+            "rune8": [
                 "Ral",
                 "Tal",
                 "Weapon: 5-30 Fire Damage\nHelmet/Armor: Fire Resist +30%\nShield: Fire Resist +35%",
                 "Required Character Level: 19",
                 "Req Clvl: 19"
             ],
-            "row9": [
+            "rune9": [
                 "Ort",
                 "Ral",
                 "Weapon: 1-50 Lightning Damage\nHelmet/Armor: Lightning Resist +30%\nShield: Lightning Resist +35%",
                 "Required Character Level: 21",
                 "Req Clvl: 21"
             ],
-            "row10": [
+            "rune10": [
                 "Thul",
                 "Ort",
                 "Weapon: 3-14 Cold Damage\nHelmet/Armor: Cold Resist +30%\nShield: Cold Resist +35%",
                 "Required Character Level: 23",
                 "Req Clvl: 23"
             ],
-            "row11": [
+            "rune11": [
                 "Amn",
                 "Thul",
                 "Weapon: 7% Life Stolen per hit\nHelmet/Armor: Attacker Takes Damage of 14\nShield: Attacker Takes Damage of 14",
                 "Required Character Level: 25",
                 "Req Clvl: 25"
             ],
-            "row12": [
+            "rune12": [
                 "Sol",
                 "Amn",
                 "Weapon: +9 Minimum Damage\nHelmet/Armor: Damage Reduced by 7\nShield: Damage Reduced by 7",
                 "Required Character Level: 27",
                 "Req Clvl: 27"
             ],
-            "row13": [
+            "rune13": [
                 "Shael",
                 "Sol",
                 "Weapon: +20% Increased Attack Speed\nHelmet/Armor: +20% Faster Hit Recovery\nShield: 20% Faster Block Rate",
                 "Required Character Level: 29",
                 "Req Clvl: 29"
             ],
-            "row14": [
+            "rune14": [
                 "Dol",
                 "Shael",
                 "Weapon: Hit Causes Monster to Flee 25%\nHelmet/Armor: Replenish Life +7\nShield: Replenish Life +7",
                 "Required Character Level: 31",
                 "Req Clvl: 31"
             ],
-            "row15": [
+            "rune15": [
                 "Hel",
                 "Dol",
                 "Weapon: Requirements -20%\nHelmet/Armor: Requirements -15%\nShield: Requirements -15%",
                 "-",
                 "-"
             ],
-            "row16": [
+            "rune16": [
                 "Io",
                 "Hel",
                 "Weapon: +10 Vitality\nHelmet/Armor: +10 Vitality\nShield: +10 Vitality",
                 "Required Character Level: 35",
                 "Req Clvl: 35"
             ],
-            "row17": [
+            "rune17": [
                 "Lum",
                 "Io",
                 "Weapon: +10 Energy\nHelmet/Armor: +10 Energy\nShield: +10 Energy",
                 "Required Character Level: 37",
                 "Req Clvl: 37"
             ],
-            "row18": [
+            "rune18": [
                 "Ko",
                 "Lum",
                 "Weapon: +10 Dexterity\nHelmet/Armor: +10 Dexterity\nShield: +10 Dexterity",
                 "Required Character Level: 39",
                 "Req Clvl: 39"
             ],
-            "row19": [
+            "rune19": [
                 "Fal",
                 "Ko",
                 "Weapon: +10 Strength\nHelmet/Armor: +10 Strength\nShield: +10 Strength",
                 "Required Character Level: 41",
                 "Req Clvl: 41"
             ],
-            "row20": [
+            "rune20": [
                 "Lem",
                 "Fal",
                 "Weapon: 75% Extra Gold From Monsters\nHelmet/Armor: 50% Extra Gold From Monsters\nShield: 50% Extra Gold From Monsters",
                 "Required Character Level: 43",
                 "Req Clvl: 43"
             ],
-            "row21": [
+            "rune21": [
                 "Pul",
                 "Lem",
                 "Weapon: +75% Damage, +100 Attack Rating against Demons\nHelmet/Armor: 30% Enhanced Defense\nShield: 30% Enhanced Defense",
                 "Required Character Level: 45",
                 "Req Clvl: 45"
             ],
-            "row22": [
+            "rune22": [
                 "Um",
                 "Pul",
                 "Weapon: 25% Chance of Open Wounds\nHelmet/Armor: All Resistances +15\nShield: All Resistances +22",
                 "Required Character Level: 47",
                 "Req Clvl: 47"
             ],
-            "row23": [
+            "rune23": [
                 "Mal",
                 "Um",
                 "Weapon: Prevent Monster Heal\nHelmet/Armor: Magic Damage Reduced by 7\nShield: Magic Damage Reduced by 7",
                 "Required Character Level: 49",
                 "Req Clvl: 49"
             ],
-            "row24": [
+            "rune24": [
                 "Ist",
                 "Mal",
                 "Weapon: 30% Better Chance of Magic Items\nHelmet/Armor: 25% Better Chance of Magic Items\nShield: 25% Better Chance of Magic Items",
                 "Required Character Level: 51",
                 "Req Clvl: 51"
             ],
-            "row25": [
+            "rune25": [
                 "Gul",
                 "Ist",
                 "Weapon: 20% Bonus to Attack Rating\nHelmet/Armor: +5% Maximum Poison Resist\nShield: +5% Maximum Poison Resist",
                 "Required Character Level: 53",
                 "Req Clvl: 53"
             ],
-            "row26": [
+            "rune26": [
                 "Vex",
                 "Gul",
                 "Weapon: 7% Mana Stolen per hit\nHelmet/Armor: +5% Maximum Fire Resist\nShield: +5% Maximum Fire Resist",
                 "Required Character Level: 55",
                 "Req Clvl: 55"
             ],
-            "row27": [
+            "rune27": [
                 "Ohm",
                 "Vex",
                 "Weapon: 50% Enhanced Damage\nHelmet/Armor: +5% Maximum Cold Resist\nShield: +5% Maximum Cold Resist",
                 "Required Character Level: 57",
                 "Req Clvl: 57"
             ],
-            "row28": [
+            "rune28": [
                 "Lo",
                 "Ohm",
                 "Weapon: 20% Deadly Strike\nHelmet/Armor: +5% Maximum Lightning Resist\nShield: +5% Maximum Lightning Resist",
                 "Required Character Level: 59",
                 "Req Clvl: 59"
             ],
-            "row29": [
+            "rune29": [
                 "Sur",
                 "Lo",
                 "Weapon: Hit Blinds Target +1\nHelmet/Armor: Increase Maximum Mana 5%\nShield: +50 Mana",
                 "Required Character Level: 61",
                 "Req Clvl: 61"
             ],
-            "row30": [
+            "rune30": [
                 "Ber",
                 "Sur",
                 "Weapon: 20% Chance of Crushing Blow\nHelmet/Armor: Damage Reduced by 8%\nShield: Damage Reduced by 8%",
                 "Required Character Level: 63",
                 "Req Clvl: 63"
             ],
-            "row31": [
+            "rune31": [
                 "Jah",
                 "Ber",
                 "Weapon: Ignore Target's Defense\nHelmet/Armor: Increase Maximum Life 5%\nShield: +50 Life",
                 "Required Character Level: 65",
                 "Req Clvl: 65"
             ],
-            "row32": [
+            "rune32": [
                 "Cham",
                 "Jah",
                 "Weapon: Freezes Target +3\nHelmet/Armor: Cannot be Frozen\nShield: Cannot be Frozen",
                 "Required Character Level: 67",
                 "Req Clvl: 67"
             ],
-            "row33": [
+            "rune33": [
                 "Zod",
                 "Cham",
                 "Weapon: Indestructible\nHelmet/Armor: Indestructible\nShield: Indestructible",

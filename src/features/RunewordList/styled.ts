@@ -3,7 +3,7 @@ import Backdrop from '../../images/ValueBox/box_background.webp'
 import Frame from '../../images/UI/frame.png'
 import { ReactComponent as Reset } from "../../images/UI/Reset.svg";
 
-export const FilterContainer = styled.div`
+export const FilterContainer = styled.div<{ $isOpen: boolean }>`
     position: fixed;
     top: 19%;
     left: ${({ $isOpen }) => ($isOpen ? '-10px' : '-175px')};
@@ -47,7 +47,7 @@ export const RuneGridContainer = styled.div`
     }
 `;
 
-export const StyledArrow = styled.img`
+export const StyledArrow = styled.img<{ $isOpen: boolean }>`
     position: absolute;
     right: ${({ $isOpen }) => ($isOpen ? '-15px' : '-29px')};
     top: 45%;
@@ -72,7 +72,7 @@ export const FilterTitle = styled.span`
     }
 `;
 
-export const RuneButton = styled.button`
+export const RuneButton = styled.button<{ $isLargeScreen: boolean }>`
     background: none;
     border: none;
     padding: 5px;
@@ -105,12 +105,12 @@ export const RuneButton = styled.button`
     }
 `;
 
-export const RuneButtonImage = styled.img`
+export const RuneButtonImage = styled.img<{ $opacity: number }>`
     width: 100%;
     height: 60%;
     object-fit: cover;
     display: block;
-    opacity: ${({ $opacity }) => $opacity || 'inherit'};
+    opacity: ${({ $opacity }) => $opacity};
 
     ${({ $opacity }) => $opacity === 1 && `
         animation: goldenSheen 1s linear;
@@ -129,13 +129,13 @@ export const RuneButtonImage = styled.img`
     }
 `;
 
-export const RuneButtonText = styled.div`
+export const RuneButtonText = styled.div<{ $opacity: number }>`
     font-family: 'AvQest', sans-serif;
     font-size: 13px;
     color: ${({ theme }) => theme.color.rune};
     text-align: center;
     margin-top: 5px;
-    opacity: ${({ $opacity }) => $opacity || 'inherit'};
+    opacity: ${({ $opacity }) => $opacity};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         margin-top: 2px;

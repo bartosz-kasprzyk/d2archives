@@ -63,7 +63,7 @@ export const LogoIcon2 = styled.img`
     }
 `;
 
-export const StyledCorner = styled.div`
+export const StyledCorner = styled.div<{ $position?: string }>`
     position: absolute;
     top: 20px;
     ${({ $position = 'right' }) =>

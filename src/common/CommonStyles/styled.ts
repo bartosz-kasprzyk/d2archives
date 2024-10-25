@@ -23,7 +23,7 @@ export const StyledLink = styled(Link)`
     }
 `;
 
-export const StyledKeyword = styled.span`
+export const StyledKeyword = styled.span<{ $color?: string }>`
     color: ${({ $color }) => $color || 'inherit'};
     font-weight: 700;
 `;

@@ -14,26 +14,27 @@ import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
+import { DataType, UniqueAndSetData } from '../../types';
 
-const SetItemsList = () => {
+const SetItemsList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
 
-    const state = useLoadContent('uniqueAndSet');
-    const content = state.content;
+    const state = useLoadContent(dataType);
+    const content = state.content as UniqueAndSetData;
 
     const screenWidth = useScreenWidth();
     const isEnoughSpace = screenWidth > 1322;
     const isLargeScreen = screenWidth > 767;
 
-    const categoryRefs = useRef({});
-    const itemRefs = useRef({});
+    const categoryRefs = useRef<{ [key: string]: HTMLTableRowElement | null }>({});
+    const itemRefs = useRef<{ [key: string]: HTMLTableRowElement | null }>({});
     const location = useLocation();
-    const [highlightedRow, setHighlightedRow] = useState(null);
-    const [highlightedCategory, setHighlightedCategory] = useState(null);
+    const [highlightedRow, setHighlightedRow] = useState<string | null>(null);
+    const [highlightedCategory, setHighlightedCategory] = useState<string | null>(null);
 
     const [searchQuery, setSearchQuery] = useState('');
 
-    const scrollToSet = (categoryName) => {
+    const scrollToSet = (categoryName: string) => {
         const targetRow = categoryRefs.current[categoryName];
 
         if (targetRow) {
@@ -50,7 +51,7 @@ const SetItemsList = () => {
     };
 
 
-    const scrollToSetItem = (itemName) => {
+    const scrollToSetItem = (itemName: string) => {
         const targetRow = itemRefs.current[itemName];
 
         if (targetRow) {
@@ -67,8 +68,8 @@ const SetItemsList = () => {
         }
     };
 
-    if (!content || !content.content || !content.content.setItems) {
-        return <Loading />;
+    if (!content) {
+        return <Loading dataType={dataType} />;
     }
 
     const filteredSetItems = Object.values(content.content.setItems).filter(setItem => {
@@ -80,7 +81,7 @@ const SetItemsList = () => {
         return nameMatch || typeMatch || categoryMatch || propsMatch;
     });
 
-    const groupedItems = filteredSetItems.reduce((acc, item) => {
+    const groupedItems = filteredSetItems.reduce<{ [key: string]: typeof filteredSetItems }>((acc, item) => {
         const category = item.category;
         if (!acc[category]) {
             acc[category] = [];
@@ -159,7 +160,7 @@ const SetItemsList = () => {
                                             const imageKey = setItem.image
                                                 .replace(/^\/images\//, '')
                                                 .replace(/\.(png|jpg|gif|jpeg)$/, '');
-                                            const imageSrc = images[imageKey] || '/default_image.png';
+                                            const imageSrc = images[imageKey];
 
                                             return (
                                                 <React.Fragment key={setItem.name}>
@@ -173,8 +174,20 @@ const SetItemsList = () => {
                                                         >
                                                             <StyledBigImage src={imageSrc} alt={setItem.name} />
                                                             <div style={{ marginTop: '-15px' }}>
-                                                                <ImageTitle>{formatText(setItem.name, location.pathname, searchQuery)}</ImageTitle>
-                                                                <ImageSubtitle>{formatText(setItem.type, location.pathname, searchQuery)}</ImageSubtitle>
+                                                                <ImageTitle>
+                                                                    {formatText({
+                                                                        text: setItem.name,
+                                                                        currentPath: location.pathname,
+                                                                        searchQuery: searchQuery
+                                                                    })}
+                                                                </ImageTitle>
+                                                                <ImageSubtitle>
+                                                                    {formatText({
+                                                                        text: setItem.type,
+                                                                        currentPath: location.pathname,
+                                                                        searchQuery: searchQuery
+                                                                    })}
+                                                                </ImageSubtitle>
                                                             </div>
                                                         </RowHeader>
                                                         <TableCell $highlight={highlightedRow === setItem.name}>
@@ -196,7 +209,11 @@ const SetItemsList = () => {
                                                                                     : theme.color.magic,
                                                                         }}
                                                                     >
-                                                                        {formatText(prop, location.pathname, searchQuery)}
+                                                                        {formatText({
+                                                                            text: prop,
+                                                                            currentPath: location.pathname,
+                                                                            searchQuery: searchQuery
+                                                                        })}
                                                                     </div>
                                                                 );
                                                             })}
@@ -208,7 +225,13 @@ const SetItemsList = () => {
                                                                         <BonusListTitle>Partial Set Bonus:</BonusListTitle>
                                                                         <BonusList>
                                                                             {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                                <BonusListItem key={i}>
+                                                                                    {formatText({
+                                                                                        text: bonus,
+                                                                                        currentPath: location.pathname,
+                                                                                        searchQuery: searchQuery
+                                                                                    })}
+                                                                                </BonusListItem>
                                                                             ))}
                                                                         </BonusList>
                                                                     </div>
@@ -218,7 +241,13 @@ const SetItemsList = () => {
                                                                     <BonusListTitle>Full Set Bonus:</BonusListTitle>
                                                                     <BonusList>
                                                                         {bonuses["Full Set Bonus"]?.map((bonus, i) => (
-                                                                            <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                            <BonusListItem key={i}>
+                                                                                {formatText({
+                                                                                    text: bonus,
+                                                                                    currentPath: location.pathname,
+                                                                                    searchQuery: searchQuery
+                                                                                })}
+                                                                            </BonusListItem>
                                                                         ))}
                                                                     </BonusList>
                                                                 </div>
@@ -236,7 +265,13 @@ const SetItemsList = () => {
                                                                         <BonusListTitle>Partial Set Bonus:</BonusListTitle>
                                                                         <BonusList>
                                                                             {bonuses["Partial Set Bonus"]?.map((bonus, i) => (
-                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                                <BonusListItem key={i}>
+                                                                                    {formatText({
+                                                                                        text: bonus,
+                                                                                        currentPath: location.pathname,
+                                                                                        searchQuery: searchQuery
+                                                                                    })}
+                                                                                </BonusListItem>
                                                                             ))}
                                                                         </BonusList>
                                                                     </div>
@@ -244,7 +279,13 @@ const SetItemsList = () => {
                                                                         <BonusListTitle>Full Set Bonus:</BonusListTitle>
                                                                         <BonusList>
                                                                             {bonuses["Full Set Bonus"]?.map((bonus, i) => (
-                                                                                <BonusListItem key={i}>{formatText(bonus, location.pathname, searchQuery)}</BonusListItem>
+                                                                                <BonusListItem key={i}>
+                                                                                    {formatText({
+                                                                                        text: bonus,
+                                                                                        currentPath: location.pathname,
+                                                                                        searchQuery: searchQuery
+                                                                                    })}
+                                                                                </BonusListItem>
                                                                             ))}
                                                                         </BonusList>
                                                                     </div>

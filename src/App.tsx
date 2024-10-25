@@ -5,14 +5,20 @@ import RuneList from './features/RuneList';
 import RunewordList from './features/RunewordList';
 import UniqueItemsList from './features/UniqueItemsList';
 import SetItemsList from './features/SetItemsList';
-import { HashRouter, Route, Navigate, Routes } from 'react-router-dom';
+import { HashRouter, Route, Navigate, Routes, useLocation } from 'react-router-dom';
 import { toRunes, toRunewords, toSets, toUniques } from './common/config/routes';
 import { ScrollToTopButton } from './common/ScrollToTopButton';
 import github_icon from '../src/images/Icons/github_icon.png'
 import coffee_icon from '../src/images/Icons/coffee_icon.png'
 import { SlideOutLink } from './common/SlideOutLink';
+import { DataType } from './types';
 
-function ScrollToTop({ dataType }) {
+function ScrollToTop() {
+  const location = useLocation();
+  const dataType: DataType = location.pathname.includes('runewords') || location.pathname.includes('runes')
+    ? 'runeAndRuneword'
+    : 'uniqueAndSet';
+
   const state = useLoadContent(dataType);
   const status = state.status;
 

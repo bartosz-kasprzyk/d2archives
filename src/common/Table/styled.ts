@@ -20,7 +20,7 @@ export const StyledTable = styled.table`
     width: 100%;
 `;
 
-export const TableCell = styled.th`
+export const TableCell = styled.th<{ $highlight?: boolean }>`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
@@ -53,7 +53,7 @@ export const ColumnHeader = styled.th`
     }
 `;
 
-export const TableHeader = styled(ColumnHeader)`
+export const TableHeader = styled(ColumnHeader) <{ $highlight?: boolean }>`
     color: ${({ theme }) => theme.color.set};
     background: ${({ theme }) => theme.color.black.deep};
     font-size: 40px;
@@ -73,7 +73,10 @@ export const TableHeader = styled(ColumnHeader)`
     }
 `;
 
-export const RowHeader = styled.th`
+export const RowHeader = styled.th<{
+    $color?: string,
+    $highlight?: boolean
+}>`
     border: 3px solid ${({ theme }) => theme.color.black.dark};
     padding: 10px;
     text-align: center;
@@ -90,15 +93,20 @@ export const RowHeader = styled.th`
     }
 `;
 
-export const TableRow = styled.tr`
+export const TableRow = styled.tr<{
+    $index?: number,
+    $highlight?: boolean
+}>`
     font-family: 'AvQest', sans-serif;
     font-size: 17px;
     position: relative;
     z-index: 0;
     background: ${({ $index, theme }) =>
-        $index % 2 === 0
-            ? theme.color.black.medium
-            : theme.color.black.light
+        typeof $index === 'number' ? (
+            $index % 2 === 0
+                ? theme.color.black.medium
+                : theme.color.black.light
+        ) : theme.color.black.deep
     };
     background-image: url(${Backdrop});
     background-repeat: repeat;

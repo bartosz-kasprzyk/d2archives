@@ -1,6 +1,12 @@
 import { SearchBarContainer, SearchBarWrapper, SearchIcon, SearchInput, UnderlineGlow } from "./styled";
 
-export const SearchBar = ({ value, onChange, placeholder }) => (
+interface SearchBarProps {
+    placeholder: string,
+    value: string,
+    onChange: (e: React.ChangeEvent<HTMLInputElement>) => void,
+}
+
+export const SearchBar = ({ placeholder, value, onChange }: SearchBarProps) => (
     <SearchBarContainer>
         <SearchBarWrapper>
             <SearchIcon />

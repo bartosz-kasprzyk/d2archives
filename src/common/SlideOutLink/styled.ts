@@ -1,8 +1,14 @@
 import styled from "styled-components";
 
-export const ButtonContainer = styled.a`
+export const ButtonContainer = styled.a<{
+    $bottom: string,
+    $color?: string,
+    $translateX?: string,
+    $bottomPhone: string,
+    $translateXPhone?: string
+}>`
     position: fixed;
-    bottom: ${({ $bottom }) => $bottom || 'auto'};
+    bottom: ${({ $bottom }) => $bottom};
     right: -200px;
     background-color: ${({ $color }) => $color || 'inherit'};
     z-index: 9999;
@@ -26,7 +32,7 @@ export const ButtonContainer = styled.a`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        bottom: ${({ $bottomPhone }) => $bottomPhone || 'auto'};
+        bottom: ${({ $bottomPhone }) => $bottomPhone};
         right: -110px;
         height: 42px;
         width: 150px;
