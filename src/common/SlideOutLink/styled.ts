@@ -27,11 +27,11 @@ export const ButtonContainer = styled.a<{
     cursor: pointer;
 
     &:hover {
-        transform: translateX(${({ $translateX, $translateXPhone }) => $translateX || $translateXPhone});
+        transform: translateX(${({ $translateX }) => $translateX});
         filter: brightness(1.2);
     }
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         bottom: ${({ $bottomPhone }) => $bottomPhone};
         right: -110px;
         height: 42px;
@@ -40,6 +40,7 @@ export const ButtonContainer = styled.a<{
         text-decoration: underline;
 
         &:hover {
+            transform: translateX(${({ $translateXPhone }) => $translateXPhone});
             filter: brightness(1.2);
         }
     }
@@ -49,7 +50,7 @@ export const StyledIcon = styled.img`
     width: 45px;
     margin: -2px 7px 0 -11px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 25px;
         margin: -2px 7px 0 -11px;
     }

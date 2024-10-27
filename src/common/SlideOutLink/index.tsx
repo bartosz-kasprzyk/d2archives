@@ -18,10 +18,10 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
     const buttonRef = useRef<HTMLAnchorElement | null>(null);
 
     const screenWidth = useScreenWidth();
+    const isLargeScreen = screenWidth > 767;
 
     const isHoverableDevice = () => {
-        const hoverSupport = window.matchMedia('(hover: hover)').matches;
-        return hoverSupport && screenWidth > 767;
+        return window.matchMedia('(hover: hover)').matches;
     };
 
     useEffect(() => {
@@ -41,10 +41,17 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
     }, [translateXPhone]);
 
     const handleClick = (e: React.MouseEvent) => {
+        if (e.button === 1) {
+            window.open(href, '_blank');
+            return;
+        }
+
         if (!isHoverableDevice()) {
             if (translateXPhone === '0px') {
                 e.preventDefault();
-                setTranslateXPhone($translateXPhone);
+                setTimeout(() => {
+                    setTranslateXPhone($translateXPhone);
+                }, 100);
             } else {
                 window.open(href, '_blank');
             }
@@ -62,8 +69,8 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
             $bottom={$bottom}
             $bottomPhone={$bottomPhone}
             $color={$color}
-            $translateX={isHoverableDevice() ? $translateX : translateXPhone}
-            onClick={handleClick}
+            $translateX={isLargeScreen ? $translateX : $translateXPhone}
+            onMouseDown={handleClick}
         >
             <StyledIcon src={icon} />
             {text}
