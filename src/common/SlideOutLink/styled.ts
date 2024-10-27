@@ -27,22 +27,20 @@ export const ButtonContainer = styled.a<{
     cursor: pointer;
 
     &:hover {
-        transform: translateX(${({ $translateX }) => $translateX || '0px'});
+        transform: translateX(${({ $translateX, $translateXPhone }) => $translateX || $translateXPhone});
         filter: brightness(1.2);
     }
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         bottom: ${({ $bottomPhone }) => $bottomPhone};
         right: -110px;
         height: 42px;
         width: 150px;
         font-size: 15px;
-        transform: translateX(${({ $translateXPhone }) => $translateXPhone || '0px'});
         text-decoration: underline;
 
         &:hover {
             filter: brightness(1.2);
-            transform: translateX(${({ $translateXPhone }) => $translateXPhone || '0px'});
         }
     }
 `;
@@ -51,7 +49,7 @@ export const StyledIcon = styled.img`
     width: 45px;
     margin: -2px 7px 0 -11px;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
         width: 25px;
         margin: -2px 7px 0 -11px;
     }
