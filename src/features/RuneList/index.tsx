@@ -56,11 +56,20 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
         .filter(key => key.startsWith('rune'))
         .map(key => content.content.runesTable[key]);
 
-    const filteredRunes = runes.filter((row) =>
-        row.some((rune) => rune.toLowerCase().includes(searchQuery.toLowerCase()))
-    );
+    const filteredRunes = runes
+        .map((row, index) => ({
+            data: row,
+            originalIndex: index + 1
+        }))
+        .filter(({ data }) => {
+            const runeMatches = data[0].toLowerCase().includes(searchQuery.toLowerCase());
 
+            const propertiesMatch = data.slice(1).some((property) =>
+                property.toLowerCase().includes(searchQuery.toLowerCase())
+            );
 
+            return runeMatches || propertiesMatch;
+        });
 
     return (
         <Container>
@@ -107,7 +116,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                             </TableRow>
                         </thead>
                         <tbody>
-                            {filteredRunes.map((row, index) => (
+                            {filteredRunes.map(({ data: row, originalIndex }, index) => (
                                 <TableRow
                                     key={index}
                                     id={`rune-${row[0]}`}
@@ -115,7 +124,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                     $highlight={highlightedRow === row[0]}
                                     $index={index + 1}>
                                     {isLargeScreen && (
-                                        <RowHeader $color={theme.color.unique}>#{index + 1}</RowHeader>
+                                        <RowHeader $color={theme.color.unique}>#{originalIndex}</RowHeader>
                                     )}
                                     <TableCell>
                                         <RuneText>
