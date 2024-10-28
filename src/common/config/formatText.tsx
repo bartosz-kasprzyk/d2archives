@@ -1,6 +1,6 @@
 import React from 'react';
 import runeAssets from './runeAssets';
-import { CategoryText, HighlightSearch, InfoText, LadderOnlyItem, RuneText, ValueBox } from '../Table/styled';
+import { HighlightSearch, InfoText, LadderOnlyItem, RuneText, ValueBox } from '../Table/styled';
 
 interface FormatTextProps {
     text: string,
@@ -26,7 +26,7 @@ export const formatText = ({ text, currentPath, searchQuery }: FormatTextProps) 
         : null;
 
     return lines.map((line, lineIndex) => {
-        const parts = line.split(/(\*Ladder\u00A0only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Weapon:|Helmet\/Armor:|Shield:|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
+        const parts = line.split(/(\*Ladder\u00A0only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
 
         return (
             <React.Fragment key={lineIndex}>
@@ -42,12 +42,6 @@ export const formatText = ({ text, currentPath, searchQuery }: FormatTextProps) 
                             <InfoText key={partIndex}>
                                 {part}
                             </InfoText>
-                        );
-                    } else if (part === "Weapon:" || part === "Helmet/Armor:" || part === "Shield:") {
-                        return (
-                            <CategoryText key={partIndex}>
-                                {part}
-                            </CategoryText>
                         );
                     } else if ((currentPath === '/runewords' || currentPath === '/uniques' || currentPath === '/sets') && regex.test(part)) {
                         return (

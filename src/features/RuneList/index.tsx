@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText, SmallImageCounter, SmallImageContainer } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText, SmallImageCounter, SmallImageContainer, CategoryText } from "../../common/Table/styled";
 import runeAssets from '../../common/config/runeAssets';
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer } from './styled';
@@ -146,7 +146,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                         />
                                                     ))}
 
-                                                    {runeAssets[row[0]].gem && (
+                                                    {runeAssets[row[0]]?.gem && (
                                                         <StyledSmallImage
                                                             src={runeAssets[row[0]].gem?.image}
                                                             alt={runeAssets[row[0]].gem?.name}
@@ -167,7 +167,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                         />
                                                     </SmallImageContainer>
 
-                                                    {runeAssets[row[1]].gem && (
+                                                    {runeAssets[row[1]]?.gem && (
                                                         <SmallImageContainer>
                                                             <SmallImageCounter>1x</SmallImageCounter>
                                                             <StyledSmallImage
@@ -182,13 +182,35 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                         )}
                                     </TableCell>
                                     <TableCell>
+                                        <CategoryText>
+                                            Weapon:
+                                        </CategoryText>
+                                        {formatText({
+                                            text: row[1],
+                                            currentPath: location.pathname,
+                                            searchQuery: searchQuery
+                                        })}
+
+                                        <CategoryText>
+                                            Helmet/Armor:
+                                        </CategoryText>
                                         {formatText({
                                             text: row[2],
                                             currentPath: location.pathname,
                                             searchQuery: searchQuery
                                         })}
+
+                                        <CategoryText>
+                                            Shield:
+                                        </CategoryText>
+                                        {formatText({
+                                            text: row[3],
+                                            currentPath: location.pathname,
+                                            searchQuery: searchQuery
+                                        })}
+
                                         <BottomLine>
-                                            {isLargeScreen ? row[3] : row[4]}
+                                            {(isLargeScreen ? "Required Character Level: " : "Req Clvl: ") + row[4]}
                                         </BottomLine>
                                     </TableCell>
                                 </TableRow>

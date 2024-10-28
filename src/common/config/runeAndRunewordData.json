@@ -3,234 +3,234 @@
         "runesTable": {
             "rune1": [
                 "El",
-                "-",
-                "Weapon: +50 Attack Rating, +1 Light Radius\nHelmet/Armor: +15 Defense, +1 Light Radius\nShield: +15 Defense, +1 Light Radius",
-                "Required Character Level: 11",
-                "Req Clvl: 11"
+                "+50 Attack Rating, +1 Light Radius",
+                "+15 Defense, +1 Light Radius",
+                "+15 Defense, +1 Light Radius",
+                "11"
             ],
             "rune2": [
                 "Eld",
-                "El",
-                "Weapon: +75% Damage, +50 Attack Rating against Undead\nHelmet/Armor: 15% Slower Stamina Drain\nShield: 7% Increased Chance of Blocking",
-                "Required Character Level: 11",
-                "Req Clvl: 11"
+                "+75% Damage, +50 Attack Rating against Undead",
+                "15% Slower Stamina Drain",
+                "7% Increased Chance of Blocking",
+                "11"
             ],
             "rune3": [
                 "Tir",
-                "Eld",
-                "Weapon: +2 Mana After Each Kill\nHelmet/Armor: +2 Mana After Each Kill\nShield: +2 Mana After Each Kill",
-                "Required Character Level: 13",
-                "Req Clvl: 13"
+                "+2 Mana After Each Kill",
+                "+2 Mana After Each Kill",
+                "+2 Mana After Each Kill",
+                "13"
             ],
             "rune4": [
                 "Nef",
-                "Tir",
-                "Weapon: Knockback\nHelmet/Armor: +30 Defense vs. Missile\nShield: +30 Defense vs. Missile",
-                "Required Character Level: 13",
-                "Req Clvl: 13"
+                "Knockback",
+                "+30 Defense vs. Missile",
+                "+30 Defense vs. Missile",
+                "13"
             ],
             "rune5": [
                 "Eth",
-                "Nef",
-                "Weapon: -25% Target Defense\nHelmet/Armor: Regenerate Mana 15%\nShield: Regenerate Mana 15%",
-                "Required Character Level: 15",
-                "Req Clvl: 15"
+                "-25% Target Defense",
+                "Regenerate Mana 15%",
+                "Regenerate Mana 15%",
+                "15"
             ],
             "rune6": [
                 "Ith",
-                "Eth",
-                "Weapon: +9 Maximum Damage\nHelmet/Armor: 15% Damage Taken Goes to Mana\nShield: 15% Damage Taken Goes to Mana",
-                "Required Character Level: 15",
-                "Req Clvl: 15"
+                "+9 Maximum Damage",
+                "15% Damage Taken Goes to Mana",
+                "15% Damage Taken Goes to Mana",
+                "15"
             ],
             "rune7": [
                 "Tal",
-                "Ith",
-                "Weapon: +75 Poison Damage over 5 Seconds\nHelmet/Armor: Poison Resist +30%\nShield: Poison Resist +35%",
-                "Required Character Level: 17",
-                "Req Clvl: 17"
+                "+75 Poison Damage over 5 Seconds",
+                "Poison Resist +30%",
+                "Poison Resist +35%",
+                "17"
             ],
             "rune8": [
                 "Ral",
-                "Tal",
-                "Weapon: 5-30 Fire Damage\nHelmet/Armor: Fire Resist +30%\nShield: Fire Resist +35%",
-                "Required Character Level: 19",
-                "Req Clvl: 19"
+                "5-30 Fire Damage",
+                "Fire Resist +30%",
+                "Fire Resist +35%",
+                "19"
             ],
             "rune9": [
                 "Ort",
-                "Ral",
-                "Weapon: 1-50 Lightning Damage\nHelmet/Armor: Lightning Resist +30%\nShield: Lightning Resist +35%",
-                "Required Character Level: 21",
-                "Req Clvl: 21"
+                "1-50 Lightning Damage",
+                "Lightning Resist +30%",
+                "Lightning Resist +35%",
+                "21"
             ],
             "rune10": [
                 "Thul",
-                "Ort",
-                "Weapon: 3-14 Cold Damage\nHelmet/Armor: Cold Resist +30%\nShield: Cold Resist +35%",
-                "Required Character Level: 23",
-                "Req Clvl: 23"
+                "3-14 Cold Damage",
+                "Cold Resist +30%",
+                "Cold Resist +35%",
+                "23"
             ],
             "rune11": [
                 "Amn",
-                "Thul",
-                "Weapon: 7% Life Stolen per hit\nHelmet/Armor: Attacker Takes Damage of 14\nShield: Attacker Takes Damage of 14",
-                "Required Character Level: 25",
-                "Req Clvl: 25"
+                "7% Life Stolen per hit",
+                "Attacker Takes Damage of 14",
+                "Attacker Takes Damage of 14",
+                "25"
             ],
             "rune12": [
                 "Sol",
-                "Amn",
-                "Weapon: +9 Minimum Damage\nHelmet/Armor: Damage Reduced by 7\nShield: Damage Reduced by 7",
-                "Required Character Level: 27",
-                "Req Clvl: 27"
+                "+9 Minimum Damage",
+                "Damage Reduced by 7",
+                "Damage Reduced by 7",
+                "27"
             ],
             "rune13": [
                 "Shael",
-                "Sol",
-                "Weapon: +20% Increased Attack Speed\nHelmet/Armor: +20% Faster Hit Recovery\nShield: 20% Faster Block Rate",
-                "Required Character Level: 29",
-                "Req Clvl: 29"
+                "+20% Increased Attack Speed",
+                "+20% Faster Hit Recovery",
+                "20% Faster Block Rate",
+                "29"
             ],
             "rune14": [
                 "Dol",
-                "Shael",
-                "Weapon: Hit Causes Monster to Flee 25%\nHelmet/Armor: Replenish Life +7\nShield: Replenish Life +7",
-                "Required Character Level: 31",
-                "Req Clvl: 31"
+                "Hit Causes Monster to Flee 25%",
+                "Replenish Life +7",
+                "Replenish Life +7",
+                "31"
             ],
             "rune15": [
                 "Hel",
-                "Dol",
-                "Weapon: Requirements -20%\nHelmet/Armor: Requirements -15%\nShield: Requirements -15%",
-                "-",
+                "Requirements -20%",
+                "Requirements -15%",
+                "Requirements -15%",
                 "-"
             ],
             "rune16": [
                 "Io",
-                "Hel",
-                "Weapon: +10 Vitality\nHelmet/Armor: +10 Vitality\nShield: +10 Vitality",
-                "Required Character Level: 35",
-                "Req Clvl: 35"
+                "+10 Vitality",
+                "+10 Vitality",
+                "+10 Vitality",
+                "35"
             ],
             "rune17": [
                 "Lum",
-                "Io",
-                "Weapon: +10 Energy\nHelmet/Armor: +10 Energy\nShield: +10 Energy",
-                "Required Character Level: 37",
-                "Req Clvl: 37"
+                "+10 Energy",
+                "+10 Energy",
+                "+10 Energy",
+                "37"
             ],
             "rune18": [
                 "Ko",
-                "Lum",
-                "Weapon: +10 Dexterity\nHelmet/Armor: +10 Dexterity\nShield: +10 Dexterity",
-                "Required Character Level: 39",
-                "Req Clvl: 39"
+                "+10 Dexterity",
+                "+10 Dexterity",
+                "+10 Dexterity",
+                "39"
             ],
             "rune19": [
                 "Fal",
-                "Ko",
-                "Weapon: +10 Strength\nHelmet/Armor: +10 Strength\nShield: +10 Strength",
-                "Required Character Level: 41",
-                "Req Clvl: 41"
+                "+10 Strength",
+                "+10 Strength",
+                "+10 Strength",
+                "41"
             ],
             "rune20": [
                 "Lem",
-                "Fal",
-                "Weapon: 75% Extra Gold From Monsters\nHelmet/Armor: 50% Extra Gold From Monsters\nShield: 50% Extra Gold From Monsters",
-                "Required Character Level: 43",
-                "Req Clvl: 43"
+                "75% Extra Gold From Monsters",
+                "50% Extra Gold From Monsters",
+                "50% Extra Gold From Monsters",
+                "43"
             ],
             "rune21": [
                 "Pul",
-                "Lem",
-                "Weapon: +75% Damage, +100 Attack Rating against Demons\nHelmet/Armor: 30% Enhanced Defense\nShield: 30% Enhanced Defense",
-                "Required Character Level: 45",
-                "Req Clvl: 45"
+                "+75% Damage, +100 Attack Rating against Demons",
+                "30% Enhanced Defense",
+                "30% Enhanced Defense",
+                "45"
             ],
             "rune22": [
                 "Um",
-                "Pul",
-                "Weapon: 25% Chance of Open Wounds\nHelmet/Armor: All Resistances +15\nShield: All Resistances +22",
-                "Required Character Level: 47",
-                "Req Clvl: 47"
+                "25% Chance of Open Wounds",
+                "All Resistances +15",
+                "All Resistances +22",
+                "47"
             ],
             "rune23": [
                 "Mal",
-                "Um",
-                "Weapon: Prevent Monster Heal\nHelmet/Armor: Magic Damage Reduced by 7\nShield: Magic Damage Reduced by 7",
-                "Required Character Level: 49",
-                "Req Clvl: 49"
+                "Prevent Monster Heal",
+                "Magic Damage Reduced by 7",
+                "Magic Damage Reduced by 7",
+                "49"
             ],
             "rune24": [
                 "Ist",
-                "Mal",
-                "Weapon: 30% Better Chance of Magic Items\nHelmet/Armor: 25% Better Chance of Magic Items\nShield: 25% Better Chance of Magic Items",
-                "Required Character Level: 51",
-                "Req Clvl: 51"
+                "30% Better Chance of Magic Items",
+                "25% Better Chance of Magic Items",
+                "25% Better Chance of Magic Items",
+                "51"
             ],
             "rune25": [
                 "Gul",
-                "Ist",
-                "Weapon: 20% Bonus to Attack Rating\nHelmet/Armor: +5% Maximum Poison Resist\nShield: +5% Maximum Poison Resist",
-                "Required Character Level: 53",
-                "Req Clvl: 53"
+                "20% Bonus to Attack Rating",
+                "+5% Maximum Poison Resist",
+                "+5% Maximum Poison Resist",
+                "53"
             ],
             "rune26": [
                 "Vex",
-                "Gul",
-                "Weapon: 7% Mana Stolen per hit\nHelmet/Armor: +5% Maximum Fire Resist\nShield: +5% Maximum Fire Resist",
-                "Required Character Level: 55",
-                "Req Clvl: 55"
+                "7% Mana Stolen per hit",
+                "+5% Maximum Fire Resist",
+                "+5% Maximum Fire Resist",
+                "55"
             ],
             "rune27": [
                 "Ohm",
-                "Vex",
-                "Weapon: 50% Enhanced Damage\nHelmet/Armor: +5% Maximum Cold Resist\nShield: +5% Maximum Cold Resist",
-                "Required Character Level: 57",
-                "Req Clvl: 57"
+                "50% Enhanced Damage",
+                "+5% Maximum Cold Resist",
+                "+5% Maximum Cold Resist",
+                "57"
             ],
             "rune28": [
                 "Lo",
-                "Ohm",
-                "Weapon: 20% Deadly Strike\nHelmet/Armor: +5% Maximum Lightning Resist\nShield: +5% Maximum Lightning Resist",
-                "Required Character Level: 59",
-                "Req Clvl: 59"
+                "20% Deadly Strike",
+                "+5% Maximum Lightning Resist",
+                "+5% Maximum Lightning Resist",
+                "59"
             ],
             "rune29": [
                 "Sur",
-                "Lo",
-                "Weapon: Hit Blinds Target +1\nHelmet/Armor: Increase Maximum Mana 5%\nShield: +50 Mana",
-                "Required Character Level: 61",
-                "Req Clvl: 61"
+                "Hit Blinds Target +1",
+                "Increase Maximum Mana 5%",
+                "+50 Mana",
+                "61"
             ],
             "rune30": [
                 "Ber",
-                "Sur",
-                "Weapon: 20% Chance of Crushing Blow\nHelmet/Armor: Damage Reduced by 8%\nShield: Damage Reduced by 8%",
-                "Required Character Level: 63",
-                "Req Clvl: 63"
+                "20% Chance of Crushing Blow",
+                "Damage Reduced by 8%",
+                "Damage Reduced by 8%",
+                "63"
             ],
             "rune31": [
                 "Jah",
-                "Ber",
-                "Weapon: Ignore Target's Defense\nHelmet/Armor: Increase Maximum Life 5%\nShield: +50 Life",
-                "Required Character Level: 65",
-                "Req Clvl: 65"
+                "Ignore Target's Defense",
+                "Increase Maximum Life 5%",
+                "+50 Life",
+                "65"
             ],
             "rune32": [
                 "Cham",
-                "Jah",
-                "Weapon: Freezes Target +3\nHelmet/Armor: Cannot be Frozen\nShield: Cannot be Frozen",
-                "Required Character Level: 67",
-                "Req Clvl: 67"
+                "Freezes Target +3",
+                "Cannot be Frozen",
+                "Cannot be Frozen",
+                "67"
             ],
             "rune33": [
                 "Zod",
-                "Cham",
-                "Weapon: Indestructible\nHelmet/Armor: Indestructible\nShield: Indestructible",
-                "Required Character Level: 69",
-                "Req Clvl: 69"
+                "Indestructible",
+                "Indestructible",
+                "Indestructible",
+                "69"
             ]
         },
         "runewordsTable": {

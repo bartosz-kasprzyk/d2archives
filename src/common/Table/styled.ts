@@ -264,6 +264,7 @@ export const InfoText = styled.span`
 
 export const CategoryText = styled.span`
     color: ${({ theme }) => theme.color.unique};
+    margin: 0 5px;
 `;
 
 export const LadderOnlyItem = styled.span`
