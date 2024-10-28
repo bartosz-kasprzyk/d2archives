@@ -8954,13 +8954,13 @@
                     "+8 Poison Damage Over 3 Seconds (2 set items)"
                 ],
                 "Full Set Bonus": [
-                    "+8 Poison Damage Over 3 Seconds",
-                    "20% Chance of Open Wounds",
                     "+1 to Necromancer Skill Levels",
                     "20% Bonus to Attack Rating",
+                    "+8 Poison Damage Over 3 Seconds",
+                    "20% Chance of Open Wounds",
                     "6% Mana Stolen per Hit",
-                    "Added Maximum Mana 20% (Full Set)",
-                    "Added Cannot Be Frozen (Full Set)"
+                    "Maximum Mana 20%",
+                    "Cannot Be Frozen"
                 ]
             },
             "Iratha's Finery": {
