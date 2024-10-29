@@ -30,6 +30,10 @@ export const TableCell = styled.th<{ $highlight?: boolean }>`
     ${({ $highlight, theme }) => $highlight && `
         background-color: ${theme.color.highlight};
     `}
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        padding: 5px;
+    }
 `;
 
 export const TableCellBlue = styled(TableCell)`
@@ -224,20 +228,20 @@ export const ImageSubtitle = styled.span`
 export const BottomLine = styled.div`
     color: ${({ theme }) => theme.color.grey.dark};
     border-top: 2px solid ${({ theme }) => theme.color.grey.light};
-    margin: 0 30px;
-    margin-top: 2px;
+    margin: 5px 30px 0;
     padding-top: 5px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        margin: 0 10px;
+        margin: 5px 10px 0;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        margin: 0 5px;
+        border-top: 1px solid ${({ theme }) => theme.color.grey.light};
+        margin: 5px 5px 0;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        margin: 0;
+        margin: 5px 0 0;
     }
 `;
 
@@ -264,7 +268,7 @@ export const InfoText = styled.span`
 
 export const CategoryText = styled.span`
     color: ${({ theme }) => theme.color.unique};
-    margin: 0 5px;
+    margin-right: 5px;
 `;
 
 export const LadderOnlyItem = styled.span`
