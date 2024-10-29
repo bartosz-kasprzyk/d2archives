@@ -155,7 +155,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                         />
                                                     ))}
 
-                                                    {runeAssets[row[0]]?.gem && (
+                                                    {runeAssets[row[0]].gem && (
                                                         <StyledSmallImage
                                                             src={runeAssets[row[0]].gem?.image}
                                                             alt={runeAssets[row[0]].gem?.name}
@@ -176,7 +176,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                         />
                                                     </SmallImageContainer>
 
-                                                    {runeAssets[row[1]]?.gem && (
+                                                    {runeAssets[row[0]].gem && (
                                                         <SmallImageContainer>
                                                             <SmallImageCounter>1x</SmallImageCounter>
                                                             <StyledSmallImage
