@@ -13,9 +13,9 @@ export const Header = () => {
         <StyledHeader>
             <StyledCorner $position="left" />
             <StyledCorner />
-            <LogoWrapper to={toRunes()}>
-                <LogoIcon1 src={d2r} alt="Diablo II Logo" />
-                <LogoIcon2 src={archives} alt="Archives Logo" />
+            <LogoWrapper to={toRunes()} aria-label="Diablo II and Archives Logo">
+                <LogoIcon1 src={d2r} />
+                <LogoIcon2 src={archives} />
             </LogoWrapper>
 
             {isLargeScreen && <Navigation />}
