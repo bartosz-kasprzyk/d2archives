@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/d2archives/static/css/main.843f300e.css",
-    "main.js": "/d2archives/static/js/main.bf82a5dd.js",
+    "main.js": "/d2archives/static/js/main.cc1470c8.js",
     "static/js/221.62742b4d.chunk.js": "/d2archives/static/js/221.62742b4d.chunk.js",
     "static/js/672.c86a2a6c.chunk.js": "/d2archives/static/js/672.c86a2a6c.chunk.js",
     "static/media/d2r.gif": "/d2archives/static/media/d2r.83a59ad0f92e7c0e02f4.gif",
@@ -12,6 +12,7 @@
     "static/media/d2error.gif": "/d2archives/static/media/d2error.e8dd6e82f193a0f22356.gif",
     "static/media/github_icon.png": "/d2archives/static/media/github_icon.8286257708dffa3d15c1.png",
     "static/media/flame.gif": "/d2archives/static/media/flame.985a8f510b8b7ecfb402.gif",
+    "static/media/drawingsignature.png": "/d2archives/static/media/drawingsignature.e197702d126f4888a427.png",
     "static/media/AvQest.eot": "/d2archives/static/media/AvQest.46804f0a8e867ef5d5a0.eot",
     "static/media/AvQest.ttf": "/d2archives/static/media/AvQest.84ca67df0ced0ad04f45.ttf",
     "static/media/leviathan.png": "/d2archives/static/media/leviathan.b0f278acdaa38db2b193.png",
@@ -197,10 +198,10 @@
     "static/media/box_bottom.webp": "/d2archives/static/media/box_bottom.15bc793b5736cf6b3df6.webp",
     "static/media/box_top.webp": "/d2archives/static/media/box_top.b98ce4df90bfb72eab63.webp",
     "main.843f300e.css.map": "/d2archives/static/css/main.843f300e.css.map",
-    "main.bf82a5dd.js.map": "/d2archives/static/js/main.bf82a5dd.js.map"
+    "main.cc1470c8.js.map": "/d2archives/static/js/main.cc1470c8.js.map"
   },
   "entrypoints": [
     "static/css/main.843f300e.css",
-    "static/js/main.bf82a5dd.js"
+    "static/js/main.cc1470c8.js"
   ]
 }
