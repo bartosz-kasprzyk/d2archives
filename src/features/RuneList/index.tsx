@@ -15,6 +15,7 @@ import { DataType, RuneAndRunewordData } from '../../types';
 import { useLocation } from 'react-router-dom';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
+import { Footer } from '../../common/Footer';
 
 const RuneList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
@@ -228,6 +229,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                     </StyledTable>
                 </TableWrapper>
             )}
+            <Footer />
         </Container >
     );
 };

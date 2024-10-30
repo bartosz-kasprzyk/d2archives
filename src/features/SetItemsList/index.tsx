@@ -15,6 +15,7 @@ import { useTheme } from 'styled-components';
 import { SearchBar } from '../../common/SearchBar';
 import { NoResults } from '../../common/NoResults';
 import { DataType, UniqueAndSetData } from '../../types';
+import { Footer } from '../../common/Footer';
 
 const SetItemsList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
@@ -303,6 +304,7 @@ const SetItemsList = ({ dataType }: { dataType: DataType }) => {
                     );
                 })
             )}
+            <Footer />
         </Container>
     );
 };

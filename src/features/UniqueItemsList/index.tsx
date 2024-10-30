@@ -14,6 +14,7 @@ import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
 import { DataType, UniqueAndSetData } from '../../types';
+import { Footer } from '../../common/Footer';
 
 const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
@@ -155,8 +156,8 @@ const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
                         </tbody>
                     </StyledTable>
                 </TableWrapper>
-            )
-            }
+            )}
+            <Footer />
         </Container >
     );
 };

@@ -17,6 +17,7 @@ import { useScreenWidth } from '../../common/hooks/useScreenWidth';
 import { Navigation } from '../../common/Header/Navigation';
 import { useTheme } from 'styled-components';
 import { DataType, RuneAndRunewordData } from '../../types';
+import { Footer } from '../../common/Footer';
 
 const RunewordList = ({ dataType }: { dataType: DataType }) => {
     const theme = useTheme();
@@ -123,95 +124,94 @@ const RunewordList = ({ dataType }: { dataType: DataType }) => {
                 onChange={(e) => setSearchQuery(e.target.value)}
             />
 
-            {
-                filteredByRunes.length === 0 ? (
-                    selectedRunes.length > 0 ? (
-                        <NoResults
-                            text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps you should seek out more runes to reveal greater secrets."}
-                        />
-                    ) :
-                        <NoResults
-                            text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
-                        />
-                ) : (
-                    <TableWrapper>
-                        <StyledTable>
-                            <thead>
-                                <TableRow $index={0}>
-                                    <ColumnHeader>Runeword</ColumnHeader>
-                                    {isLargeScreen && <ColumnHeader>Base</ColumnHeader>}
-                                    {isLargeScreen && <ColumnHeader>Runes</ColumnHeader>}
-                                    <ColumnHeader>Properties</ColumnHeader>
-                                </TableRow>
-                            </thead>
-                            <tbody>
-                                {filteredByRunes.map((runeword, index) => (
-                                    <TableRow
-                                        key={index}
-                                        $index={index + 1}
-                                        ref={(el) => (rowRefs.current[runeword[0]] = el)}
-                                    >
-                                        <RowHeader $color={theme.color.unique}>
-                                            {formatText({
-                                                text: runeword[0],
-                                                currentPath: location.pathname,
-                                                searchQuery: searchQuery
-                                            })}
-                                            {!isLargeScreen && (
-                                                <div style={{ color: theme.color.white }}>
-                                                    <small>
-                                                        {formatText({
-                                                            text: runeword[2],
-                                                            currentPath: location.pathname,
-                                                            searchQuery: searchQuery
-                                                        })}
-                                                    </small>
-                                                    <div style={{ fontSize: '0.85em', paddingTop: "10px", opacity: 0.7 }}>
-                                                        {formatText({
-                                                            text: runeword[1],
-                                                            currentPath: location.pathname,
-                                                            searchQuery: searchQuery
-                                                        })}
-                                                    </div>
+            {filteredByRunes.length === 0 ? (
+                selectedRunes.length > 0 ? (
+                    <NoResults
+                        text={"Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps you should seek out more runes to reveal greater secrets."}
+                    />
+                ) :
+                    <NoResults
+                        text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                    />
+            ) : (
+                <TableWrapper>
+                    <StyledTable>
+                        <thead>
+                            <TableRow $index={0}>
+                                <ColumnHeader>Runeword</ColumnHeader>
+                                {isLargeScreen && <ColumnHeader>Base</ColumnHeader>}
+                                {isLargeScreen && <ColumnHeader>Runes</ColumnHeader>}
+                                <ColumnHeader>Properties</ColumnHeader>
+                            </TableRow>
+                        </thead>
+                        <tbody>
+                            {filteredByRunes.map((runeword, index) => (
+                                <TableRow
+                                    key={index}
+                                    $index={index + 1}
+                                    ref={(el) => (rowRefs.current[runeword[0]] = el)}
+                                >
+                                    <RowHeader $color={theme.color.unique}>
+                                        {formatText({
+                                            text: runeword[0],
+                                            currentPath: location.pathname,
+                                            searchQuery: searchQuery
+                                        })}
+                                        {!isLargeScreen && (
+                                            <div style={{ color: theme.color.white }}>
+                                                <small>
+                                                    {formatText({
+                                                        text: runeword[2],
+                                                        currentPath: location.pathname,
+                                                        searchQuery: searchQuery
+                                                    })}
+                                                </small>
+                                                <div style={{ fontSize: '0.85em', paddingTop: "10px", opacity: 0.7 }}>
+                                                    {formatText({
+                                                        text: runeword[1],
+                                                        currentPath: location.pathname,
+                                                        searchQuery: searchQuery
+                                                    })}
                                                 </div>
+                                            </div>
 
-                                            )}
-                                        </RowHeader>
-
-                                        {isLargeScreen && (
-                                            <TableCell style={{ opacity: 0.7 }}>
-                                                {formatText({
-                                                    text: runeword[1],
-                                                    currentPath: location.pathname,
-                                                    searchQuery: searchQuery
-                                                })}
-                                            </TableCell>
                                         )}
+                                    </RowHeader>
 
-                                        {isLargeScreen && (
-                                            <TableCell>
-                                                {formatText({
-                                                    text: runeword[2],
-                                                    currentPath: location.pathname,
-                                                    searchQuery: searchQuery
-                                                })}
-                                            </TableCell>
-                                        )}
-
-                                        <TableCellBlue>
+                                    {isLargeScreen && (
+                                        <TableCell style={{ opacity: 0.7 }}>
                                             {formatText({
-                                                text: runeword[3],
+                                                text: runeword[1],
                                                 currentPath: location.pathname,
                                                 searchQuery: searchQuery
                                             })}
-                                        </TableCellBlue>
-                                    </TableRow>
-                                ))}
-                            </tbody>
-                        </StyledTable>
-                    </TableWrapper>
-                )
-            }
+                                        </TableCell>
+                                    )}
+
+                                    {isLargeScreen && (
+                                        <TableCell>
+                                            {formatText({
+                                                text: runeword[2],
+                                                currentPath: location.pathname,
+                                                searchQuery: searchQuery
+                                            })}
+                                        </TableCell>
+                                    )}
+
+                                    <TableCellBlue>
+                                        {formatText({
+                                            text: runeword[3],
+                                            currentPath: location.pathname,
+                                            searchQuery: searchQuery
+                                        })}
+                                    </TableCellBlue>
+                                </TableRow>
+                            ))}
+                        </tbody>
+                    </StyledTable>
+                </TableWrapper>
+            )}
+            <Footer />
         </Container >
     );
 };
