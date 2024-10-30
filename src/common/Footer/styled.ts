@@ -11,13 +11,13 @@ export const StyledFooter = styled.footer`
     font-family: 'AvQest', sans-serif;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        margin-bottom: 50px;
+        margin: 80px auto 50px;
         padding-top: 20px;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 11px;
-        margin-bottom: -10px;
+        font-size: 9px;
+        margin: 60px auto -10px;
     }
 `
 
