@@ -10,7 +10,13 @@ https://bartosz-kasprzyk.github.io/d2archives/
 
 "Stay awhile and listen!" 🧙‍♂️💬
 
-This is a fanmade website that helps you explore the world of Diablo II by providing comprehensive lists of runes, runewords, uniques, and sets along with their properties. Here, you can search and filter items to quickly find the key information you need. All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®.
+This is a fanmade website that helps you explore the world of Diablo II by providing comprehensive lists of runes, runewords, uniques, and sets along with their properties. Here, you can search and filter items to quickly find the key information you need. All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®. Here is a taste of what it looks like:
+
+![preview](/public/d2a.gif)
+
+Want to have it on your phone? It's also mobile-friendly!
+
+![preview on mobile](/public/d2a-mobile.gif)
 
 If you have any suggestions or you find any errors in the data, please contact me.
 
