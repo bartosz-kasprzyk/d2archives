@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
     display: flex;
     justify-content: center;
-    margin: -10px auto -30px;
+    margin: 100px auto -30px;
     padding: 30px 0 0;
     border-top: 2px solid ${({ theme }) => theme.color.grey.light};
     color: ${({ theme }) => theme.color.grey.dark};
@@ -54,6 +54,12 @@ export const FooterText = styled.div`
     justify-content: center;
     text-align: center;
 `
+
+export const Sup = styled.sup`
+    font-size: 9px;
+    vertical-align: super;
+    top: 3px;
+`;
 
 export const Credits = styled(FooterText)`
     margin-top: 5px;

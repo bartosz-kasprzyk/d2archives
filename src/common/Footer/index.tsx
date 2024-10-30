@@ -1,4 +1,4 @@
-import { Credits, FooterText, FooterTitle, StyledDrawingSignature, StyledFooter } from "./styled";
+import { Credits, FooterText, FooterTitle, StyledDrawingSignature, StyledFooter, Sup } from "./styled";
 import drawingSignature from "../../images/drawingsignature.png"
 
 export const Footer = () => (
@@ -12,10 +12,9 @@ export const Footer = () => (
         </a>
         <div>
             <FooterText>
-                This page is a fan project and is not affiliated with, endorsed, or approved by Blizzard Entertainment®. <br />
-                All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®. <br />
+                This page is a fan project and is not affiliated with, endorsed, or approved by Blizzard Entertainment<Sup>®</Sup>. <br />
+                All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment<Sup>®</Sup>. <br />
             </FooterText>
-
 
             <Credits>
                 <FooterTitle>Created by:</FooterTitle>
