@@ -10,7 +10,9 @@ https://bartosz-kasprzyk.github.io/d2archives/
 
 "Stay awhile and listen!" 🧙‍♂️💬
 
-Here you can find lists of all runes, runewords, uniques and sets with all their properties. Currently working on adding item filters. In the future I plan on adding a Holy Grail tracker and other cool stuff.
+This is a fanmade website that helps you explore the world of Diablo II by providing comprehensive lists of runes, runewords, uniques, and sets along with their properties. Here, you can search and filter items to quickly find the key information you need.
+
+If you have any suggestions or you find any errors in the data, please contact me.
 
 Enjoy!
 
