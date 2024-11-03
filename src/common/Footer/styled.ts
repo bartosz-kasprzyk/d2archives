@@ -59,6 +59,10 @@ export const Sup = styled.sup`
     font-size: 9px;
     vertical-align: super;
     top: 3px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        font-size: 6px;
+    }
 `;
 
 export const Credits = styled(FooterText)`
