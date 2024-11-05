@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText, SmallImageCounter, SmallImageContainer, CategoryText } from "../../common/Table/styled";
+import { StyledTable, TableCell, ColumnHeader, RowHeader, TableRow, BottomLine, TableWrapper, StyledSmallImage, RuneText, SmallImageCounter, SmallImageContainer, CategoryText, StyledMediumImage } from "../../common/Table/styled";
 import runeAssets from '../../common/config/runeAssets';
 import useLoadContent from '../../common/hooks/useLoadContent';
 import { RuneButton, RuneButtonImage, RuneButtonText, RuneGridContainer } from './styled';
@@ -135,7 +135,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                 searchQuery: searchQuery
                                             })}
                                         </RuneText>
-                                        <StyledSmallImage
+                                        <StyledMediumImage
                                             src={runeAssets[row[0]].image}
                                             alt={`${row[0]} Rune`}
                                             title={`${row[0]} Rune`}
@@ -171,9 +171,9 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
                                                             {runeAssets[row[0]].runes.length}x
                                                         </SmallImageCounter>
                                                         <StyledSmallImage
-                                                            src={runeAssets[row[0]].image}
-                                                            alt={`${row[0]} Rune`}
-                                                            title={`${row[0]} Rune`}
+                                                            src={runeAssets[runeAssets[row[0]].runes[0]].image}
+                                                            alt={`${runeAssets[row[0]].runes[0]} Rune`}
+                                                            title={`${runeAssets[row[0]].runes[0]} Rune`}
                                                         />
                                                     </SmallImageContainer>
 
