@@ -206,7 +206,7 @@ const SetItemsList = ({ dataType }: { dataType: DataType }) => {
                                                                                 : propIndex <= reqLevelIndex
                                                                                     ? isRequires
                                                                                         ? theme.color.required
-                                                                                        : theme.color.white
+                                                                                        : theme.color.white.soft
                                                                                     : theme.color.magic,
                                                                         }}
                                                                     >

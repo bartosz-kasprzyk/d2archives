@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const StyledText = styled.p`
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.color.white.soft};
     font-size: 17px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {

@@ -158,7 +158,7 @@ const RunewordList = ({ dataType }: { dataType: DataType }) => {
                                             searchQuery: searchQuery
                                         })}
                                         {!isLargeScreen && (
-                                            <div style={{ color: theme.color.white }}>
+                                            <div style={{ color: theme.color.white.soft }}>
                                                 <small>
                                                     {formatText({
                                                         text: runeword[2],

@@ -24,7 +24,7 @@ export const TableCell = styled.th<{ $highlight?: boolean }>`
     border: 3px solid #000;
     padding: 10px;
     text-align: center;
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.color.white.soft};
     transition: background-color 1s ease;
 
     ${({ $highlight, theme }) => $highlight && `
@@ -282,7 +282,7 @@ export const RuneText = styled.span`
 `;
 
 export const BonusListTitle = styled.h2`
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.color.white.soft};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         padding-top: 5px;

@@ -170,7 +170,7 @@ export const ClearSelectedButton = styled.button`
     background-repeat: repeat;
     background-size: cover;
     background-position: center center;
-    color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.color.white.soft};
     border: none;
     border-radius: 5px;
     cursor: pointer;

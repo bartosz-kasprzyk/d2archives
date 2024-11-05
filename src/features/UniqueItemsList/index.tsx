@@ -104,7 +104,7 @@ const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
                                                         searchQuery: searchQuery
                                                     })}
                                                 </ImageSubtitle>
-                                                <div style={{ fontSize: '0.70em', marginTop: '3px', color: theme.color.white }}>
+                                                <div style={{ fontSize: '0.70em', marginTop: '3px', color: theme.color.white.soft }}>
                                                     {!isLargeScreen && formatText({
                                                         text: uniqueItem.category.split(' ').slice(0, 2).join(' '),
                                                         currentPath: location.pathname,
@@ -136,7 +136,7 @@ const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
                                                                 color: propIndex <= reqLevelIndex
                                                                     ? isRequires
                                                                         ? theme.color.required
-                                                                        : theme.color.white
+                                                                        : theme.color.white.soft
                                                                     : theme.color.magic
                                                             }}
                                                         >
