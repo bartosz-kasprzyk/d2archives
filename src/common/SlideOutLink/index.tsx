@@ -5,7 +5,8 @@ import { useScreenWidth } from '../hooks/useScreenWidth';
 interface SlideOutLinkProps {
     icon: string,
     text: string,
-    href: string,
+    href?: string,
+    onClick?: () => void,
     $bottom: string,
     $bottomPhone: string,
     $color: string,
@@ -13,7 +14,7 @@ interface SlideOutLinkProps {
     $translateXPhone: string
 }
 
-export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, $translateX, $translateXPhone }: SlideOutLinkProps) => {
+export const SlideOutLink = ({ icon, text, href, onClick, $bottom, $bottomPhone, $color, $translateX, $translateXPhone }: SlideOutLinkProps) => {
     const [translateXPhone, setTranslateXPhone] = useState('0px');
     const buttonRef = useRef<HTMLAnchorElement | null>(null);
 
@@ -41,6 +42,12 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
     }, [translateXPhone]);
 
     const handleClick = (e: React.MouseEvent) => {
+        if (onClick) {
+            e.preventDefault();
+            onClick();
+            return;
+        }
+
         if (e.button === 1) {
             window.open(href, '_blank');
             return;
@@ -63,9 +70,9 @@ export const SlideOutLink = ({ icon, text, href, $bottom, $bottomPhone, $color, 
     return (
         <ButtonContainer
             ref={buttonRef}
-            href={translateXPhone !== '0px' ? href : undefined}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={!onClick && translateXPhone !== '0px' ? href : undefined}
+            target={href && "_blank"}
+            rel={href && "noopener noreferrer"}
             $bottom={$bottom}
             $bottomPhone={$bottomPhone}
             $color={$color}
