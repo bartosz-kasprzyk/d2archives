@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Header } from './common/Header';
 import useLoadContent from './common/hooks/useLoadContent';
 import RuneList from './features/RuneList';
@@ -8,10 +8,12 @@ import SetItemsList from './features/SetItemsList';
 import { HashRouter, Route, Navigate, Routes, useLocation } from 'react-router-dom';
 import { toRunes, toRunewords, toSets, toUniques } from './common/config/routes';
 import { ScrollToTopButton } from './common/ScrollToTopButton';
-import github_icon from '../src/images/Icons/github_icon.png'
-import coffee_icon from '../src/images/Icons/coffee_icon.png'
+import github_icon from '../src/images/Icons/github_icon.png';
+import coffee_icon from '../src/images/Icons/coffee_icon.png';
+import feedback_icon from '../src/images/Icons/feedback_icon.png';
 import { SlideOutLink } from './common/SlideOutLink';
 import { DataType } from './types';
+import { Form } from './common/Form';
 
 function ScrollToTop() {
   const location = useLocation();
@@ -32,6 +34,10 @@ function ScrollToTop() {
 }
 
 function App() {
+  const [isFeedbackOpen, setFeedbackOpen] = useState(false);
+
+  const toggleFeedbackForm = () => setFeedbackOpen(prev => !prev);
+
   return (
     <HashRouter>
       <Header />
@@ -51,13 +57,13 @@ function App() {
 
       <SlideOutLink
         icon={github_icon}
-        text="Follow Me"
+        text="Visit My GitHub"
         href="https://github.com/bartosz-kasprzyk"
         $bottom="280px"
         $bottomPhone="160px"
         $color="#21262D"
-        $translateX="-110px"
-        $translateXPhone="-60px"
+        $translateX="-165px"
+        $translateXPhone="-85px"
       />
       <SlideOutLink
         icon={coffee_icon}
@@ -69,6 +75,18 @@ function App() {
         $translateX="-170px"
         $translateXPhone="-90px"
       />
+      <SlideOutLink
+        icon={feedback_icon}
+        text="Give Feedback"
+        onClick={toggleFeedbackForm}
+        $bottom="120px"
+        $bottomPhone="40px"
+        $color="#1B9718"
+        $translateX="-145px"
+        $translateXPhone="-75px"
+      />
+
+      {isFeedbackOpen && <Form onClose={toggleFeedbackForm} />}
       <ScrollToTopButton />
     </HashRouter>
   )
