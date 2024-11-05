@@ -148,14 +148,26 @@ export const SmallImageCounter = styled.span`
 `;
 
 export const StyledSmallImage = styled.img`
-    width: 30px;
+    width: 35px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 25px;
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        width: 20px;
+        width: 18px;
+    }
+`;
+
+export const StyledMediumImage = styled.img`
+    width: 50px;
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
+        width: 30px;
+    }
+
+    @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
+        width: 23px;
     }
 `;
 
