@@ -133,17 +133,6 @@ export const TextArea = styled.textarea`
   &:hover:not(:focus) {
     filter: brightness(1.1);
   }
-
-  &:-webkit-autofill {
-    background: ${({ theme }) => theme.color.black.light} !important;
-    background-image: url(${Backdrop}) !important;
-    background-repeat: repeat !important;
-    background-size: cover !important;
-    background-position: center center !important;
-    background-blend-mode: overlay !important;
-    -webkit-box-shadow: 0 0 0px 1000px ${({ theme }) => theme.color.black.light} inset !important;
-    color: ${({ theme }) => theme.color.white.soft} !important;
-  }
 `;
 
 export const SubmitButtonWrapper = styled.div`
