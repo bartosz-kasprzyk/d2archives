@@ -46,21 +46,21 @@ export const ColumnHeader = styled.th`
     text-align: center;
     color: ${({ theme }) => theme.color.brown};
     background: ${({ theme }) => theme.color.black.light};
-    font-size: 20px;
+    font-size: ${({ theme }) => theme.fontSize.xl2};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 14px;
+        font-size: ${({ theme }) => theme.fontSize.l};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 11px;
+        font-size: ${({ theme }) => theme.fontSize.s};
     }
 `;
 
 export const TableHeader = styled(ColumnHeader) <{ $highlight?: boolean }>`
     color: ${({ theme }) => theme.color.set};
     background: ${({ theme }) => theme.color.black.deep};
-    font-size: 40px;
+    font-size: ${({ theme }) => theme.fontSize.xl5};
     margin: 20px 5px -10px;
     transition: filter 1s ease, transform 1s ease, background-color 1s ease;
 
@@ -69,11 +69,11 @@ export const TableHeader = styled(ColumnHeader) <{ $highlight?: boolean }>`
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        font-size: 30px;
+        font-size: ${({ theme }) => theme.fontSize.xl4};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 18px;
+        font-size: ${({ theme }) => theme.fontSize.xl};
     }
 `;
 
@@ -102,7 +102,7 @@ export const TableRow = styled.tr<{
     $highlight?: boolean
 }>`
     font-family: 'AvQest', sans-serif;
-    font-size: 17px;
+    font-size: ${({ theme }) => theme.fontSize.xl};
     position: relative;
     z-index: 0;
     background: ${({ $index, theme }) =>
@@ -124,15 +124,15 @@ export const TableRow = styled.tr<{
     `}
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        font-size: 14px;
+        font-size: ${({ theme }) => theme.fontSize.l};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 12px;
+        font-size: ${({ theme }) => theme.fontSize.s};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 7px;
+        font-size: ${({ theme }) => theme.fontSize.xxs};
     }
 `;
 
@@ -202,38 +202,33 @@ export const StyledBigImage = styled.img`
 export const ImageTitle = styled.span`
     display: block;
     text-align: center;
-    font-size: 18px;
     margin: 0;
 
-    @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        font-size: 15px;
-    }
-
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 13px;
+        font-size: ${({ theme }) => theme.fontSize.m};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 8px;
+        font-size: ${({ theme }) => theme.fontSize.xs};
     }
 `;
 
 export const ImageSubtitle = styled.span`
     display: block;
     text-align: center;
-    font-size: 15px;
+    font-size: ${({ theme }) => theme.fontSize.l};
     margin: 0;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
-        font-size: 12px;
+        font-size: ${({ theme }) => theme.fontSize.m};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 10px;
+        font-size: ${({ theme }) => theme.fontSize.xs};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 6px;
+        font-size: ${({ theme }) => theme.fontSize.xxs};
     }
 `;
 
@@ -285,7 +280,7 @@ export const CategoryText = styled.span`
 
 export const LadderOnlyItem = styled.span`
     color: ${({ theme }) => theme.color.darkGreen};
-    font-weight: bold;
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
     margin: 0 5px;
 `;
 

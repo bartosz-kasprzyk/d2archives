@@ -46,7 +46,7 @@ export const CloseButton = styled.button`
   right: 10px;
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: ${({ theme }) => theme.fontSize.xl3};
   cursor: pointer;
 `;
 
@@ -58,7 +58,7 @@ export const FormContainer = styled.form`
 export const Label = styled.label`
   font-family: 'AvQest', sans-serif;
   margin-top: 10px;
-  font-weight: bold;
+  font-weight: ${({ theme }) => theme.fontWeight.bold};
   color: ${({ theme }) => theme.color.grey.dark};
 `;
 
@@ -163,7 +163,7 @@ export const SubmitButton = styled.button`
   background-size: auto 100%, auto 100%, auto 100%;
   color: ${({ theme }) => theme.color.gold};
   border: none;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.xl};
   cursor: pointer;
   transition: filter 0.2s linear;
 
@@ -176,6 +176,6 @@ export const SubmitButton = styled.button`
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-    font-size: 15px;
+    font-size: ${({ theme }) => theme.fontSize.l};
   }
 `;

@@ -31,7 +31,7 @@ export const StyledSetList = styled.ul`
             &::before {
                 content: '◈';
                 color: ${({ theme }) => theme.color.darkGreen};
-                font-size: 10px;
+                font-size: ${({ theme }) => theme.fontSize.s};
                 position: absolute;
                 left: -15px;
                 top: 15px;
@@ -42,7 +42,7 @@ export const StyledSetList = styled.ul`
 
 export const StyledSetItemList = styled.ul`
     list-style-type: none;
-    padding-left: 18px;
+    padding-left: 25px;
 
     li {
         position: relative;
@@ -50,15 +50,10 @@ export const StyledSetItemList = styled.ul`
         &::before {
             content: '◈';
             color: ${({ theme }) => theme.color.darkGreen};
-            font-size: 10px;
+            font-size: ${({ theme }) => theme.fontSize.xs};
             position: absolute;
-            left: -15px;
-            top: 5px;
-
-            @media (max-width: ${({ theme }) => theme.breakpoint.laptop}) {
-                font-size: 8px;
-                top: 7px;
-            }
+            left: -16px;
+            top: 7px;
         }
     }
 `;
@@ -72,7 +67,7 @@ export const SetButton = styled.button`
     transition: filter 0.1s ease, transform 0.1s ease;
     color: ${({ theme }) => theme.color.set};
     font-family: 'AvQest', sans-serif;
-    font-size: 20px;
+    font-size: ${({ theme }) => theme.fontSize.xl2};
     padding: 0;
     margin: 0;
     margin-top: 15px;
@@ -92,21 +87,21 @@ export const SetButton = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.laptop}) {
-        font-size: 17px;
+        font-size: ${({ theme }) => theme.fontSize.l};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 11px;
+        font-size: ${({ theme }) => theme.fontSize.s};
     }
 `;
 
 export const SetItemButton = styled(SetButton)`
-    font-size: 13px;
+    font-size: ${({ theme }) => theme.fontSize.m};
     margin: 0;
     opacity: 0.9;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.laptop}) {
-        font-size: 11px;
+        font-size: ${({ theme }) => theme.fontSize.s};
         margin: 0 -3px;
     }
 `;

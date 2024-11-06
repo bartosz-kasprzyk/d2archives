@@ -61,13 +61,13 @@ export const StyledArrow = styled.img<{ $isOpen: boolean }>`
 export const FilterTitle = styled.span`
     display: block;
     font-family: 'AvQest', sans-serif;
-    font-size: 20px;
+    font-size: ${({ theme }) => theme.fontSize.xl2};
     padding: 4px;
     padding-bottom: 0;
     text-align: center;
     
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 18px;
+        font-size: ${({ theme }) => theme.fontSize.xl};
         padding-left: 15px;
     }
 `;
@@ -131,7 +131,7 @@ export const RuneButtonImage = styled.img<{ $opacity: number }>`
 
 export const RuneButtonText = styled.div<{ $opacity: number }>`
     font-family: 'AvQest', sans-serif;
-    font-size: 13px;
+    font-size: ${({ theme }) => theme.fontSize.m};
     color: ${({ theme }) => theme.color.rune};
     text-align: center;
     margin-top: 5px;
@@ -163,7 +163,7 @@ export const ResetIcon = styled(Reset)`
 export const ClearSelectedButton = styled.button`
     grid-column: span 3;
     font-family: 'AvQest', sans-serif;
-    font-size: 20px;
+    font-size: ${({ theme }) => theme.fontSize.xl2};
     padding: 7px;
     margin: 2px 7px;
     background-image: url(${Backdrop});
@@ -189,6 +189,6 @@ export const ClearSelectedButton = styled.button`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 16px;
+        font-size: ${({ theme }) => theme.fontSize.l};
     }
 `;

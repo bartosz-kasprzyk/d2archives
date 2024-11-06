@@ -7,7 +7,7 @@ export const StyledFooter = styled.footer`
     padding: 30px 0 0;
     border-top: 2px solid ${({ theme }) => theme.color.grey.light};
     color: ${({ theme }) => theme.color.grey.dark};
-    font-size: 12px;
+    font-size: ${({ theme }) => theme.fontSize.m};
     font-family: 'AvQest', sans-serif;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.tablet}) {
@@ -16,7 +16,7 @@ export const StyledFooter = styled.footer`
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 9px;
+        font-size: ${({ theme }) => theme.fontSize.xs};
         margin: 60px auto -10px;
     }
 `
@@ -56,12 +56,12 @@ export const FooterText = styled.div`
 `
 
 export const Sup = styled.sup`
-    font-size: 9px;
+    font-size: ${({ theme }) => theme.fontSize.xs};
     vertical-align: super;
     top: 3px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 6px;
+        font-size: ${({ theme }) => theme.fontSize.xxs};
     }
 `;
 

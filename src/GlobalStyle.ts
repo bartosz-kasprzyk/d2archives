@@ -4,7 +4,7 @@ import './fonts/AvQest/AvQest.css';
 export const GlobalStyle = createGlobalStyle`
     html {
         box-sizing: border-box;
-        font-size: 15px;
+        font-size: ${({ theme }) => theme.fontSize.l};
         line-height: 1.5;
     }
 

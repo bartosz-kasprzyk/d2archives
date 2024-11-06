@@ -17,7 +17,7 @@ export const ButtonContainer = styled.a<{
     align-items: center;
     color: ${({ theme }) => theme.color.white.soft};
     font-family: "Cookie", cursive;
-    font-size: 30px;
+    font-size: ${({ theme }) => theme.fontSize.xl4};
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
@@ -35,7 +35,7 @@ export const ButtonContainer = styled.a<{
         right: -110px;
         height: 42px;
         width: 150px;
-        font-size: 15px;
+        font-size: ${({ theme }) => theme.fontSize.l};
         text-decoration: underline;
     }
 `;

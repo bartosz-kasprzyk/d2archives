@@ -43,12 +43,12 @@ export const SpeechBubble = styled.div`
 `;
 
 export const NoResultsText = styled.p`
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSize.xl};
     color: ${({ theme }) => theme.color.silver};
     margin: 0;
 
     @media(max-width: ${({ theme }) => theme.breakpoint.phone}) { 
-        font-size: 13px;
+        font-size: ${({ theme }) => theme.fontSize.m};
     }
 `;
 

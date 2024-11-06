@@ -39,20 +39,20 @@ export const SearchInput = styled.input`
   border: none;
   outline: none;
   padding: 8px;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.xl};
   background: transparent;
   color: inherit;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
     width: 150px;
     padding: 5px;
-    font-size: 15px;
+    font-size: ${({ theme }) => theme.fontSize.l};
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
     width: 130px;
     padding: 3px;
-    font-size: 13px;
+    font-size: ${({ theme }) => theme.fontSize.m};
   }
 `;
 

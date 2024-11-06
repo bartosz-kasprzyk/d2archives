@@ -3,14 +3,14 @@ import styled from "styled-components";
 
 export const StyledText = styled.p`
     color: ${({ theme }) => theme.color.white.soft};
-    font-size: 17px;
+    font-size: ${({ theme }) => theme.fontSize.xl};
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 13px;
+        font-size: ${({ theme }) => theme.fontSize.m};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 9px;
+        font-size: ${({ theme }) => theme.fontSize.xs};
     }
 `;
 
@@ -25,5 +25,5 @@ export const StyledLink = styled(Link)`
 
 export const StyledKeyword = styled.span<{ $color?: string }>`
     color: ${({ $color }) => $color || 'inherit'};
-    font-weight: 700;
+    font-weight: ${({ theme }) => theme.fontWeight.bold};
 `;

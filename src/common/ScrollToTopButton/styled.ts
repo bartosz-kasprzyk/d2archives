@@ -33,7 +33,7 @@ export const StyledButton = styled.button<{ $isVisible: boolean }>`
     color: ${({ theme }) => theme.color.gold};
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 1);
     font-family: 'AvQest', sans-serif;
-    font-size: 18px;
+    font-size: ${({ theme }) => theme.fontSize.xl};
     padding: 10px;
     margin: 10px;
     background: 

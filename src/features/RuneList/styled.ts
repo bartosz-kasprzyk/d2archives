@@ -84,16 +84,16 @@ export const RuneButtonImage = styled.img<{ $opacity?: number }>`
 
 export const RuneButtonText = styled.div`
     font-family: 'AvQest', sans-serif;
-    font-size: 13px;
+    font-size: ${({ theme }) => theme.fontSize.m};
     color: ${({ theme }) => theme.color.rune};
     text-align: center;
     margin-top: 5px;
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
-        font-size: 11px;
+        font-size: ${({ theme }) => theme.fontSize.s};
     }
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phonePortrait}) {
-        font-size: 10px;
+        font-size: ${({ theme }) => theme.fontSize.xs};
     }
 `;
