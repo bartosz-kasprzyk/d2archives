@@ -5,7 +5,6 @@ export const ButtonContainer = styled.a<{
     $color?: string,
     $translateX?: string,
     $bottomPhone: string,
-    $translateXPhone?: string
 }>`
     position: fixed;
     bottom: ${({ $bottom }) => $bottom};
@@ -38,11 +37,6 @@ export const ButtonContainer = styled.a<{
         width: 150px;
         font-size: 15px;
         text-decoration: underline;
-
-        &:hover {
-            transform: translateX(${({ $translateXPhone }) => $translateXPhone});
-            filter: brightness(1.2);
-        }
     }
 `;
 

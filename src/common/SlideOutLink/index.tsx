@@ -15,7 +15,7 @@ interface SlideOutLinkProps {
 }
 
 export const SlideOutLink = ({ icon, text, href, onClick, $bottom, $bottomPhone, $color, $translateX, $translateXPhone }: SlideOutLinkProps) => {
-    const [translateXPhone, setTranslateXPhone] = useState('0px');
+    const [slideOutPosition, setSlideOutPosition] = useState('0px');
     const buttonRef = useRef<HTMLAnchorElement | null>(null);
 
     const screenWidth = useScreenWidth();
@@ -28,22 +28,32 @@ export const SlideOutLink = ({ icon, text, href, onClick, $bottom, $bottomPhone,
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
             if (buttonRef.current && !buttonRef.current.contains(e.target as Node)) {
-                setTranslateXPhone('0px');
+                setSlideOutPosition('0px');
             }
         };
 
-        if (translateXPhone !== '0px') {
+        if (slideOutPosition !== '0px') {
             document.addEventListener('click', handleClickOutside);
         }
 
         return () => {
             document.removeEventListener('click', handleClickOutside);
         };
-    }, [translateXPhone]);
+    }, [slideOutPosition]);
 
     const handleClick = (e: React.MouseEvent) => {
-        if (onClick) {
+        if (onClick && !isHoverableDevice()) {
             e.preventDefault();
+            if (slideOutPosition === '0px') {
+                setSlideOutPosition($translateXPhone);
+            } else {
+                onClick();
+                setSlideOutPosition('0px');
+            }
+            return;
+        }
+
+        if (onClick && isHoverableDevice()) {
             onClick();
             return;
         }
@@ -54,10 +64,10 @@ export const SlideOutLink = ({ icon, text, href, onClick, $bottom, $bottomPhone,
         }
 
         if (!isHoverableDevice()) {
-            if (translateXPhone === '0px') {
+            if (slideOutPosition === '0px') {
                 e.preventDefault();
                 setTimeout(() => {
-                    setTranslateXPhone($translateXPhone);
+                    setSlideOutPosition($translateXPhone);
                 }, 100);
             } else {
                 window.open(href, '_blank');
@@ -70,13 +80,13 @@ export const SlideOutLink = ({ icon, text, href, onClick, $bottom, $bottomPhone,
     return (
         <ButtonContainer
             ref={buttonRef}
-            href={!onClick && translateXPhone !== '0px' ? href : undefined}
+            href={!onClick && slideOutPosition !== '0px' ? href : undefined}
             target={href && "_blank"}
             rel={href && "noopener noreferrer"}
             $bottom={$bottom}
             $bottomPhone={$bottomPhone}
             $color={$color}
-            $translateX={isLargeScreen ? $translateX : $translateXPhone}
+            $translateX={isLargeScreen ? $translateX : slideOutPosition}
             onMouseDown={handleClick}
         >
             <StyledIcon src={icon} />
