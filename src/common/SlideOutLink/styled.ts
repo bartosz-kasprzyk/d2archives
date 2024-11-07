@@ -32,7 +32,7 @@ export const ButtonContainer = styled.a<{
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         bottom: ${({ $bottomPhone }) => $bottomPhone};
-        right: -110px;
+        right: -115px;
         height: 42px;
         width: 150px;
         font-size: ${({ theme }) => theme.fontSize.l};
@@ -46,6 +46,6 @@ export const StyledIcon = styled.img`
 
     @media (max-width: ${({ theme }) => theme.breakpoint.phone}) {
         width: 25px;
-        margin: -2px 7px 0 -11px;
+        margin: -2px 7px 0 -14px;
     }
 `;
