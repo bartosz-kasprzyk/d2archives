@@ -1,26 +1,30 @@
 # <img width="25px" src="/public/icon192.png" /> Diablo II Archives
 
-![logo strony](/public/share_cropped.gif)
+"Stay awhile and listen!" 🧙‍♂️💬
+
+This is a fanmade website that lets you explore Diablo II's itemization by providing comprehensive lists of runes, runewords, uniques, and sets along with their properties. Here, you can search and filter items to quickly find the key information you need. All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®.
 
 ## Demo 🎬
 
 https://bartosz-kasprzyk.github.io/d2archives/
 
-## Description
-
-"Stay awhile and listen!" 🧙‍♂️💬
-
-This is a fanmade website that helps you explore the world of Diablo II by providing comprehensive lists of runes, runewords, uniques, and sets along with their properties. Here, you can search and filter items to quickly find the key information you need. All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®. Here is a taste of what it looks like:
-
-![preview](/public/d2a.gif)
+![desktop preview](/public/d2a.gif)
 
 Want to have it on your phone? It's also mobile-friendly!
 
-![preview on mobile](/public/d2a-mobile.gif)
+![mobile preview](/public/d2a-mobile.gif)
 
-If you have any suggestions or you find any errors in the data, please contact me.
+## Features ✨
+- Detailed lists of runes, runewords, unique items, and sets
+- Search and filter options to quickly locate specific items
+- Item properties with possible value ranges (rolls) displayed in boxes to indicate variability
+- Mobile-friendly design for easy access on any device
 
-Enjoy!
+## Feedback 💬
+
+If you have any suggestions or you find any errors in the data, please contact me through the feedback form located on the right side of the page.
+
+![feedback form](/public/feedback.png)
 
 ## Technologies 🛠️
 
@@ -80,3 +84,6 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 This project was created by [Bartosz Kasprzyk](https://github.com/bartosz-kasprzyk). Please feel free to contact me if you need any further information.
 
 Thank you for visiting my website! ✨
+
+## License 📜
+This is a fanmade project and is not affiliated with or endorsed by Blizzard Entertainment®. All Diablo II assets, trademarks, and copyrights are the property of Blizzard Entertainment®.
