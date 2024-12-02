@@ -6723,8 +6723,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 37 Blizzard When You Die",
                     "Adds 24-38 Cold Damage",
-                    "+3-5% to Cold Skill Damage (varies)",
-                    "-3-5% to Enemy Cold Resistance (varies)"
+                    "+3-5% to Cold Skill Damage",
+                    "-3-5% to Enemy Cold Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6736,8 +6736,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 31 Meteor When You Die",
                     "Adds 17-45 Fire Damage",
-                    "+3-5% to Fire Skill Damage (varies)",
-                    "-3-5% to Enemy Fire Resistance (varies)"
+                    "+3-5% to Fire Skill Damage",
+                    "-3-5% to Enemy Fire Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6749,8 +6749,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 47 Chain Lightning When You Die",
                     "Adds 1-74 Lightning Damage",
-                    "+3-5% to Lightning Skill Damage (varies)",
-                    "-3-5% to Enemy Lightning Resistance (varies)"
+                    "+3-5% to Lightning Skill Damage",
+                    "-3-5% to Enemy Lightning Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6762,8 +6762,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 51 Poison Nova When You Die",
                     "+37 Poison Damage over 2 Seconds",
-                    "+3-5% to Poison Skill Damage (varies)",
-                    "-3-5% to Enemy Poison Resistance (varies)"
+                    "+3-5% to Poison Skill Damage",
+                    "-3-5% to Enemy Poison Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6775,8 +6775,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 43 Frost Nova When You Level-Up",
                     "Adds 24-38 Cold Damage",
-                    "+3-5% to Cold Skill Damage (varies)",
-                    "-3-5% to Enemy Cold Resistance (varies)"
+                    "+3-5% to Cold Skill Damage",
+                    "-3-5% to Enemy Cold Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6788,8 +6788,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 29 Blaze When You Level-Up",
                     "Adds 17-45 Fire Damage",
-                    "+3-5% to Fire Skill Damage (varies)",
-                    "-3-5% to Enemy Fire Resistance (varies)"
+                    "+3-5% to Fire Skill Damage",
+                    "-3-5% to Enemy Fire Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6801,8 +6801,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 41 Nova When You Level-Up",
                     "Adds 1-74 Lightning Damage",
-                    "+3-5% to Lightning Skill Damage (varies)",
-                    "-3-5% to Enemy Lightning Resistance (varies)"
+                    "+3-5% to Lightning Skill Damage",
+                    "-3-5% to Enemy Lightning Resistance"
                 ],
                 "category": "Unique Jewels"
             },
@@ -6814,8 +6814,8 @@
                     "Required Level: 49",
                     "100% Chance to Cast Level 23 Venom When You Level-Up",
                     "+37 Poison Damage over 2 Seconds",
-                    "+3-5% to Poison Skill Damage (varies)",
-                    "-3-5% to Enemy Poison Resistance (varies)"
+                    "+3-5% to Poison Skill Damage",
+                    "-3-5% to Enemy Poison Resistance"
                 ],
                 "category": "Unique Jewels"
             }
