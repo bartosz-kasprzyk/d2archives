@@ -1,31 +1,44 @@
-import { useEffect, useState } from 'react';
-import { Header } from './common/Header';
-import useLoadContent from './common/hooks/useLoadContent';
-import RuneList from './features/RuneList';
-import RunewordList from './features/RunewordList';
-import UniqueItemsList from './features/UniqueItemsList';
-import SetItemsList from './features/SetItemsList';
-import { HashRouter, Route, Navigate, Routes, useLocation } from 'react-router-dom';
-import { toRunes, toRunewords, toSets, toUniques } from './common/config/routes';
-import { ScrollToTopButton } from './common/ScrollToTopButton';
-import github_icon from '../src/images/Icons/github_icon.png';
-import coffee_icon from '../src/images/Icons/coffee_icon.png';
-import feedback_icon from '../src/images/Icons/feedback_icon.png';
-import { SlideOutLink } from './common/SlideOutLink';
-import { DataType } from './types';
-import { Form } from './common/Form';
+import { useEffect, useState } from "react";
+import { Header } from "./common/Header";
+import useLoadContent from "./common/hooks/useLoadContent";
+import RuneList from "./features/RuneList";
+import RunewordList from "./features/RunewordList";
+import UniqueItemsList from "./features/UniqueItemsList";
+import SetItemsList from "./features/SetItemsList";
+import {
+  HashRouter,
+  Route,
+  Navigate,
+  Routes,
+  useLocation,
+} from "react-router-dom";
+import {
+  toRunes,
+  toRunewords,
+  toSets,
+  toUniques,
+} from "./common/config/routes";
+import { ScrollToTopButton } from "./common/ScrollToTopButton";
+import github_icon from "../src/images/Icons/github_icon.png";
+import coffee_icon from "../src/images/Icons/coffee_icon.png";
+import feedback_icon from "../src/images/Icons/feedback_icon.png";
+import { SlideOutLink } from "./common/SlideOutLink";
+import { DataType } from "./types";
+import { Form } from "./common/Form";
 
 function ScrollToTop() {
   const location = useLocation();
-  const dataType: DataType = location.pathname.includes('runewords') || location.pathname.includes('runes')
-    ? 'runeAndRuneword'
-    : 'uniqueAndSet';
+  const dataType: DataType =
+    location.pathname.includes("runewords") ||
+    location.pathname.includes("runes")
+      ? "runeAndRuneword"
+      : "uniqueAndSet";
 
   const state = useLoadContent(dataType);
   const status = state.status;
 
   useEffect(() => {
-    if (status === 'loading') {
+    if (status === "loading") {
       window.scrollTo(0, 0);
     }
   }, [status]);
@@ -36,7 +49,7 @@ function ScrollToTop() {
 function App() {
   const [isFeedbackOpen, setFeedbackOpen] = useState(false);
 
-  const toggleFeedbackForm = () => setFeedbackOpen(prev => !prev);
+  const toggleFeedbackForm = () => setFeedbackOpen((prev) => !prev);
 
   return (
     <HashRouter>
@@ -44,13 +57,25 @@ function App() {
       <ScrollToTop />
 
       <Routes>
-        <Route path={toRunes()} element={<RuneList dataType="runeAndRuneword" />} />
+        <Route
+          path={toRunes()}
+          element={<RuneList dataType="runeAndRuneword" />}
+        />
 
-        <Route path={toRunewords()} element={<RunewordList dataType="runeAndRuneword" />} />
+        <Route
+          path={toRunewords()}
+          element={<RunewordList dataType="runeAndRuneword" />}
+        />
 
-        <Route path={toUniques()} element={<UniqueItemsList dataType="uniqueAndSet" />} />
+        <Route
+          path={toUniques()}
+          element={<UniqueItemsList dataType="uniqueAndSet" />}
+        />
 
-        <Route path={toSets()} element={<SetItemsList dataType="uniqueAndSet" />} />
+        <Route
+          path={toSets()}
+          element={<SetItemsList dataType="uniqueAndSet" />}
+        />
 
         <Route path="/" element={<Navigate to={toRunes()} />} />
       </Routes>
@@ -89,7 +114,7 @@ function App() {
       {isFeedbackOpen && <Form onClose={toggleFeedbackForm} />}
       <ScrollToTopButton />
     </HashRouter>
-  )
-};
+  );
+}
 
 export default App;

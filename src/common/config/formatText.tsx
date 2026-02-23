@@ -1,6 +1,6 @@
 import React from 'react';
 import runeAssets from './runeAssets';
-import { HighlightSearch, InfoText, LadderOnlyItem, RuneText, ValueBox } from '../Table/styled';
+import { HighlightSearch, InfoText, LadderOnlyItem, RotwItem, RuneText, ValueBox } from '../Table/styled';
 
 interface FormatTextProps {
     text: string,
@@ -36,6 +36,12 @@ export const formatText = ({ text, currentPath, searchQuery }: FormatTextProps) 
                             <LadderOnlyItem key={partIndex}>
                                 {part}
                             </LadderOnlyItem>
+                        );
+                    } else if (part === "New\u00A0in\u00A0RotW") {
+                        return (
+                            <RotwItem key={partIndex}>
+                                {part}
+                            </RotwItem>
                         );
                     } else if (part === "(Weapon Version)" || part === "(Shield Version)" || part === "(Armor Version)" || part === "(Sword Version)") {
                         return (
