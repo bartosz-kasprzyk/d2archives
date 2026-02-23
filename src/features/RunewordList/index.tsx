@@ -169,13 +169,13 @@ const RunewordList = ({ dataType }: { dataType: DataType }) => {
         selectedRunes.length > 0 ? (
           <NoResults
             text={
-              "Ah, it seems the runes you possess do not create anything formidable, my friend. Perhaps you should seek out more runes to reveal greater secrets."
+              "Ahh... It seems the runes you possess do not create anything formidable, my friend. Perhaps you should seek out more runes to reveal greater secrets."
             }
           />
         ) : (
           <NoResults
             text={
-              "Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."
+              "Ahh...  It seems your search has led to a dead end, my friend. Perhaps you should try a different path."
             }
           />
         )

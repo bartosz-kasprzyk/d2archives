@@ -104,7 +104,7 @@ const RuneList = ({ dataType }: { dataType: DataType }) => {
 
             {filteredRunes.length === 0 ? (
                 <NoResults
-                    text={"Ah, it seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
+                    text={"Ahh...  It seems your search has led to a dead end, my friend. Perhaps you should try a different path."}
                 />
             ) : (
                 <TableWrapper>
