@@ -14,10 +14,17 @@ export const TableWrapper = styled.div`
   justify-content: center;
 `;
 
-export const StyledTable = styled.table`
+export const StyledTable = styled.table<{ $isNew?: boolean }>`
   border-collapse: collapse;
   margin: 20px 0 100px;
   width: 100%;
+
+  ${({ $isNew }) =>
+    $isNew &&
+    `
+    box-shadow: 0px 0px 15px 2px rgba(246, 3, 255, 0.4);
+    border: 1px solid #f603ff;
+  `}
 `;
 
 export const TableCell = styled.th<{ $highlight?: boolean }>`
