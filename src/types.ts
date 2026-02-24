@@ -17,6 +17,7 @@ export interface UniqueAndSetData {
       [key: string]: {
         name: string;
         type: string;
+        isNew?: boolean;
         image: string;
         props: string[];
         category: string;

@@ -26,7 +26,7 @@ export const formatText = ({ text, currentPath, searchQuery }: FormatTextProps) 
         : null;
 
     return lines.map((line, lineIndex) => {
-        const parts = line.split(/(\*Ladder\u00A0only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Damage:\s\d+-\d+|Defense:\s\d+-\d+)/g);
+        const parts = line.split(/(\*Ladder\u00A0only\*|\(Weapon Version\)|\(Shield Version\)|\(Armor Version\)|\(Sword Version\)|(?<!Adds\s)\b\d+-\d+\b|Damage:\s\d+-\d+|Defense:\s\d+-\d+|\sor\s)/g);
 
         return (
             <React.Fragment key={lineIndex}>
@@ -42,6 +42,12 @@ export const formatText = ({ text, currentPath, searchQuery }: FormatTextProps) 
                             <RotwItem key={partIndex}>
                                 {part}
                             </RotwItem>
+                        );
+                    } else if (part === " or " ) {
+                        return (
+                            <span key={partIndex} style={{ color: "#9ea1e7" }}>
+                                {part}
+                            </span>
                         );
                     } else if (part === "(Weapon Version)" || part === "(Shield Version)" || part === "(Armor Version)" || part === "(Sword Version)") {
                         return (

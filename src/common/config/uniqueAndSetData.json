@@ -517,7 +517,7 @@
           "+10-15% to Cold Skill Damage",
           "+10-15% to Lightning Skill Damage",
           "+10-15% to Fire Skill Damage",
-          "+3 to a random Sorceress Skill",
+          "+3 to a random Sorceress Skill (Sorceress only)",
           "+10-20 Defense",
           "10-15% Regenerate Mana"
         ],
@@ -1317,6 +1317,26 @@
         ],
         "category": "Elite Unique Belts"
       },
+      "Gheed's Wager": {
+        "name": "Gheed's Wager",
+        "type": "Troll Belt",
+        "isNew": true,
+        "image": "/images/Items/heavybelt.png",
+        "props": [
+          "Defense: 112-165",
+          "Belt Size: +8 Slots",
+          "Required Strength: 151",
+          "Required Level: 71",
+          "+10-20% Faster Run/Walk",
+          "+10-20% Faster Cast Rate",
+          "+10-20% Faster Hit Recovery",
+          "-3-7% to Enemy Magic Resistance",
+          "+90-150% Enhanced Defense",
+          "All Resistances +5-15",
+          "44-75% Extra Gold from Monsters"
+        ],
+        "category": "Elite Unique Belts"
+      },
       "Nosferatu's Coil": {
         "name": "Nosferatu's Coil",
         "type": "Vampirefang Belt",
@@ -1599,6 +1619,25 @@
           "+70-100% Enhanced Defense",
           "+15-25 to Dexterity",
           "-20% Requirements"
+        ],
+        "category": "Elite Unique Boots"
+      },
+      "Wraithstep": {
+        "name": "Wraithstep",
+        "type": "Mirrored Boots",
+        "isNew": true,
+        "image": "/images/Items/lightplateboots.png",
+        "props": [
+          "Defense: 99-128",
+          "Assassin Kick Damage: 50-145",
+          "Required Strength: 163",
+          "Required Level: 67",
+          "+1 to random Warlock Skill Tree (Warlock only)",
+          "+30% Faster Run/Walk",
+          "+20% Faster Hit Recovery",
+          "+40-60 Defense",
+          "+10-15 to Dexterity",
+          "+10-15 to Energy"
         ],
         "category": "Elite Unique Boots"
       },
@@ -2289,6 +2328,26 @@
         ],
         "category": "Elite Unique Daggers"
       },
+      "Bloodpact Shard": {
+        "name": "Bloodpact Shard",
+        "type": "Mithril Point",
+        "isNew": true,
+        "image": "/images/Items/dirk_graphic.png",
+        "props": [
+          "Damage: 37–53",
+          "Required Dexterity: 98",
+          "Required Level: 67",
+          "+1 to All Skills",
+          "+30% Faster Cast Rate",
+          "+1-3 to Bind Demon (Warlock only)",
+          "+2-3 to Blood Boil (Warlock only)",
+          "+2-3 to Blood Oath (Warlock only)",
+          "Slows Target by 25%",
+          "Increase Maximum Life 10-15%",
+          "+20-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Elite Unique Daggers"
+      },
       "Fleshripper": {
         "name": "Fleshripper",
         "type": "Fanged Knife",
@@ -2740,6 +2799,25 @@
         ],
         "category": "Exceptional Unique Helms"
       },
+      "Hellwarden's Will": {
+        "name": "Hellwarden's Will",
+        "type": "Death Mask",
+        "isNew": true,
+        "image": "/images/Items/hellwarden_graphic.png",
+        "props": [
+          "Defense: 217-274",
+          "Required Strength: 55",
+          "Required Level: 50",
+          "+1 to All Skills",
+          "+20% Increased Attack Speed",
+          "+20% Faster Cast Rate",
+          "-5-8% to Enemy Magic Resistance",
+          "-5-8% to Enemy Fire Resistance",
+          "+150-215% Enhanced Defense",
+          "+4-6 to Mana after each Kill"
+        ],
+        "category": "Exceptional Unique Helms"
+      },
       "Valkyrie Wing": {
         "name": "Valkyrie Wing",
         "type": "Winged Helm",
@@ -3021,7 +3099,7 @@
       },
       "Nokozan Relic": {
         "name": "Nokozan Relic",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu2.png",
         "props": [
           "Required Level: 10",
@@ -3035,7 +3113,7 @@
       },
       "The Eye of Etlich": {
         "name": "The Eye of Etlich",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu2.png",
         "props": [
           "Required Level: 15",
@@ -3049,7 +3127,7 @@
       },
       "The Mahim-Oak Curio": {
         "name": "The Mahim-Oak Curio",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu3.png",
         "props": [
           "Required Level: 25",
@@ -3063,7 +3141,7 @@
       },
       "Saracen's Chance": {
         "name": "Saracen's Chance",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu1.png",
         "props": [
           "Required Level: 47",
@@ -3075,7 +3153,7 @@
       },
       "The Cat's Eye": {
         "name": "The Cat's Eye",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu2.png",
         "props": [
           "Required Level: 50",
@@ -3089,7 +3167,7 @@
       },
       "Crescent Moon": {
         "name": "Crescent Moon",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu3.png",
         "props": [
           "Required Level: 50",
@@ -3104,7 +3182,7 @@
       },
       "Atma's Scarab": {
         "name": "Atma's Scarab",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu2.png",
         "props": [
           "Required Level: 60",
@@ -3119,7 +3197,7 @@
       },
       "The Rising Sun": {
         "name": "The Rising Sun",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu3.png",
         "props": [
           "Required Level: 65",
@@ -3134,7 +3212,7 @@
       },
       "Highlord's Wrath": {
         "name": "Highlord's Wrath",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu3.png",
         "props": [
           "Required Level: 65",
@@ -3149,7 +3227,7 @@
       },
       "Mara's Kaleidoscope": {
         "name": "Mara's Kaleidoscope",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu1.png",
         "props": [
           "Required Level: 67",
@@ -3161,7 +3239,7 @@
       },
       "Seraph's Hymn": {
         "name": "Seraph's Hymn",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu1.png",
         "props": [
           "Required Level: 65",
@@ -3177,7 +3255,7 @@
       },
       "Metalgrid": {
         "name": "Metalgrid",
-        "type": "",
+        "type": "Amulet",
         "image": "/images/Items/amu1.png",
         "props": [
           "Required Level: 81",
@@ -3189,9 +3267,25 @@
         ],
         "category": "Unique Amulets"
       },
+      "Entropy Locket": {
+        "name": "Entropy Locket",
+        "type": "Amulet",
+        "isNew": true,
+        "image": "/images/Items/amu1.png",
+        "props": [
+          "Required Level: 54",
+          "4% Chance to cast level 19 Miasma Chain on striking",
+          "+5-10% Faster Cast Rate",
+          "+5-10% to Magic Skill Damage",
+          "Increase Maximum Mana 10-15%",
+          "Lightning Resist +25-40%",
+          "Magic Damage Reduced by 8-12"
+        ],
+        "category": "Unique Amulets"
+      },
       "Nagelring": {
         "name": "Nagelring",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring1.png",
         "props": [
           "Required Level: 7",
@@ -3204,7 +3298,7 @@
       },
       "Manald Heal": {
         "name": "Manald Heal",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring2.png",
         "props": [
           "Required Level: 15",
@@ -3217,7 +3311,7 @@
       },
       "Stone of Jordan": {
         "name": "Stone of Jordan",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring3.png",
         "props": [
           "Required Level: 29",
@@ -3230,7 +3324,7 @@
       },
       "Dwarf Star": {
         "name": "Dwarf Star",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring2.png",
         "props": [
           "Required Level: 45",
@@ -3245,7 +3339,7 @@
       },
       "Raven Frost": {
         "name": "Raven Frost",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring3.png",
         "props": [
           "Required Level: 45",
@@ -3260,7 +3354,7 @@
       },
       "Bul-Kathos' Wedding Band": {
         "name": "Bul-Kathos' Wedding Band",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring1.png",
         "props": [
           "Required Level: 58",
@@ -3273,7 +3367,7 @@
       },
       "Carrion Wind": {
         "name": "Carrion Wind",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring3.png",
         "props": [
           "Required Level: 60",
@@ -3289,7 +3383,7 @@
       },
       "Nature's Peace": {
         "name": "Nature's Peace",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring3.png",
         "props": [
           "Required Level: 69",
@@ -3303,7 +3397,7 @@
       },
       "Wisp Projector": {
         "name": "Wisp Projector",
-        "type": "",
+        "type": "Ring",
         "image": "/images/Items/ring3.png",
         "props": [
           "Required Level: 76",
@@ -3313,6 +3407,38 @@
           "Level 7 Spirit of Barbs (11 charges)",
           "Level 5 Heart of Wolverine (13 charges)",
           "Level 2 Oak Sage (15 charges)"
+        ],
+        "category": "Unique Rings"
+      },
+      "Opalvein": {
+        "name": "Opalvein",
+        "type": "Ring",
+        "isNew": true,
+        "image": "/images/Items/ring3.png",
+        "props": [
+          "Required Level: 50",
+          "2% Chance to cast level 15 Flame Wave on attack",
+          "+10% Faster Cast Rate",
+          "+3-5% to Magic/Fire/Cold/Lightning/Poison Skill Damage or +20-40% Enhanced Damage",
+          "All Resistances +6-8",
+          "+1-3 Life after each Kill",
+          "+1-3 to Mana after each Kill"
+        ],
+        "category": "Unique Rings"
+      },
+      "Sling": {
+        "name": "Sling",
+        "type": "Ring",
+        "isNew": true,
+        "image": "/images/Items/ring2.png",
+        "props": [
+          "Required Level: 50",
+          "+10% Faster Cast Rate",
+          "-3-5% to Enemy Magic Resistance",
+          "+1 to Town Portal",
+          "Slows Target by 15%",
+          "+10-15 to Energy",
+          "+10-20% Better Chance of Getting Magic Items"
         ],
         "category": "Unique Rings"
       },
@@ -5307,7 +5433,8 @@
         "type": " 2-Handed Sword",
         "image": "/images/Items/shadowfang.png",
         "props": [
-          "Damage: 16-34",
+          "One-Hand Damage: 4-18",
+          "Two-Hand Damage: 16-34",
           "Required Strength: 35",
           "Required Dexterity: 27",
           "Required Level: 12",
@@ -5325,7 +5452,8 @@
         "type": "Claymore",
         "image": "/images/Items/soulflay.png",
         "props": [
-          "Damage: 22-60",
+          "One-Hand Damage: 8-24",
+          "Two-Hand Damage: 22-60",
           "Required Strength: 47",
           "Required Level: 19",
           "+10% Increased Attack Speed",
@@ -5341,7 +5469,8 @@
         "type": "Giant Sword",
         "image": "/images/Items/kinemilsawl.png",
         "props": [
-          "Damage: 16-56",
+          "One-Hand Damage: 5-32",
+          "Two-Hand Damage: 16-56",
           "Required Strength: 56",
           "Required Dexterity: 34",
           "Required Level: 23",
@@ -5358,7 +5487,8 @@
         "type": "Bastard Sword",
         "image": "/images/Items/blacktongue.png",
         "props": [
-          "Damage: 30-44",
+          "One-Hand Damage: 10-30",
+          "Two-Hand Damage: 30-44",
           "Required Strength: 62",
           "Required Level: 26",
           "+50-60% Enhanced Damage",
@@ -5374,7 +5504,8 @@
         "type": "Flamberge",
         "image": "/images/Items/ripsaw.png",
         "props": [
-          "Damage: 22-67",
+          "One-Hand Damage: 16-45",
+          "Two-Hand Damage: 23-67",
           "Required Strength: 70",
           "Required Dexterity: 49",
           "Required Level: 26",
@@ -5390,7 +5521,8 @@
         "type": "Great Sword",
         "image": "/images/Items/thepatriarch.png",
         "props": [
-          "Damage: 50-92",
+          "One-Hand Damage: 24-44",
+          "Two-Hand Damage: 50-92",
           "Required Strength: 100",
           "Required Dexterity: 60",
           "Required Level: 29",
@@ -5553,7 +5685,8 @@
         "type": "Espandon",
         "image": "/images/Items/shadowfang.png",
         "props": [
-          "Damage: 46-120",
+          "One-Hand Damage: 20-78",
+          "Two-Hand Damage: 46-120",
           "Required Strength: 73",
           "Required Dexterity: 61",
           "Required Level: 42",
@@ -5571,7 +5704,8 @@
         "type": "Dacian Falx",
         "image": "/images/Items/soulflay.png",
         "props": [
-          "Damage: 59-158",
+          "One-Hand Damage: 29-78",
+          "Two-Hand Damage: 59-158",
           "Required Strength: 64",
           "Required Dexterity: 14",
           "Required Level: 43",
@@ -5589,7 +5723,8 @@
         "type": "Tusk Sword",
         "image": "/images/Items/kinemilsawl.png",
         "props": [
-          "Damage: 47-174",
+          "One-Hand Damage: 25-111",
+          "Two-Hand Damage: 47-174",
           "Required Strength: 104",
           "Required Dexterity: 71",
           "Required Level: 44",
@@ -5607,7 +5742,8 @@
         "type": "Gothic Sword",
         "image": "/images/Items/blacktongue.png",
         "props": [
-          "Damage: 97-180",
+          "One-Hand Damage: 35-120",
+          "Two-Hand Damage: 97-180",
           "Required Strength: 113",
           "Required Dexterity: 20",
           "Required Level: 45",
@@ -5628,7 +5764,8 @@
         "type": "Zweihander",
         "image": "/images/Items/todesfaelleflamme.png",
         "props": [
-          "Damage: 63-140",
+          "One-Hand Damage: 41-91",
+          "Two-Hand Damage: 63-140",
           "Required Strength: 125",
           "Required Dexterity: 94",
           "Required Level: 46",
@@ -5647,7 +5784,8 @@
         "type": "Executioner Sword",
         "image": "/images/Items/swordguard.png",
         "props": [
-          "Damage: 126-224",
+          "One-Hand Damage: 64-112",
+          "Two-Hand Damage: 126-224",
           "Required Strength: 85",
           "Required Dexterity: 55",
           "Required Level: 48",
@@ -5767,7 +5905,8 @@
         "type": "Balrog Blade",
         "image": "/images/Items/flamebellow.png",
         "props": [
-          "Damage: 148-401",
+          "One-Hand Damage: 40-255",
+          "Two-Hand Damage: 148-401",
           "Required Strength: 185",
           "Required Dexterity: 87",
           "Required Level: 71",
@@ -5787,7 +5926,8 @@
         "type": "Champion Sword",
         "image": "/images/Items/blacktongue.png",
         "props": [
-          "Damage: 228-390",
+          "One-Hand Damage: 97-289",
+          "Two-Hand Damage: 228-390",
           "Required Strength: 163",
           "Required Dexterity: 103",
           "Required Level: 69",
@@ -5801,12 +5941,35 @@
         ],
         "category": "Elite Unique Swords"
       },
+      "Dreadfang": {
+        "name": "Dreadfang",
+        "type": "Legend Sword",
+        "isNew": true,
+        "image": "/images/Items/dreadfang_graphic.png",
+        "props": [
+          "One-Hand Damage: 22–56",
+          "Two-Hand Damage: 50–94",
+          "Required Strength: 175",
+          "Required Dexterity: 100",
+          "Required Level: 61",
+          "33% Chance to cast level 3 Amplify Damage on striking",
+          "+33% Increased Attack Speed",
+          "+133-166% Enhanced Damage",
+          "+33% Bonus to Attack Rating",
+          "3-6% Mana stolen per hit",
+          "33% Deadly Strike",
+          "+3 to Mirrored Blades (Warlock only)",
+          "Requirements -33%"
+        ],
+        "category": "Elite Unique Swords"
+      },
       "The Grandfather": {
         "name": "The Grandfather",
         "type": "Colossus Blade",
         "image": "/images/Items/thepatriarch.png",
         "props": [
-          "Damage: 145-649",
+          "One-Hand Damage: 62-474",
+          "Two-Hand Damage: 145-649",
           "Required Strength: 189",
           "Required Dexterity: 110",
           "Required Level: 81",
@@ -6501,6 +6664,95 @@
         ],
         "category": "Elite Unique Necromancer Shrunken Heads"
       },
+      "Measured Wrath": {
+        "name": "Measured Wrath",
+        "type": "Burnt Text",
+        "isNew": true,
+        "image": "/images/Items/measured_wrath_graphic.png",
+        "props": [
+          "Defense: 87–134",
+          "Chance to Block: 28%",
+          "Required Strength: 38",
+          "Required Level: 52",
+          "5% Chance to cast level 25 Ring of Fire when struck",
+          "+1 to Warlock Skill Levels",
+          "+25% Faster Cast Rate",
+          "+1-3 to Flame Wave (Warlock only)",
+          "+1-3 to Ring of Fire (Warlock only)",
+          "+1-3 to Summon Tainted (Warlock only)",
+          "+130-180% Enhanced Defense",
+          "+10-20 to Vitality",
+          "All Resistances +20-30",
+          "+3-5 Life after each Kill"
+        ],
+        "category": "Exceptional Unique Grimoires"
+      },
+      "Ars Al'Diabolos": {
+        "name": "Ars Al'Diabolos",
+        "type": "Blasphemous Grimoire",
+        "isNew": true,
+        "image": "/images/Items/ars_aldiabolos_graphic.png",
+        "props": [
+          "Defense: 278–444",
+          "Chance to Block: 37%",
+          "Required Strength: 106",
+          "Required Level: 80",
+          "15% Chance to cast level 1 Terror when struck",
+          "+2 to Chaos Skills (Warlock only)",
+          "+25% Faster Cast Rate",
+          "+15-25% to Fire Skill Damage",
+          "+3-5 to Apocalypse (Warlock only)",
+          "+170-200% Enhanced Defense",
+          "Fire Resist +20-30%",
+          "+5-10 to Mana after each Kill",
+          "+5-10 to Light Radius"
+        ],
+        "category": "Elite Unique Grimoires"
+      },
+      "Ars Dul'Mephistos": {
+        "name": "Ars Dul'Mephistos",
+        "type": "Occult Tome",
+        "isNew": true,
+        "image": "/images/Items/tome_graphic.png",
+        "props": [
+          "Defense: 230–381",
+          "Chance to Block: 30%",
+          "Required Strength: 78",
+          "Required Level: 78",
+          "15% Chance to cast level 28 Blizzard when struck",
+          "+2 to Warlock Skill Levels",
+          "+20-30% Faster Cast Rate",
+          "+30% Faster Hit Recovery",
+          "+70-115% Enhanced Damage",
+          "+50-70% Bonus to Attack Rating",
+          "-10-20% to Enemy Magic Resistance",
+          "+140-170% Enhanced Defense",
+          "+10-25% Better Chance of Getting Magic Items"
+        ],
+        "category": "Elite Unique Grimoires"
+      },
+      "Ars Tor'Baalos": {
+        "name": "Ars Tor'Baalos",
+        "type": "Blasphemous Compendium",
+        "isNew": true,
+        "image": "/images/Items/ars_torbaalos_graphic.png",
+        "props": [
+          "Defense: 220–365",
+          "Chance to Block: 35%",
+          "Required Strength: 95",
+          "Required Level: 73",
+          "15% Chance to cast level 1 Decrepify when struck",
+          "+2 to Demon Skills (Warlock only)",
+          "+2-3 to Consume (Warlock only)",
+          "+2-4 to Blood Boil (Warlock only)",
+          "+2-3 to Engorge (Warlock only)",
+          "+2-3 to Demonic Mastery (Warlock only)",
+          "+120-150% Enhanced Defense",
+          "+12 to Life (Based on Character Level)",
+          "Damage Reduced by 5-10%"
+        ],
+        "category": "Elite Unique Grimoires"
+      },
       "Herald of Zakarum": {
         "name": "Herald of Zakarum",
         "type": "Gilded Shield",
@@ -6649,8 +6901,8 @@
         ],
         "category": "Unique Charms"
       },
-      "Flame Rift": {
-        "name": "Flame Rift",
+      "Latent Flame Rift": {
+        "name": "Latent Flame Rift",
         "type": "Grand Charm",
         "image": "/images/Items/flamerift.png",
         "props": [
@@ -6660,8 +6912,25 @@
         ],
         "category": "Unique Charms"
       },
-      "Cold Rupture": {
-        "name": "Cold Rupture",
+      "Renewed Flame Rift": {
+        "name": "Renewed Flame Rift",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/flamerift.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Fire Immunity is Sundered",
+          "Fire Resist -70%",
+          "+5-15% to Fire Skill Damage or -5-10% to Enemy Fire Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
+        ],
+        "category": "Unique Charms"
+      },
+      "Latent Cold Rupture": {
+        "name": "Latent Cold Rupture",
         "type": "Grand Charm",
         "image": "/images/Items/coldrupture.png",
         "props": [
@@ -6671,8 +6940,25 @@
         ],
         "category": "Unique Charms"
       },
-      "Crack of the Heavens": {
-        "name": "Crack of the Heavens",
+      "Renewed Cold Rupture": {
+        "name": "Renewed Cold Rupture",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/coldrupture.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Cold Immunity is Sundered",
+          "Cold Resist -70%",
+          "+5-15% to Cold Skill Damage or -5-10% to Enemy Cold Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
+        ],
+        "category": "Unique Charms"
+      },
+      "Latent Crack of the Heavens": {
+        "name": "Latent Crack of the Heavens",
         "type": "Grand Charm",
         "image": "/images/Items/crackoftheheavens.png",
         "props": [
@@ -6682,8 +6968,25 @@
         ],
         "category": "Unique Charms"
       },
-      "Rotting Fissure": {
-        "name": "Rotting Fissure",
+      "Renewed Crack of the Heavens": {
+        "name": "Renewed Crack of the Heavens",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/crackoftheheavens.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Lightning Immunity is Sundered",
+          "Lightning Resist -70%",
+          "+5-15% to Lightning Skill Damage or -5-10% to Enemy Lightning Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
+        ],
+        "category": "Unique Charms"
+      },
+      "Latent Rotting Fissure": {
+        "name": "Latent Rotting Fissure",
         "type": "Grand Charm",
         "image": "/images/Items/rottingfissure.png",
         "props": [
@@ -6693,8 +6996,25 @@
         ],
         "category": "Unique Charms"
       },
-      "Black Cleft": {
-        "name": "Black Cleft",
+      "Renewed Rotting Fissure": {
+        "name": "Renewed Rotting Fissure",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/rottingfissure.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Poison Immunity is Sundered",
+          "Poison Resist -70%",
+          "+5-15% to Poison Skill Damage or -5-10% to Enemy Poison Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
+        ],
+        "category": "Unique Charms"
+      },
+      "Latent Black Cleft": {
+        "name": "Latent Black Cleft",
         "type": "Grand Charm",
         "image": "/images/Items/blackcleft.png",
         "props": [
@@ -6704,14 +7024,48 @@
         ],
         "category": "Unique Charms"
       },
-      "Bone Break": {
-        "name": "Bone Break",
+      "Renewed Black Cleft": {
+        "name": "Renewed Black Cleft",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/blackcleft.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Magic Immunity is Sundered",
+          "Magic Resist -70%",
+          "+5-15% to Magic Skill Damage or -5-10% to Enemy Magic Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
+        ],
+        "category": "Unique Charms"
+      },
+      "Latent Bone Break": {
+        "name": "Latent Bone Break",
         "type": "Grand Charm",
         "image": "/images/Items/bonebreak.png",
         "props": [
           "Required Level: 75",
           "Monster Physical Immunity is Sundered",
           "Physical Damage Received Increased by 10-20%"
+        ],
+        "category": "Unique Charms"
+      },
+      "Renewed Bone Break": {
+        "name": "Renewed Bone Break",
+        "type": "Grand Charm",
+        "isNew": true,
+        "image": "/images/Items/bonebreak.png",
+        "props": [
+          "Required Level: 75",
+          "Monster Physical Immunity is Sundered",
+          "Physical Damage Received Increased by 10%",
+          "+75-100% Enhanced Damage or -5-10% to Enemy Physical Resistance",
+          "+5-10% Faster Run/Walk or +12-24% Faster Hit Recovery or +3-8 to All Attributes",
+          "+10-65 to Life or +10-75 to Mana",
+          "Magic Damage Reduced by 5-10 or Damage Reduced by 5-10",
+          "+14-25% Better Chance of Getting Magic Items or +20-55% Extra Gold from Monsters"
         ],
         "category": "Unique Charms"
       },
@@ -6816,6 +7170,108 @@
           "+37 Poison Damage over 2 Seconds",
           "+3-5% to Poison Skill Damage",
           "-3-5% to Enemy Poison Resistance"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Defender's Bile": {
+        "name": "Defender's Bile",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel1_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 25 Bone Armor when struck",
+          "+95 Poison Damage over 1 second",
+          "+5-10% to Poison Skill Damage",
+          "-5-10% to Enemy Poison Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Defender's Fire": {
+        "name": "Defender's Fire",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel1_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 25 Blaze when struck",
+          "Adds 20-60 Fire Damage",
+          "+5-10% to Fire Skill Damage",
+          "-5-10% to Enemy Fire Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Guardian's Light": {
+        "name": "Guardian's Light",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel3_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 25 Psychic Ward when struck",
+          "Adds 15-35 Magic Damage",
+          "+5-10% to Magic Skill Damage",
+          "-5-10% to Enemy Magic Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Guardian's Thunder": {
+        "name": "Guardian's Thunder",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel3_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 25 Cyclone Armor when struck",
+          "Adds 1-75 Lightning Damage",
+          "+5-10% to Lightning Skill Damage",
+          "-5-10% to Enemy Lightning Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Protector's Frost": {
+        "name": "Protector's Frost",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel2_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 25 Frozen Armor when struck",
+          "Adds 10-30 Cold Damage",
+          "+5-10% to Cold Skill Damage",
+          "-5-10% to Enemy Cold Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
+        ],
+        "category": "Unique Jewels"
+      },
+      "Protector's Stone": {
+        "name": "Protector's Stone",
+        "type": "Jewel",
+        "isNew": true,
+        "image": "/images/Items/colossal_jewel2_graphic.png",
+        "props": [
+          "Required Level: 75",
+          "1% Chance to cast level 15 Fade when struck",
+          "+50% Enhanced Damage",
+          "Adds 10-30 Damage",
+          "-5-10% to Enemy Physical Damage Resistance",
+          "+3-5% Experience Gained",
+          "25-50% Extra Gold from Monsters",
+          "15-35% Better Chance of Getting Magic Items"
         ],
         "category": "Unique Jewels"
       }

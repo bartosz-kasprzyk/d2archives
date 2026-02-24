@@ -5,6 +5,7 @@ import {
   ColumnHeader,
   ImageSubtitle,
   ImageTitle,
+  RotwItem,
   RowHeader,
   StyledBigImage,
   StyledTable,
@@ -109,8 +110,14 @@ const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
                   .replace(/\.(png|jpg|gif|jpeg)$/, "");
                 const imageSrc = images[imageKey] || "/default_image.png";
 
+                const isNew = uniqueItem.isNew === true;
+
                 return (
-                  <TableRow key={uniqueItem.name} $index={index + 1}>
+                  <TableRow
+                    key={uniqueItem.name}
+                    $index={index + 1}
+                    $isNew={isNew}
+                  >
                     <RowHeader $color={theme.color.unique}>
                       <StyledBigImage src={imageSrc} alt={uniqueItem.name} />
                       <div style={{ marginTop: "-15px" }}>
@@ -128,6 +135,7 @@ const UniqueItemsList = ({ dataType }: { dataType: DataType }) => {
                             searchQuery: searchQuery,
                           })}
                         </ImageSubtitle>
+                        {isNew && <RotwItem>New in RotW</RotwItem>}
                         <div
                           style={{
                             fontSize: "0.70em",
